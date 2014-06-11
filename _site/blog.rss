@@ -2,12 +2,12 @@
 <rss version='2.0' xml:base='/blog.rss' xmlns:dc='http://purl.org/dc/elements/1.1/'>
 <channel>
   <title>Blog</title>
-  <link>/news-arabspatial</link>
+  <link>/arabspatialblog</link>
   <description>Occasional Blog Posts</description>
   <language>en</language>
   <item>
   <title>YouTube Test</title>
-  <link>/news-arabspatial/blog/2014/06/10/youtube-test/</link>
+  <link>/arabspatialblog/blog/2014/06/10/youtube-test/</link>
   <description>&lt;h2&gt;Arab Spatial Atlas Tutorial (English)&lt;/h2&gt;
 
 
@@ -18,11 +18,11 @@
 </description>
   <pubDate>2014-06-10T00:00:00-07:00</pubDate>
   <dc:creator>SITE NAME</dc:creator>
-  <guid isPermaLink="true">/news-arabspatial/blog/2014/06/10/youtube-test/</guid>
+  <guid isPermaLink="true">/arabspatialblog/blog/2014/06/10/youtube-test/</guid>
 </item>
 <item>
   <title>first post</title>
-  <link>/news-arabspatial/blog/2014/06/10/first-post/</link>
+  <link>/arabspatialblog/blog/2014/06/10/first-post/</link>
   <description>&lt;h2&gt;International Food Policy Research Institute (IFPRI)&lt;/h2&gt;
 
 
@@ -33,7 +33,7 @@
 </description>
   <pubDate>2014-06-10T00:00:00-07:00</pubDate>
   <dc:creator>SITE NAME</dc:creator>
-  <guid isPermaLink="true">/news-arabspatial/blog/2014/06/10/first-post/</guid>
+  <guid isPermaLink="true">/arabspatialblog/blog/2014/06/10/first-post/</guid>
 </item>
 
 </channel>
