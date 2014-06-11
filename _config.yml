@@ -1,10 +1,10 @@
-baseurl: /news-arabspatial
+baseurl: /arabspatialblog
 permalink: pretty
 markdown: rdiscount
 prose:
   rooturl: '_posts'
-  siteurl: 'http://rrlara.github.io/news-arabspatial/'
-  relativeLinks: 'http://rrlara.github.io/news-arabspatial/links.jsonp'
+  siteurl: 'http://ifprmena.github.io/arabspatialblog/'
+  relativeLinks: 'http://ifprmena.github.io/arabspatialblog/links.jsonp'
   media: 'media'
   metadata:
     _posts:
