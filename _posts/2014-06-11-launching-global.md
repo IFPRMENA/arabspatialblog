@@ -3,7 +3,7 @@ layout: blog
 category: blog
 published: true
 title: launching GLOBAL
-youtube_url: "1oFrpUF "
+youtube_url: HsSJclRmb_w
 ---
 
 ## IFPRI
