@@ -1,0 +1,81 @@
+---
+layout: blog_index
+section: blog
+---
+<div class='listing col7 margin15 pad4h'>
+<!-- {% if date != ndate %}
+  <h3 id="{{item.date | date: '%B %Y'}}" class='month'></h3>
+{% endif %} -->
+<div id="{{item.title}}" class="article clearfix">
+    <div class='date'>
+      <span class="dateText">{{page.date | date:"%B %d"}}</span>
+    </div>
+    <span class="byContainer">by</span>
+    {% if page.members %}
+      {% for member in site.data.members %}
+        {% if member.name == {{page.members}} %}
+        <img class="memberThumbnail" width="30px" height="30px" src='{{site.baseurl}}/img/members/{{member.pic}}' alt='' />
+        {% endif %}
+      {% endfor %}
+    <strong>{{page.members}}</strong>
+    {% else %}
+      <img class="memberThumbnail" width="30px" height="30px" src='{{site.baseurl}}/img/gear.png' alt='' />
+      <strong>SpatilDev</strong>
+    {% endif %}
+    <a class='item' href='{{site.baseurl}}{{item.url}}'>{{page.title  | upcase}}
+    </a>
+
+{% if page.splash %}
+  {% if page.splash contains 'http' %}
+    {% capture url %}{{page.splash}}{% endcapture %}
+  {% else %}
+    {% capture url %}{{site.baseurl}}{{page.splash}}/{% endcapture %}
+  {% endif %}
+
+  <div class='splash'>
+    <img width="100%" src='{{url}}' alt='' />
+  </div>
+{% endif %}
+
+  {% if page.youtube_url %}
+  {% capture youtubeurl %}{{page.youtube_url}}{% endcapture %}
+      <div class="video-wrapper">
+        <iframe width="100%" height="100%"
+        src="//www.youtube.com/embed/{{youtubeurl}}"
+        frameborder="0" allowfullscreen></iframe>
+        <p><a href="//www.youtube.com/embed/{{youtubeurl}}">Full Screen</a>
+      </div>
+  {% endif %}
+
+
+
+  {% if page.vimeo_url %}
+  {% capture vimeourl %}{{page.vimeo_url}}{% endcapture %}
+  <div class="video-wrapper">
+      <iframe src="//player.vimeo.com/video/{{vimeourl}}" width="100%" height="100%" frameborder="0"
+      webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <p><a href="//player.vimeo.com/video/{{vimeourl}}">Full Screen</a>
+      </div>
+  {% endif %}
+
+
+</div>
+
+
+  <div class='prose'>
+    {{content}}
+  </div>
+</div>
+<div class='col9 margin15 pad4'>
+  <a href=''></a>
+</div>
+{% if page.tags != empty %}
+  {% for tag in page.tags %}
+  <a class="label label-info" href="{{site.baseurl}}/tags/{{ item }}"><i class="fa fa-tags"></i>  {{ tag }}</span></a>
+  {% endfor %}
+{% endif %}
+
+<div class="paginationCenter">
+		<p class="pgCenter">{% if page.previous.url %} <a href="{{site.baseurl}}{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"><i class="fa fa-chevron-left" style="float:left;">      Old Post</i></i></a> 	{% endif %}   {% if page.next.url %}
+    <a href="{{site.baseurl}}{{page.next.url}}" title="Next Post: {{page.next.title}}" style="float:right;">Next Post      <i class="fa fa-chevron-right"></i></i></a> 	{% endif %} </p>
+</div>

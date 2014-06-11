@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<rss version='2.0' xml:base='/blog.rss' xmlns:dc='http://purl.org/dc/elements/1.1/'>
+<channel>
+  <title>Blog</title>
+  <link>/news-arabspatial</link>
+  <description>Occasional Blog Posts</description>
+  <language>en</language>
+  <item>
+  <title>YouTube Test</title>
+  <link>/news-arabspatial/blog/2014/06/10/youtube-test/</link>
+  <description>&lt;h2&gt;Arab Spatial Atlas Tutorial (English)&lt;/h2&gt;
+
+
+
+
+&lt;p&gt;Tutorial on how to use the Arab Spatial Development and Food Security Atlas, an interactive tool that allows users to click through the Arab world--map by map. Arab Spatial is a startup initiative of the International Food Policy Research Institute (IFPRI), supported by the International Fund for Agricultural Development (IFAD) and the CGIAR Program on Policies, Markets and Institutions.&lt;/p&gt;
+
+</description>
+  <pubDate>2014-06-10T00:00:00-07:00</pubDate>
+  <dc:creator>SITE NAME</dc:creator>
+  <guid isPermaLink="true">/news-arabspatial/blog/2014/06/10/youtube-test/</guid>
+</item>
+<item>
+  <title>first post</title>
+  <link>/news-arabspatial/blog/2014/06/10/first-post/</link>
+  <description>&lt;h2&gt;International Food Policy Research Institute (IFPRI)&lt;/h2&gt;
+
+
+
+
+&lt;p&gt;Recent issue of IFPRI Insights maps farmers&#39; use of no-till management practices worldwide&lt;/p&gt;
+
+</description>
+  <pubDate>2014-06-10T00:00:00-07:00</pubDate>
+  <dc:creator>SITE NAME</dc:creator>
+  <guid isPermaLink="true">/news-arabspatial/blog/2014/06/10/first-post/</guid>
+</item>
+
+</channel>
+</rss>
