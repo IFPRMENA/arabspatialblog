@@ -1,6 +1,16 @@
 callback([
 
   {
+    "text": "launching GLOBAL",
+    "href": "/arabspatialblog/blog/2014/06/11/launching-global/"
+  } ,
+
+  {
+    "text": "India",
+    "href": "/arabspatialblog/blog/2014/06/11/india/"
+  } ,
+
+  {
     "text": "YouTube Test",
     "href": "/arabspatialblog/blog/2014/06/10/youtube-test/"
   } ,
