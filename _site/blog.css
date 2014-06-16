@@ -46,7 +46,7 @@
 .textContainer{
   float:left;
   margin-left:10px;
-  width: 80%;
+  /*width: 80%;*/
 }
 
 .summeryText {
@@ -259,4 +259,10 @@ input[type=text], textarea {
 
 .blog-title{
   margin-left: 10px;
+}
+
+#seeMoreBlogs{
+  float: right;
+  margin-right: 15px;
+
 }

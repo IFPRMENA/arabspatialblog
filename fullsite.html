@@ -45,7 +45,47 @@ title: ''
 
         <div class="col-md-12 blog-main">
 
-          {{content}}
+          <div class='blogContainer'>
+  <div class="blog-header">
+          <h1 class="blog-title">Blog</h1>
+        </div>
+  {% for item in site.categories.blog limit:1000 %}
+    {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
+    {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
+
+    <div id="{{item.title}}" class="article clearfix">
+        
+
+          {% if item.youtube_url %}
+          {% capture youtubeurl %}{{item.youtube_url}}{% endcapture %}
+              <div class="video-wrapper">
+                <iframe width="100%" height="100%"
+                src="//www.youtube.com/embed/{{youtubeurl}}"
+                frameborder="0" allowfullscreen></iframe>
+                <p><a href="//www.youtube.com/embed/{{youtubeurl}}" target="_blank">Full Screen</a>
+              </div>
+          {% endif %}
+
+          {% if item.splash %}
+            {% if item.splash contains 'http' %}
+              {% capture url %}{{item.splash}}{% endcapture %}
+            {% else %}
+              {% capture url %}{{site.baseurl}}{{item.splash}}/{% endcapture %}
+            {% endif %}
+
+            <div class='splash'>
+              <img width="100%" src='{{url}}' alt='' />
+            </div>
+
+          {% endif %}
+        <div class="textContainer col-sm-10">
+        <!-- <a class='item'>{{item.title}}</a>   -->
+        {% if item.content %}
+        <div class="summeryText" >{{ item.content }}</div>
+        {% endif %}
+        </div>
+      </div>
+      {% endfor %}
 
         </div><!-- /.blog-main -->
 
