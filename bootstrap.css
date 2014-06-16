@@ -739,20 +739,24 @@ pre code {
   margin-right: auto;
   margin-left: auto;
   min-width: 940px;
+  margin-top: 5px;
 }
 @media (min-width: 768px) {
   .container {
     /*width: 750px;*/
+    margin-top: 5px;
   }
 }
 @media (min-width: 992px) {
   .container {
     /*width: 970px;*/
+    margin-top: 5px;
   }
 }
 @media (min-width: 1200px) {
   .container {
     /*width: 1170px;*/
+    margin-top: 5px;
   }
 }
 .container-fluid {
