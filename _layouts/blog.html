@@ -7,11 +7,12 @@ section: blog
   <h3 id="{{item.date | date: '%B %Y'}}" class='month'></h3>
 {% endif %}
 <div id="{{item.title}}" class="article clearfix">
+    
+    <a class='item' href='{{site.baseurl}}{{item.url}}'>{{page.title  | upcase}}
+    </a>
     <div class='date'>
       <span class="dateText">{{page.date | date:"%B %d"}}</span>
     </div>
-    <a class='item' href='{{site.baseurl}}{{item.url}}'>{{page.title  | upcase}}
-    </a>
 
 {% if page.splash %}
   {% if page.splash contains 'http' %}
