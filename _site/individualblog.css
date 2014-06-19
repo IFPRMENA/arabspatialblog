@@ -255,6 +255,8 @@ input[type=text], textarea {
 .dateText{
   /*padding: 5px;*/
   margin-bottom: 5px;
+  line-height: 11px;
+  font-size: 12px;
 }
 
 .blogContainer{

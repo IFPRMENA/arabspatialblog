@@ -5,7 +5,7 @@ section: blog
 
 <div class='blogContainer'>
   <div class="blog-header">
-          <h1 class="blog-title">Blog</h1>
+          <div class="blog-title">BLOG</div>
         </div>
   {% for item in site.categories.blog limit:3 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
@@ -49,7 +49,7 @@ section: blog
         <div class='date'>
           <span class="dateText">{{item.date | date:"%B %d"}}</span>
         </div>
-        <div class="summeryText" >{{ item.content | truncatewords: 30}}<span>..</span></div>
+        <div class="summeryText" >{{ item.content | truncatewords: 30}}</div>
         {% endif %}
         </div>
       </div>

@@ -269,6 +269,8 @@ input[type=text], textarea {
 .dateText{
   /*padding: 5px;*/
   margin-bottom: 5px;
+  line-height: 11px;
+  font-size: 12px;
 }
 
 .blogContainer{
@@ -278,6 +280,9 @@ input[type=text], textarea {
 
 .blog-title{
   margin-left: 10px;
+  font-size: 20px;
+  font-size: 20px;
+  color: #000000;
 }
 
 #seeMoreBlogs{
