@@ -75,6 +75,20 @@
   overflow: hidden;
 }
 
+.youtubeThumbnail{
+  width: 140px;
+  height: 110px;
+  position: absolute;
+}
+
+.iconPlay{
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
 .video-container iframe,
 .video-container object,
 .video-container embed {

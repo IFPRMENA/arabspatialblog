@@ -17,6 +17,9 @@ section: blog
           {% if item.youtube_url %}
           {% capture youtubeurl %}{{item.youtube_url}}{% endcapture %}
               <div class="video-wrapper">
+                <div class="youtubeThumbnail">
+                  <a href='{{site.baseurl}}{{item.url}}'><i class="fa fa-play iconPlay"></i></a>
+                </div>
                 <iframe width="100%" height="100%"
                 src="//www.youtube.com/embed/{{youtubeurl}}"
                 frameborder="0" allowfullscreen></iframe>

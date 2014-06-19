@@ -87,6 +87,20 @@
   height: 100%;
 }
 
+.youtubeThumbnail{
+  width: 140px;
+  height: 110px;
+  position: absolute;
+}
+
+.iconPlay{
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
 .logo{
   float:left;
   padding: 10px 0;
