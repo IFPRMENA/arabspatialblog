@@ -270,6 +270,10 @@ input[type=text], textarea {
   color:#000000;
 }
 
+.blog-main{
+  padding-bottom: 186px;
+}
+
 #seeMoreBlogs{
   float: right;
   margin-right: 15px;
