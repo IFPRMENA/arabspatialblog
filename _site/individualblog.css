@@ -106,7 +106,7 @@
   display:block;
   padding:2px 0;
 /*  border-top:1px solid #d4d7d9;*/
-  font-size: 18px;
+  font-size: 20px;
   /*font-family:Futura Condensed Bold;
   font-weight: 600;*/
   }
@@ -280,7 +280,7 @@ input[type=text], textarea {
 
 .sidebar-module{
   float: right;
-  width: 200px;
+  width: 240px;
 }
 
 .contentIndividualBlog{
