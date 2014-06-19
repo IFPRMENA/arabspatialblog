@@ -45,11 +45,11 @@ section: blog
         <div class="textContainer col-sm-10">
         <!-- <a class='item'>{{item.title}}</a>   -->
         {% if item.content %}
-        <div class="entryTitle"><a class='itemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title  | upcase}}</a></div>
+        <div class="entryTitle"><a class='itemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></div>
         <div class='date'>
           <span class="dateText">{{item.date | date:"%B %d"}}</span>
         </div>
-        <div class="summeryText" >{{ item.content }}</div>
+        <div class="summeryText" >{{ item.content | truncatewords: 30}}<span>..</span></div>
         {% endif %}
         </div>
       </div>
