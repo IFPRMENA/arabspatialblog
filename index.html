@@ -20,7 +20,7 @@ section: blog
                 <iframe width="100%" height="100%"
                 src="//www.youtube.com/embed/{{youtubeurl}}"
                 frameborder="0" allowfullscreen></iframe>
-                <p><a href="//www.youtube.com/embed/{{youtubeurl}}" target="_blank">Full Screen</a>
+                <!-- <p><a href="//www.youtube.com/embed/{{youtubeurl}}" target="_blank">Full Screen</a> -->
               </div>
           {% endif %}
 
@@ -31,14 +31,17 @@ section: blog
               {% capture url %}{{site.baseurl}}{{item.splash}}/{% endcapture %}
             {% endif %}
 
-            <div class='splash'>
-              <img width="100%" src='{{url}}' alt='' />
+            <div class='splash' href='{{site.baseurl}}{{item.url}}'>
+              <a href='{{site.baseurl}}{{item.url}}'>
+                <img width="100%" src='{{url}}' alt='' />
+              </a>
             </div>
 
           {% endif %}
         <div class="textContainer col-sm-10">
         <!-- <a class='item'>{{item.title}}</a>   -->
         {% if item.content %}
+        <a class='itemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title  | upcase}}</a>
         <div class="summeryText" >{{ item.content }}</div>
         {% endif %}
         </div>
