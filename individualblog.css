@@ -9,8 +9,8 @@
 .splash img {
   background:#f0f0f0;
   display:block;
-  width: 140px;
-  height: 110px;
+  width: 100%;
+  /*height: 110px;*/
 /*  max-height: 260px;*/
   /*cursor: pointer;*/
   }
@@ -65,8 +65,8 @@
 
 
 .video-wrapper {
-  height:110px;
-  width: 140px;
+  /*height:110px;*/
+  width: 100%;
   float: left;
 }
 .video-container {
@@ -281,4 +281,9 @@ input[type=text], textarea {
 .sidebar-module{
   float: right;
   width: 200px;
+}
+
+.contentIndividualBlog{
+  float: left;
+margin-top: 10px;
 }

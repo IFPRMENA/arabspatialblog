@@ -64,7 +64,7 @@ title: ''
                     {% endfor %} -->
 
 
-                    <h4 class="archive-header">Blog Archive</h4>
+                    <h4 class="archive-header">ARCHIVES</h4>
                     {% for post in site.posts %}
                       {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
                       {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
@@ -72,7 +72,7 @@ title: ''
                           {% if forloop.index != 1 %}</ul>{% endif %}
                           <h4 class="sub-header">{{ post.date | date: '%B %Y' }}</h4><ul>
                         {% endif %}
-                      <li><span class="time">{{ post.date | date: "%d/%m/%Y" }}</span><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+                      <li><span class="time"></span><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}  </a>{{ post.date | date: "%m/%d" }}</li>
                     {% endfor %}
 
 

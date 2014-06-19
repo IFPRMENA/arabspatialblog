@@ -10,37 +10,24 @@ title: ''
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <title>SpatialDev News</title>
+    <title>Arab Spatial News</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{site.baseurl}}/bootstrap.css" rel="stylesheet">
 
     <link href="{{site.baseurl}}/fontstyles.css" rel="stylesheet">
 
-<!--     <link href='{{site.baseurl}}/site.css' rel='stylesheet' /> -->
 
     <!-- Custom styles for this template -->
-    <link href="{{site.baseurl}}/blog.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/individualblog.css" rel="stylesheet">
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+    
 
   <body>
     <div class="col-sm-12 clearfix logoWrapper">
-      <div class="logoHeader container clearfix">
-      </div><!--/.container-fluid -->
-    </div>
-      </div>
-    </div>
+      <div class="logoHeader container clearfix"></div>
 
     <div class="blog-masthead">
       <div class="container">
@@ -56,27 +43,14 @@ title: ''
 
       <div class="row">
 
-        <div class="col-sm-9 blog-main">
-        
+        <div class="col-md-12 blog-main">
 
-          {{content}}
-
-        </div><!-- /.blog-main -->
-
-        <div id="archiveMain" class="col-sm-3 blog-sidebar" style="margin-top:40px;">
-          <div class="sidebar-module sidebar-module-inset">
-
+        <div class='blogContainer clearfix'>
+          <div class="blog-header">
+            <h1 class="blog-title">Blog</h1>
           </div>
-          <div class="sidebar-module socialIcon">
-            <a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'><i class="fa fa-info-circle"></i></a>
-            <a class="twitterLink" href='https://twitter.com/SpatialDev'><i class="fa fa-twitter"></i></a>
-            <a href='https://www.facebook.com/pages/Spatial-Development-International-SpatialDev/207761724057?ref=br_tf'><i class="fa fa-facebook"></i></a>
-            <a href='http://demo.spatialdev.com/spatialdev.github.io/'><i class="fa fa-github"></i></a>
-            {% include rss-link.html %}
-          </div>
-          <div class="chosen-container chosen-container-multi" style="width: 300px;" title="" id="repolist_chosen"><input type="text" value="" class="default" autocomplete="off" tabindex="5"><i id="searchGlass" class="fa fa-search"></i></div>
           <div class="sidebar-module">
-            <h4>ARCHIVES <i class="fa fa-calendar"></i></h4>
+            <!-- <h4>ARCHIVES <i class="fa fa-calendar"></i></h4>
                 {% for post in site.posts %}
                     {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
                     {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
@@ -87,9 +61,24 @@ title: ''
                             {% endif %}
                         <div ><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></div><span>{{ post.date | date: "%e %B %Y" }}</span>
 
+                    {% endfor %} -->
+
+
+                    <h4 class="archive-header">ARCHIVES</h4>
+                    {% for post in site.posts %}
+                      {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
+                      {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
+                        {% if month != nmonth %}
+                          {% if forloop.index != 1 %}</ul>{% endif %}
+                          <h4 class="sub-header">{{ post.date | date: '%B %Y' }}</h4><ul>
+                        {% endif %}
+                      <li><span class="time"></span><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}  </a>{{ post.date | date: "%m/%d" }}</li>
                     {% endfor %}
-                  </div>
-          <div class="sidebar-module">
+
+
+
+                  </div> <!-- /.blog-sidebar -->
+          <!-- <div class="sidebar-module">
             <h4>TAGS <i class="fa fa-tags"></i></h4>
             <span class="list-unstyled">
 
@@ -98,36 +87,89 @@ title: ''
                   {% endfor %}
 
             </span>
-          </div>
-          </div>
+        
+        
+
+
+        </div> -->
+  <!-- {% for item in site.categories.blog limit:1000 %}
+    {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
+    {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
+
+    <div id="{{item.title}}" class="article clearfix">
+        
+
+          {% if item.youtube_url %}
+          {% capture youtubeurl %}{{item.youtube_url}}{% endcapture %}
+              <div class="video-wrapper">
+                <iframe width="100%" height="100%"
+                src="//www.youtube.com/embed/{{youtubeurl}}"
+                frameborder="0" allowfullscreen></iframe>
+                
+              </div>
+          {% endif %}
+
+          {% if item.splash %}
+            {% if item.splash contains 'http' %}
+              {% capture url %}{{item.splash}}{% endcapture %}
+            {% else %}
+              {% capture url %}{{site.baseurl}}{{item.splash}}/{% endcapture %}
+            {% endif %}
+
+            <div class='splash' href='{{site.baseurl}}{{item.url}}'>
+              <a href='{{site.baseurl}}{{item.url}}'>
+                <img width="100%" src='{{url}}' alt='' />
+              </a>
+            </div>
+
+          {% endif %}
+        <div class="textContainer col-sm-10">
+        
+        {% if item.content %}
+        <div class="entryTitle"><a class='itemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title  | upcase}}</a></div>
+        <div class='date'>
+          <span class="dateText">{{item.date | date:"%B %d"}}</span>
+        </div>
+        <div class="summeryText" >{{ item.content }}</div>
+        {% endif %}
+        </div>
+      </div>
+      {% endfor %} -->
+
+      {{content}}
+
+        </div><!-- /.blog-main -->
+
+        
 
 
         </div><!-- /.blog-sidebar -->
 
       </div><!-- /.row -->
 
-  </div><!-- /.container -->
-  </div>
-  <!-- <div class="col-sm-12 clearfix logoWrapper footerHeight">
-    <div class="logoHeader container clearfix">
-      <span class="footerText">© 2009- 2014 Spatial Development International All Rights Reserved.</span>
+    </div><!-- /.container -->
     </div>
-  </div> -->
+    <!-- <div class="col-sm-12 clearfix logoWrapper footerHeight">
+      <div class="logoHeader container clearfix">
+        <span class="footerText"></span>
+      </div>
+    </div> -->
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+    <script src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script>
+    
     <script>
-
     $(".month").on("click", function () {
 
-      // $( this ).toggleClass( "active" );
 
   });
 
+  
   </script>
 
   </body>
