@@ -23,14 +23,15 @@
 /*  max-height: 260px;*/
   }
 .date {
-  color:#fff;
+  color:gray;
   font-weight:normal;
-  max-width: 90px;
+  /*max-width: 90px;*/
   height: 23px;
-  background-color:#759da7;
-  text-align: center;
+  /*background-color:#759da7;*/
+  /*text-align: center;*/
   line-height: 22px;
-  float:left;
+  /*float:left;*/
+  margin-bottom: 3px;
 }
 
 .tagDate {
@@ -46,17 +47,20 @@
 .textContainer{
   float:left;
   margin-left:10px;
-  /*width: 80%;*/
+  width: 500px;
 }
 
 .summeryText {
   /*color:#657b83;*/
   font-weight:normal;
   /*padding: 10px 0 10px;*/
+  float:left;
   }
 
 .article{
   margin-bottom:50px;
+  width: 670px;
+  float: left;
 }
 
 
@@ -249,7 +253,8 @@ input[type=text], textarea {
 }
 
 .dateText{
-  padding: 5px;
+  /*padding: 5px;*/
+  margin-bottom: 5px;
 }
 
 .blogContainer{
@@ -271,4 +276,9 @@ input[type=text], textarea {
 .itemTitle{
   font-size: 20px;
 
+}
+
+.sidebar-module{
+  float: right;
+  width: 150px;
 }

@@ -55,18 +55,4 @@
         "url": "/blog/2014/06/10/first-post/"
     },
     
-    
-    
-    {
-        "value": "About",
-        "tokens": [
-            
-            "About",
-            "01","January","0100",
-            false
-            ],
-        "date": "01 January 0100",
-        "url": "/about/"
-    },
-    
     false

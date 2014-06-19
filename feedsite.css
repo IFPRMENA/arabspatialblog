@@ -47,7 +47,7 @@
 .textContainer{
   float:left;
   margin-left:10px;
-  width: 500px;
+  /*width: 80%;*/
 }
 
 .summeryText {
@@ -59,8 +59,6 @@
 
 .article{
   margin-bottom:50px;
-  width: 670px;
-  float: left;
 }
 
 
@@ -276,9 +274,4 @@ input[type=text], textarea {
 .itemTitle{
   font-size: 20px;
 
-}
-
-.sidebar-module{
-  float: right;
-  width: 150px;
 }

@@ -45,10 +45,53 @@ title: ''
 
         <div class="col-md-12 blog-main">
 
-          <div class='blogContainer'>
-  <div class="blog-header">
-          <h1 class="blog-title">Blog</h1>
-        </div>
+        <div class='blogContainer clearfix'>
+          <div class="blog-header">
+            <h1 class="blog-title">Blog</h1>
+          </div>
+          <div class="sidebar-module">
+            <!-- <h4>ARCHIVES <i class="fa fa-calendar"></i></h4>
+                {% for post in site.posts %}
+                    {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
+                    {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
+
+                        {% if month != nmonth %}
+                            {% if forloop.index != 1 %}</ul>{% endif %}
+                            <a href="{{site.baseurl}}/{{ post.date | date: '%Y/%m' }}"><div id="{{ post.date | date: '%Y/%m' }}" class="month">{{ post.date | date: '%B %Y' }}</div></a><ul id="{{ post.date | date: '%B %Y' }}" class="monthStack">
+                            {% endif %}
+                        <div ><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></div><span>{{ post.date | date: "%e %B %Y" }}</span>
+
+                    {% endfor %} -->
+
+
+                    <h4 class="archive-header">Blog Archive</h4>
+                    {% for post in site.posts %}
+                      {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
+                      {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
+                        {% if month != nmonth %}
+                          {% if forloop.index != 1 %}</ul>{% endif %}
+                          <h4 class="sub-header">{{ post.date | date: '%B %Y' }}</h4><ul>
+                        {% endif %}
+                      <li><span class="time">{{ post.date | date: "%d/%m/%Y" }}</span><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+                    {% endfor %}
+
+
+
+                  </div> <!-- /.blog-sidebar -->
+          <!-- <div class="sidebar-module">
+            <h4>TAGS <i class="fa fa-tags"></i></h4>
+            <span class="list-unstyled">
+
+                  {% for tag in site.tags %}
+                      <span><a href="{{site.baseurl}}/tags/{{ tag[0] }}">{{ tag[0] }}</a>, </span>
+                  {% endfor %}
+
+            </span>
+        
+        
+
+
+        </div> -->
   {% for item in site.categories.blog limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
@@ -62,7 +105,7 @@ title: ''
                 <iframe width="100%" height="100%"
                 src="//www.youtube.com/embed/{{youtubeurl}}"
                 frameborder="0" allowfullscreen></iframe>
-                <p><a href="//www.youtube.com/embed/{{youtubeurl}}" target="_blank">Full Screen</a>
+                <!-- <p><a href="//www.youtube.com/embed/{{youtubeurl}}" target="_blank">Full Screen</a> -->
               </div>
           {% endif %}
 
@@ -73,14 +116,20 @@ title: ''
               {% capture url %}{{site.baseurl}}{{item.splash}}/{% endcapture %}
             {% endif %}
 
-            <div class='splash'>
-              <img width="100%" src='{{url}}' alt='' />
+            <div class='splash' href='{{site.baseurl}}{{item.url}}'>
+              <a href='{{site.baseurl}}{{item.url}}'>
+                <img width="100%" src='{{url}}' alt='' />
+              </a>
             </div>
 
           {% endif %}
         <div class="textContainer col-sm-10">
         <!-- <a class='item'>{{item.title}}</a>   -->
         {% if item.content %}
+        <div class="entryTitle"><a class='itemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title  | upcase}}</a></div>
+        <div class='date'>
+          <span class="dateText">{{item.date | date:"%B %d"}}</span>
+        </div>
         <div class="summeryText" >{{ item.content }}</div>
         {% endif %}
         </div>
