@@ -97,8 +97,10 @@
   color: #fff;
   font-size: 30px;
   text-align: center;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-left: 60px;
+  top: 30px;
+  position: absolute;
 }
 
 .logo{
