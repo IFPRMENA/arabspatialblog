@@ -194,7 +194,8 @@ input[type=text], textarea {
 }
 
 .momthlyArchivedTitle{
-  font-size:24px;
+  font-size:18px;
+  margin-bottom: 10px;
 }
 
 #iconBar{

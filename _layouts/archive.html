@@ -77,49 +77,7 @@ title: ''
                   </div>
 
                   <!-- /.blog-sidebar -->
-  {% for item in site.categories.blog limit:1000 %}
-    {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
-    {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
-
-    <div id="{{item.title}}" class="article clearfix">
-        
-
-          {% if item.youtube_url %}
-          {% capture youtubeurl %}{{item.youtube_url}}{% endcapture %}
-              <div class="video-wrapper">
-                <a href='{{site.baseurl}}{{item.url}}'><div class="youtubeThumbnail">
-                  <img width="100%" src='http://img.youtube.com/vi/{{youtubeurl}}/hqdefault.jpg' alt='' />
-                  <i class="fa fa-play iconPlay"></i>
-                </div></a>
-              </div>
-          {% endif %}
-
-          {% if item.splash %}
-            {% if item.splash contains 'http' %}
-              {% capture url %}{{item.splash}}{% endcapture %}
-            {% else %}
-              {% capture url %}{{site.baseurl}}{{item.splash}}/{% endcapture %}
-            {% endif %}
-
-            <div class='splash' href='{{site.baseurl}}{{item.url}}'>
-              <a href='{{site.baseurl}}{{item.url}}'>
-                <img width="100%" src='{{url}}' alt='' />
-              </a>
-            </div>
-
-          {% endif %}
-        <div class="textContainer col-sm-10">
-        <!-- <a class='item'>{{item.title}}</a>   -->
-        {% if item.content %}
-        <div class="entryTitle"><a class='itemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title }}</a></div>
-        <div class='date'>
-          <span class="dateText">{{item.date | date:"%B %d"}}</span>
-        </div>
-        <div class="summeryText" >{{ item.content | truncatewords: 13}}</div>
-        {% endif %}
-        </div>
-      </div>
-      {% endfor %}
+          {{ content }}
 
         </div><!-- /.blog-main -->
 
