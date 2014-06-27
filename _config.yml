@@ -1,6 +1,8 @@
 baseurl: /arabspatialblog
 permalink: pretty
 markdown: rdiscount
+encoding: UTF-8
+highlighter: rouge
 prose:
   rooturl: '_posts'
   siteurl: 'http://ifprmena.github.io/arabspatialblog/'
