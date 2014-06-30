@@ -1,11 +1,6 @@
 callback([
 
   {
-    "text": "Another Test",
-    "href": "/arabspatialblog/blog/2014/06/27/another-test/"
-  } ,
-
-  {
     "text": "Nitrogen and Phosphorous: once wonder nutrients now threaten aquatic ecosystems",
     "href": "/arabspatialblog/blog/2014/06/19/nitrogen-and-phosphorous-once-wonder-nutrients-now-threaten-aquatic-ecosystems/"
   } ,
