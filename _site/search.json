@@ -2,15 +2,15 @@
     
     
     {
-        "value": "test from prose.io",
+        "value": "Another Test",
         "tokens": [
             
-            "test","from","prose.io",
+            "Another","Test",
             "27","June","2014",
             false
             ],
         "date": "27 June 2014",
-        "url": "/blog/2014/06/27/test-from-prose-io/"
+        "url": "/blog/2014/06/27/another-test/"
     },
     
     
