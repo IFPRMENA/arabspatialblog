@@ -47,7 +47,9 @@ section: blog
     <a href="{{site.baseurl}}{{page.next.url}}" title="Next Post: {{page.next.title}}" style="float:right;">Next Post      <i class="fa fa-chevron-right"></i></i></a>  {% endif %} </p>
   </div>
 
-  <a href="{{site.baseurl}}{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}"></a>
+  <!-- <a href="{{site.baseurl}}{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}"></a> -->
+
+  {% if page.comments %}
   <!-- This is the actual comments section -->
     <div id="disqus_thread"></div>
         <script type="text/javascript">
@@ -67,6 +69,8 @@ section: blog
         <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
     </div>
+
+    {% endif %}
 
 
   <div class='prose'>

@@ -49,6 +49,21 @@ prose:
           label: "Youtube Video ID"
           value: ""
           placeholder: "1234456789"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          alterable: "true"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Work"
+              value: "work"
+            - name: "Services"
+              value: "services"
+            - name: "About Us"
+              value: "about us"
+            - name: "Careers"
+              value: "careers"
     _posts/static:
       - name: "layout"
         field:
