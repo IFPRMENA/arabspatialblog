@@ -42,7 +42,11 @@ section: blog
         <div class="entryTitle"><a class='itemTitle'>{{item.title}}</a></div>
         <div class='date'>
           <span class="dateText">{{item.date | date:"%B %d"}}</span>
+          {% if item.author %}
+            <div class="dateText" >Author: {{ item.author }}</div>
+          {% endif %}
         </div>
+        
         <div class="summeryText" >{{ item.content | truncatewords: 30}}</div>
         {% endif %}
         </div>

@@ -64,6 +64,21 @@ prose:
               value: "about us"
             - name: "Careers"
               value: "careers"
+      - name: "author"
+        field:
+          element: "multiselect"
+          label: "Add Author"
+          alterable: "true"
+          placeholder: "Choose Author"
+          options:
+            - name: "IFPRI"
+              value: "IFPRI"
+            - name: "Perrihan Al-Riffai"
+              value: "Perrihan Al-Riffai"
+            - name: "Yifei Liu"
+              value: "Yifei Liu"
+            - name: "Olivier Ecker"
+              value: "Olivier Ecker"
     _posts/static:
       - name: "layout"
         field:
