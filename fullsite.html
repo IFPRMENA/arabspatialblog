@@ -64,7 +64,6 @@ title: ''
                     {% include rss-link.html %}
 
                     <h4>ARCHIVES <i class="fa fa-calendar"></i></h4>
-                    <h4 class="archive-header">ARCHIVES</h4>
                     {% for post in site.posts %}
                       {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
                       {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}

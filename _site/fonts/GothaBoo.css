@@ -1,0 +1,11 @@
+/* Webfont: Gotham-Book */@font-face {
+    font-family: 'Gotham-Book';
+    font-style: 'normal';
+    font-weight: 'normal';
+    src: url('GothaBoo.eot'); /* IE9 Compat Modes */
+    src: url('GothaBoo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('GothaBoo.woff') format('woff'), /* Modern Browsers */
+         url('GothaBoo.svg#Gotham-Book') format('svg'), /* Legacy iOS */
+         url('GothaBoo.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
