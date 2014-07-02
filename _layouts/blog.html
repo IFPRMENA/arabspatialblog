@@ -28,6 +28,7 @@ section: blog
     <img width="100%" src='{{url}}' alt='' />
   </div>
 {% endif %}
+    
 
   {% if page.youtube_url %}
   {% capture youtubeurl %}{{page.youtube_url}}{% endcapture %}
@@ -38,6 +39,14 @@ section: blog
         
       </div>
   {% endif %}
+
+  <div id="sharingContainer">
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="IFPRI" data-count="none" target="_blank"></a>
+    
+      <div class="g-plus" data-action="share" data-annotation="none"></div>
+    
+      <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-type="button"></div>
+    </div>
 
   <div class="contentIndividualBlog">
   {{content}}
@@ -50,7 +59,7 @@ section: blog
     <a href="{{site.baseurl}}{{page.next.url}}" title="Next Post: {{page.next.title}}" style="float:right;">Next Post      <i class="fa fa-chevron-right"></i></i></a>  {% endif %} </p>
   </div>
 
-  <!-- <a href="{{site.baseurl}}{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}"></a> -->
+  <!-- <a href="{{site.baseurl}}{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}"></a> -->  
 
   {% if page.comments %}
   <!-- This is the actual comments section -->
