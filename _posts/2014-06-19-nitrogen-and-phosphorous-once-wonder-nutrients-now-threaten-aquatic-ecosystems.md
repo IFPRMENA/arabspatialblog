@@ -6,6 +6,9 @@ title: "Nitrogen and Phosphorous: once wonder nutrients now threaten aquatic eco
 splash: "http://i0.wp.com/wle.cgiar.org/blogs/files/2014/05/N-emissions-2050.png?resize=538%2C228"
 comments: true
 author: IFPRI
+tags:
+  - about us
+  - IFPRI
 ---
 
 Nitrogen and phosphorus are indispensable nutrients to crop plants. Their importance in achieving high crop productivity cannot be overestimated. Every year, farmers apply millions of tons of chemical fertilizers and manure rich in nitrogen and phosphorus to improve crop yields; these two nutrients are thus essential for food security.

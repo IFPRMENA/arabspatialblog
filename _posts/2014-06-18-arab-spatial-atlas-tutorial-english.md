@@ -4,6 +4,8 @@ category: blog
 published: true
 title: Arab Spatial Atlas Tutorial (English)
 youtube_url: QbB1zY9pbeQ
+tags:
+  - about us
 ---
 
 

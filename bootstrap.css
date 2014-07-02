@@ -4268,9 +4268,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   display: inline;
   padding: .2em .6em .3em;
   font-size: 75%;
-  font-weight: bold;
+  /* font-weight: bold; */
   line-height: 1;
-  color: #d4d7d9;
+  /* color: #d4d7d9; */
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;

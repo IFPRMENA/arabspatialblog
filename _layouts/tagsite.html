@@ -63,23 +63,6 @@ title: ''
 
                     {% include rss-link.html %}
 
-                    <h4>TAGS <i class="fa fa-tags"></i></h4>
-                      <span class="list-unstyled">
-
-                            {% for tag in site.tags %}
-                                <span><a href="{{site.baseurl}}/tags/{{ tag[0] }}">{{ tag[0] }}</a>, </span>
-                            {% endfor %}
-
-                      </span>
-                    <h4>NEWS LETTERS <i class="fa fa-folder"></i></h4>
-                    <style type="text/css">
-                      <!--
-                      .display_archive {font-family: arial,verdana; font-size: 12px;}
-                      .campaign {line-height: 125%; margin: 5px;}
-                      //-->
-                      </style>
-                      <script language="javascript" src="http://us5.campaign-archive2.com/generate-js/?u=ee4188fb4a3f47c4e45bee1cc&fid=6473&show=10" type="text/javascript"></script>
-
                     <h4>ARCHIVES <i class="fa fa-calendar"></i></h4>
                     {% for post in site.posts %}
                       {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
@@ -90,69 +73,31 @@ title: ''
                         {% endif %}
                       <li><span class="time"></span><a href="{{site.baseurl}}{{ post.url }}">{{ post.title}}  </a>{{ post.date | date: "%d/%m" }}</li>
                     {% endfor %}
-
-
-                    
-                          
-                  
                           
                   </div>
 
-
-
                   <!-- /.blog-sidebar -->
-  {% for item in site.categories.blog limit:1000 %}
-    {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
-    {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
+  {% for post in site.posts %}
+    {% for tag in post.tags %}
+    {% if tag == page.tag %}
 
-    <div id="{{item.title}}" class="article clearfix">
-        
+    {% capture date %}{{ post.date | date: '%B %Y' }}{% endcapture %}
+    {% capture ndate %}{{ post.next.date | date: '%B %Y' }}{% endcapture %}
 
-          {% if item.youtube_url %}
-          {% capture youtubeurl %}{{item.youtube_url}}{% endcapture %}
-              <div class="video-wrapper">
-                <a href='{{site.baseurl}}{{item.url}}'><div class="youtubeThumbnail">
-                  <img width="100%" src='http://img.youtube.com/vi/{{youtubeurl}}/hqdefault.jpg' alt='' />
-                  <i class="fa fa-play iconPlay"></i>
-                </div></a>
-              </div>
-          {% endif %}
-
-          {% if item.splash %}
-            {% if item.splash contains 'http' %}
-              {% capture url %}{{item.splash}}{% endcapture %}
-            {% else %}
-              {% capture url %}{{site.baseurl}}{{item.splash}}/{% endcapture %}
-            {% endif %}
-
-            <div class='splash' href='{{site.baseurl}}{{item.url}}'>
-              <a href='{{site.baseurl}}{{item.url}}'>
-                <img width="100%" src='{{url}}' alt='' />
-              </a>
-            </div>
-
-          {% endif %}
-        <div class="textContainer col-sm-10">
-        <!-- <a class='item'>{{item.title}}</a>   -->
-        {% if item.content %}
-        <div class="entryTitle"><a class='itemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title }}</a></div>
+    {% if date != ndate %}
+    <h3 class='month'><i class="fa fa-calendar"></i>  {{post.date | date: '%B %Y'}}</h3>
+    {% endif %}
+    <div class="article">
         <div class='date'>
-          <span class="dateText">{{item.date | date:"%B %d"}}</span>
-          {% if item.author %}
-            <div class="dateText" >Author: {{ item.author }}</div>
-          {% endif %}
+          <span class="dateText">{{post.date | date:"%B %d"}}</span>
         </div>
-        <div>
-            {% if item.tags != empty %}
-              {% for item in item.tags %}
-              <a class="label label-info" href="{{site.baseurl}}/tags/{{ item }}"><i class="fa fa-tags"></i>  {{ item }}</span></a>
-              {% endfor %}
-            {% endif %}
-          </div>
-        <div class="summeryText" >{{ item.content | truncatewords: 13}}</div>
-        {% endif %}
-        </div>
-      </div>
+          
+        <a class='item' href='{{site.baseurl}}{{post.url}}'>{{post.title  | upcase}}</a>
+<!--         <div class="summeryText" >{{ post.summary }}</div> -->
+    </div>
+
+      {% endif %}
+      {% endfor %}
       {% endfor %}
 
         </div><!-- /.blog-main -->
