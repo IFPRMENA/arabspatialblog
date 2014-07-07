@@ -10,6 +10,16 @@ prose:
   media: 'media'
   metadata:
     _posts:
+      - name: "category"
+        field:
+          element: "select"
+          label: "Type of Post"
+          placeholder: "Blog or Event"
+          options:
+            - name: "Blog"
+              value: "Blog"
+            - name: "Event"
+              value: "event"
       - name: "published"
         field:
           label: "Published"
@@ -20,10 +30,6 @@ prose:
           label: "Allow Comments"
           element: "checkbox"
           value: "false"
-      - name: "category"
-        field:
-          element: "hidden"
-          value: "blog"
       - name: "layout"
         field:
           element: "hidden"
