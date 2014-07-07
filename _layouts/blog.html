@@ -16,6 +16,13 @@ section: blog
             <div class="dateText" >&nbsp;Author: {{ page.author }}</div>
       {% endif %}
     </div>
+    {% if page.tags != empty %}
+          <div>
+          {% for page in page.tags %}
+          <a class="label label-info" href="{{page.baseurl}}/tags/{{ page }}"><i class="fa fa-tags"></i>  {{ page }}</span></a>
+          {% endfor %}
+          </div>
+        {% endif %}
 
 {% if page.splash %}
   {% if page.splash contains 'http' %}
