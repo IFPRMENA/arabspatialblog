@@ -1,0 +1,10 @@
+<!--   <div class='col4 margin3 pad4'> -->
+    <h4>TAGS <i class="fa fa-tags"></i></h4>
+      <span class="list-unstyled">
+
+            {% for tag in site.tags %}
+                <span><a href="{{site.baseurl}}/tags/{{ tag[0] }}">{{ tag[0] }}</a>, </span>
+            {% endfor %}
+
+      </span>
+<!--   </div> -->

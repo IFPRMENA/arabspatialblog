@@ -11,9 +11,9 @@ section: blog
     <a class='item'>{{page.title }}
     </a>
     <div class='date'>
-      <span class="dateText">{{page.date | date:"%B %d"}}</span>
-      {% if page.author %}
-        <div class="dateText" >Author: {{ page.author }}</div>
+      <div class="dateText">{{page.date | date:"%B %d"}}   &#8226;</div>
+          {% if page.author %}
+            <div class="dateText" >&nbsp;Author: {{ page.author }}</div>
       {% endif %}
     </div>
 

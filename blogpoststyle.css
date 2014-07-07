@@ -257,6 +257,7 @@ input[type=text], textarea {
   margin-bottom: 5px;
   line-height: 11px;
   font-size: 12px;
+  float: left;
 }
 
 .blogContainer{

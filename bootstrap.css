@@ -4278,7 +4278,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .label[href]:hover,
 .label[href]:focus {
-  color: #2D91CD;
+  /*color: #2D91CD;*/
   text-decoration: none;
   cursor: pointer;
 }

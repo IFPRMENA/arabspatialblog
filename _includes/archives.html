@@ -1,0 +1,12 @@
+<!--   <div class='col4 margin3 pad4'> -->
+    <h4>ARCHIVES <i class="fa fa-calendar"></i></h4>
+                    {% for post in site.posts %}
+                      {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
+                      {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
+                        {% if month != nmonth %}
+                          {% if forloop.index != 1 %}</ul>{% endif %}
+                          <h4 class="sub-header">{{ post.date | date: '%B %Y' }}</h4><ul>
+                        {% endif %}
+                      <li><span class="time"></span><a href="{{site.baseurl}}{{ post.url }}">{{ post.title}}  </a>{{ post.date | date: "%d/%m" }}</li>
+                    {% endfor %}
+<!--   </div> -->

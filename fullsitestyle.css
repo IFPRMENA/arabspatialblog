@@ -26,7 +26,7 @@
   color:gray;
   font-weight:normal;
   /*max-width: 90px;*/
-  height: 23px;
+  height: 13px;
   /*background-color:#759da7;*/
   /*text-align: center;*/
   line-height: 22px;
@@ -144,7 +144,7 @@
 
 
 .fa {
-  padding: 10px 0 10px;
+  padding: 5px 0 5px;
 }
 
 .footerHeight{
@@ -274,6 +274,7 @@ input[type=text], textarea {
   margin-bottom: 5px;
   line-height: 11px;
   font-size: 12px;
+  float:left;
 }
 
 .blogContainer{

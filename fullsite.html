@@ -63,38 +63,11 @@ title: ''
 
                     {% include rss-link.html %}
 
-                    <h4>TAGS <i class="fa fa-tags"></i></h4>
-                      <span class="list-unstyled">
+                    {% include tags.html %}
 
-                            {% for tag in site.tags %}
-                                <span><a href="{{site.baseurl}}/tags/{{ tag[0] }}">{{ tag[0] }}</a>, </span>
-                            {% endfor %}
-
-                      </span>
-                    <h4>NEWS LETTERS <i class="fa fa-folder"></i></h4>
-                    <style type="text/css">
-                      <!--
-                      .display_archive {font-family: arial,verdana; font-size: 12px;}
-                      .campaign {line-height: 125%; margin: 5px;}
-                      //-->
-                      </style>
-                      <script language="javascript" src="http://us5.campaign-archive2.com/generate-js/?u=ee4188fb4a3f47c4e45bee1cc&fid=6473&show=10" type="text/javascript"></script>
-
-                    <h4>ARCHIVES <i class="fa fa-calendar"></i></h4>
-                    {% for post in site.posts %}
-                      {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
-                      {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
-                        {% if month != nmonth %}
-                          {% if forloop.index != 1 %}</ul>{% endif %}
-                          <h4 class="sub-header">{{ post.date | date: '%B %Y' }}</h4><ul>
-                        {% endif %}
-                      <li><span class="time"></span><a href="{{site.baseurl}}{{ post.url }}">{{ post.title}}  </a>{{ post.date | date: "%d/%m" }}</li>
-                    {% endfor %}
-
-
+                    {% include newsletters.html %}
                     
-                          
-                  
+                    {% include archives.html %}
                           
                   </div>
 
@@ -137,9 +110,9 @@ title: ''
         {% if item.content %}
         <div class="entryTitle"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title }}</a></div>
         <div class='date'>
-          <span class="dateText">{{item.date | date:"%B %d"}}</span>
+          <div class="dateText">{{item.date | date:"%B %d"}}   &#8226;</div>
           {% if item.author %}
-            <div class="dateText" >Author: {{ item.author }}</div>
+            <div class="dateText" >&nbsp;Author: {{ item.author }}</div>
           {% endif %}
         </div>
         <div>
@@ -165,7 +138,7 @@ title: ''
       </div><!-- /.row -->
 
       <div id="google_translate_element2"></div>
-      
+
     </div><!-- /.container -->
     </div>
 
