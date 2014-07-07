@@ -734,12 +734,13 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  /*padding-right: 15px;*/
+  /*padding-left: 15px;*/
   margin-right: auto;
   margin-left: auto;
   min-width: 940px;
   margin-top: 5px;
+  overflow-x:hidden;
 }
 @media (min-width: 768px) {
   .container {
@@ -4266,7 +4267,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .label {
   display: inline;
-  padding: .2em .6em .3em;
+  /*padding: .2em .6em .3em;*/
   font-size: 75%;
   /* font-weight: bold; */
   line-height: 1;

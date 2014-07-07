@@ -5,8 +5,8 @@ encoding: UTF-8
 highlighter: rouge
 prose:
   rooturl: '_posts'
-  siteurl: 'http://ifprmena.github.io/arabspatialblog/'
-  relativeLinks: 'http://ifprmena.github.io/arabspatialblog/links.jsonp'
+  siteurl: 'http://50.62.145.200/arabspatialblog/'
+  relativeLinks: 'http://50.62.145.200/arabspatialblog/links.jsonp'
   media: 'media'
   metadata:
     _posts:
