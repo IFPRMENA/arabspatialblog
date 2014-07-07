@@ -5,8 +5,8 @@
                       {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
                         {% if month != nmonth %}
                           {% if forloop.index != 1 %}</ul>{% endif %}
-                          <h4 class="sub-header">{{ post.date | date: '%B %Y' }}</h4><ul>
+                          <h4 class="sub-header">{{ post.date | date: '%B %Y' }}</h4>
                         {% endif %}
-                      <li><span class="time"></span><a href="{{site.baseurl}}{{ post.url }}">{{ post.title}}  </a>{{ post.date | date: "%d/%m" }}</li>
+                      <div><span class="time"></span>{{ post.date | date: "%m/%d/%Y" }} - <a href="{{site.baseurl}}{{ post.url }}">{{ post.title}}  </a></div>
                     {% endfor %}
 <!--   </div> -->
