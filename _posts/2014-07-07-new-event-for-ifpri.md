@@ -13,4 +13,6 @@ author:
   - Olivier Ecker
 ---
 
-Test new event.
+Test new event. 
+
+Arab Spatial 2.0 now houses over 200 indicators at the national, subnational, and pixel level over time. Indicators that may be used for policy and planning purposes to map regional patterns and trends.
