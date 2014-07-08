@@ -267,8 +267,9 @@ input[type=text], textarea {
 
 .blog-title{
   margin-left: 10px;
-  font-size: 20px;
+  font-size: 24px;
   color:#000000;
+  float: left;
 }
 
 .blog-main{

@@ -9,6 +9,7 @@ header: ARAB SPATIAL 2.0
 tags: 
   - services
   - ArabSpatial2.0
+  - events
 author: 
   - Yifei Liu
 ---

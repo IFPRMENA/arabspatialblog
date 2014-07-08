@@ -284,8 +284,9 @@ input[type=text], textarea {
 
 .blog-title{
   margin-left: 10px;
-  font-size: 20px;
+  font-size: 24px;
   color:#000000;
+  float: left;
 }
 
 .blog-main{
@@ -307,4 +308,22 @@ input[type=text], textarea {
 .sidebar-module{
   float: right;
   width: 240px;
+}
+
+.eventdate{
+  width: 140px;
+  height: 100px;
+  float: left;
+}
+.eventmonth{
+  max-width: 140px;
+  text-align: center;
+  font-size: 20px
+
+}
+.eventday{
+  max-width: 140px;
+  text-align: center;
+  font-size: 20px;
+  color: black;
 }

@@ -301,3 +301,21 @@ input[type=text], textarea {
 .entryTitle{
   cursor: pointer;
 }
+
+.eventdate{
+  width: 140px;
+  height: 100px;
+  float: left;
+}
+.eventmonth{
+  max-width: 140px;
+  text-align: center;
+  font-size: 20px
+
+}
+.eventday{
+  max-width: 140px;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}

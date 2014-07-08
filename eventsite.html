@@ -69,20 +69,20 @@ title: ''
                     {% include newsletters.html %}
                     
                     {% include archives.html %}
-
+                          
                   </div>
 
 
 
                   <!-- /.blog-sidebar -->
-  {% for item in site.categories.blog limit:1000 %}
+  {% for item in site.categories.event limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 
     <div id="{{item.title}}" class="article clearfix">
         
 
-          {% if item.youtube_url %}
+          <!-- {% if item.youtube_url %}
           {% capture youtubeurl %}{{item.youtube_url}}{% endcapture %}
               <div class="video-wrapper">
                 <a href='{{site.baseurl}}{{item.url}}'><div class="youtubeThumbnail">
@@ -105,13 +105,19 @@ title: ''
               </a>
             </div>
 
-          {% endif %}
+          {% endif %} -->
+
+        <div class="eventdate">
+            <div class="eventmonth">{{item.date | date:"%B"}}</div>
+            <div class="eventday">{{item.date | date:"%e"}}</div>
+            <div class="eventmonth">EVENT</div>
+        </div>
         <div class="textContainer col-sm-10">
         <!-- <a class='item'>{{item.title}}</a>   -->
         {% if item.content %}
         <div class="entryTitle"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title }}</a></div>
         <div class='date'>
-          <div class="dateText">{{item.date | date:"%B %d"}}   &#8226;</div>
+          
           {% if item.author %}
             <div class="dateText" >&nbsp;Author: {{ item.author }}</div>
           {% endif %}
