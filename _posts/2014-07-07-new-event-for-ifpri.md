@@ -3,7 +3,7 @@ layout: blog
 published: true
 title: New Event for IFPRI
 category: event
-comments: true
+comments: false
 header: New Event
 tags: 
   - Event
