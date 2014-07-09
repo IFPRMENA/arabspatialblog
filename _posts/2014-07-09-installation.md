@@ -12,9 +12,6 @@ author:
   - IFPRI
 ---
 
-Dillinger
-=========
-
 Dillinger is a cloud-enabled HTML5 Markdown editor.
 
   - Type some Markdown text in the left window
@@ -91,5 +88,3 @@ MIT
 [jQuery]:http://jquery.com
 [@tjholowaychuk]:http://twitter.com/tjholowaychuk
 [express]:http://expressjs.com
-
-
