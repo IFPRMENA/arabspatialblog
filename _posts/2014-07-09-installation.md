@@ -2,7 +2,7 @@
 layout: blog
 published: true
 title: Installation
-category: Blog
+category: blog
 comments: false
 header: Installation
 tags: 

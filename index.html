@@ -36,6 +36,11 @@ section: blog
       <div class='splash' href='{{site.baseurl}}{{item.url}}'>
         <img width="100%" src='{{url}}' alt='' />
       </div>
+      {% else %}
+            <div class='splash' href='{{site.baseurl}}{{item.url}}'>
+                <img width="100%" src='{{site.baseurl}}/img/IFPRI.png' alt='' />
+              </a>
+            </div>
 
       {% endif %}
       <div class="textContainer col-sm-10">
