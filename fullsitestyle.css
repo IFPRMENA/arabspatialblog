@@ -287,6 +287,20 @@ input[type=text], textarea {
   font-size: 24px;
   color:#000000;
   float: left;
+  background-color: #fff;
+  padding: 4px 16px;
+
+}
+.blog-titleWhite{
+
+  color: #fff;
+  
+}
+
+.activepage{
+  background-color: #f05a30;
+  padding: 4px 16px;
+  color: #fff;
 }
 
 .blog-main{

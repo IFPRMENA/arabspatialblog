@@ -286,6 +286,12 @@ input[type=text], textarea {
   color: #000000;
 }
 
+.blog-title a{
+
+  color: #fff;
+  
+}
+
 #seeMoreBlogs{
   float: right;
   margin-right: 15px;

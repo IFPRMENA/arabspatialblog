@@ -10,7 +10,6 @@ tags:
   - Seattle
 author: 
   - IFPRI
-  - Olivier Ecker
 ---
 
 Test new event. 
