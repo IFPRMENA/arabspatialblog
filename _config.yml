@@ -17,7 +17,7 @@ prose:
           placeholder: "Blog or Event"
           options:
             - name: "Blog"
-              value: "Blog"
+              value: "blog"
             - name: "Event"
               value: "event"
       - name: "published"
