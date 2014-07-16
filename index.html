@@ -16,6 +16,8 @@ section: blog
 
 {% if item.category == 'blog' %}
 
+    {% if item.splash or item.youtube_url %}
+
       {% if item.youtube_url %}
       {% capture youtubeurl %}{{item.youtube_url}}{% endcapture %}
       <div class="video-wrapper">
@@ -36,13 +38,18 @@ section: blog
       <div class='splash' href='{{site.baseurl}}{{item.url}}'>
         <img width="100%" src='{{url}}' alt='' />
       </div>
+      {% endif %}
+
       {% else %}
             <div class='splash' href='{{site.baseurl}}{{item.url}}'>
+              
                 <img width="100%" src='{{site.baseurl}}/img/IFPRI.png' alt='' />
               </a>
             </div>
-
       {% endif %}
+
+
+
       <div class="textContainer col-sm-10">
         <!-- <a class='item'>{{item.title}}</a>   -->
         {% if item.content %}
@@ -54,7 +61,7 @@ section: blog
           {% endif %}
         </div>
         
-        <div class="summeryText" >{{ item.content | truncatewords: 30}}</div>
+        <div class="summeryText" >{{ item.header}}</div>
         {% endif %}
       </div>
 
@@ -67,7 +74,7 @@ section: blog
   </div>
   <div class="textContainer col-sm-10">
         <!-- <a class='item'>{{item.title}}</a>   -->
-        {% if item.content %}
+        {% if item.header %}
         <div class="entryTitle"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle'>{{item.title }}</a></div>
         <div class='date'>
           
@@ -75,7 +82,7 @@ section: blog
             <div class="dateText" >&nbsp;Author: {{ item.author }}</div>
           {% endif %}
         </div>
-        <div class="summeryText" >{{ item.content | truncatewords: 30}}</div>
+        <div class="summeryText" >{{ item.header}}</div>
         {% endif %}
         </div>
 

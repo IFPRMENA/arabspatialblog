@@ -4,6 +4,7 @@ category: blog
 published: true
 title: "When Wells Fail: Farmers’ Response to Groundwater Depletion in India"
 splash: "http://i0.wp.com/wle.cgiar.org/blogs/files/2014/06/waterflow2.png?resize=664%2C390"
+header: Groundwater is the mainstay of irrigated agriculture in India
 ---
 
 Groundwater is the mainstay of irrigated agriculture in India. Hundreds of millions of smallholders depend on it for their livelihoods. These livelihoods, however, face serious threats from rapidly falling water tables in large parts of the country. What do farmers do when the wells run dry?

@@ -114,7 +114,7 @@ title: ''
         </div>
         <div class="textContainer col-sm-10">
         <!-- <a class='item'>{{item.title}}</a>   -->
-        {% if item.content %}
+        {% if item.header %}
         <div class="entryTitle"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title }}</a></div>
         <div class='date'>
           
@@ -129,7 +129,7 @@ title: ''
               {% endfor %}
             {% endif %}
           </div>
-        <div class="summeryText" >{{ item.content | truncatewords: 13}}</div>
+        <div class="summeryText" >{{ item.header }}</div>
         {% endif %}
         </div>
       </div>

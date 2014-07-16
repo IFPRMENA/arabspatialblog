@@ -5,6 +5,7 @@ published: true
 title: "Nitrogen and Phosphorous: once wonder nutrients now threaten aquatic ecosystems"
 splash: "http://i0.wp.com/wle.cgiar.org/blogs/files/2014/05/N-emissions-2050.png?resize=538%2C228"
 comments: true
+header: Nitrogen and phosphorus are indispensable nutrients to crop plants.
 author: IFPRI
 tags:
   - about us

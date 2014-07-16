@@ -4,6 +4,7 @@ category: blog
 published: true
 title: ‘Let’s climate proof it’
 splash: "http://www.ifpri.org/sites/default/files/imagecache/prefab_large/8790104750_23634e1ae7_m.jpg"
+header: The UN celebrates World Day to Combat Desertification
 tags:
   - about us
   - climate

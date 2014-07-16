@@ -24,6 +24,8 @@ section: blog
           </div>
         {% endif %}
 
+{% if page.splash or page.youtube_url %}
+
 {% if page.splash %}
   {% if page.splash contains 'http' %}
     {% capture url %}{{page.splash}}{% endcapture %}
@@ -35,10 +37,10 @@ section: blog
     <img max-width="670px" src='{{url}}' alt='' />
   </div>
   {% else %}
-            <div class='splash' href='{{site.baseurl}}{{item.url}}'>
+            <!-- <div class='splash' href='{{site.baseurl}}{{item.url}}'>
                 <img max-width="670px" src='{{site.baseurl}}/img/IFPRI.png' alt='' />
               </a>
-            </div>
+            </div> -->
   {% endif %}
     
 
@@ -51,6 +53,14 @@ section: blog
         
       </div>
   {% endif %}
+
+  {% else %}
+            <div class='splash' href='{{site.baseurl}}{{item.url}}'>
+              <a href='{{site.baseurl}}{{item.url}}'>
+                <img max-width="670px" src='{{site.baseurl}}/img/IFPRI.png' alt='' />
+              </a>
+            </div>
+      {% endif %}
 
   <div id="sharingContainer">
       <a href="https://twitter.com/share" class="twitter-share-button" data-via="IFPRI" data-count="none" target="_blank"></a>
