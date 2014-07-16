@@ -39,11 +39,13 @@ title: ''
 
     <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    
+    </script>
     <div class="col-sm-12 clearfix logoWrapper">
       <div class="logoHeader container clearfix"></div>
 
@@ -141,6 +143,17 @@ title: ''
       s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
       (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
+
+
+    function copyText()
+      {
+        var item = $(".individualShare");
+
+      var currentLink = "50.234.234?blog_title=" +  item[0].id;
+
+      alert(currentLink);
+      }
+
   </script>
 
   </body>

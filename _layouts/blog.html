@@ -20,6 +20,7 @@ section: blog
           <div>
           {% for page in page.tags %}
           <a class="label label-info" href="{{page.baseurl}}/tags/{{ page }}"><i class="fa fa-tags"></i>  {{ page }}</span></a>
+
           {% endfor %}
           </div>
         {% endif %}
@@ -63,11 +64,16 @@ section: blog
       {% endif %}
 
   <div id="sharingContainer">
+    <!-- <button onclick="copyText()">share link</button> -->
+      <div class="individualShare" id='{{page.title}}' onclick="copyText()">
+
+        Sha
+      </div>
       <a href="https://twitter.com/share" class="twitter-share-button" data-via="IFPRI" data-count="none" target="_blank"></a>
     
       <div class="g-plus" data-action="share" data-annotation="none"></div>
     
-      <div class="fb-share-button" data-href="{{site.baseurl}}{{page.url}}" data-type="button"></div>
+      <div class="fb-share-button" data-href="50.234.234?blog_title={{page.title}}" data-type="button"></div>
     </div>
 
   <div class="contentIndividualBlog">
