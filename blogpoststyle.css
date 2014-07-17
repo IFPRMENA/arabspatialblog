@@ -285,11 +285,13 @@ input[type=text], textarea {
   background-color: #bbbbba;
   padding: 2px 3px;
   margin-right: 5px;
+  border: #ccc 1px solid;
 }
 
 .individualShareActive{
   
   background-color: #f05a30;
+  border: #f05a30 1px solid;
 
 }
 
