@@ -61,27 +61,10 @@ section: blog
                 <img max-width="670px" src='{{site.baseurl}}/img/IFPRI.png' alt='' />
               </a>
             </div>
-      {% endif %}
+  {% endif %}
 
-  <div id="sharingContainer">
-    <!-- <button onclick="copyText()">share link</button> -->
-      <div class="individualShare" id='{{page.title}}' onclick="copyText()">
-
-        share link
-      </div>
-      <a href="https://twitter.com/share" class="twitter-share-button" data-via="IFPRI" data-count="none" target="_blank"></a>
-    
-      <div class="g-plus" data-action="share" data-annotation="none"></div>
-    
-      <!-- <div class="fb-share-button" data-href="{{site.baseurl}}{{page.url}}" data-type="button"></div> -->
-      <div class="fb-share-button" data-href="{{site.baseurl}}/{{page.url}}?redirect=1" data-type="button"></div>
-
-      <div class="panel panel-default">
-        <div id="panel-body" class="panel-body">
-          
-        </div>
-      </div>
-    </div>
+  
+  {% include socialsharing.html %}
 
   <div class="contentIndividualBlog">
   {{content}}
@@ -89,10 +72,12 @@ section: blog
 
 
 
-  <div class="paginationCenter">
+  <!-- <div class="paginationCenter">
     <p class="pgCenter">{% if page.previous.url %} <a href="{{site.baseurl}}{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"><i class="fa fa-chevron-left" style="float:left;">      Previous Post</i></i></a>  {% endif %}   {% if page.next.url %}
     <a href="{{site.baseurl}}{{page.next.url}}" title="Next Post: {{page.next.title}}" style="float:right;">Next Post      <i class="fa fa-chevron-right"></i></i></a>  {% endif %} </p>
-  </div>
+  </div> -->
+
+  {% include pager.html %}
 
   <!-- <a href="{{site.baseurl}}{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}"></a> -->  
 

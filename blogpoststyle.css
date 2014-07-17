@@ -278,12 +278,12 @@ input[type=text], textarea {
 
 
 .individualShare{
-  margin-left: 10px;
+  /*margin-left: 10px;*/
   font-size: 10px;
   color:#fff;
   float: left;
   background-color: #bbbbba;
-  padding: 3px 3px;
+  padding: 2px 3px;
   margin-right: 5px;
 }
 

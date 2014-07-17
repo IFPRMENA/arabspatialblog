@@ -1,0 +1,20 @@
+<div id="sharingContainer">
+    <!-- <button onclick="copyText()">share link</button> -->
+      <div class="individualShare" id='{{page.title}}' onclick="copyText()">
+
+        share link
+      </div>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="IFPRI" data-count="none" target="_blank"></a>
+    
+      <div class="g-plus" data-action="share" data-annotation="none"></div>
+    
+      <!-- <div class="fb-share-button" data-href="{{site.baseurl}}{{page.url}}" data-type="button"></div> -->
+      <div class="fb-share-button" data-href="{{site.baseurl}}/{{page.url}}?redirect=1" data-type="button"></div>
+
+      <div class="panel panel-default">
+        
+        <div id="panel-body" class="panel-body">
+          
+        </div>
+      </div>
+    </div>
