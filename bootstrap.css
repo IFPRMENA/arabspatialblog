@@ -4769,7 +4769,17 @@ a.list-group-item-danger.active:focus {
           box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
 .panel-body {
+  padding: 0px;
+  height: 0px;
+}
+
+.panel-body-enlarge {
   padding: 15px;
+  /*height: 20px;*/
+  color: #f05a30;
+  text-decoration: none;
+
+   -webkit-transition: padding 5s;
 }
 .panel-heading {
   padding: 10px 15px;
@@ -4959,6 +4969,11 @@ a.list-group-item-danger.active:focus {
 }
 .panel-default {
   border-color: #ddd;
+  display: none;
+}
+
+.panel-defaultactive {
+  display: block;
 }
 .panel-default > .panel-heading {
   color: #333;

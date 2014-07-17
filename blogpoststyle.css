@@ -275,6 +275,8 @@ input[type=text], textarea {
 
 }
 
+
+
 .individualShare{
   margin-left: 10px;
   font-size: 10px;
@@ -285,11 +287,11 @@ input[type=text], textarea {
   margin-right: 5px;
 }
 
-/*.individualShare :hover{
+.individualShareActive{
   
-  background-color: gray;
+  background-color: #f05a30;
 
-}*/
+}
 
 
 

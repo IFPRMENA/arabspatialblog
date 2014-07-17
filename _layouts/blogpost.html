@@ -131,6 +131,13 @@ title: ''
 </script>
   <!-- Put this just before the closing body tag of your web page -->
 <script type="text/javascript">
+
+    // get query string
+    // check for a special parameter
+    // if exists, window.location.href = '?blog_title' = page.title;
+
+    // Read a page's GET URL variables and return them as an associative array.
+
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'arabspatial'; // required: replace example with your forum shortname
     var disqus_identifier = '{{ page.url }}';
@@ -151,8 +158,46 @@ title: ''
 
       var currentLink = "http://50.62.145.200/?blog_title=" +  item[0].id;
 
-      alert(currentLink);
+      // alert(currentLink);
+
+      $( '.individualShare' ).toggleClass( "individualShareActive" );
+
+      $( '.panel-default' ).toggleClass( "panel-defaultactive" );
+      $(".panel-body").html(currentLink);
+
+      // $(".panel-body").addClass("panel-body-enlarge");
+
+      $("#panel-body").removeClass('panel-body').addClass('panel-body-enlarge');
+
       }
+
+  </script>
+  <script type="text/javascript">
+
+
+  $(window).ready(function() {
+    function getUrlVars()
+{
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++)
+    {
+        hash = hashes[i].split('=');
+        vars.push(hash[0]);
+        vars[hash[0]] = hash[1];
+    }
+    return vars;
+}
+
+  var urlVars = getUrlVars();
+
+  var page_title = $(".item")[0].innerHTML;
+
+  if(urlVars['redirect']) {
+    var url_direct = "http://50.62.145.200/?blog_title=" + page_title;
+    window.location.href = url_direct;
+  }
+  });
 
   </script>
 
