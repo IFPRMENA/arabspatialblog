@@ -19,7 +19,7 @@ section: blog
     {% if page.tags != empty %}
           <div>
           {% for page in page.tags %}
-          <a class="label label-info" href="{{page.baseurl}}/tags/{{ page }}"><i class="fa fa-tags"></i>  {{ page }}</span></a>
+          <a class="label label-info" href="{{site.baseurl}}{{page.baseurl}}/tags/{{ page }}"><i class="fa fa-tags"></i>  {{ page }}</span></a>
 
           {% endfor %}
           </div>
