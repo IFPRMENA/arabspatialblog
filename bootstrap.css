@@ -4975,6 +4975,7 @@ a.list-group-item-danger.active:focus {
 .panel-defaultactive {
   display: block;
   /*position: absolute;*/
+  margin-top: 5px;
 }
 .panel-default > .panel-heading {
   color: #333;
