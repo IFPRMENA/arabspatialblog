@@ -5,6 +5,7 @@ published: true
 title: Arab Spatial Atlas Tutorial (English)
 youtube_url: QbB1zY9pbeQ
 header: Tutorial on how to use the Arab Spatial Development and Food Security Atlas
+author: IFPRI
 tags:
   - about us
 ---
