@@ -46,7 +46,8 @@ title: ''
               <div class="blog-header">
                 <div class="blog-title">Blog</div>
               </div>
-              {% for item in site.categories.blog limit:1000 %}
+    <div class="postContainer clearfix whiteBackground">
+    {% for item in site.categories.blog limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 
@@ -110,6 +111,7 @@ title: ''
 
 
       {% endfor %}
+      </div>
             </div>
             <div class="sidePanel">
               {% include rss-link.html %}

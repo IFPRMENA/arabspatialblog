@@ -6,7 +6,7 @@
 
 .blogFeed{
 width: 660px;
-background: #fff;
+/*background: #fff;*/
 position: relative;
 float: left;
 padding: 15px;
@@ -25,6 +25,10 @@ padding: 15px;
 
 .grayBackground{
   background: #f1f1f0;
+}
+
+.whiteBackground{
+  background: #fff;
 }
 
 .sidePanel {
