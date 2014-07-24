@@ -21,6 +21,8 @@ title: ''
     <!-- Custom styles for this template -->
     <link href="{{site.baseurl}}/fullsitestyle.css" rel="stylesheet">
 
+    <link href="{{site.baseurl}}/myFeedStyle.css" rel="stylesheet">
+
     <link href="{{site.baseurl}}/animate.css" rel="stylesheet">
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -37,38 +39,17 @@ title: ''
     
 
   <body>
-    <div class="col-sm-12 clearfix logoWrapper">
 
-    <div class="container">
-
-
-
-      <div class="row">
-
-        <div class="col-md-12 blog-main backgroundwhite">
-
-        <div class='blogContainer clearfix'>
-          <div class="sidebar-module">
-                    
-
-                    {% include events.html %}
-
-                  
-
+      <div class="bodyContainer clearfix">
+        <div class="feedContainer clearfix">
+            <div class="blogFeed clearfix">
+              {{content}}
             </div>
-  <!-- /.blog-sidebar -->
-  <div class="leftColumn clearfix" style="width:670px; background:#fff;">
-        
-        {{content}}
-
-        </div><!-- /.blog-main -->
-</div>
-        
-
-
-        </div><!-- /.blog-sidebar -->
-
-      </div><!-- /.row -->
+            <div class="eventFeed">
+              {% include events.html %}
+            </div>
+        </div>
+      </div>
 
       <div id="google_translate_element2"></div>
 

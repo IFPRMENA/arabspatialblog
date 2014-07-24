@@ -1,0 +1,37 @@
+.feedContainer{
+  background: #fff;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.blogFeed{
+width: 660px;
+background: #fff;
+position: relative;
+float: left;
+padding: 15px;
+}
+
+.eventFeed{
+  height: 582px;
+  width: 324px;
+  background: #f1f1f0;
+  float: left;
+  overflow: auto;
+  padding: 15px;
+  margin: 20px;
+
+}
+
+.grayBackground{
+  background: #f1f1f0;
+}
+
+.sidePanel {
+/* height: 582px; */
+width: 324px;
+background: #f1f1f0;
+float: left;
+/* overflow: auto; */
+padding: 15px;
+margin: 20px;

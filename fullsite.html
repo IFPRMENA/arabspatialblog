@@ -21,6 +21,8 @@ title: ''
     <!-- Custom styles for this template -->
     <link href="{{site.baseurl}}/fullsitestyle.css" rel="stylesheet">
 
+    <link href="{{site.baseurl}}/myFeedStyle.css" rel="stylesheet">
+
     <link href="{{site.baseurl}}/animate.css" rel="stylesheet">
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -37,43 +39,14 @@ title: ''
     
 
   <body>
-    <div class="col-sm-12 clearfix logoWrapper">
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="blog-nav">
 
-        </nav>
-      </div>
-    </div>
-
-    <div class="container">
-
-
-
-      <div class="row">
-
-        <div class="col-md-12 blog-main">
-
-        <div class='blogContainer clearfix'>
-          <div class="blog-header clearfix">
-            <h1 class="blog-title">BLOG</h1>
-            <!-- <h1 class="blog-title" style="float: left; margin-left: 100px;"><a href='{{site.baseurl}}/eventsite'>EVENTS</a></h1> -->
-          </div>
-          <div class="sidebar-module">
-                    
-
-                    {% include rss-link.html %}
-
-                    {% include tags.html %}
-
-                    {% include newsletters.html %}
-                    
-                    {% include archives.html %}
-
-            </div>
-  <!-- /.blog-sidebar -->
-  <div class="leftColumn clearfix" style="width:670px; background:#fff;">
-  {% for item in site.categories.blog limit:1000 %}
+      <div class="bodyContainer clearfix grayBackground">
+        <div class="feedContainer clearfix grayBackground">
+            <div class="blogFeed clearfix">
+              <div class="blog-header">
+                <div class="blog-title">Blog</div>
+              </div>
+              {% for item in site.categories.blog limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 
@@ -137,15 +110,18 @@ title: ''
 
 
       {% endfor %}
+            </div>
+            <div class="sidePanel">
+              {% include rss-link.html %}
 
-        </div><!-- /.blog-main -->
-</div>
-        
+              {% include tags.html %}
 
-
-        </div><!-- /.blog-sidebar -->
-
-      </div><!-- /.row -->
+              {% include newsletters.html %}
+              
+              {% include archives.html %}
+            </div>
+        </div>
+      </div>
 
       <div id="google_translate_element2"></div>
 

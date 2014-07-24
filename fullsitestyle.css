@@ -47,7 +47,7 @@
 .textContainer{
   float:left;
   margin-left:10px;
-  width: 500px;
+  width: 520px;
 }
 
 .summeryText {
@@ -283,7 +283,7 @@ input[type=text], textarea {
 }
 
 .blogContainer{
-  width: 940px;
+  /*width: 940px;*/
   margin: auto;
 }
 
@@ -291,7 +291,7 @@ input[type=text], textarea {
   margin-top: 10px;
   font-size: 20px;
   color:#999793;
-  float: left;
+  /*float: left;*/
   
 
 }
@@ -332,10 +332,10 @@ input[type=text], textarea {
 
 .event{
   /*margin-bottom:50px;*/
-  width: 312px;
+  width: 300px;
   float: left;
   /*height: 125px;*/
-  margin-left: -30px;
+  /*margin-left: -30px;*/
   margin-top: 10px;
   border-bottom: #bebebe solid 1px;
 }
