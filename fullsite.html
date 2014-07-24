@@ -38,8 +38,6 @@ title: ''
 
   <body>
     <div class="col-sm-12 clearfix logoWrapper">
-      <div class="logoHeader container clearfix"></div>
-
     <div class="blog-masthead">
       <div class="container">
         <nav class="blog-nav">
@@ -57,9 +55,9 @@ title: ''
         <div class="col-md-12 blog-main">
 
         <div class='blogContainer clearfix'>
-          <div class="blog-header">
-            <h1 class="blog-title activepage"><a class="blog-titleWhite" href='{{site.baseurl}}/fullsite'>BLOG</a></h1>
-            <h1 class="blog-title" style="float: left; margin-left: 100px;"><a href='{{site.baseurl}}/eventsite'>EVENTS</a></h1>
+          <div class="blog-header clearfix">
+            <h1 class="blog-title">BLOG</h1>
+            <!-- <h1 class="blog-title" style="float: left; margin-left: 100px;"><a href='{{site.baseurl}}/eventsite'>EVENTS</a></h1> -->
           </div>
           <div class="sidebar-module">
                     
@@ -72,11 +70,9 @@ title: ''
                     
                     {% include archives.html %}
 
-                  </div>
-
-
-
-                  <!-- /.blog-sidebar -->
+            </div>
+  <!-- /.blog-sidebar -->
+  <div class="leftColumn clearfix" style="width:670px; background:#fff;">
   {% for item in site.categories.blog limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
@@ -138,10 +134,12 @@ title: ''
         {% endif %}
         </div>
       </div>
+
+
       {% endfor %}
 
         </div><!-- /.blog-main -->
-
+</div>
         
 
 

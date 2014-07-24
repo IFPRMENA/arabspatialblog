@@ -70,6 +70,17 @@ prose:
               value: "about us"
             - name: "Careers"
               value: "careers"
+      - name: "location"
+        field:
+          element: "multiselect"
+          label: "Event location"
+          alterable: "true"
+          placeholder: "Choose location"
+          options:
+            - name: "IFPRI Headquarters Washington, DC"
+              value: "IFPRI Headquarters Washington, DC"
+            - name: "Seattle Art Museum"
+              value: "Seattle Art Museum"
       - name: "author"
         field:
           element: "multiselect"

@@ -19,9 +19,9 @@ title: ''
 
 
     <!-- Custom styles for this template -->
-    <link href="{{site.baseurl}}/fullsitestyle.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/feedsitestyle.css" rel="stylesheet">
 
-    <link href="{{site.baseurl}}/animate.css" rel="stylesheet">
+    <!-- <link href="{{site.baseurl}}/fullsitestyle.css" rel="stylesheet"> -->
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
@@ -38,48 +38,49 @@ title: ''
 
   <body>
     <div class="col-sm-12 clearfix logoWrapper">
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+
+        </nav>
+      </div>
+    </div>
 
     <div class="container">
 
 
 
+
+
+
       <div class="row">
 
-        <div class="col-md-12 blog-main backgroundwhite">
 
-        <div class='blogContainer clearfix'>
-          <div class="sidebar-module">
-                    
+        <div class="col-md-12 blog-main">
 
-                    {% include events.html %}
-
-                  
-
-            </div>
-  <!-- /.blog-sidebar -->
-  <div class="leftColumn clearfix" style="width:670px; background:#fff;">
-        
-        {{content}}
+          {{content}}
+          
 
         </div><!-- /.blog-main -->
-</div>
+
         
 
 
         </div><!-- /.blog-sidebar -->
 
       </div><!-- /.row -->
-
       <div id="google_translate_element2"></div>
-
     </div><!-- /.container -->
     </div>
-
+    
     <script type="text/javascript">
         function googleTranslateElementInit() {
           new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element2');
         }
         </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -91,7 +92,7 @@ title: ''
     $(".month").on("click", function () {
 
 
-  });
+	});
 
   
   </script>

@@ -61,7 +61,12 @@
   margin-bottom:50px;
   width: 670px;
   float: left;
+  height: 125px;
+  margin-left: 15px;
+  margin-top: 5px;
 }
+
+
 
 
 .video-wrapper {
@@ -283,20 +288,14 @@ input[type=text], textarea {
 }
 
 .blog-title{
-  margin-left: 10px;
-  font-size: 24px;
-  color:#000000;
+  margin-top: 10px;
+  font-size: 20px;
+  color:#999793;
   float: left;
-  background-color: #fff;
-  padding: 4px 16px;
   
 
 }
-.blog-titleWhite{
 
-  color: #fff;
-  
-}
 
 .activepage{
   background-color: #f05a30;
@@ -306,6 +305,11 @@ input[type=text], textarea {
 
 .blog-main{
   padding-bottom: 186px;
+  background: #ecedec;
+}
+
+.backgroundWhite{
+  background: #fffart;
 }
 
 #seeMoreBlogs{
@@ -323,22 +327,54 @@ input[type=text], textarea {
 .sidebar-module{
   float: right;
   width: 240px;
+
+}
+
+.event{
+  /*margin-bottom:50px;*/
+  width: 312px;
+  float: left;
+  /*height: 125px;*/
+  margin-left: -30px;
+  margin-top: 10px;
+  border-bottom: #bebebe solid 1px;
 }
 
 .eventdate{
-  width: 140px;
-  height: 100px;
+  width: 50px;
+  /*height: 100px;*/
   float: left;
+  color: #4b4b4b;
 }
 .eventmonth{
   max-width: 140px;
   text-align: center;
-  font-size: 20px
+  font-size: 14px
 
 }
 .eventday{
   max-width: 140px;
   text-align: center;
-  font-size: 20px;
-  color: black;
+  font-size: 14px;
+  color: #7d7d7d;
+}
+
+.eventtextContainer {
+float: left;
+}
+
+.eventItemTitle {
+font-size: 14px;
+}
+
+.eventLocation {
+color: gray;
+font-weight: normal;
+/* max-width: 90px; */
+height: 13px;
+/* background-color: #759da7; */
+/* text-align: center; */
+line-height: 22px;
+/* float: left; */
+margin-bottom: 10px;
 }
