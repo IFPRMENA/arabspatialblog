@@ -13,7 +13,7 @@ padding: 15px;
 }
 
 .eventFeed{
-  height: 582px;
+  height: 525px;
   width: 324px;
   background: #f1f1f0;
   float: left;
@@ -39,3 +39,9 @@ float: left;
 /* overflow: auto; */
 padding: 15px;
 margin: 20px;
+
+}
+
+.noBorderBottom{
+  border-bottom: 0px;
+}

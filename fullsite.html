@@ -51,7 +51,7 @@ title: ''
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 
-    <div id="{{item.title}}" class="article clearfix">
+    <div id="{{item.title}}" class="article clearfix noBorderBottom">
         
           {% if item.splash or item.youtube_url %}
 
@@ -117,10 +117,12 @@ title: ''
               {% include rss-link.html %}
 
               {% include tags.html %}
-
-              {% include newsletters.html %}
               
               {% include archives.html %}
+
+              {% include newsletters.html %}
+
+              <div class="signNewLettersLink" style="float:right;margin-top:20px;margin-right:5px;"><a href="#">Sign up to our newsletters ></a></div>
             </div>
         </div>
       </div>
