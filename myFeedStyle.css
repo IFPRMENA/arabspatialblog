@@ -5,7 +5,7 @@
 }
 
 .blogFeed{
-width: 660px;
+width: 684px;
 /*background: #fff;*/
 position: relative;
 float: left;
@@ -13,8 +13,8 @@ padding: 15px;
 }
 
 .eventFeed{
-  height: 525px;
-  width: 324px;
+  height: 680px;
+  width: 300px;
   background: #f1f1f0;
   float: left;
   overflow: auto;
@@ -38,7 +38,8 @@ background: #f1f1f0;
 float: left;
 /* overflow: auto; */
 padding: 15px;
-margin: 20px;
+/*margin: 20px;*/
+margin-top: 40px;
 
 }
 
