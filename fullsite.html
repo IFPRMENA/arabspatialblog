@@ -46,7 +46,7 @@ title: ''
               <div class="blog-header">
                 <div class="blog-title">Blog</div>
               </div>
-    <div class="postContainer clearfix whiteBackground">
+    <div class="postsContainer clearfix whiteBackground">
     {% for item in site.categories.blog limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
@@ -122,7 +122,7 @@ title: ''
 
               {% include newsletters.html %}
 
-              <div class="signNewLettersLink" style="float:right;margin-top:20px;margin-right:5px;"><a href="#">Sign up to our newsletters ></a></div>
+              <div class="signNewLettersLink" style="float:right;margin-top:20px;margin-right:5px;"><a href="http://eepurl.com/XUr3v" target="_blank">Sign up to our newsletters ></a></div>
             </div>
         </div>
       </div>

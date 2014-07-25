@@ -47,7 +47,7 @@
 .textContainer{
   float:left;
   /*margin-left:10px;*/
-  width: 500px;
+  width: 520px;
 }
 
 .summeryText {
@@ -59,7 +59,7 @@
 
 .article{
   margin-bottom:15px;
-  width: 640px;
+  width: 660px;
   float: left;
   height: 125px;
   margin-left: 15px;

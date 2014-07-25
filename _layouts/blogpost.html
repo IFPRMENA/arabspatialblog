@@ -21,6 +21,8 @@ title: ''
     <!-- Custom styles for this template -->
     <link href="{{site.baseurl}}/blogpoststyle.css" rel="stylesheet">
 
+    <link href="{{site.baseurl}}/myFeedStyle.css" rel="stylesheet">
+
     <link href="{{site.baseurl}}/animate.css" rel="stylesheet">
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -48,54 +50,32 @@ title: ''
     }(document, 'script', 'facebook-jssdk'));
     
     </script>
-    <div class="col-sm-12 clearfix logoWrapper">
-      <div class="logoHeader container clearfix"></div>
 
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="blog-nav">
-
-        </nav>
-      </div>
-    </div>
-
-    <div class="container">
-
-
-
-      <div class="row">
-
-        <div class="col-md-12 blog-main">
-
-        <div class='blogContainer clearfix'>
-          <div class="blog-header">
-            <h1 class="blog-title"><a href='{{site.baseurl}}/fullsite'>BACK</a></h1>
-            <!-- <h1 class="blog-title activepage" style="float: left; margin-left: 100px;"><a href='{{site.baseurl}}/eventsite'>EVENTS</a></h1> -->
-          </div>
-          <div class="sidebar-module">
-
-                    {% include rss-link.html %}
-
-                    {% include tags.html %}
-
-                    {% include newsletters.html %}
-                    
-                    {% include archives.html %}
-
-
-
-                  </div> <!-- /.blog-sidebar -->
-
+    <div class="bodyContainer clearfix grayBackground">
+        <div class="feedContainer clearfix grayBackground">
+            <div class="blogFeed clearfix">
+              <div class="blog-header clearfix">
+                <div class="blog-title">Blog</div>
+              </div>
+    <div class="postContainer clearfix whiteBackground">
+      
       {{content}}
 
-        </div><!-- /.blog-main -->
+      </div>
+            </div>
+            <div class="sidePanel">
+              {% include rss-link.html %}
 
-        
+              {% include tags.html %}
+              
+              {% include archives.html %}
 
+              {% include newsletters.html %}
 
-        </div><!-- /.blog-sidebar -->
-
-      </div><!-- /.row -->
+              <div class="signNewLettersLink" style="float:right;margin-top:20px;margin-right:5px;"><a href="#">Sign up to our newsletters ></a></div>
+            </div>
+        </div>
+      </div>
 
       <div id="google_translate_element2"></div>
 

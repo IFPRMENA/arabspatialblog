@@ -2,13 +2,15 @@
 layout: blogpost
 section: blog
 ---
-<div class='listing col7 margin15 pad4h'>
+
+<div class="signNewLettersLink" style="float:left;margin-top:20px;margin-left:20px;"><a href="{{site.baseurl}}/fullsite">< All blog entries</a></div>
+
 {% if date != ndate %}
   <h3 id="{{item.date | date: '%B %Y'}}" class='month'></h3>
 {% endif %}
 <div id="{{item.title}}" class="article clearfix">
     
-    <a class='item'>{{page.title }}
+    <a class='itemTitle'>{{page.title }}
     </a>
     <div class='date'>
       <div class="dateText">{{page.date | date:"%B %d"}}   &#8226;</div>
@@ -34,8 +36,8 @@ section: blog
     {% capture url %}{{site.baseurl}}{{page.splash}}/{% endcapture %}
   {% endif %}
 
-  <div class='splash'>
-    <img max-width="670px" src='{{url}}' alt='' />
+  <div class='splash clearfix'>
+    <img style="max-width:630px;" src='{{url}}' alt='' />
   </div>
   {% else %}
             <!-- <div class='splash' href='{{site.baseurl}}{{item.url}}'>
@@ -58,7 +60,7 @@ section: blog
   {% else %}
             <div class='splash' href='{{site.baseurl}}{{item.url}}'>
               <a href='{{site.baseurl}}{{item.url}}'>
-                <img max-width="670px" src='{{site.baseurl}}/img/IFPRI.png' alt='' />
+                <img  style="max-width:630px;" src='{{site.baseurl}}/img/IFPRI.png' alt='' />
               </a>
             </div>
   {% endif %}
@@ -100,7 +102,7 @@ section: blog
         <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
-    </div>
+ 
 
     {% endif %}
 
