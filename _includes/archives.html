@@ -1,7 +1,7 @@
 <!--   <div class='col4 margin3 pad4'> -->
 <div class="archiveContainer clearfix">
     <h4><i class="fa fa-calendar"></i>   ARCHIVES</h4>
-                    {% for post in site.posts %}
+                    {% for post in site.categories.blog %}
                       {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
                       {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
                       

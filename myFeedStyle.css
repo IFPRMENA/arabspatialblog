@@ -50,6 +50,12 @@ margin-top: 40px;
   color: #999793;
 }
 
+.sidePanel h3 {
+  font-size: 16px;
+  color: #999793;
+  margin-top: 5px;
+}
+
 .noBorderBottom{
   border-bottom: 0px;
 }
