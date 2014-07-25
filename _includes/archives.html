@@ -9,7 +9,7 @@
 
                           {% if forloop.index != 1 %}</ul>{% endif %}
                         
-                          <h4 class="sub-header">{{ post.date | date: '%B %Y' }}</h4>
+                          <h3 class="sub-header">{{ post.date | date: '%B %Y' }}</h3>
                         {% endif %}
                       <div><span class="time"></span>{{ post.date | date: "%m/%d/%Y" }} - <a href="{{site.baseurl}}{{ post.url }}">{{ post.title}}  </a></div>
                     {% endfor %}
