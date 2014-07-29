@@ -35,13 +35,13 @@ section: blog
       {% capture url %}{{site.baseurl}}{{item.splash}}/{% endcapture %}
       {% endif %}
 
-      <div class='splash' href='{{site.baseurl}}{{item.url}}'>
+      <div class='splash' id="{{ item.title | replace: ' ', '_' }}" href='{{site.baseurl}}{{item.url}}'>
         <img width="100%" src='{{url}}' alt='' />
       </div>
       {% endif %}
 
       {% else %}
-            <div class='splash' href='{{site.baseurl}}{{item.url}}'>
+            <div class='splash' id="{{ item.title | replace: ' ', '_' }}" href='{{site.baseurl}}{{item.url}}'>
               
                 <img width="100%" src='{{site.baseurl}}/img/IFPRI.png' alt='' />
               </a>

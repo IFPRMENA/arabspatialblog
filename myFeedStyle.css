@@ -40,13 +40,14 @@ float: left;
 /* overflow: auto; */
 padding: 15px;
 /*margin: 20px;*/
-margin-top: 40px;
+margin-top: 35px;
+font-size: 12px;
 
 }
 
 .sidePanel h4 {
   font-family: FiraSansOT-Regular;
-  font-size: 16px;
+  font-size: 14px;
   color: #999793;
 }
 
@@ -62,4 +63,24 @@ margin-top: 40px;
 
 .postsContainer{
  padding-bottom: 100px;
+}
+
+.signNewLettersLink{
+  float: right;
+  margin-top: 20px;
+  margin-right: 5px;
+  text-decoration: none;
+  background-color: #f05a30;
+  padding: 10px;
+}
+
+.signNewLettersLink a {
+  color:#fff;
+}
+
+.seeBlogEntries{
+float:right;
+margin-top:20px;
+margin-right:5px;
+
 }
