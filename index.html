@@ -21,7 +21,7 @@ section: blog
       {% if item.youtube_url %}
       {% capture youtubeurl %}{{item.youtube_url}}{% endcapture %}
       <div class="video-wrapper">
-        <div class="youtubeThumbnail blogThumbnail">
+        <div class="youtubeThumbnail blogThumbnail" id="{{ item.title | replace: ' ', '_' }}" title="{{ item.title }}">
           <img width="100%" src='http://img.youtube.com/vi/{{youtubeurl}}/hqdefault.jpg' alt='' />
           <i class="fa fa-play iconPlay"></i>
         </div>
