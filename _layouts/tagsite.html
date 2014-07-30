@@ -51,7 +51,7 @@ title: ''
               </div>
 
     <div class="seeBlogEntries"><a href="{{site.baseurl}}/fullsite">< All blog entries</a></div>
-    <div class="postsContainer clearfix whiteBackground">
+    <div class="postsContainer clearfix whiteBackground" style="padding-bottom:20px;">
 
     {% for post in site.posts %}
     {% for tag in post.tags %}
@@ -66,12 +66,12 @@ title: ''
     <div class='month'>{{post.date | date: '%B %Y'}}</div>
     {% endif %}
 
-    <div id="{{item.title}}" class="articleTag clearfix noBorderBottom" >
+    <div id="{{item.title}}" class="articleTag clearfix noBorderBottom">
         <div class='date'>
           <span class="dateText">{{post.date | date:"%B %d"}}</span>
         </div>
           
-        <a class='item' href='{{site.baseurl}}{{post.url}}'>{{post.title  | upcase}}</a>
+        <a class='item' href='{{site.baseurl}}{{post.url}}'>{{post.title}}</a>
         <div class="summeryText" >{{ post.summary }}</div>
     </div>
 
