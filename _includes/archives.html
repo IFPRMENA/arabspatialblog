@@ -21,7 +21,7 @@
 
                           {% if month != nmonth %}
                               {% if forloop.index != 1 %}</ul>{% endif %}
-                              <a href="{{site.baseurl}}/{{ post.date | date: '%Y/%m' }}"><div id="{{ post.date | date: '%Y/%m' }}" class="archiveMonth">{{ post.date | date: '%B %Y' }}</div></a><ul id="{{ post.date | date: '%B %Y' }}" class="monthStack">
+                              <a href="{{site.baseurl}}/{{ post.date | date: '%Y/%m' }}"><div id="{{ post.date | date: '%Y/%m' }}" class="archiveMonth">{{ post.date | date: '%B %Y' }}</div></a><ul id="{{ post.date | date: '%B %Y' }}" class="monthStack"><span>{{ posts | last | size }}</span>
                               {% endif %}
                           <div ><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></div><span>{{ post.date | date: "%e %B" }}</span>
 
