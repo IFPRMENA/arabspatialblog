@@ -99,5 +99,18 @@ margin-left:5px;
 
 
 #disqus_thread #footer{
-  display: none;
+  display: none !important;
+}
+
+#disqus_thread{
+     position: relative;
+}
+#disqus_thread:after{
+     content: "";
+     display: block;
+     height: 55px;
+     width: 100%;
+     position: absolute;
+     bottom: 0px;
+     background:white;
 }
