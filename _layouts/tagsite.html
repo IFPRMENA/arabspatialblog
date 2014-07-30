@@ -53,6 +53,8 @@ title: ''
     <div class="seeBlogEntries"><a href="{{site.baseurl}}/fullsite">< All blog entries</a></div>
     <div class="postsContainer clearfix whiteBackground" style="padding-bottom:20px;">
 
+    <div class="month" style="margin-left:10px;"><i class="fa fa-tags"></i>  {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</div>
+
     {% for post in site.posts %}
     {% for tag in post.tags %}
     {% if tag == page.tag %}
