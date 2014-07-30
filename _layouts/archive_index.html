@@ -1,0 +1,15 @@
+---
+layout: blogpost
+meta-robots: "noodp, noydir, noindex, noarchive, follow"
+---
+
+<h4><i class="fa fa-calendar"></i>   Archive: {{ page.period["month"] }} - {{page.period["year"]}}</h4>
+<!-- <h2> Archive: {{ page.period["month"] }} - {{page.period["year"]}} </h2><br> -->
+<ul>
+{% for post in page.period_posts %}
+<div> 
+    <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a><br>
+    <span class="entry-meta">Published: {{ post.date | date: "%B %d, %Y" }}</span>
+</div>
+{% endfor %}
+</ul>
