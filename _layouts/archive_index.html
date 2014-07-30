@@ -3,13 +3,24 @@ layout: blogpost
 meta-robots: "noodp, noydir, noindex, noarchive, follow"
 ---
 
-<h4><i class="fa fa-calendar"></i>   Archive: {{ page.period["month"] }} - {{page.period["year"]}}</h4>
+<div class="month" style="margin-left:10px;"><i class="fa fa-calendar"></i>   Archive: {{ page.period["month"] }} - {{page.period["year"]}}</div>
 <!-- <h2> Archive: {{ page.period["month"] }} - {{page.period["year"]}} </h2><br> -->
-<ul>
+<div>
 {% for post in page.period_posts %}
-<div> 
+<!-- <div> 
     <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a><br>
     <span class="entry-meta">Published: {{ post.date | date: "%B %d, %Y" }}</span>
-</div>
+</div> -->
+
+
+	<div id="{{post.title}}" class="articleTag clearfix noBorderBottom">
+        <div class='date'>
+          <span class="dateText">{{post.date | date:"%B %d"}}</span>
+        </div>
+          
+        <a class='item' href='{{site.baseurl}}{{post.url}}'>{{post.title}}</a>
+        <div class="summeryText" >{{ post.summary }}</div>
+    </div>
+
 {% endfor %}
-</ul>
+</div>
