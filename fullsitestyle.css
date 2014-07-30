@@ -145,6 +145,7 @@
 
 .month{
   /*cursor: pointer;*/
+  margin: 10px;
 }
 
 .active{
@@ -342,6 +343,7 @@ input[type=text], textarea {
   
   margin-top: 10px;
   border-bottom: #E0E0E0 solid 1px;
+  cursor: pointer;
 }
 
 .eventdate{

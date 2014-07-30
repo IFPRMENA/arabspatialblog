@@ -20,8 +20,11 @@ title: ''
 
     <!-- Custom styles for this template -->
     <!-- <link href="{{site.baseurl}}/fullsitestyle.css" rel="stylesheet"> -->
-
     <link href="{{site.baseurl}}/myFeedStyle.css" rel="stylesheet">
+
+    <link href="{{site.baseurl}}/fullsitestyle.css" rel="stylesheet">
+
+    
 
     <link href="{{site.baseurl}}/animate.css" rel="stylesheet">
 
@@ -46,30 +49,38 @@ title: ''
               <div class="blog-header">
                 <div class="blog-title">Blog</div>
               </div>
-    <div class="postContainer clearfix whiteBackground">
-    {% for post in site.posts %}
 
+    <div class="seeBlogEntries"><a href="{{site.baseurl}}/fullsite">< All blog entries</a></div>
+    <div class="postsContainer clearfix whiteBackground">
+
+    {% for post in site.posts %}
     {% for tag in post.tags %}
     {% if tag == page.tag %}
 
     {% capture date %}{{ post.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ post.next.date | date: '%B %Y' }}{% endcapture %}
 
+    
+
     {% if date != ndate %}
-    <h3 class='month'>{{post.date | date: '%B %Y'}}</h3>
+    <div class='month'>{{post.date | date: '%B %Y'}}</div>
     {% endif %}
-    <div class="article">
+
+    <div id="{{item.title}}" class="articleTag clearfix noBorderBottom" >
         <div class='date'>
           <span class="dateText">{{post.date | date:"%B %d"}}</span>
         </div>
           
         <a class='item' href='{{site.baseurl}}{{post.url}}'>{{post.title  | upcase}}</a>
-<!--         <div class="summeryText" >{{ post.summary }}</div> -->
+        <div class="summeryText" >{{ post.summary }}</div>
     </div>
 
-      {% endif %}
-      {% endfor %}
-      {% endfor %}
+
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+      
+
       </div>
             </div>
             <div class="sidePanel">
@@ -81,7 +92,7 @@ title: ''
 
               {% include newsletters.html %}
 
-              <div class="signNewLettersLink" style="float:right;margin-top:20px;margin-right:5px;"><a href="#">Sign up to our newsletters ></a></div>
+              
             </div>
         </div>
       </div>
