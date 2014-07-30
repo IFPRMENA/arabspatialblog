@@ -21,7 +21,7 @@ section: blog
       {% if item.youtube_url %}
       {% capture youtubeurl %}{{item.youtube_url}}{% endcapture %}
       <div class="video-wrapper">
-        <div class="youtubeThumbnail">
+        <div class="youtubeThumbnail blogThumbnail">
           <img width="100%" src='http://img.youtube.com/vi/{{youtubeurl}}/hqdefault.jpg' alt='' />
           <i class="fa fa-play iconPlay"></i>
         </div>
@@ -35,13 +35,13 @@ section: blog
       {% capture url %}{{site.baseurl}}{{item.splash}}/{% endcapture %}
       {% endif %}
 
-      <div class='splash' id="{{ item.title | replace: ' ', '_' }}" title="{{ item.title }}">
+      <div class='splash blogThumbnail' id="{{ item.title | replace: ' ', '_' }}" title="{{ item.title }}">
         <img width="100%" src='{{url}}' alt='' />
       </div>
       {% endif %}
 
       {% else %}
-            <div class='splash' id="{{ item.title | replace: ' ', '_' }}" title="{{ item.title }}">
+            <div class='splash blogThumbnail' id="{{ item.title | replace: ' ', '_' }}" title="{{ item.title }}">
               
                 <img width="100%" src='{{site.baseurl}}/img/IFPRI.png' alt='' />
               </a>
