@@ -11,7 +11,9 @@ tags:
   - Event
   - Seattle
 location: 
-  - Seattle Art Museum
+  - Washington, DC
+author: 
+  - "Perrihan Al-Riffai"
 ---
 
 Test new event. 

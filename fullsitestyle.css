@@ -344,7 +344,6 @@ input[type=text], textarea {
   
   margin-top: 10px;
   border-bottom: #E0E0E0 solid 1px;
-  cursor: pointer;
 }
 
 .eventdate{
@@ -374,6 +373,7 @@ float: right;
 
 .eventItemTitle {
 font-size: 12px;
+cursor: pointer;
 }
 
 .eventLocation {

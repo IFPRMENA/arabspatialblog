@@ -6,9 +6,9 @@ category: event
 comments: false
 header: "Tackling food security and nutrition in Egypt: challenges and opportunities"
 eventdate: 
-  - "May 21, 2013"
+  - "June 18, 2014 - June 19, 2014"
 location: 
-  - Seattle Art Museum
+  - Washington, DC
 author: 
   - "Perrihan Al-Riffai"
 ---
