@@ -70,6 +70,12 @@ prose:
               value: "about us"
             - name: "Careers"
               value: "careers"
+      - name: "eventdate"
+        field:
+          element: "multiselect"
+          label: "Event Dates"
+          alterable: "true"
+          placeholder: "enter dates"
       - name: "location"
         field:
           element: "multiselect"
