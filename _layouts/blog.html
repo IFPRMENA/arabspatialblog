@@ -27,35 +27,35 @@ section: blog
           </div>
         {% endif %}
 
-{% if page.splash or page.youtube_url %}
+        {% if page.splash or page.youtube_url %}
 
-{% if page.splash %}
-  {% if page.splash contains 'http' %}
-    {% capture url %}{{page.splash}}{% endcapture %}
-  {% else %}
-    {% capture url %}{{site.baseurl}}{{page.splash}}/{% endcapture %}
-  {% endif %}
+        {% if page.splash %}
+          {% if page.splash contains 'http' %}
+            {% capture url %}{{page.splash}}{% endcapture %}
+          {% else %}
+            {% capture url %}{{site.baseurl}}{{page.splash}}/{% endcapture %}
+          {% endif %}
 
-  <div class='splash clearfix'>
-    <img style="max-width:630px;" src='{{url}}' alt='' />
-  </div>
-  {% else %}
-            <!-- <div class='splash' href='{{site.baseurl}}{{item.url}}'>
-                <img max-width="670px" src='{{site.baseurl}}/img/IFPRI.png' alt='' />
-              </a>
-            </div> -->
-  {% endif %}
+          <div class='splash clearfix'>
+            <img style="max-width:630px;" src='{{url}}' alt='' />
+          </div>
+          {% else %}
+                    <!-- <div class='splash' href='{{site.baseurl}}{{item.url}}'>
+                        <img max-width="670px" src='{{site.baseurl}}/img/IFPRI.png' alt='' />
+                      </a>
+                    </div> -->
+          {% endif %}
     
 
-  {% if page.youtube_url %}
-  {% capture youtubeurl %}{{page.youtube_url}}{% endcapture %}
-      <div class="video-wrapper">
-        <iframe width="100%" height="100%"
-        src="//www.youtube.com/embed/{{youtubeurl}}"
-        frameborder="0" allowfullscreen></iframe>
-        
-      </div>
-  {% endif %}
+        {% if page.youtube_url %}
+        {% capture youtubeurl %}{{page.youtube_url}}{% endcapture %}
+            <div class="video-wrapper">
+              <iframe width="100%" height="100%"
+              src="//www.youtube.com/embed/{{youtubeurl}}"
+              frameborder="0" allowfullscreen></iframe>
+              
+            </div>
+        {% endif %}
 
   {% else %}
             <div class='splash' href='{{site.baseurl}}{{item.url}}'>

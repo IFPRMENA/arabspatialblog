@@ -20,7 +20,7 @@
   <div class="eventtextContainer col-sm-10">
         <!-- <a class='item'>{{item.title}}</a>   -->
         {% if item.header %}
-        <div class="entryTitle"><a id="{{ item.title | replace: ' ', '_' }}" class='eventItemTitle'>{{item.title }}</a></div>
+        <div class="entryTitle"><a title="{{ item.title }}" class='eventItemTitle blogClickable' href='{{site.baseurl}}{{item.url}}' >{{item.title }}</a></div>
         <div class='eventLocation'>
           
           {% if item.location %}

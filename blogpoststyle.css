@@ -368,6 +368,14 @@ input[type=text], textarea {
   float: left;
 margin-top: 10px;
 }
+
+.contentIndividualBlog h2{
+  font-size: 14px;
+}
+
+.contentIndividualBlog p{
+  font-size: 12px;
+}
 #sharingContainer{
   margin-top: 10px;
   float: left;

@@ -13,7 +13,7 @@ padding: 15px;
 }
 
 .eventFeed{
-  height: 524px;
+  max-height: 524px;
   width: 300px;
   background: #f1f1f0;
   float: left;
