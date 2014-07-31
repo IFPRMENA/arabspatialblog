@@ -5,6 +5,8 @@ title: New Event for IFPRI at the HQ in Washington DC
 category: event
 comments: false
 header: New Event
+eventdate: 
+  - "July 31, 2014"
 tags: 
   - Event
   - Seattle

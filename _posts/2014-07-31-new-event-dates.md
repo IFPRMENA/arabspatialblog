@@ -6,10 +6,9 @@ category: event
 comments: true
 header: NEW EVENT DATES
 eventdate: 
-  - "une 18, 2014 - June 19, 2014"
+  - "June 18, 2014 - June 19, 2014"
 location: 
   - Seattle Art Museum
-  - NYC
 author: 
   - IFPRI
 ---

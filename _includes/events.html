@@ -4,7 +4,7 @@
       
                     
 
-                  {% for item in site.categories.event limit:100 %}
+    {% for item in site.categories.event limit:100 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 
@@ -14,8 +14,8 @@
 
 
   <div class="eventdate">
-      <div class="eventmonth">{{item.date | date:"%a"}}</div>
-      <div class="eventday">{{item.date | date:"%B %e"}}</div>
+      <!-- <div class="eventmonth">{{item.eventdate}}</div> -->
+      <div class="eventday">{{item.eventdate}}</div>
   </div>
   <div class="eventtextContainer col-sm-10">
         <!-- <a class='item'>{{item.title}}</a>   -->
