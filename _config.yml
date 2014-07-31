@@ -102,6 +102,52 @@ prose:
               value: "Yifei Liu"
             - name: "Olivier Ecker"
               value: "Olivier Ecker"
+    _posts/events:
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: "true"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "header"
+        field:
+          element: "text"
+          label: "Post Header"
+          value: ""
+      - name: "category"
+        field:
+          element: "select"
+          label: "Type of Post"
+          placeholder: "Blog or Event"
+          options:
+            - name: "Event"
+              value: "event"
+      - name: "eventdate"
+        field:
+          element: "multiselect"
+          label: "Event Dates"
+          alterable: "true"
+          placeholder: "enter dates"
+      - name: "location"
+        field:
+          element: "multiselect"
+          label: "Event location"
+          alterable: "true"
+          placeholder: "Choose location"
+          options:
+            - name: "IFPRI Headquarters Washington, DC"
+              value: "IFPRI Headquarters Washington, DC"
+            - name: "Seattle Art Museum"
+              value: "Seattle Art Museum"
+
     _posts/static:
       - name: "layout"
         field:
