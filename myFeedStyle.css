@@ -18,10 +18,18 @@ padding: 15px;
   background: #f1f1f0;
   float: left;
   overflow: auto;
-  padding: 15px;
+  padding: 0px 15px 0px 15px;
   /*margin: 20px;*/
-  margin-top: 20px;
+  /*margin-top: 20px;*/
 
+}
+
+.eventTitleContainer{
+  width: 300px;
+  float: left;
+  padding: 10px 15px 0px 15px;
+  background: #f1f1f0;
+  margin-top: 10px;
 }
 
 .grayBackground{
