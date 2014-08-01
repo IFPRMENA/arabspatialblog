@@ -6,6 +6,7 @@ section: blog
 {% if page.category == 'blog' %}
 
 <!-- Start: Blog block -->
+<div id="ThisIsBlogPost"></div>
 
 <div class="blog-header grayBackground clearfix">
   <div class="blog-title">Blog</div>
@@ -119,6 +120,8 @@ section: blog
   {% else %}
 
   <!-- Start: Event block -->
+  <div id="ThisIsAnEventPost"></div>
+
   <div class="blog-header grayBackground clearfix">
     <div class="blog-title">Upcoming and recent events</div>
   </div>
@@ -160,7 +163,7 @@ section: blog
     {{content}}
     </div>
 
-    {% include socialsharing.html %}
+    {% include eventSocialSharing.html %}
   
 
   {% endif %}

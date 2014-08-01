@@ -144,7 +144,13 @@ title: ''
       {
         var item = $(".individualShare");
 
+      if ($("#ThisIsAnBlogPost").length){
+
       var currentLink = "http://50.62.145.200/?blog_title=" +  item[0].id;
+
+    }else{
+      var currentLink = "http://50.62.145.200/?event_title=" +  item[0].id;
+    }
 
       // alert(currentLink);
 
@@ -170,26 +176,29 @@ title: ''
 
   $(window).ready(function() {
     function getUrlVars()
-{
-    var vars = [], hash;
-    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-    for(var i = 0; i < hashes.length; i++)
-    {
-        hash = hashes[i].split('=');
-        vars.push(hash[0]);
-        vars[hash[0]] = hash[1];
-    }
-    return vars;
-}
+      {
+          var vars = [], hash;
+          var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+          for(var i = 0; i < hashes.length; i++)
+          {
+              hash = hashes[i].split('=');
+              vars.push(hash[0]);
+              vars[hash[0]] = hash[1];
+          }
+          return vars;
+      }
 
-  var urlVars = getUrlVars();
+        var urlVars = getUrlVars();
 
-  var page_title = $(".item")[0].innerHTML;
+        var page_title = $(".item")[0].innerHTML;
 
-  if(urlVars['redirect']) {
-    var url_direct = "http://50.62.145.200/?blog_title=" + page_title;
-    window.location.href = url_direct;
-  }
+        if(urlVars['redirect']) {
+          var url_direct = "http://50.62.145.200/?blog_title=" + page_title;
+          window.location.href = url_direct;
+        }else{
+          var url_direct = "http://50.62.145.200/?event_title=" + page_title;
+          window.location.href = url_direct;
+        }
   });
 
   </script>
