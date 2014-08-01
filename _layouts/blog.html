@@ -127,7 +127,7 @@ section: blog
   <h3 id="{{page.date | date: '%B %Y'}}" class='month'></h3>
   {% endif %}
   <div id="{{page.title}}" class="article clearfix">
-    <a class='itemTitle'>{{page.title }}
+    <a class='itemTitle blogClickable' title="{{ page.title }}">{{page.title }}
     </a>
     <div class='date'>
       <div class="dateText">{{page.date | date:"%B %d"}}   &#8226;</div>
