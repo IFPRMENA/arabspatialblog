@@ -27,13 +27,13 @@ prose:
       - name: "header"
         field:
           element: "text"
-          label: "Post Header"
+          label: "Event Header"
           value: ""
       - name: "category"
         field:
           element: "select"
           label: "Type of Post"
-          placeholder: "Blog or Event"
+          placeholder: "Event"
           options:
             - name: "Event"
               value: "event"
@@ -54,17 +54,15 @@ prose:
               value: "IFPRI Headquarters Washington, DC"
             - name: "Seattle Art Museum"
               value: "Seattle Art Museum"
-    _posts:
+    _posts/blog:
       - name: "category"
         field:
           element: "select"
           label: "Type of Post"
-          placeholder: "Blog or Event"
+          placeholder: "Blog"
           options:
             - name: "Blog"
               value: "blog"
-            - name: "Event"
-              value: "event"
       - name: "published"
         field:
           label: "Published"
@@ -115,29 +113,6 @@ prose:
               value: "about us"
             - name: "Careers"
               value: "careers"
-      - name: "eventdate"
-        field:
-          element: "multiselect"
-          label: "Event Dates"
-          alterable: "true"
-          placeholder: "enter dates"
-      - name: "eventtime"
-        field:
-          element: "multiselect"
-          label: "Event Time"
-          alterable: "true"
-          placeholder: "enter time"
-      - name: "location"
-        field:
-          element: "multiselect"
-          label: "Event location"
-          alterable: "true"
-          placeholder: "Choose location"
-          options:
-            - name: "IFPRI Headquarters Washington, DC"
-              value: "IFPRI Headquarters Washington, DC"
-            - name: "Seattle Art Museum"
-              value: "Seattle Art Museum"
       - name: "author"
         field:
           element: "multiselect"
