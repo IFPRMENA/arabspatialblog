@@ -195,7 +195,7 @@ title: ''
         if(urlVars['redirect']) {
           var url_direct = "http://50.62.145.200/?blog_title=" + page_title;
           window.location.href = url_direct;
-        }else{
+        }else if(urlVars['eventredirect']) {
           var url_direct = "http://50.62.145.200/?event_title=" + page_title;
           window.location.href = url_direct;
         }
