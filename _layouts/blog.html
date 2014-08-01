@@ -135,15 +135,22 @@ section: blog
             <div class="dateText" >&nbsp;Author: {{ page.author }}</div>
       {% endif %}
     </div>
-
+    {% if page.eventdate %}
     <div class="eventdate">
         <!-- <div class="eventmonth">{{item.eventdate}}</div> -->
         <div class="eventday"> Event Date: {{page.eventdate}}</div>
     </div>
+    {% endif %}
     {% if page.location %}
     <div class="eventdate">
         <!-- <div class="eventmonth">{{item.eventdate}}</div> -->
         <div class="eventday"> Event Location: {{page.location}}</div>
+    </div>
+    {% endif %}
+    {% if page.eventtime %}
+    <div class="eventdate">
+        <!-- <div class="eventmonth">{{item.eventdate}}</div> -->
+        <div class="eventday"> Event Time: {{page.eventtime}}</div>
     </div>
     {% endif %}
 

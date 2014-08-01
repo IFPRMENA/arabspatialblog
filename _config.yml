@@ -121,6 +121,12 @@ prose:
           label: "Event Dates"
           alterable: "true"
           placeholder: "enter dates"
+      - name: "eventtime"
+        field:
+          element: "multiselect"
+          label: "Event Time"
+          alterable: "true"
+          placeholder: "enter time"
       - name: "location"
         field:
           element: "multiselect"
