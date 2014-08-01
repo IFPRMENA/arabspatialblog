@@ -120,7 +120,7 @@ section: blog
 
   <!-- Start: Event block -->
   <div class="blog-header grayBackground clearfix">
-    <div class="blog-title">Event</div>
+    <div class="blog-title">Upcoming and recent events</div>
   </div>
 
   {% if date != ndate %}
@@ -138,19 +138,19 @@ section: blog
     {% if page.eventdate %}
     <div class="eventdate">
         <!-- <div class="eventmonth">{{item.eventdate}}</div> -->
-        <div class="eventday"> Event Date: {{page.eventdate}}</div>
+        <div class="eventday"> <b>Event Date:</b> {{page.eventdate}}</div>
     </div>
     {% endif %}
     {% if page.location %}
     <div class="eventdate">
         <!-- <div class="eventmonth">{{item.eventdate}}</div> -->
-        <div class="eventday"> Event Location: {{page.location}}</div>
+        <div class="eventday"> <b>Event Location:</b> {{page.location}}</div>
     </div>
     {% endif %}
     {% if page.eventtime %}
     <div class="eventdate">
         <!-- <div class="eventmonth">{{item.eventdate}}</div> -->
-        <div class="eventday"> Event Time: {{page.eventtime}}</div>
+        <div class="eventday"> <b>Event Time:</b> {{page.eventtime}}</div>
     </div>
     {% endif %}
 
