@@ -126,3 +126,61 @@ margin-left:5px;
 .col-sm-10 {
 width: 70.333333%;
 }
+
+.feedevent{
+  
+  width: 650px;
+  float: left;
+  
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  border-bottom: #E0E0E0 solid 1px;
+
+}
+
+.feedeventdate{
+  width: 150px;
+  /*height: 100px;*/
+  float: left;
+  color: #4b4b4b;
+}
+.feedeventmonth{
+  max-width: 140px;
+  text-align: center;
+  font-size: 14px
+
+}
+.feedeventday{
+  max-width: 140px;
+  text-align: center;
+  font-size: 12px;
+  color: #7d7d7d;
+  margin-top: 4px;
+  text-align: center;
+}
+
+.feedeventtextContainer {
+float: right;
+}
+
+.feedeventItemTitle {
+font-size: 14px;
+cursor: pointer;
+}
+
+.feedeventLocation {
+color: gray;
+font-weight: normal;
+/* max-width: 90px; */
+height: 13px;
+/* background-color: #759da7; */
+/* text-align: center; */
+line-height: 22px;
+/* float: left; */
+margin-bottom: 10px;
+}
+
+.feedcol-sm-10 {
+width: 76%;
+}

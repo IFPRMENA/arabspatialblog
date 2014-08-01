@@ -1,5 +1,5 @@
 ---
-title: 'Event Site'
+title: ''
 ---
 <html lang="en">
   <head>
@@ -21,6 +21,10 @@ title: 'Event Site'
     <!-- Custom styles for this template -->
     <link href="{{site.baseurl}}/fullsitestyle.css" rel="stylesheet">
 
+    <link href="{{site.baseurl}}/myFeedStyle.css" rel="stylesheet">
+
+    <link href="{{site.baseurl}}/animate.css" rel="stylesheet">
+
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
     <!--Gotham-Book fonts-->
@@ -35,105 +39,51 @@ title: 'Event Site'
     
 
   <body>
-    <div class="col-sm-12 clearfix logoWrapper">
-      <div class="logoHeader container clearfix"></div>
 
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="blog-nav">
-
-        </nav>
-      </div>
-    </div>
-
-    <div class="container">
-
-
-
-      <div class="row">
-
-        <div class="col-md-12 blog-main">
-
-        <div class='blogContainer clearfix'>
-          <div class="blog-header">
-            <h1 class="blog-title"><a href='{{site.baseurl}}/fullsite'>BLOG</a></h1>
-            <h1 class="blog-title activepage" style="float: left; margin-left: 100px;"><a class="blog-titleWhite" href='{{site.baseurl}}/eventsite'>EVENTS</a></h1>
-          </div>
-          <div class="sidebar-module">
-                    
-
-                    {% include rss-link.html %}
-
-                    {% include tags.html %}
-
-                    {% include newsletters.html %}
-                    
-                    {% include archives.html %}
-                          
-                  </div>
+      <div class="bodyContainer clearfix grayBackground">
+        <div class="feedContainer clearfix grayBackground">
+            <div class="blogFeed clearfix">
+              <div class="blog-header">
+                <div class="blog-title">Upcoming/recent events</div>
+              </div>
+    <div class="postsContainer clearfix whiteBackground">
 
 
 
                   <!-- /.blog-sidebar -->
-  {% for item in site.categories.event limit:1000 %}
+  {% for item in site.categories.event limit:100 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 
-    <div id="{{item.title}}" class="article clearfix">
-        
 
-          <!-- {% if item.youtube_url %}
-          {% capture youtubeurl %}{{item.youtube_url}}{% endcapture %}
-              <div class="video-wrapper">
-                <a href='{{site.baseurl}}{{item.url}}'><div class="youtubeThumbnail">
-                  <img width="100%" src='http://img.youtube.com/vi/{{youtubeurl}}/hqdefault.jpg' alt='' />
-                  <i class="fa fa-play iconPlay"></i>
-                </div></a>
-              </div>
-          {% endif %}
+    <div id="{{item.title}}" class="feedevent clearfix" >
 
-          {% if item.splash %}
-            {% if item.splash contains 'http' %}
-              {% capture url %}{{item.splash}}{% endcapture %}
-            {% else %}
-              {% capture url %}{{site.baseurl}}{{item.splash}}/{% endcapture %}
-            {% endif %}
 
-            <div class='splash' href='{{site.baseurl}}{{item.url}}'>
-              <a href='{{site.baseurl}}{{item.url}}'>
-                <img width="100%" src='{{url}}' alt='' />
-              </a>
-            </div>
 
-          {% endif %} -->
-
-        <div class="eventdate">
-            <div class="eventmonth">{{item.date | date:"%B"}}</div>
-            <div class="eventday">{{item.date | date:"%e"}}</div>
-            <div class="eventmonth">EVENT</div>
-        </div>
-        <div class="textContainer col-sm-10">
+  <div class="feedeventdate">
+      <!-- <div class="eventmonth">{{item.eventdate}}</div> -->
+      <div class="feedeventday">{{item.eventdate}}</div>
+  </div>
+  <div class="eventtextContainer feedcol-sm-10">
         <!-- <a class='item'>{{item.title}}</a>   -->
         {% if item.header %}
-        <div class="entryTitle"><a id="{{ item.title | replace: ' ', '_' }}" title="{{item.title}}" class='itemTitle eventItemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title }}</a></div>
-        <div class='date'>
+        <div class="entryTitle"><a title="{{ item.title }}" class='feedeventItemTitle eventClickable' href='{{site.baseurl}}{{item.url}}'>{{item.title }}</a></div>
+        <div class='feedeventLocation'>
           
-          {% if item.author %}
-            <div class="dateText" >&nbsp;Author: {{ item.author }}</div>
+          {% if item.location %}
+            <div class="dateText" >Where: {{ item.location }}</div>
           {% endif %}
         </div>
-        <div>
-            {% if item.tags != empty %}
-              {% for item in item.tags %}
-              <a class="label label-info" href="{{site.baseurl}}/tags/{{ item }}"><i class="fa fa-tags"></i>  {{ item }}</span></a>
-              {% endfor %}
-            {% endif %}
-          </div>
-        <div class="summeryText" >{{ item.header }}</div>
+        <!-- <div class="summeryText" >{{ item.header}}</div> -->
         {% endif %}
         </div>
-      </div>
-      {% endfor %}
+
+
+    </div>
+    {% endfor %}
+
+
+    
 
         </div><!-- /.blog-main -->
 
@@ -141,6 +91,17 @@ title: 'Event Site'
 
 
         </div><!-- /.blog-sidebar -->
+
+        <div class="sidePanel">
+              {% include rss-link.html %}
+
+              {% include tags.html %}
+              
+              {% include archives.html %}
+
+              {% include newsletters.html %}
+
+            </div>
 
       </div><!-- /.row -->
 
