@@ -50,8 +50,10 @@ title: ''
                 <div class="blog-title">Blog</div>
               </div>
 
-    <div class="seeBlogEntries"><a href="{{site.baseurl}}/fullsite">< All blog entries</a></div>
     <div class="postsContainer clearfix whiteBackground" style="padding-bottom:20px;">
+
+    <div class="seeBlogEntries"><a href="{{site.baseurl}}/fullsite">< All blog entries</a></div>
+
 
     <div class="month" style="margin-left:10px;"><i class="fa fa-tags"></i>  {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</div>
 
@@ -70,7 +72,7 @@ title: ''
 
     <div id="{{item.title}}" class="articleTag clearfix noBorderBottom">
         <div class='date'>
-          <span class="dateText">{{post.date | date:"%B %d"}}</span>
+          <span class="dateText">{{post.date | date:"%B %d"}} &#8226; {{post.category}} post</span>
         </div>
           
         <a class='item' href='{{site.baseurl}}{{post.url}}'>{{post.title}}</a>
