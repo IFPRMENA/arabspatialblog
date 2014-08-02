@@ -12,15 +12,35 @@ layout: nil
  <author>
    <name>ArabSpatial Blog</name>
  </author>
+
+ 
  
  {% for post in site.posts %}
- <entry>
-   <title>{{ post.title }}</title>
-   <link href="http://50.62.145.200/arabspatialblog/{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://50.62.145.200{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
- </entry>
+
+ {% if post.category =='blog' %}
+	 
+	 <entry>
+	   <title>{{ post.title }}</title>
+	   <link href="http://50.62.145.200/?blog_title={{ post.title }}"/>
+	   <updated>{{ post.date | date_to_xmlschema }}</updated>
+	   <id>http://50.62.145.200{{ post.id }}</id>
+	   <content type="html">{{ post.content | xml_escape }}</content>
+	 </entry>
+
+ {% else %}
+
+ 	<entry>
+	   <title>{{ post.title }}</title>
+	   <link href="http://50.62.145.200/?event_title={{ post.title }}"/>
+	   <updated>{{ post.date | date_to_xmlschema }}</updated>
+	   <id>http://50.62.145.200{{ post.id }}</id>
+	   <content type="html">{{ post.content | xml_escape }}</content>
+	 </entry>
+
+
+ {% endif %}
+ 
  {% endfor %}
+
  
 </feed>
