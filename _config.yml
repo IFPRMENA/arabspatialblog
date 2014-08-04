@@ -60,6 +60,16 @@ prose:
               value: "IFPRI Headquarters Washington, DC"
             - name: "Seattle Art Museum"
               value: "Seattle Art Museum"
+      - name: "agenda"
+        field:
+          element: "text"
+          label: "paste agenda doc url"
+          value: ""
+      - name: "powerpoint"
+        field:
+          element: "text"
+          label: "paste powerpoint url"
+          value: ""
     _posts/blog:
       - name: "category"
         field:
