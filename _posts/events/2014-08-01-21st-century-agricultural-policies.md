@@ -6,11 +6,13 @@ category: event
 comments: false
 header: 21st Century Agricultural Policies
 eventdate: 
-  - "July 16, 2014"
+  - "07/14/2014"
 eventtime: 
   - "12:15 pm to 1:45 pm EDT (Please join us for lunch beginning at 11:45 am); Live webcast coming up at the scheduled time."
+eventplace:
+ - International Food Policy Research Institute
 location: 
-  - "International Food Policy Research Institute 2033 K Street, NW, Washington, DC Fourth Floor Conference Facility"
+  - "Washington, DC"
 author: 
   - IFPRI
 ---

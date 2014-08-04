@@ -283,9 +283,9 @@ input[type=text], textarea {
 
 .dateText{
   /*padding: 5px;*/
-  margin-bottom: 5px;
-  line-height: 11px;
-  font-size: 10px;
+  margin-bottom: 5px; 
+  line-height: 11px; 
+  font-size: 10px; 
   float:left;
 }
 

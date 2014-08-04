@@ -5,10 +5,12 @@ title: Workshop on Biofuels and Food Security Interactions
 category: event
 comments: false
 eventdate: 
-  - "November 19, 2014 - November 20, 2014"
+  - "11/19/2014 - 11/20/2014"
 header: Workshop on Biofuels and Food Security Interactions
+eventplace:
+ - International Food Policy Research Institute
 location: 
-  - "International Food Policy Research Institute 2033 K Street, NW, Washington, DC Fourth Floor Conference Facility"
+  - "Seattle, WA"
 author: 
   - IFPRI
 ---

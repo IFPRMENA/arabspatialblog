@@ -6,7 +6,7 @@ category: event
 comments: false
 header: Mechanization and Agricultural Transformation in Asia and Africa
 eventdate: 
-  - "June 18, 2014 - June 19, 2014"
+  - "06/17/2014 - 06/19/2014"
 location: 
   - "Beijing, China"
 author: 

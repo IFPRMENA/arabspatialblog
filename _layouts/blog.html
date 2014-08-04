@@ -146,6 +146,12 @@ section: blog
         <div class="eventday"> <b>Event Date:</b> {{page.eventdate}}</div>
     </div>
     {% endif %}
+    {% if page.eventplace %}
+    <div class="eventdate">
+        <!-- <div class="eventmonth">{{item.eventdate}}</div> -->
+        <div class="eventday"> <b>Event Place/Building:</b> {{page.eventplace}}</div>
+    </div>
+    {% endif %}
     {% if page.location %}
     <div class="eventdate">
         <!-- <div class="eventmonth">{{item.eventdate}}</div> -->

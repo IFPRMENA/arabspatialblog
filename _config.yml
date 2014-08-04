@@ -39,10 +39,16 @@ prose:
               value: "event"
       - name: "eventdate"
         field:
-          element: "multiselect"
+          element: "select"
           label: "Event Dates"
           alterable: "true"
           placeholder: "enter dates"
+      - name: "eventplace"
+        field:
+          element: "select"
+          label: "Event Place/Building"
+          alterable: "true"
+          placeholder: ""
       - name: "location"
         field:
           element: "multiselect"

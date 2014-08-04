@@ -6,9 +6,9 @@ category: event
 comments: false
 header: "Tackling food security and nutrition in Egypt: challenges and opportunities"
 eventdate: 
-  - "June 18, 2014 - June 19, 2014"
+  - "06/18/2014 - 06/19/2014"
 location: 
-  - Washington, DC
+  - Portland, OR
 author: 
   - "Perrihan Al-Riffai"
 ---

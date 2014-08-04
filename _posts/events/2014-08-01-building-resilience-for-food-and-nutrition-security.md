@@ -6,7 +6,7 @@ category: event
 comments: false
 header: Building Resilience for Food and Nutrition Security
 eventdate: 
-  - "May 15, 2014 - May 17, 2014"
+  - "05/15/2014 - 05/17/2014"
 location: 
   - "Addis Ababa, Ethiopia"
 author: 

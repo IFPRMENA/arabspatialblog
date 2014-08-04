@@ -6,10 +6,12 @@ category: event
 comments: false
 header: New Event
 eventdate: 
-  - "July 31, 2014"
+  - "07/31/2014"
 tags: 
   - Event
   - Seattle
+eventplace:
+  - International Food Policy Research Institute
 location: 
   - Washington, DC
 author: 
