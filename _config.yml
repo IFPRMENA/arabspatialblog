@@ -31,23 +31,17 @@ prose:
           value: ""
       - name: "category"
         field:
-          element: "select"
-          label: "Type of Post"
-          placeholder: "Event"
-          options:
-            - name: "Event"
-              value: "event"
+          element: "hidden"
+          value: "event"
       - name: "eventdate"
         field:
-          element: "select"
-          label: "Event Dates"
-          alterable: "true"
+          element: "text"
+          label: "Event Dates (mm/dd/yyyy)"
           placeholder: "mm/dd/yyyy"
       - name: "eventplace"
         field:
-          element: "select"
+          element: "text"
           label: "Event Place/Building"
-          alterable: "true"
           placeholder: ""
       - name: "location"
         field:
