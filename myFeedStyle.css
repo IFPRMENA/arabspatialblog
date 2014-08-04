@@ -70,6 +70,8 @@ font-size: 12px;
 
 .postsContainer{
  padding-bottom: 100px;
+ /*min-height: 710px;*/
+ /*overflow: auto;*/
 }
 
 .signNewLettersLink{
@@ -87,8 +89,8 @@ font-size: 12px;
 
 .seeBlogEntries{
 
-margin-top:20px;
-margin-left:5px;
+/*margin-top:20px;
+margin-left:5px;*/
 
 }
 
@@ -188,4 +190,63 @@ width: 76%;
 .campaign{
   margin-bottom: 8px;
   line-height: 16px;
+}
+
+.btn-default {
+color: #999793;
+background-color: #fff;
+border-color: #ccc;
+
+}
+
+.buttonActive{
+  color: #fff;
+  background-color: #888888;
+  border-color: #888888;
+}
+
+.floatleft{
+  float: left;
+}
+
+.floatright{
+  float: right;
+}
+
+.eventTitle{
+font-size: 18px;
+line-height: 1.3;
+color:#3a3a3a;
+}
+
+.overflowAuto{
+  overflow: auto;
+}
+
+.infoContainer{
+  font-size: 14px;
+}
+.infoItem{
+  color:#3a3a3a;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.itemFile{
+
+
+}
+
+.eventSidePanel{
+  position: absolute;
+right: -265px;
+top: 97px;
+/* height: 582px; */
+width: 280px;
+background: #f1f1f0;
+float: left;
+/* overflow: auto; */
+padding: 15px;
+/* margin: 20px; */
+/*margin-top: 35px;*/
+font-size: 12px;
 }

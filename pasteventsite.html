@@ -44,14 +44,14 @@ title: ''
         <div class="feedContainer clearfix grayBackground">
             <div class="blogFeed clearfix">
               <div class="blog-header clearfix">
-                <div class="blog-title floatleft">Upcoming events</div>
+                <div class="blog-title floatleft">Past events</div>
                 <div class="eventButtonContainer clearfix">
-                  <a href="{{site.baseurl}}/eventsite" ><button id="upcoming" type="button" class="btn btn-default btn-xs buttonActive" >Upcoming</button></a>
-                  <a href="{{site.baseurl}}/pasteventsite"><button id="past" type="button" class="btn btn-default btn-xs" >Past</button></a>
+                  <a href="{{site.baseurl}}/eventsite" ><button id="upcoming" type="button" class="btn btn-default btn-xs" >Upcoming</button></a>
+                  <a href="{{site.baseurl}}/pasteventsite"><button id="past" type="button" class="btn btn-default btn-xs buttonActive" >Past</button></a>
                 </div>
               </div>
 
-    <div class="postsContainer clearfix whiteBackground " style="height:710px;max-height:710px;overflow:auto;">
+    <div class="postsContainer clearfix whiteBackground" style="height:710px;max-height:710px;overflow:auto;">
 
 
   {% capture now %}{{ site.time | date: '%x' }}{% endcapture %}
@@ -71,7 +71,7 @@ title: ''
 
     <!-- <div>{{verifydate}}</div> -->
 
-    {% if myFirstWord > now %}
+    {% if myFirstWord < now %}
     
     
 

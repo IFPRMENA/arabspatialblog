@@ -123,47 +123,40 @@ section: blog
   <div id="ThisIsAnEventPost"></div>
 
   <div class="blog-header grayBackground clearfix">
-    <div class="blog-title">Upcoming and recent events</div>
-  </div>
+    <!-- <div class="blog-title">Upcoming and recent events</div> -->
+    <div class='itemTitle blogClickable eventTitlePost' title="{{ page.title }}">{{page.title }}</div>
 
-  <div class="seeBlogEntries" style="float:left;margin-top:20px;margin-left:20px;"><a href="{{site.baseurl}}/fullsite">< All blog entries</a></div>
-
-  {% if date != ndate %}
-  <h3 id="{{page.date | date: '%B %Y'}}" class='month'></h3>
-  {% endif %}
-  <div id="{{page.title}}" class="article clearfix">
-    <a class='itemTitle blogClickable' title="{{ page.title }}">{{page.title }}
-    </a>
-    <div class='date'>
-      <div class="dateText">{{page.date | date:"%B %d"}}   &#8226;</div>
-          {% if page.author %}
-            <div class="dateText" >&nbsp;Author: {{ page.author }}</div>
-      {% endif %}
-    </div>
     {% if page.eventdate %}
     <div class="eventdate">
         <!-- <div class="eventmonth">{{item.eventdate}}</div> -->
-        <div class="eventday"> <b>Event Date:</b> {{page.eventdate}}</div>
+        <div class="eventday">{{page.eventdate}}</div>
     </div>
     {% endif %}
     {% if page.eventplace %}
     <div class="eventdate">
         <!-- <div class="eventmonth">{{item.eventdate}}</div> -->
-        <div class="eventday"> <b>Event Place/Building:</b> {{page.eventplace}}</div>
-    </div>
-    {% endif %}
-    {% if page.location %}
-    <div class="eventdate">
-        <!-- <div class="eventmonth">{{item.eventdate}}</div> -->
-        <div class="eventday"> <b>Event Location:</b> {{page.location}}</div>
+        <div class="eventday">{{page.eventplace}}
+          {% if page.location %}
+          , {{page.location}}
+          {% endif %}
+        </div>
     </div>
     {% endif %}
     {% if page.eventtime %}
     <div class="eventdate">
         <!-- <div class="eventmonth">{{item.eventdate}}</div> -->
-        <div class="eventday"> <b>Event Time:</b> {{page.eventtime}}</div>
+        <div class="eventday">{{page.eventtime}}</div>
     </div>
     {% endif %}
+
+    {% include eventInfo.html %}
+
+    <div class="seeBlogEntries floatright" style=""><a href="{{site.baseurl}}/eventsite">< All upcoming events</a></div>
+  </div>
+
+  <div id="{{page.title}}" class="article clearfix">
+    
+    
 
     
 

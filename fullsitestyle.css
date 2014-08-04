@@ -302,6 +302,14 @@ input[type=text], textarea {
 
 }
 
+.floatleft{
+  float: left;
+}
+
+.floatright{
+  float: right;
+}
+
 
 .activepage{
   background-color: #f05a30;
@@ -386,4 +394,11 @@ height: 13px;
 line-height: 22px;
 /* float: left; */
 margin-bottom: 10px;
+}
+
+.eventButtonContainer{
+
+  float: right;
+  margin-right: 10px;
+
 }

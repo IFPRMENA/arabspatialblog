@@ -42,7 +42,7 @@ prose:
           element: "select"
           label: "Event Dates"
           alterable: "true"
-          placeholder: "enter dates"
+          placeholder: "mm/dd/yyyy"
       - name: "eventplace"
         field:
           element: "select"
