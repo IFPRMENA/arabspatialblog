@@ -1,22 +1,25 @@
 <div class="eventSidePanel">
 
 <div id="additionalContainer">
-    <div></div>
+    {% if page.powerpoint or page.agenda %}
     <div class="infoContainer">Additional Info:
 
+      {% if page.agenda %}
       <div class="infoItem">Media materials:
         <div class="itemFile">
-          <a href="{{page.agenda}}"><i class="fa fa-file-pdf-o"></i>Downlaod Agenda</a>
+          <a href="{{page.agenda}}" target="_blank"><i class="fa fa-file-pdf-o"></i>Downlaod agenda</a>
         </div>
       </div>
-
+      {% endif %}
+      {% if page.powerpoint %}
       <div class="infoItem">Powerpoints:
         <div class="itemFile">
-          <a href="{{page.powerpoint}}"><i class="fa fa-file-powerpoint-o"></i>Name of PDF</a>
+          <a href="{{page.powerpoint}}" target="_blank"><i class="fa fa-file-powerpoint-o"></i>Download powerpoint</a>
         </div>
       </div>
-
+      {% endif %}
     </div>
+    {% endif %}
 </div>
 
 </div>

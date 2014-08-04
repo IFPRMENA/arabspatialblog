@@ -11,6 +11,8 @@ location:
   - Portland, OR
 author: 
   - "Perrihan Al-Riffai"
+agenda: "http://www.ifpri.org/sites/default/files/cairoagenda20130521.pdf"
+powerpoint: "http://www.slideshare.net/ifpri/tackling-egypts-rising-food-insecurity-in-times-of-transition"
 ---
 
 ## Launch of the findings from the 2011 Household, Income, Expenditure and Consumption Survey
