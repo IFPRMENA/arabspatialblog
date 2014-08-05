@@ -61,7 +61,7 @@ section: blog
           {% endif %}
         </div>
         
-        <div class="summeryText" >{{ item.header}}</div>
+        <div class="summeryText" >{{ item.header | truncatewords: 7}}</div>
         {% endif %}
       </div>
 
