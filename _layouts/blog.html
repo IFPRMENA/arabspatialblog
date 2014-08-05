@@ -122,6 +122,17 @@ section: blog
   <!-- Start: Event block -->
   <div id="ThisIsAnEventPost"></div>
 
+  {% capture now %}{{ site.time | date: '%x' }}{% endcapture %}
+  {% assign delimiter = ' - ' %}
+      {% capture verifydate %}{{ item.eventdate | date: '%x' }}{% endcapture %}
+      {% capture verifydate %}{{ verifydate | replace: delimiter, ' ' }}{% endcapture %}
+      {% capture myFirstWord %}{{ verifydate | truncatewords: 1 | remove: '...' }}{% endcapture %}
+
+      {% if myFirstWord < now %}
+        <div id="ThisIsAnEventPastPost"></div>
+      {% else %}
+        <div id="ThisIsAnEventfuturePost"></div>
+      {% endif %}
   <div class="blog-header grayBackground clearfix">
     <!-- <div class="blog-title">Upcoming and recent events</div> -->
     <div class='itemTitle blogClickable eventTitlePost' title="{{ page.title }}">{{page.title }}</div>

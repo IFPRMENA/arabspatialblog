@@ -207,6 +207,9 @@ title: ''
         }else if(urlVars['eventredirect']) {
           var url_direct = "http://50.62.145.200/?event_title=" + page_title;
           window.location.href = url_direct;
+        }else if(urlVars['eventpastredirect']) {
+          var url_direct = "http://50.62.145.200/?event_past_title=" + page_title;
+          window.location.href = url_direct;
         }
   });
 

@@ -4,14 +4,34 @@
 
         Share URL
       </div>
+
+      {% capture now %}{{ site.time | date: '%x' }}{% endcapture %}
+
+      {% assign delimiter = ' - ' %}
+      {% capture verifydate %}{{ item.eventdate | date: '%x' }}{% endcapture %}
+      {% capture verifydate %}{{ verifydate | replace: delimiter, ' ' }}{% endcapture %}
+      {% capture myFirstWord %}{{ verifydate | truncatewords: 1 | remove: '...' }}{% endcapture %}
+
+      {% if myFirstWord < now %}
       
       <!-- <a href="https://twitter.com/share" class="twitter-share-button" url="{{site.baseurl}}/{{page.url}}?redirect=1" data-count="none" target="_blank"></a> -->
+
+      <div id="custom-tweet-button" class="tweetShare">
+        <a href="https://twitter.com/share?url={{site.baseurl}}{{page.url}}?eventpastredirect=1&text=http://50.62.145.200{{site.baseurl}}{{page.url}}?eventpastredirect=1&via=IFPRI" target="_blank"><i class="fa fa-twitter"></i> Tweet</a>
+      </div>
+
+      <div class="fb-share-button" data-href="{{site.baseurl}}/{{page.url}}?eventpastredirect=1" data-type="button" style="margin-top: 1px;"></div>
+
+      {% else %}
 
       <div id="custom-tweet-button" class="tweetShare">
         <a href="https://twitter.com/share?url={{site.baseurl}}{{page.url}}?eventredirect=1&text=http://50.62.145.200{{site.baseurl}}{{page.url}}?eventredirect=1&via=IFPRI" target="_blank"><i class="fa fa-twitter"></i> Tweet</a>
       </div>
 
       <div class="fb-share-button" data-href="{{site.baseurl}}/{{page.url}}?eventredirect=1" data-type="button" style="margin-top: 1px;"></div>
+
+
+      {% endif %}
 
       <!-- <div class="g-plus" data-action="share" data-annotation="none"></div> -->
       <a href=""><div class="printing" title="page.title">
