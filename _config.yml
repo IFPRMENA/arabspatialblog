@@ -59,13 +59,11 @@ prose:
           element: "text"
           label: "paste agenda doc url"
           value: ""
-          placeholder:"http://url.com/agend.doc"
       - name: "powerpoint"
         field:
           element: "text"
           label: "paste powerpoint url"
           value: ""
-          placeholder:"http://url.com/powerpointfile"
     _posts/blog:
       - name: "category"
         field:
@@ -99,7 +97,6 @@ prose:
           element: "text"
           label: "Splash image URL"
           value: ""
-          placeholder:"http://url.com/imagefile.jpg"
       - name: "header"
         field:
           element: "text"
