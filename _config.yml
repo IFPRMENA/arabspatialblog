@@ -80,9 +80,9 @@ prose:
           value: "true"
       - name: "comments"
         field:
-          label: "Allow Comments"
           element: "checkbox"
           value: "false"
+          label: "Allow Comments"
       - name: "layout"
         field:
           element: "hidden"
