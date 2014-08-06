@@ -27,7 +27,7 @@ prose:
       - name: "header"
         field:
           element: "text"
-          label: "Event Header"
+          label: "Event summary"
           value: ""
       - name: "category"
         field:
@@ -100,7 +100,7 @@ prose:
       - name: "header"
         field:
           element: "text"
-          label: "Post Header"
+          label: "Blog summary"
           value: ""
       - name: "youtube_url"
         field:
