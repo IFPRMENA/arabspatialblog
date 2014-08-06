@@ -14,7 +14,7 @@ prose:
         field:
           label: "Published"
           element: "checkbox"
-          value: "true"
+          value: true
       - name: "layout"
         field:
           element: "hidden"
@@ -77,7 +77,7 @@ prose:
         field:
           label: "Published"
           element: "checkbox"
-          value: "true"
+          value: true
       - name: "comments"
         field:
           label: "Allow Comments"
@@ -95,7 +95,7 @@ prose:
       - name: "splash"
         field:
           element: "text"
-          label: "Splash image URL"
+          label: "Image URL"
           value: ""
       - name: "header"
         field:
