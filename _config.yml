@@ -36,12 +36,12 @@ prose:
       - name: "eventdate"
         field:
           element: "text"
-          label: "Event Dates (mm/dd/yyyy)"
-          placeholder: "mm/dd/yyyy"
+          label: "Event Dates (mm/dd/yyyy - mm/dd/yyyy)"
+          placeholder: "mm/dd/yyyy - mm/dd/yyyy"
       - name: "eventplace"
         field:
           element: "text"
-          label: "Event Place/Building"
+          label: "Event place/building"
           placeholder: ""
       - name: "location"
         field:
@@ -50,20 +50,22 @@ prose:
           alterable: "true"
           placeholder: "Choose location"
           options:
-            - name: "IFPRI Headquarters Washington, DC"
-              value: "IFPRI Headquarters Washington, DC"
-            - name: "Seattle Art Museum"
-              value: "Seattle Art Museum"
+            - name: "Washington, DC"
+              value: "Washington, DC"
+            - name: "Seattle, WA"
+              value: "Seattle, WA"
       - name: "agenda"
         field:
           element: "text"
           label: "paste agenda doc url"
           value: ""
+          placeholder:"http://url.com/agend.doc"
       - name: "powerpoint"
         field:
           element: "text"
           label: "paste powerpoint url"
           value: ""
+          placeholder:"http://url.com/powerpointfile"
     _posts/blog:
       - name: "category"
         field:
@@ -97,6 +99,7 @@ prose:
           element: "text"
           label: "Splash image URL"
           value: ""
+          placeholder:"http://url.com/imagefile.jpg"
       - name: "header"
         field:
           element: "text"
