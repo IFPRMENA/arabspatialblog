@@ -468,3 +468,22 @@ float: right;
 margin-top: -24px;
 }
 
+.mapContainer{
+  height: 21px;
+  overflow: hidden;
+  color:#f05a30;
+  cursor: pointer;
+}
+
+.expandMap{
+
+    height: 100px;
+    transition: height 0.25s ease-in;
+}
+
+.collapseMap{
+
+    height: 21px;
+    transition: height 0.25s ease-in;
+}
+

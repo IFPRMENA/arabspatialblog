@@ -160,6 +160,15 @@ section: blog
     </div>
     {% endif %}
 
+    {% if page.location %}
+    <div class="mapContainer collapseMap"><span id='seeMap' >see map</span>
+        <!-- <div class="eventmonth">{{item.eventdate}}</div> -->
+        <div class="googlemap">
+          <a href="https://www.google.com/maps/place/{{page.eventplace}} {{page.location}}" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?center={{page.eventplace}} {{page.location}}&zoom=13&size=300x75&maptype=roadmap&markers=color:red%7Csize:small%7C{{page.eventplace}} {{page.location}}" >
+        </div></a>
+    </div>
+    {% endif %}
+
     {% include eventInfo.html %}
 
     <div class="seeBlogEntries floatright" style=""><a href="{{site.baseurl}}/eventsite">< All upcoming events</a></div>
