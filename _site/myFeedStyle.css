@@ -1,0 +1,252 @@
+.feedContainer{
+  background: #fff;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.blogFeed{
+width: 710px;
+/*background: #fff;*/
+position: relative;
+float: left;
+padding: 15px;
+}
+
+.eventFeed{
+  max-height: 524px;
+  width: 300px;
+  background: #f1f1f0;
+  float: left;
+  overflow: auto;
+  padding: 0px 15px 0px 15px;
+  /*margin: 20px;*/
+  /*margin-top: 20px;*/
+
+}
+
+.eventTitleContainer{
+  width: 300px;
+  float: left;
+  padding: 10px 15px 0px 15px;
+  background: #f1f1f0;
+  margin-top: 10px;
+}
+
+.grayBackground{
+  background: #f1f1f0;
+}
+
+.whiteBackground{
+  background: #fff;
+}
+
+.sidePanel {
+/* height: 582px; */
+width: 280px;
+background: #f1f1f0;
+float: left;
+/* overflow: auto; */
+padding: 15px;
+/*margin: 20px;*/
+margin-top: 35px;
+font-size: 12px;
+
+}
+
+.sidePanel h4 {
+  font-size: 14px;
+  color: #999793;
+}
+
+.sidePanel h3 {
+  font-size: 16px;
+  color: #999793;
+  margin-top: 5px;
+}
+
+.noBorderBottom{
+  border-bottom: 0px;
+}
+
+.postsContainer{
+ padding-bottom: 100px;
+ /*min-height: 710px;*/
+ /*overflow: auto;*/
+}
+
+.signNewLettersLink{
+  float: right;
+  margin-top: 20px;
+  margin-right: 5px;
+  text-decoration: none;
+  background-color: #f05a30;
+  padding: 10px;
+}
+
+.signNewLettersLink a {
+  color:#fff;
+}
+
+.seeBlogEntries{
+
+/*margin-top:20px;
+margin-left:5px;*/
+
+}
+
+.articleTag{
+
+  margin-bottom: 15px;
+  width: 660px;
+  float: left;
+  /*height: 109px;*/
+  margin-left: 15px;
+  margin-top: 5px;
+  border-bottom: #e8e8e8 1px solid;
+
+}
+
+
+
+#disqus_thread #footer{
+  display: none !important;
+}
+
+#disqus_thread{
+     position: relative;
+}
+#disqus_thread:after{
+     content: "";
+     display: block;
+     height: 55px;
+     width: 100%;
+     position: absolute;
+     bottom: 0px;
+     background:white;
+}
+
+.col-sm-10 {
+width: 70.333333%;
+}
+
+.feedevent{
+  
+  width: 650px;
+  float: left;
+  
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  border-bottom: #E0E0E0 solid 1px;
+
+}
+
+.feedeventdate{
+  width: 150px;
+  /*height: 100px;*/
+  float: left;
+  color: #4b4b4b;
+}
+.feedeventmonth{
+  max-width: 140px;
+  text-align: center;
+  font-size: 14px
+
+}
+.feedeventday{
+  max-width: 140px;
+  text-align: center;
+  font-size: 12px;
+  color: #7d7d7d;
+  margin-top: 4px;
+  text-align: center;
+}
+
+.feedeventtextContainer {
+float: right;
+}
+
+.feedeventItemTitle {
+font-size: 14px;
+cursor: pointer;
+}
+
+.feedeventLocation {
+color: gray;
+font-weight: normal;
+/* max-width: 90px; */
+height: 13px;
+/* background-color: #759da7; */
+/* text-align: center; */
+line-height: 22px;
+/* float: left; */
+margin-bottom: 10px;
+}
+
+.feedcol-sm-10 {
+width: 76%;
+}
+
+.campaign{
+  margin-bottom: 8px;
+  line-height: 16px;
+}
+
+.btn-default {
+color: #999793;
+background-color: #fff;
+border-color: #ccc;
+
+}
+
+.buttonActive{
+  color: #fff;
+  background-color: #888888;
+  border-color: #888888;
+}
+
+.floatleft{
+  float: left;
+}
+
+.floatright{
+  float: right;
+}
+
+.eventTitle{
+font-size: 18px;
+line-height: 1.3;
+color:#3a3a3a;
+}
+
+.overflowAuto{
+  overflow: auto;
+}
+
+.infoContainer{
+  font-size: 14px;
+}
+.infoItem{
+  color:#3a3a3a;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.itemFile{
+
+
+}
+
+.eventSidePanel{
+  position: absolute;
+right: -265px;
+top: 97px;
+/* height: 582px; */
+width: 280px;
+background: #f1f1f0;
+float: left;
+/* overflow: auto; */
+padding: 15px;
+/* margin: 20px; */
+/*margin-top: 35px;*/
+font-size: 12px;
+}

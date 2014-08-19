@@ -1,0 +1,11 @@
+/* Webfont: Gotham-LightItalic */@font-face {
+    font-family: 'Gotham-LightItalic';
+    font-style: 'normal';
+    font-weight: 'normal';
+    src: url('fontfiles/GothaLigIta.eot'); /* IE9 Compat Modes */
+    src: url('fontfiles/GothaLigIta.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fontfiles/GothaLigIta.woff') format('woff'), /* Modern Browsers */
+         url('fontfiles/GothaLigIta.svg#Gotham-LightItalic') format('svg'), /* Legacy iOS */
+         url('fontfiles/GothaLigIta.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
