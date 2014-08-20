@@ -9,22 +9,21 @@
 
                       $(window).ready(function() {
 
-                        var url = 'https://server15738.contentdm.oclc.org/dmwebservices/index.php?q=dmQuery/p15738coll2/subjec%5earab%20countries%5eall%5eor!subjec%5emiddle%20east%5eall%5eand/title!subtit!date!creato!langua!subjec!loc!url/date!reverse/500/1/1/0/0/0/json';
+                        var url = '../proxy.ashx?https://server15738.contentdm.oclc.org/dmwebservices/index.php?q=dmQuery/p15738coll2/subjec%5earab%20countries%5eall%5eor!subjec%5emiddle%20east%5eall%5eand/title!subtit!date!creato!langua!subjec!loc!url/date!reverse/500/1/1/0/0/0/json';
 
 
 
                         var postArgs = {};
 
 
-                        // $.getJSON(url, postArgs).done(function (data) {
-                        //
-                        //
-                        //     console.log(data);
-                        //
-                        //   }).fail(function (jqxhr, textStatus, error) {
-                        //       var err = textStatus + ', ' + error;
-                        //       console.log("Request Failed: " + err);
-                        //   });
+                          $.getJSON(url, postArgs).done(function (data) {
+
+                              console.log(data);
+
+                          }).fail(function (jqxhr, textStatus, error) {
+                              var err = textStatus + ', ' + error;
+                              console.log("Request Failed: " + err);
+                          });
 
                           // $.getJSON(url,function(data){
                           //
@@ -32,13 +31,13 @@
                           //
                           // });
 
-                        $.ajax({
-                          dataType: "jsonp",
-                          url: url + '&callback=?',
-                          }).done(function ( data ) {
-                          // do my stuff
-                          console.log(data);
-                        });
+                        // $.ajax({
+                        //   dataType: "jsonp",
+                        //   url: url + '&callback=?',
+                        //   }).done(function ( data ) {
+                        //   // do my stuff
+                        //   console.log(data);
+                        // });
 
                         // $.getJSON(url, function (result) {
                         //     // in case the result is not in json data type

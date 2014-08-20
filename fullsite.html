@@ -118,11 +118,26 @@ title: ''
 
               {% include tags.html %}
 
-              {% include archives.html %}
+
+              <div class="eventTitleContainer">
+                  <h4 class="blog-title">Events</h4>
+              </div>
+              <div class="eventFeed clearfix" style="height:150px;">
+                {% include events.html %}
+              </div>
+
+
+              {% include publications.html %}
 
               {% include newsletters.html %}
 
-              
+              {% include archives.html %}
+
+
+
+
+
+
 
             </div>
         </div>
