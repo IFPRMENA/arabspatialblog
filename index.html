@@ -42,7 +42,7 @@ section: blog
 
       {% else %}
             <div class='splash blogClickable' id="{{ item.title | replace: ' ', '_' }}" title="{{ item.title }}">
-              
+
                 <img width="100%" src='{{site.baseurl}}/img/IFPRI.png' alt='' />
               </a>
             </div>
@@ -57,11 +57,12 @@ section: blog
         <div class='date'>
           <div class="dateText">{{item.date | date:"%B %d"}}   &#8226;</div>
           {% if item.author %}
-          <div class="dateText" >&nbsp;Author: {{ item.author }}</div>
+          <div class="dateText" >&nbsp;By {{ item.author }}</div>
           {% endif %}
         </div>
-        
-        <div class="summeryText" >{{ item.header | truncatewords: 7}}</div>
+
+        <!-- <div class="summeryText" >{{ item.header | truncatewords: 7}}</div> -->
+        <div class="summeryText" >{{ item.header | split:'.' | first }}.</div>
         {% endif %}
       </div>
 
@@ -77,7 +78,7 @@ section: blog
         {% if item.header %}
         <div class="entryTitle"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle'>{{item.title }}</a></div>
         <div class='date'>
-          
+
           {% if item.author %}
             <div class="dateText" >&nbsp;Author: {{ item.author }}</div>
           {% endif %}
