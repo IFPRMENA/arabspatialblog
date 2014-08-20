@@ -30,7 +30,7 @@
                                   //console.log(key)
                                   $.each(data, function (index, data) {
                                       console.log('index', data.title);
-                                      $("<div class='campaign'>No " + data.title + "</div>").appendTo(".display_publications");
+                                      $("<div class='campaign'>" + data.date + " - <a href='" + data.url + "'>" + data.title + "</div></a>").appendTo(".display_publications");
 
 
                                   })
