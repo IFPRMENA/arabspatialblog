@@ -75,7 +75,7 @@ font-size: 12px;
 }
 
 .signNewLettersLink{
-  float: right;
+  /*float: right;*/
   margin-top: 20px;
   margin-right: 5px;
   text-decoration: none;
@@ -130,10 +130,10 @@ width: 70.333333%;
 }
 
 .feedevent{
-  
+
   width: 650px;
   float: left;
-  
+
   margin-top: 5px;
   margin-left: 15px;
   margin-bottom: 15px;
