@@ -1,0 +1,45 @@
+<!--   <div class='col4 margin3 pad4'> -->
+
+{% capture now %}{{ site.time | date: '%x' }}{% endcapture %}
+
+
+
+    {% for item in site.categories.event limit:100 %}
+    {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
+    {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
+
+    {% assign delimiter = ' - ' %}
+      {% capture verifydate %}{{ item.eventdate | date: '%x' }}{% endcapture %}
+      {% capture verifydate %}{{ verifydate | replace: delimiter, ' ' }}{% endcapture %}
+      {% capture myFirstWord %}{{ verifydate | truncatewords: 1 | remove: '...' }}{% endcapture %}
+
+
+    <div id="{{item.title}}" class="event clearfix" >
+
+
+
+  <div class="eventdate">
+      <!-- <div class="eventmonth">{{item.eventdate}}</div> -->
+      <div class="eventday">{{item.eventdate}}</div>
+  </div>
+  <div class="eventtextContainer col-sm-10">
+
+        {% if item.title %}
+
+        <div class="entryTitle"><a title="{{ item.title }}" class='eventItemTitle feedeventItemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title }}</a></div>
+
+        <div class='eventLocation'>
+
+          {% if item.location %}
+            <div class="dateText" >Where: {{ item.location }}</div>
+          {% endif %}
+        </div>
+        <!-- <div class="summeryText" >{{ item.header}}</div> -->
+        {% endif %}
+        </div>
+
+
+    </div>
+    {% endfor %}
+
+  <!-- /.blog-sidebar -->
