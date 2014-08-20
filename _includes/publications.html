@@ -1,5 +1,9 @@
 <!--   <div class='col4 margin3 pad4'> -->
-    <h4><i class="fa fa-folder"></i>   MENA Publications</h4>
+    <h4><i class="fa fa-folder"></i>   MENA PUPBLICATIONS</h4>
+    <div class="display_archive"> 
+
+
+    </div>
 
 
                       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -20,35 +24,26 @@
 
                               console.log(data);
 
+                              var publications = data.records;
+
+                              $.each(publications, function (key, data) {
+                                  //console.log(key)
+                                  $.each(data, function (index, data) {
+                                      console.log('index', data);
+                                      trendsPanel.append("<div class='campaign'>No " + data.title + "</div>");
+
+
+                                  })
+                              })
+
+
+
+
+
                           }).fail(function (jqxhr, textStatus, error) {
                               var err = textStatus + ', ' + error;
                               console.log("Request Failed: " + err);
                           });
-
-                          // $.getJSON(url,function(data){
-                          //
-                          //     console.log(data);
-                          //
-                          // });
-
-                        // $.ajax({
-                        //   dataType: "jsonp",
-                        //   url: url + '&callback=?',
-                        //   }).done(function ( data ) {
-                        //   // do my stuff
-                        //   console.log(data);
-                        // });
-
-                        // $.getJSON(url, function (result) {
-                        //     // in case the result is not in json data type
-                        //     // otherwise not necessary
-                        //     result = JSON.parse(result);
-                        //     // result.jobs.map(function (v) {
-                        //     //     console.log(v.title);
-                        //     //     document.write(v.title);
-                        //     // });
-                        //     console.log(results);
-                        // });
 
 	                     });
 
