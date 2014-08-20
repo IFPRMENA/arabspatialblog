@@ -24,9 +24,9 @@
 
                               console.log(data);
 
-                              var publications = data.records;
+                              var publications = data;
 
-                              $.each(publications, function (key, data) {
+                              $.each(publications.records, function (key, data) {
                                   //console.log(key)
                                   $.each(data, function (index, data) {
                                       console.log('index', data);
