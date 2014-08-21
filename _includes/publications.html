@@ -1,6 +1,6 @@
 <!--   <div class='col4 margin3 pad4'> -->
     <h4><i class="fa fa-file"></i>   MENA PUPBLICATIONS</h4>
-    <div class="display_publications" style="height:220px;overflow:auto;"> 
+    <div class="display_publications" style="height:22px;overflow:auto;"> 
 
 
     </div>
@@ -24,6 +24,8 @@
 
                               console.log(data);
 
+                              $( ".display_publications" ).height( 220 );
+
                               var publications = data;
 
                               $.each(publications, function (key, data) {
@@ -32,12 +34,8 @@
                                       console.log('index', data.title);
 
                                       if (data.title){
-                                        $("<div class='campaign'>" + data.date + " - <a href='" + data.url + "'>" + data.title + "</div></a>").appendTo(".display_publications");
+                                        $("<div class='campaign'>" + data.date + " - <a href='#'>" + data.title + "</div></a>").appendTo(".display_publications");
                                       }
-
-                                      
-
-
                                   })
                               })
 
