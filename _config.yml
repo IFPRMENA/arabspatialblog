@@ -133,11 +133,11 @@ prose:
             - name: "IFPRI"
               value: "IFPRI"
             - name: "Perrihan Al-Riffai"
-              value: "Perrihan Al-Riffai"
+              value: "Perrihan Al-Riffai (IFPRI)"
             - name: "Yifei Liu"
-              value: "Yifei Liu"
+              value: "Yifei Liu (IFPRI)"
             - name: "Olivier Ecker"
-              value: "Olivier Ecker"
+              value: "Olivier Ecker (IFPRI)"
     _posts/static:
       - name: "layout"
         field:
