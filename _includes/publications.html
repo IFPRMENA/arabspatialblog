@@ -34,7 +34,7 @@
                                       // console.log('index', data.title);
 
                                       if (data.title){
-                                        $("<div class='campaign'>" + data.date + " - <a href='http://ebrary.ifpri.org/cdm/ref/collection/" + data.collection +  "/id/" + data.pointer + "'>" + data.title + "</div></a>").appendTo(".display_publications");
+                                        $("<div class='campaign'>" + data.date + " - <a href='http://ebrary.ifpri.org/cdm/ref/collection" + data.collection +  "/id/" + data.pointer + "' target='_blank' >" + data.title + "</div></a>").appendTo(".display_publications");
                                       }
                                   })
                               })
