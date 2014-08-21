@@ -36,7 +36,7 @@ title: ''
     <link href="{{site.baseurl}}/fonts/GothaMedIta.css" rel="stylesheet" type="text/css" />
     <link href="{{site.baseurl}}/fonts/GothaMed.css" rel="stylesheet" type="text/css" />
 
-    
+
 
   <body>
     <div id="fb-root"></div>
@@ -48,17 +48,17 @@ title: ''
       js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
-    
+
     </script>
 
     <div class="bodyContainer clearfix grayBackground">
         <div class="feedContainer clearfix grayBackground">
             <div class="blogFeed clearfix">
-              
+
     <div class="postContainer clearfix whiteBackground">
 
-    
-      
+
+
       {{content}}
 
       </div>
@@ -70,14 +70,16 @@ title: ''
               {% include rss-link.html %}
 
               {% include tags.html %}
-              
-              {% include archives.html %}
+
+              {% include publications.html %}
 
               {% include newsletters.html %}
 
+              {% include archives.html %}
+
               {% else %}
 
-              
+
 
               {% endif %}
 
@@ -101,15 +103,15 @@ title: ''
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
     <script src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script>
-    
+
     <script>
     $(".month").on("click", function () {
 
 
   });
 
-    
-  
+
+
   </script>
   <script>
   !function(d,s,id){
@@ -117,7 +119,7 @@ title: ''
     if(!d.getElementById(id))
       {js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
     </script>
-  
+
 
   <script type="text/javascript">
   (function() {
@@ -139,7 +141,7 @@ title: ''
     var disqus_shortname = 'arabspatial'; // required: replace example with your forum shortname
     var disqus_identifier = '{{ page.url }}';
     // var disqus_url = '{{ page.url }}';
- 
+
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function () {
       var s = document.createElement('script'); s.async = true;
@@ -175,7 +177,7 @@ title: ''
 
       $("#panel-body").addClass('animated zoomIn');
 
-      
+
 
       }
 
@@ -216,7 +218,7 @@ title: ''
 $('#seeMap').click(function(){
         console.log("orale");
         $(".mapContainer").toggleClass('expandMap collapseMap');
-        
+
     })
 
   </script>
