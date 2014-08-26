@@ -62,7 +62,9 @@ section: blog
         </div>
 
         <!-- <div class="summeryText" >{{ item.header | truncatewords: 7}}</div> -->
-        <div class="summeryText" >{{ item.header | split:'.' | first }}.</div>
+          {% if item.header %}
+          <div class="summeryText" >{{ item.header | split:'.' | first }}.</div>
+          {% endif %}
         {% endif %}
       </div>
 
