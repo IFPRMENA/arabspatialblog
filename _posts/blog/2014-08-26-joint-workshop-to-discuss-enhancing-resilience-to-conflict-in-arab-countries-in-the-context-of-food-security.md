@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: Joint Workshop to Discuss Enhancing Resilience to Conflict in Arab Countries in the Context of Food Security
 category: blog
 comments: true
