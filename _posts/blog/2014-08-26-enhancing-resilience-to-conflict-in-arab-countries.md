@@ -30,8 +30,8 @@ Designing and implementing policies that build resilience to conflict requires h
 Enhancing resilience to conflict in Arab countries will be further explored during a parallel session at IFPRI’s upcoming 2020 Conference on “Building Resilience for Food and Nutrition Security” in Addis Ababa.   
 
 **Read more about the regional research and case studies:**
-   + Beyond the Arab awakening: Policies and investments for poverty reduction and food security [English](http://www.ifpri.org/publication/beyond-arab-awakening) | [Arabic](http://www.ifpri.org/node/8256)
-   + Does food security matter for transition in Arab countries? [English](http://www.ifpri.org/publication/does-food-security-matter-transition-arab-countries) 
-   + Extreme weather and civil war in Somalia. [English](http://www.ifpri.org/publication/extreme-weather-and-civil-war-somalia)
-   + Local warming and violent conflict in North and South Sudan. [English](http://www.ifpri.org/publication/local-warming-and-violent-conflict-north-and-south-sudan)
-   + Tackling Egypt’s rising food insecurity in a time of transition [English](http://www.ifpri.org/publication/tackling-egypt-s-rising-food-insecurity-time-transition) | [Arabic](http://ebrary.ifpri.org/cdm/ref/collection/p15738coll2/id/127560)
++ Beyond the Arab awakening: Policies and investments for poverty reduction and food security [English](http://www.ifpri.org/publication/beyond-arab-awakening) | [Arabic](http://www.ifpri.org/node/8256)
++ Does food security matter for transition in Arab countries? [English](http://www.ifpri.org/publication/does-food-security-matter-transition-arab-countries) 
++ Extreme weather and civil war in Somalia. [English](http://www.ifpri.org/publication/extreme-weather-and-civil-war-somalia)
++ Local warming and violent conflict in North and South Sudan. [English](http://www.ifpri.org/publication/local-warming-and-violent-conflict-north-and-south-sudan)
++ Tackling Egypt’s rising food insecurity in a time of transition [English](http://www.ifpri.org/publication/tackling-egypt-s-rising-food-insecurity-time-transition) | [Arabic](http://ebrary.ifpri.org/cdm/ref/collection/p15738coll2/id/127560)
