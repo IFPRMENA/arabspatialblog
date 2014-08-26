@@ -5,7 +5,7 @@ title: Pioneering online tool targets improved decision making in Iraq
 category: blog
 comments: true
 splash: "http://www.ifpri.org/sites/default/files/imagecache/prefab_large/iraqspatial240.png"
-header: "Iraq Spatial, launched in Baghdad on March 23rd, provides over 200 indicators, including macroeconomic, sectoral, climate, biophysical, and socioeconomic data at the national, subnational, and pixel level"
+header: "Iraq Spatial provides over 200 indicators, including macroeconomic, sectoral, climate, biophysical, and socioeconomic data at the national, subnational, and pixel level"
 tags: 
   - Iraq
   - tools
