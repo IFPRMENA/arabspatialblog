@@ -16,9 +16,9 @@ author:
   - IFPRI
 ---
 
-## Mapping Development in the Middle East and North Africa with Updated Arab Spatial
-
 _Cross-posted from [IFPRI Website](http://www.ifpri.org/blog/connecting-dots-mapping-development-middle-east-and-north-africa-updated-arab-spatial)_
+
+## Mapping Development in the Middle East and North Africa with Updated Arab Spatial
 
 Improving food security and enhancing economic development in developing countries requires a multifaceted approach—and that includes access to reliable data. In the swiftly changing Middle East and North Africa (MENA) region, up-to-date information is particularly crucial for policymakers to make accurate assessments of poverty, food and nutrition security, and other development indicators.
 
