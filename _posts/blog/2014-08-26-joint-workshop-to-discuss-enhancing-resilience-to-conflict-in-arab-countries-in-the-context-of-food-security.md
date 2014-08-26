@@ -30,10 +30,10 @@ New features include:
 
 According to the research findings that will be presented at the workshop:
 
-+ Food insecurity at national- and household-levels is one of the main causes of conflict in Arab countries, in contrast to other regions where factors such as income inequality and poor governance carry the highest risk of social unrest.
-+ Weather shocks, especially droughts, increase the risk of local civil conflicts. Climate change adaptation strategies and rural off-farm income generation are critical for preventing conflicts.
-+ Without food subsidies, household resilience to shocks in Egypt would be much lower. However, the current subsidies are expensive, poorly targeted, and may indirectly contribute to malnutrition.
-+ The National Food Security Strategy of Yemen needs to be urgently implemented in order to support a successful transition process and to tackle hunger, poverty, and chronic malnutrition.
-+ Knowledge sharing and coordination between and within development communities and projects can help enhance resilience to conflict and improve the efficiency of project interventions.
++  Food insecurity at national- and household-levels is one of the main causes of conflict in Arab countries, in contrast to other regions where factors such as income inequality and poor governance carry the highest risk of social unrest.
++  Weather shocks, especially droughts, increase the risk of local civil conflicts. Climate change adaptation strategies and rural off-farm income generation are critical for preventing conflicts.
++  Without food subsidies, household resilience to shocks in Egypt would be much lower. However, the current subsidies are expensive, poorly targeted, and may indirectly contribute to malnutrition.
++  The National Food Security Strategy of Yemen needs to be urgently implemented in order to support a successful transition process and to tackle hunger, poverty, and chronic malnutrition.
++  Knowledge sharing and coordination between and within development communities and projects can help enhance resilience to conflict and improve the efficiency of project interventions.
 
 “Building resilience to conflict requires improving food and nutrition security ces of 11 CGIAR centers and numerous international, regional, and national partners to provide an integrated approach to policy research for a food secure future This program is led by the International Food Policy Research Institute (IFPRI).
