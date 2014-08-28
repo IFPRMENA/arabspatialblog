@@ -4,6 +4,16 @@ published: true
 title: "Introducing Arab Spatial: An Online, Interactive Atlas of the Arab World"
 category: blog
 comments: true
+splash: "http://www.ifpri.org/sites/default/files/imagecache/prefab_large/arabspatialatlas240.jpg"
+header: "Enter Arab Spatial, an online information storehouse that aggregates food security and development information from the region’s governments as well as international institutions. "
+tags: 
+  - Middle East and North Africa
+  - tools
+  - database
+  - open access
+  - food security
+author: 
+  - Marcia MacNeil
 ---
 
 Cross-posted from IFPRI The great hope that rose from the Arab awakening is being continually tested—not only by ongoing political unrest, but also by lesser known forces: volatile food prices and supplies, and grinding poverty. Translating hope to better lives rests on effective policy—and effective policy rests on access to adequate and accurate information, also in scarce supply in the region. For instance, only around half of the region’s countries make poverty figures publicly available, and the frequency and accuracy of those figures varies widely.
