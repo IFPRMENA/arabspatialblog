@@ -5,6 +5,11 @@ title: Joint Workshop to Discuss Enhancing Resilience to Conflict in Arab Countr
 category: blog
 comments: true
 header: "On 16 January, Ambassadors and representatives from Arab countries, researchers, and development partners will gather in Rome, Italy to discuss how the Arab region can work to reduce the impact of crises like conflict, natural disasters and global spikes in food prices, especially on the rural poor."
+tags: 
+  - Middle East and North Africa
+  - events
+  - resilience
+  - food security
 ---
 
 Cross-posted from [IFPRI Website](http://www.ifpri.org/pressrelease/joint-workshop-discuss-enhancing-resilience-conflict-arab-countries-context-food-securi)
