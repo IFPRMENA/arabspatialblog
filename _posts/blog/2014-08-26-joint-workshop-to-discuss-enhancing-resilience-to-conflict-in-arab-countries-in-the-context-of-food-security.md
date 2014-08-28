@@ -4,9 +4,11 @@ published: true
 title: Joint Workshop to Discuss Enhancing Resilience to Conflict in Arab Countries in the Context of Food Security
 category: blog
 comments: true
+header: "On 16 January, Ambassadors and representatives from Arab countries, researchers, and development partners will gather in Rome, Italy to discuss how the Arab region can work to reduce the impact of crises like conflict, natural disasters and global spikes in food prices, especially on the rural poor."
 ---
 
 Cross-posted from [IFPRI Website](http://www.ifpri.org/pressrelease/joint-workshop-discuss-enhancing-resilience-conflict-arab-countries-context-food-securi)
+
 On 16 January, Ambassadors and representatives from Arab countries, researchers, and development partners will gather in Rome, Italy to discuss how the Arab region can work to reduce the impact of crises like conflict, natural disasters and global spikes in food prices, especially on the rural poor.
 
 Organized by the International Fund for Agricultural Development (IFAD), the International Food Policy Research Institute (IFPRI), and the CGIAR Research Program on Policies, Institutions and Markets (PIM), the workshop, titled “Enhancing Resilience to conflict in Arab countries through research and Arab Spatial 2.0”, will examine ways in which policymakers and development agencies can collaborate to improve the lives of people in the region. The workshop itself is part of a three-year research project, “Reducing Vulnerability to Conflict in the MENA Region”, conducted jointly by IFAD, IFPRI, and PIM to promote innovative approaches and gain insights into rural poverty in conflict areas.
