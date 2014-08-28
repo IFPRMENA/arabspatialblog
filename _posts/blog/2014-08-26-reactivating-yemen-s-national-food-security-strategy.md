@@ -10,6 +10,7 @@ tags:
   - food security
 author: 
   - IFPRI
+splash: "https://plus.google.com/photos/115904476375519401141/albums/6052706564122220305?authkey=CJefy8ynvsmjzgE"
 ---
 
 Although the level of food insecurity in Yemen is alarming, it is also declining. In 2011, Yemen was among the bottom 10 countries of the world in terms of food security, but by the end of 2012, food security levels had almost reached pre-crisis levels, according to research presented at a workshop on “Reactivating the Yemen National Food Security Strategy,” held last month in Sana’a, Yemen.
