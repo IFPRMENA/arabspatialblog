@@ -10,9 +10,10 @@ tags:
   - events
   - resilience
   - food security
+splash: "https://farm4.staticflickr.com/3920/15066373475_86e3b056a6_n.jpg"
 ---
 
-Cross-posted from [IFPRI Website](http://www.ifpri.org/pressrelease/joint-workshop-discuss-enhancing-resilience-conflict-arab-countries-context-food-securi)
+_Cross-posted from [IFPRI Website](http://www.ifpri.org/pressrelease/joint-workshop-discuss-enhancing-resilience-conflict-arab-countries-context-food-securi)_
 
 On 16 January, Ambassadors and representatives from Arab countries, researchers, and development partners will gather in Rome, Italy to discuss how the Arab region can work to reduce the impact of crises like conflict, natural disasters and global spikes in food prices, especially on the rural poor.
 
