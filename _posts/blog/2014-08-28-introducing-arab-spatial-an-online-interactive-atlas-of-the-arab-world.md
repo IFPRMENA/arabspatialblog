@@ -16,7 +16,9 @@ author:
   - Marcia MacNeil
 ---
 
-Cross-posted from IFPRI The great hope that rose from the Arab awakening is being continually tested—not only by ongoing political unrest, but also by lesser known forces: volatile food prices and supplies, and grinding poverty. Translating hope to better lives rests on effective policy—and effective policy rests on access to adequate and accurate information, also in scarce supply in the region. For instance, only around half of the region’s countries make poverty figures publicly available, and the frequency and accuracy of those figures varies widely.
+_Cross-posted from [IFPRI Website](http://www.ifpri.org/blog/user-s-experience-arab-spatial)_
+
+The great hope that rose from the Arab awakening is being continually tested—not only by ongoing political unrest, but also by lesser known forces: volatile food prices and supplies, and grinding poverty. Translating hope to better lives rests on effective policy—and effective policy rests on access to adequate and accurate information, also in scarce supply in the region. For instance, only around half of the region’s countries make poverty figures publicly available, and the frequency and accuracy of those figures varies widely.
 
 Enter Arab Spatial, an online information storehouse that aggregates food security and development information from the region’s governments as well as international institutions. The tool displays the data on maps that users can zoom in on to the regional, national, sub-national, and even the pixel level. Users can then build and print their own maps overlaid with information of their choosing.
 
