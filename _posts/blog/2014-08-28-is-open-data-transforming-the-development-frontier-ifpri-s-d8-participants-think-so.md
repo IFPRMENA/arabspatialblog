@@ -30,8 +30,8 @@ So what’s next in the data movement? Participants agreed there is need for coh
 
 Imagine the never-ending possibilities of connecting datasets wherever data are open. A public good for the good of the public indeed.
 
-For more information about the D8 event, including video coverage and speaker presentations, see http://www.ifpri.org/event/open-data-agriculture-side-event-ifpri.
+For more information about the D8 event, including video coverage and speaker presentations, see [http://www.ifpri.org/event/open-data-agriculture-side-event-ifpri](http://www.ifpri.org/event/open-data-agriculture-side-event-ifpri).
 
 Related datasets:
-* Global Hunger Index: http://data.ifpri.org/lod/ghi/
-* Arab Spatial: http://data.ifpri.org/lod/arabspatial
+* Global Hunger Index: [http://data.ifpri.org/lod/ghi/](http://data.ifpri.org/lod/ghi/)
+* Arab Spatial: [http://data.ifpri.org/lod/arabspatial](http://data.ifpri.org/lod/arabspatial)
