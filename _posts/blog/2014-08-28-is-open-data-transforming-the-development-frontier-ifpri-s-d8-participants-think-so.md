@@ -9,7 +9,7 @@ header: "Open data is a public good for the good of the public. Indeed, a growin
 tags: 
   - tools
   - database
-  - "open access "
+  - open access
 author: 
   - IFPRI
 ---
