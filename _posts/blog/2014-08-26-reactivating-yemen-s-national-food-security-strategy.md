@@ -5,6 +5,11 @@ title: Reactivating Yemen’s National Food Security Strategy
 category: blog
 comments: true
 header: "Although the level of food insecurity in Yemen is alarming, it is also declining. In 2011, Yemen was among the bottom 10 countries of the world in terms of food security, but by the end of 2012, food security levels had almost reached pre-crisis levels."
+tags: 
+  - Yemen
+  - food security
+author: 
+  - IFPRI
 ---
 
 Although the level of food insecurity in Yemen is alarming, it is also declining. In 2011, Yemen was among the bottom 10 countries of the world in terms of food security, but by the end of 2012, food security levels had almost reached pre-crisis levels, according to research presented at a workshop on “Reactivating the Yemen National Food Security Strategy,” held last month in Sana’a, Yemen.
