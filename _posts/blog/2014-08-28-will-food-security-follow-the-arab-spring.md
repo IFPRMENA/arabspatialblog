@@ -9,9 +9,8 @@ header: "In the aftermath of the “Arab Spring”—a series of demonstrations,
 tags: 
   - Middle East and North Africa
   - food security
-  - مصر
 author: 
-  - مصر
+  - IFPRI
 ---
 
 ## Experts at recent IFPRI Policy Seminar examine challenges ahead
