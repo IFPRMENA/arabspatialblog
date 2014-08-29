@@ -7,9 +7,9 @@ comments: true
 splash: "http://www.ifpri.org/sites/default/files/imagecache/prefab_large/Farmer%20Egypt.jpg"
 header: "The roots of the “Arab Awakening” run deep. Several factors—political, economic, and sociological—led to the popular uprisings that erupted throughout the Middle East and Northern Africa this decade. Key among these factors was high and volatile food prices."
 tags: 
-  - Middle East and North Africa
   - food security
   - "conflict "
+  - Middle East and North Africa
 author: 
   - IFPRI
 ---
