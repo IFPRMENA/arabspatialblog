@@ -1,8 +1,8 @@
 ---
+category: event
 layout: blog
 published: true
 title: Building Resilience for Food and Nutrition Security
-category: event
 comments: false
 header: Building Resilience for Food and Nutrition Security
 eventdate: 
@@ -23,3 +23,5 @@ The IFPRI 2020 Conference, held May 15-17, 2014 in Addis Ababa, Ethiopia, will b
 - Identify key approaches and tools to build resilience to shocks;
 - Set priorities for action by different actors and in different regions; and
 - Identify knowledge and action gaps in research, policy, and programming that need to be met or scaled up in order to successfully build resilience to food and nutrition insecurity.
+
+For more information, please go to the [conference website](http://www.2020resilience.ifpri.info/).
