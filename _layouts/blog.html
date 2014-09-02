@@ -28,7 +28,7 @@ section: blog
     <div class='date'>
       <div class="dateText">{{page.date | date:"%B %d"}}   &#8226;</div>
           {% if page.author %}
-            <div class="dateText" >&nbsp;By: {{ page.author }}</div>
+            <div class="dateText" >&nbsp;By: <span>{{ page.author }}</span></div>
       {% endif %}
     </div>
 
