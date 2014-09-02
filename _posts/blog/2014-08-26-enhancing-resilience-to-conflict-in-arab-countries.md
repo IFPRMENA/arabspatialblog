@@ -9,7 +9,6 @@ header: "Conflict and development research has in general neglected rural develo
 tags: 
   - Middle East and North Africa
   - food security
-  - conflict
   - resilience
 author: 
   - "Perrihan Al-Riffai (IFPRI)"
