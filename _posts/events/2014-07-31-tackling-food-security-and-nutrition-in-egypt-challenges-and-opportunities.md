@@ -1,14 +1,13 @@
 ---
+category: event
 layout: blog
 published: true
 title: "Tackling food security and nutrition in Egypt: challenges and opportunities"
-category: event
 comments: false
 header: "Tackling food security and nutrition in Egypt: challenges and opportunities"
-eventdate: 
-  - "06/18/2014 - 06/19/2014"
+eventdate: 05/21/2013
 location: 
-  - Portland, OR
+  - "Cairo, Egypt"
 author: 
   - "Perrihan Al-Riffai"
 agenda: "http://www.ifpri.org/sites/default/files/cairoagenda20130521.pdf"
