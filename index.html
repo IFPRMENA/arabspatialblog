@@ -7,7 +7,7 @@ section: blog
   <div class="blog-header">
           <div class="blog-title" style="font-size:30px;color:#3d3d3d;text-align:center;padding-left:312px;">Blog</div>
         </div>
-  {% for item in site.categories.blog limit:4 %}
+  {% for item in site.categories.blog limit:3 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 
