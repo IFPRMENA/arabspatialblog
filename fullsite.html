@@ -98,11 +98,11 @@ title: ''
           {% endif %}
         </div>
         <div>
-            {% if item.tags != empty %}
+            <!-- {% if item.tags != empty %}
               {% for item in item.tags %}
               <a class="label label-info" href="{{site.baseurl}}/tags/{{ item }}"><i class="fa fa-tags"></i>  {{ item }}</span></a>
               {% endfor %}
-            {% endif %}
+            {% endif %} -->
           </div>
         <div class="summeryText" >{{ item.header}}.</div>
         {% endif %}
@@ -122,9 +122,9 @@ title: ''
               <div class="">
                   <h4 class="blog-title"><i class="fa fa-angle-double-right"></i> EVENTS</h4>
               </div>
-              <div class="eventFeed clearfix" style="height:220px;margin: 0px 0 10px 0;">
+              
                 {% include eventsMainPage.html %}
-              </div>
+              
 
 
               {% include publications.html %}

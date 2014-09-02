@@ -1,4 +1,5 @@
 <!--   <div class='col4 margin3 pad4'> -->
+<div class="eventFeed clearfix" style="height:220px;margin: 0px 0 10px 0;padding:0px;width:240px;">
 
 {% capture now %}{{ site.time | date: '%x' }}{% endcapture %}
 
@@ -14,21 +15,21 @@
       {% capture myFirstWord %}{{ verifydate | truncatewords: 1 | remove: '...' }}{% endcapture %}
 
 
-    <div id="{{item.title}}" class="event clearfix" >
+    <div id="{{item.title}}" class="eventMain clearfix" >
 
 
 
-  <div class="eventdate">
+  <div class="eventdateMain">
       <!-- <div class="eventmonth">{{item.eventdate}}</div> -->
-      <div class="eventday">{{item.eventdate}}</div>
+      <div class="eventdayMain">{{item.eventdate}}</div>
   </div>
-  <div class="eventtextContainer col-sm-10">
+  <div class="eventtextContainerMain col-sm-12" style="padding-left:0px;">
 
         {% if item.title %}
 
-        <div class="entryTitle"><a title="{{ item.title }}" class='eventItemTitle feedeventItemTitle' href='{{site.baseurl}}{{item.url}}' style="font-size:12px;">{{item.title }}</a></div>
+        <div class="entryTitleMain"><a title="{{ item.title }}" class='eventItemTitle feedeventItemTitle' href='{{site.baseurl}}{{item.url}}' style="font-size:12px;">{{item.title }}</a></div>
 
-        <div class='eventLocation'>
+        <div class='eventLocationMain'>
 
           <!-- {% if item.location %}
             <div class="dateText" >Where: {{ item.location }}</div>
@@ -41,5 +42,7 @@
 
     </div>
     {% endfor %}
+
+  </div>
 
   <!-- /.blog-sidebar -->

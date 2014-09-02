@@ -32,16 +32,7 @@ section: blog
       {% endif %}
     </div>
 
-    <!--  -->
 
-    {% if page.tags != empty %}
-          <div>
-          {% for page in page.tags %}
-          <a class="label label-info" href="{{site.baseurl}}{{page.baseurl}}/tags/{{ page }}"><i class="fa fa-tags"></i>  {{ page }}</span></a>
-
-          {% endfor %}
-          </div>
-        {% endif %}
 
         {% if page.splash or page.youtube_url %}
 
@@ -86,6 +77,15 @@ section: blog
   <div class="contentIndividualBlog">
   {{content}}
   </div>
+
+  {% if page.tags != empty %}
+          <div>
+          {% for page in page.tags %}
+          <a class="label label-info" href="{{site.baseurl}}{{page.baseurl}}/tags/{{ page }}"><i class="fa fa-tags"></i>  {{ page }}</span></a>
+
+          {% endfor %}
+          </div>
+        {% endif %}
 
   {% include pager.html %}
 
