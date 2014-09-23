@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: Introducing Yemen Spatial
 category: blog
 comments: true
