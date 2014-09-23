@@ -1,9 +1,18 @@
 ---
 layout: blog
-published: true
+published: false
 title: Introducing Yemen Spatial
 category: blog
 comments: true
+splash: "https://farm6.staticflickr.com/5554/15030576707_5fb0bb24df.jpg"
+tags: 
+  - work
+  - services
+  - about us
+  - careers
+  - Food Security
+author: 
+  - Jean Francois Trinh Tan
 ---
 
 Yemen ranks among the ten most food-insecure countries globally and has child malnutrition rates of nearly sixty percent, the highest in the Arab World. These two figures underscore the country’s future social and economic development challenges.
