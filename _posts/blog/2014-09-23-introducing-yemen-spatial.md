@@ -16,8 +16,8 @@ The tool aggregates a full range of development data and is designed to facilita
 
 “By providing more than 100 data indicators—including climate, biophysical, and socioeconomic data—Yemen Spatial enables users to visualize areas that are most vulnerable to food insecurity and target policies and research where they are most needed,” said Perrihan Al-Riffai of IFPRI.
 
-The tool adheres to an open access policy: end users can browse and query, free of charge, a full range of databases, build interactive multilayer maps, and use customized analytical tools that allow them to compare, explore, download, and share these results.
+- The tool adheres to an open access policy: end users can browse and query, free of charge, a full range of databases, build interactive multilayer maps, and use customized analytical tools that allow them to compare, explore, download, and share these results.
 
-The selection of data for Yemen Spatial follows an innovative food and nutrition security framework embedded in Yemen’s NFSS, which highlights the complex relationship between factors that affect food security from the individual and household levels to the national level.
+* The selection of data for Yemen Spatial follows an innovative food and nutrition security framework embedded in Yemen’s NFSS, which highlights the complex relationship between factors that affect food security from the individual and household levels to the national level.
 
-“The creation of the Yemen Spatial application is a step in the right direction for providing us with the capacity to monitor our progress toward a food-secure country” said Dr. Abdul Wahed Mukred, Head of Yemen’s Food Security Technical Secretariat.
++ “The creation of the Yemen Spatial application is a step in the right direction for providing us with the capacity to monitor our progress toward a food-secure country” said Dr. Abdul Wahed Mukred, Head of Yemen’s Food Security Technical Secretariat.
