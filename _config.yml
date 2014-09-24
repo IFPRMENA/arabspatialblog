@@ -80,7 +80,7 @@ prose:
           value: true
       - name: "language"
         field:
-          element: "multiselect"
+          element: "select"
           label: "Content Language"
           placeholder: "English or Arabic"
           options:
