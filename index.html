@@ -72,7 +72,7 @@ section: blog
               <!-- English Content   -->
               <div class="entryTitle blogClickable" title="{{ item.title }}"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle' title="{{ item.title }}">{{item.title}}</a></div>
               <div class='date'>
-                <div class="dateText">{{item.date | date:"%B %d"}}   &#8226;</div>
+                <div class="dateText" >{{item.date | date:"%B %d"}}   &#8226;</div>
                 {% if item.author %}
                 <div class="dateText" >&nbsp;By: <span>{{ item.author }}</span></div>
             <!-- English Content   -->
@@ -84,9 +84,9 @@ section: blog
 
         <!-- <div class="summeryText" >{{ item.header | truncatewords: 7}}</div> -->
           {% if item.header %}
-          <div class="summeryText" >{{ item.header | split:'.' | first }}.</div>
+          <div class="summeryText" style="text-align:right;">{{ item.header | split:'.' | first }}.</div>
           {% else %}
-            <div class="summeryText" >{{ item.content | split:'.' | first }}.</div>
+            <div class="summeryText" style="text-align:right;">{{ item.content | split:'.' | first }}.</div>
           {% endif %}
         {% endif %}
       </div>
