@@ -3,6 +3,7 @@ category: event
 layout: blog
 published: true
 title: Food Security and Development in the Arab World
+header: Food Security and Development in the Arab World
 eventdate: 11/7/2012
 location: 
   - "Washington, DC"

@@ -16,7 +16,7 @@ section: blog
 
 {% if item.category == 'blog' %}
 
-    {% if item.splash or item.youtube_url %}
+      {% if item.splash or item.youtube_url %}
 
       {% if item.youtube_url %}
       {% capture youtubeurl %}{{item.youtube_url}}{% endcapture %}
@@ -53,13 +53,32 @@ section: blog
       <div class="textContainer col-sm-10">
         <!-- <a class='item'>{{item.title}}</a>   -->
         {% if item.content %}
-        <div class="entryTitle blogClickable" title="{{ item.title }}"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle' title="{{ item.title }}">{{item.title}}</a></div>
-        <div class='date'>
-          <div class="dateText">{{item.date | date:"%B %d"}}   &#8226;</div>
-          {% if item.author %}
-          <div class="dateText" >&nbsp;By: <span>{{ item.author }}</span></div>
-          {% endif %}
-        </div>
+
+            {% if item.language == 'arabic' %}
+            
+            
+            <!-- Arabic Content   -->
+            <div class="entryTitle blogClickable" style="text-align:right;" title="{{ item.title }}"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle' title="{{ item.title }}">{{item.title}}</a></div>
+              <div class='date' style="float:right;">
+                <div class="dateText" style="text-align:right;">{{item.date | date:"%B %d"}}   &#8226;</div>
+                {% if item.author %}
+                <div class="dateText" style="text-align:right;">&nbsp;By: <span style="text-align:right;">{{ item.author }}</span></div>
+            <!-- Arabic Content   -->
+            {% endif %}
+            {% else %}
+
+              <!-- English Content   -->
+              <div class="entryTitle blogClickable" title="{{ item.title }}"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle' title="{{ item.title }}">{{item.title}}</a></div>
+              <div class='date'>
+                <div class="dateText">{{item.date | date:"%B %d"}}   &#8226;</div>
+                {% if item.author %}
+                <div class="dateText" >&nbsp;By: <span>{{ item.author }}</span></div>
+            <!-- English Content   -->
+
+            {% endif %}
+            {% endif %}
+            
+            </div>
 
         <!-- <div class="summeryText" >{{ item.header | truncatewords: 7}}</div> -->
           {% if item.header %}
