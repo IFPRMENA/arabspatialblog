@@ -88,26 +88,51 @@ title: ''
           {% endif %}
 
         <div class="textContainer col-sm-10">
-        <!-- <a class='item'>{{item.title}}</a>   -->
-        {% if item.content %}
-        <div class="entryTitle"><a id="{{ item.title | replace: ' ', '_' }}" title="{{ item.title }}" class='itemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title }}</a></div>
-        <div class='date'>
-          <div class="dateText">{{item.date | date:"%B %d"}}   &#8226;</div>
-          {% if item.author %}
-            <div class="dateText" >&nbsp;By: <span>{{ item.author }}</span></div>
-          {% endif %}
+                
+              {% if item.language == 'arabic' %}
+                
+                  <!-- Arabic Content   -->
+                <div class="entryTitle blogClickable" style="text-align:right;" title="{{ item.title }}"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle' title="{{ item.title }}" href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a>
+                </div>
+                  
+                  <div class='date' style="float:right;">
+                    <div class="dateText" style="text-align:right;">
+                      {{item.date | date:"%B %d"}}   &#8226;
+                    </div>
+                    
+                    <div class="dateText" style="text-align:right;">&nbsp;By: <span style="text-align:right;">{{ item.author }}</span></div>
+                  </div>
+
+                  {% if item.header %}
+                  <div class="summeryText" style="text-align:right;">{{ item.header }}.</div>
+                  {% else %}
+                    <div class="summeryText" style="text-align:right;">{{ item.content | split:'.' | first }}.</div>
+                  {% endif %}
+                  <!-- Arabic Content   -->
+
+                  {% else %}
+
+                  <div class="entryTitle"><a id="{{ item.title | replace: ' ', '_' }}" title="{{ item.title }}" class='itemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title }}</a></div>
+                  <div class='date'>
+                    <div class="dateText">{{item.date | date:"%B %d"}}   &#8226;</div>
+                    {% if item.author %}
+                      <div class="dateText" >&nbsp;By: <span>{{ item.author }}</span></div>
+                    {% endif %}
+                  </div>
+                  
+                  {% if item.header %}
+                  <div class="summeryText" >{{ item.header }}.</div>
+                  {% else %}
+                    <div class="summeryText" >{{ item.content | split:'.' | first }}.</div>
+                  {% endif %}
+
+
+                  {% endif %}
+
+               
         </div>
-        <div>
-            <!-- {% if item.tags != empty %}
-              {% for item in item.tags %}
-              <a class="label label-info" href="{{site.baseurl}}/tags/{{ item }}"><i class="fa fa-tags"></i>  {{ item }}</span></a>
-              {% endfor %}
-            {% endif %} -->
-          </div>
-        <div class="summeryText" >{{ item.header}}.</div>
-        {% endif %}
-        </div>
-      </div>
+    
+    </div>
 
 
       {% endfor %}

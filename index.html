@@ -62,9 +62,11 @@ section: blog
               <div class='date' style="float:right;">
                 <div class="dateText" style="text-align:right;">{{item.date | date:"%B %d"}}   &#8226;</div>
                 {% if item.author %}
-                <div class="dateText" style="text-align:right;">&nbsp;By: <span style="text-align:right;">{{ item.author }}</span></div>
+                <div class="dateText" style="text-align:right;">&nbsp;By: <span style="text-align:right;">{{ item.author }}</span>
+                </div>
+                {% endif %}
             <!-- Arabic Content   -->
-            {% endif %}
+            
             {% else %}
 
               <!-- English Content   -->
@@ -75,14 +77,16 @@ section: blog
                 <div class="dateText" >&nbsp;By: <span>{{ item.author }}</span></div>
             <!-- English Content   -->
 
-            {% endif %}
-            {% endif %}
-            
-            </div>
+                {% endif %}
+                {% endif %}
+                
+                </div>
 
         <!-- <div class="summeryText" >{{ item.header | truncatewords: 7}}</div> -->
           {% if item.header %}
           <div class="summeryText" >{{ item.header | split:'.' | first }}.</div>
+          {% else %}
+            <div class="summeryText" >{{ item.content | split:'.' | first }}.</div>
           {% endif %}
         {% endif %}
       </div>
