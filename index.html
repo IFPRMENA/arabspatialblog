@@ -5,7 +5,7 @@ section: blog
 
 <div class='blogContainer clearfix'>
   <div class="blog-header">
-          <div class="blog-title" style="font-size:30px;color:#3d3d3d;">Blog</div>
+          <div class="blog-title" style="font-size:30px;color:#3d3d3d;">Arab Food Security Blog</div>
         </div>
   {% for item in site.categories.blog limit:3 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
@@ -81,15 +81,24 @@ section: blog
                 {% endif %}
                 
                 </div>
-
+        {% if item.language == 'arabic' %}
         <!-- <div class="summeryText" >{{ item.header | truncatewords: 7}}</div> -->
           {% if item.header %}
           <div class="summeryText" style="text-align:right;">{{ item.header | split:'.' | first }}.</div>
           {% else %}
             <div class="summeryText" style="text-align:right;">{{ item.content | split:'.' | first }}.</div>
           {% endif %}
-        {% endif %}
-      </div>
+          {% else %}
+
+          {% if item.header %}
+          <div class="summeryText">{{ item.header | split:'.' | first }}.</div>
+          {% else %}
+            <div class="summeryText">{{ item.content | split:'.' | first }}.</div>
+          {% endif %}
+
+            {% endif %}
+            {% endif %}
+          </div>
 
 {% else %}
 
