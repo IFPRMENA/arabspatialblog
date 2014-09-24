@@ -15,16 +15,6 @@ prose:
           label: "Published"
           element: "checkbox"
           value: true
-      - name: "language"
-        field:
-          element: "multiselect"
-          label: "Content Language"
-          placeholder: "Enlish or Arabic"
-          options:
-            - name: "Enlish"
-              value: "english"
-            - name: "Arabic"
-              value: "arabic"
       - name: "layout"
         field:
           element: "hidden"
@@ -88,6 +78,16 @@ prose:
           label: "Published"
           element: "checkbox"
           value: true
+      - name: "language"
+        field:
+          element: "multiselect"
+          label: "Content Language"
+          placeholder: "Enlish or Arabic"
+          options:
+            - name: "English"
+              value: "english"
+            - name: "Arabic"
+              value: "arabic"
       - name: "comments"
         field:
           label: "Allow Comments"
