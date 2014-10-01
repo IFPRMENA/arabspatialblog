@@ -634,6 +634,10 @@ margin-bottom: 10px;
     line-height: 16px;
 }
 
+.campaign a{
+    font-size: 12px;
+}
+
 .btn-default {
     color: #999793;
     background-color: #fff;
