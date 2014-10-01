@@ -14,11 +14,11 @@ padding: 15px;
 
 .eventFeed{
   max-height: 524px;
-  width: 300px;
+  width: 270px;
   background: #f1f1f0;
   float: left;
   overflow: auto;
-  padding: 0px 15px 0px 15px;
+  /*padding: 0px 15px 0px 15px;*/
   /*margin: 20px;*/
   /*margin-top: 20px;*/
 
@@ -85,6 +85,7 @@ font-size: 12px;
 
 .signNewLettersLink a {
   color:#fff;
+    font-size: 10px;
 }
 
 .seeBlogEntries{

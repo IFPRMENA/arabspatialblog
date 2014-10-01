@@ -4,7 +4,7 @@
 
 
 
-    {% for item in site.categories.event limit:100 %}
+    {% for item in site.categories.event limit:2 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 

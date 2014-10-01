@@ -305,12 +305,31 @@ input[type=text], textarea {
   margin: auto;
 }
 
+.blog-header{
+    height: 65px;
+}
+
 .blog-title{
 
   font-size: 20px;
   color:#999793;
-  
+  width: 390px;
+    margin: 0 auto;
+    margin-top: 10px;
 
+  }
+
+.events-title{
+    font-size: 14px;
+    color:#000000;
+    float: left;
+
+}
+
+.seeMore{
+    font-size: 12px;
+    float: right;
+    text-decoration: underline;
 }
 
 .floatleft{
@@ -347,6 +366,7 @@ input[type=text], textarea {
 .itemTitle{
   font-size: 15px;
   cursor: pointer;
+  color: #000000;
 
 }
 
@@ -412,4 +432,8 @@ margin-bottom: 10px;
   float: right;
   margin-right: 10px;
 
+}
+
+.signNewLettersLink a {
+    color: #fff;
 }

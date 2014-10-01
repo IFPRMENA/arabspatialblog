@@ -41,16 +41,32 @@ title: ''
   <body>
 
       <div class="bodyContainer clearfix">
+          <div class="blog-header">
+              <div class="blog-title" style="font-size:30px;color:#3d3d3d;">Arab Food Security Blog</div>
+          </div>
         <div class="feedContainer clearfix">
             <div class="blogFeed clearfix">
               {{content}}
             </div>
             <div class="eventTitleContainer">
-                <h1 class="blog-title">Upcoming/recent events</h1>
+                <h1 class="events-title">EVENTS</h1><a href="{{site.baseurl}}/fullsite"><span class="seeMore">See more events ></span></a>
+                <div class="eventFeed clearfix">
+                    {% include events_LP.html %}
+                </div>
             </div>
-            <div class="eventFeed clearfix">
-              {% include events.html %}
+            <div class="eventTitleContainer">
+                <h1 class="events-title">PUBLICATIONS</h1><a href="{{site.baseurl}}/fullsite"><span class="seeMore">See more publications ></span></a>
+                <div class="eventFeed clearfix">
+                    {% include publications_LP.html %}
+                </div>
             </div>
+            <div class="eventTitleContainer">
+                <h1 class="events-title">NEWSLETTER</h1>
+                <div class="eventFeed clearfix">
+                    {% include newsletters_LP.html %}
+                </div>
+            </div>
+
         </div>
       </div>
 

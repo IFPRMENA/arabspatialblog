@@ -1,0 +1,54 @@
+<!--   <div class='col4 margin3 pad4'> -->
+    <div class="display_publications" style="height:0px;overflow:auto;">
+
+
+    </div>
+
+
+                      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    				          <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+
+                      <script type="text/javascript">
+
+                      $(window).ready(function() {
+
+                        var url = 'http://50.62.145.200/proxy.ashx?https://server15738.contentdm.oclc.org/dmwebservices/index.php?q=dmQuery/p15738coll2/subjec%5earab%20countries%5eall%5eor!subjec%5emiddle%20east%5eall%5eand/title!subtit!date!creato!langua!subjec!loc!url/date!reverse/2/1/1/0/0/0/json';
+
+
+
+                        var postArgs = {};
+
+
+                          $.getJSON(url, postArgs).done(function (data) {
+
+                              console.log(data);
+
+                              $( ".display_publications" ).height( 220 );
+
+                              var publications = data;
+
+                              $.each(publications, function (key, data) {
+                                  //console.log(key)
+                                  $.each(data, function (index, data) {
+                                      // console.log('index', data.title);
+
+                                      if (data.title){
+                                        $("<div class='campaign'>" + data.date + " - <a href='http://ebrary.ifpri.org/cdm/ref/collection" + data.collection +  "/id/" + data.pointer + "' target='_blank' >" + data.title + "</div></a>").appendTo(".display_publications");
+                                      }
+                                  })
+                              })
+
+
+
+
+
+                          }).fail(function (jqxhr, textStatus, error) {
+                              var err = textStatus + ', ' + error;
+                              console.log("Request Failed: " + err);
+                          });
+
+	                     });
+
+                      </script>
+
+<!--   </div> -->
