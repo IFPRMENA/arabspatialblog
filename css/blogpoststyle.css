@@ -139,6 +139,11 @@
 
 .fa {
   padding: 5px 0 5px;
+
+}
+
+.dark{
+    color: #000000;
 }
 
 .footerHeight{
@@ -803,6 +808,10 @@ margin-top: -24px;
 .sidePanelTitle {
     font-size: 14px;
     color: #999793;
+}
+
+.display_publications{
+    overflow: auto;
 }
 
 

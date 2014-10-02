@@ -177,6 +177,10 @@
   padding: 5px 0 5px;
 }
 
+.dark{
+    color: #000000;
+}
+
 .footerHeight{
   height:50px;
 }

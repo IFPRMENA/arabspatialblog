@@ -194,6 +194,16 @@ title: ''
 
         var children = $( this ).children(".sidePanelTitle");
 
+        var childrenChild = $( children ).children(".arrow");
+
+        console.log(childrenChild);
+
+
+        $( children ).children("#arrow").toggleClass('fa-caret-right fa-caret-down');
+
+//        $( this ).children("#arrow").removeClass('fa-caret-right');
+
+
 
         if ($( this ).children(".collapsable").hasClass('expand')){
 
