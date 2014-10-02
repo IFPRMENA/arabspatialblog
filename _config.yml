@@ -107,11 +107,6 @@ prose:
           element: "text"
           label: "Image URL"
           value: ""
-      - name: "header"
-        field:
-          element: "text"
-          label: "Blog summary"
-          value: ""
       - name: "youtube_url"
         field:
           element: "text"
