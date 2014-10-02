@@ -75,7 +75,7 @@ title: ''
             </div>
             <div class="sidePanel">
 
-              {% if page.category == 'blog' %}
+              {% if page.category != 'event' %}
 
                 {% include tags.html %}
 
@@ -250,10 +250,15 @@ $('#seeMap').click(function(){
 
           $(".collapsable").removeClass('expand').addClass('collapse');
 
+          $("#arrow").removeClass('fa-caret-down').addClass('fa-caret-right');
+
       }else{
 
           $(".collapsable").removeClass('expand').addClass('collapse');
           $( this ).children(".collapsable").toggleClass('expand collapse');
+
+//          $("#arrow").removeClass('fa-caret-down').addClass('fa-caret-right');
+//          $( children ).children("#arrow").toggleClass('fa-caret-right fa-caret-down');
       }
 
   })
