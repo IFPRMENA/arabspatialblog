@@ -21,7 +21,7 @@ title: ''
     <!-- Custom styles for this template -->
     <link href="{{site.baseurl}}/css/blogpoststyle.css" rel="stylesheet">
 
-    <link href="{{site.baseurl}}/css/myFeedStyle.css" rel="stylesheet">
+    <!--<link href="{{site.baseurl}}/css/myFeedStyle.css" rel="stylesheet">-->
 
     <link href="{{site.baseurl}}/css/animate.css" rel="stylesheet">
 
@@ -52,8 +52,16 @@ title: ''
     </script>
 
     <div class="bodyContainer clearfix grayBackground">
+
+        <div class="blog-header grayBackground clearfix">
+            <div class="blog-title" style="font-size:30px;color:#3d3d3d;">Arab Food Security Blog</div>
+        </div>
+
+
         <div class="feedContainer clearfix grayBackground">
             <div class="blogFeed clearfix">
+
+
 
     <div class="postContainer clearfix whiteBackground">
 
@@ -67,15 +75,15 @@ title: ''
 
               {% if page.category == 'blog' %}
 
-              {% include rss-link.html %}
+                {% include tags.html %}
 
-              {% include tags.html %}
+                {% include publications.html %}
 
-              {% include publications.html %}
+                {% include events.html %}
 
-              {% include newsletters.html %}
+                {% include newsletters.html %}
 
-              {% include archives.html %}
+                {% include archives.html %}
 
               {% else %}
 
@@ -220,6 +228,23 @@ $('#seeMap').click(function(){
         $(".mapContainer").toggleClass('expandMap collapseMap');
 
     })
+
+  $('.toggleCollapsable').click(function(){
+
+      var children = $( this ).children(".sidePanelTitle");
+
+
+      if ($( this ).children(".collapsable").hasClass('expand')){
+
+          $(".collapsable").removeClass('expand').addClass('collapse');
+
+      }else{
+
+          $(".collapsable").removeClass('expand').addClass('collapse');
+          $( this ).children(".collapsable").toggleClass('expand collapse');
+      }
+
+  })
 
   </script>
 

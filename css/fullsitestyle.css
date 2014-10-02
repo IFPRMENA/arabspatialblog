@@ -476,7 +476,7 @@ margin-bottom: 10px;
 .expand{
 
 
-    height: 300px;
+    height: 230px;
     overflow: auto;
 
     transition: height 0.5s ease-in;
