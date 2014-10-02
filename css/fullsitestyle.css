@@ -415,6 +415,11 @@ input[type=text], textarea {
   float: left;
   color: #4b4b4b;
 }
+
+.eventdayMain{
+    color: #000000;
+}
+
 .eventmonth{
   max-width: 140px;
   text-align: center;
@@ -677,6 +682,7 @@ margin-bottom: 10px;
     margin-bottom: 8px;
     line-height: 16px;
     width: 250px;
+    color: #000000;
 }
 
 .campaign a{
