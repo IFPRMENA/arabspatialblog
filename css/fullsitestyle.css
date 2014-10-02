@@ -1,3 +1,11 @@
+.padding20{
+    padding: 10px;
+}
+
+.marginBottom10{
+    margin-bottom: 10px;
+}
+
 .monthStack{
   display:none;
 }
@@ -306,7 +314,7 @@ input[type=text], textarea {
 }
 
 .blog-header{
-    height: 65px;
+    padding-left: 15px;
 }
 
 .blog-title{
@@ -314,7 +322,6 @@ input[type=text], textarea {
   font-size: 20px;
   color:#999793;
   width: 390px;
-    margin: 0 auto;
     margin-top: 10px;
 
   }
@@ -453,16 +460,30 @@ margin-bottom: 10px;
 }
 
 .eventFeed{
-    max-height: 524px;
-    width: 270px;
-    background: #f1f1f0;
-    float: left;
-    overflow: auto;
-    /*padding: 0px 15px 0px 15px;*/
-    /*margin: 20px;*/
-    /*margin-top: 20px;*/
 
 }
+
+.collapse{
+    height: 0px;
+    overflow: hidden;
+
+    transition: height 0.5s ease-in;
+
+
+
+}
+
+.expand{
+
+
+    height: 300px;
+    overflow: auto;
+
+    transition: height 0.5s ease-in;
+
+
+}
+
 
 .eventTitleContainer{
     width: 300px;
@@ -474,6 +495,7 @@ margin-bottom: 10px;
 
 .grayBackground{
     background: #f1f1f0;
+
 }
 
 .whiteBackground{
@@ -486,9 +508,9 @@ margin-bottom: 10px;
     background: #f1f1f0;
     float: left;
     /* overflow: auto; */
-    padding: 15px;
+    padding: 15px 0 0 0;
     /*margin: 20px;*/
-    margin-top: 35px;
+    /*margin-top: 35px;*/
     font-size: 12px;
 
 }
@@ -502,6 +524,11 @@ margin-bottom: 10px;
     font-size: 16px;
     color: #999793;
     margin-top: 5px;
+}
+
+.sidePanelTitle{
+    font-size: 14px;
+    color: #999793;
 }
 
 .noBorderBottom{

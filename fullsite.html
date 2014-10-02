@@ -42,10 +42,10 @@ title: ''
 
       <div class="bodyContainer clearfix grayBackground">
         <div class="feedContainer clearfix grayBackground">
-            <div class="blogFeed clearfix">
-              <div class="blog-header">
+            <div class="blog-header">
                 <div class="blog-title" style="font-size:30px;color:#3d3d3d;">Arab Food Security Blog</div>
-              </div>
+            </div>
+            <div class="blogFeed clearfix">
     <div class="postsContainer clearfix whiteBackground">
     {% for item in site.categories.blog limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
@@ -139,24 +139,26 @@ title: ''
       </div>
             </div>
             <div class="sidePanel">
-              {% include rss-link.html %}
 
               {% include tags.html %}
 
-
-              <div class="">
-                  <h4 class="blog-title"><i class="fa fa-angle-double-right"></i> EVENTS</h4>
-              </div>
-              
-                {% include eventsMainPage.html %}
-              
-
-
               {% include publications.html %}
+
+              {% include events.html %}
 
               {% include newsletters.html %}
 
               {% include archives.html %}
+
+
+              
+
+              
+
+
+
+
+
 
 
 
@@ -186,10 +188,41 @@ title: ''
     <script src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script>
 
     <script>
-    $(".month").on("click", function () {
 
 
-  });
+    $('.toggleCollapsable').click(function(){
+
+        var children = $( this ).children(".sidePanelTitle");
+
+        console.log(children);
+
+//        $(".sidePanelTitle").removeClass('fa-caret-right').addClass('fa-caret-down');
+
+
+
+
+
+
+        if ($( this ).children(".collapsable").hasClass('expand')){
+
+            $(".collapsable").removeClass('expand').addClass('collapse');
+
+        }else{
+
+            $(".collapsable").removeClass('expand').addClass('collapse');
+            $( this ).children(".collapsable").toggleClass('expand collapse');
+        }
+
+
+
+//        var toggleParent = this.children();
+//        var kids = $( event.target ).children(0);
+//
+//        console.log(kids);
+//
+//        $(".collapsable").toggleClass('expand collapse');
+
+    })
 
 
   </script>

@@ -1,0 +1,56 @@
+<!--   <div class='col4 margin3 pad4'> -->
+<div class="whiteBackground padding20 marginBottom10">
+    <div class="toggleCollapsable">
+
+            <div class="sidePanelTitle"><i class="fa fa-caret-right"></i> EVENTS</div>
+
+
+            <div id="events" class="collapsable collapse" style="">
+
+            {% capture now %}{{ site.time | date: '%x' }}{% endcapture %}
+
+
+
+                {% for item in site.categories.event limit:100 %}
+                {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
+                {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
+
+                {% assign delimiter = ' - ' %}
+                  {% capture verifydate %}{{ item.eventdate | date: '%x' }}{% endcapture %}
+                  {% capture verifydate %}{{ verifydate | replace: delimiter, ' ' }}{% endcapture %}
+                  {% capture myFirstWord %}{{ verifydate | truncatewords: 1 | remove: '...' }}{% endcapture %}
+
+
+                <div id="{{item.title}}" class="eventMain clearfix" >
+
+
+
+              <div class="eventdateMain">
+                  <!-- <div class="eventmonth">{{item.eventdate}}</div> -->
+                  <div class="eventdayMain">{{item.eventdate}}</div>
+              </div>
+              <div class="eventtextContainerMain col-sm-12" style="padding-left:0px;">
+
+                    {% if item.title %}
+
+                    <div class="entryTitleMain"><a title="{{ item.title }}" class='eventItemTitle feedeventItemTitle' href='{{site.baseurl}}{{item.url}}' style="font-size:12px;">{{item.title }}</a></div>
+
+                    <div class='eventLocationMain'>
+
+                      <!-- {% if item.location %}
+                        <div class="dateText" >Where: {{ item.location }}</div>
+                        {% endif %} -->
+                      </div>
+                    <!-- <div class="summeryText" >{{ item.header}}</div> -->
+                    {% endif %}
+                    </div>
+
+
+                </div>
+                {% endfor %}
+
+              </div>
+    </div>
+  </div>
+
+  <!-- /.blog-sidebar -->
