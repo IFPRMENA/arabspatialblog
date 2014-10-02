@@ -240,9 +240,6 @@ $('#seeMap').click(function(){
       console.log(childrenChild);
 
 
-      $( children ).children("#arrow").toggleClass('fa-caret-right fa-caret-down');
-
-//        $( this ).children("#arrow").removeClass('fa-caret-right');
 
 
 
@@ -250,18 +247,25 @@ $('#seeMap').click(function(){
 
           $(".collapsable").removeClass('expand').addClass('collapse');
 
-          $("#arrow").removeClass('fa-caret-down').addClass('fa-caret-right');
+
+          $('.arrow').removeClass('fa-caret-down').addClass('fa-caret-right');
+
 
       }else{
 
           $(".collapsable").removeClass('expand').addClass('collapse');
           $( this ).children(".collapsable").toggleClass('expand collapse');
 
-//          $("#arrow").removeClass('fa-caret-down').addClass('fa-caret-right');
-//          $( children ).children("#arrow").toggleClass('fa-caret-right fa-caret-down');
+          $('.arrow').removeClass('fa-caret-down').addClass('fa-caret-right');
+
+          $( children ).children("#arrow").toggleClass('fa-caret-right fa-caret-down');
+
       }
 
-  })
+
+
+
+  });
 
   </script>
 
