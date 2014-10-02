@@ -15,7 +15,7 @@ header: "The new IFPRI Discussion Paper “Climate Change and Floods in Yemen”
 ---
 
 The new IFPRI [Discussion Paper](http://www.ifpri.org/publication/climate-change-and-floods-yemen) “Climate Change and Floods in Yemen” by [Manfred Wiebelt](http://www.ifw-members.ifw-kiel.de/~manfred_wiebelt_ifw_kiel_de), [Clemens Breisinger](http://www.ifpri.org/staffprofile/clemens-breisinger), [Olivier Ecker](http://www.ifpri.org/staffprofile/olivier-ecker), [Perrihan Al-Riffai](http://www.ifpri.org/staffprofile/perrihan-al-riffai),[Richard Robertson](http://www.ifpri.org/staffprofile/richard-robertson), and [Ranier Thiele](http://www.ifw-members.ifw-kiel.de/hp/rainer_thiele_ifw_kiel_de) assesses the impact of climate change on Yemen’s economy and food security. The effects of climate change are extremely salient considering Yemen’s high levels of food import dependency, food insecurity, and poverty. An estimated 43 percent of Yemenis live in poverty, and 32 percent of the population does not have access to enough food.
-
+<!-- more -->
 The paper shows that climate change will have a negative impact of the country’s future development. The number of poor and food insecure people will increase, it argues, as climate change causes higher food prices on the global level and a long-term reduction in agricultural yields, and potentially increases the frequency of flooding.
 
 Global commodity price changes will threaten the country’s already vulnerable populations. Although higher global prices will raise agricultural GDP, they will lower Yemen’s overall GDP growth and decrease household incomes.

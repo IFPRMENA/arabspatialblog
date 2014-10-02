@@ -19,7 +19,7 @@ author:
 [_Cross-posted from IFPRI Website_](http://www.ifpri.org/blog/user-s-experience-arab-spatial)
 
 _Shahira Emara, GDNet Knowledge Services Manager in the Global Development Network’s Cairo office, shared her thoughts on the new Arab Spatial tool._
-
+<!-- more -->
 **How is Arab Spatial beneficial for the Middle East and North Africa region?**
 
 It’s one platform that brings many sorts of data together in one place and presents it visually. I live in Egypt, and from my experience, I find it very difficult to find data and information on research topics that are reliable and not contradictory to reality. Data availability, accessibility, and robustness are huge challenges for me. Having used Arab Spatial, I know I can make instant judgments and reactions, and decide on what areas I need to focus my research. I also appreciate the transparency provided by the initiative; I know the sources of data from which Arab Spatial was extracted and published.

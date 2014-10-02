@@ -21,7 +21,7 @@ _Cross-posted from [IFPRI Website](http://www.ifpri.org/blog/connecting-dots-map
 ## Mapping Development in the Middle East and North Africa with Updated Arab Spatial
 
 Improving food security and enhancing economic development in developing countries requires a multifaceted approach—and that includes access to reliable data. In the swiftly changing Middle East and North Africa (MENA) region, up-to-date information is particularly crucial for policymakers to make accurate assessments of poverty, food and nutrition security, and other development indicators.
-
+<!-- more -->
 In early 2013, the IFPRI-led open-access database and mapping tool—Arab Spatial—was launched to support this objective. The first initiative of its kind in the MENA region, Arab Spatial compiles, synthesizes, and geographically displays data on more than 200 indicators of food security and development. It analyzes food availability, accessibility, stability, and utilization, and the resulting nutritional status of individuals. It also considers the role that crises like violent conflict and shocks like climate change play in disrupting food security, and, in contrast, the role that policies and interventions can play in improving it.
 
 The database allows users to customize outputs according to their needs. For example, if someone wants to determine a link between droughts and violent conflict, Arab Spatial can map only those indicators or selectively add more layers, depending on the question raised.

@@ -22,6 +22,8 @@ _Cross-posted from [IFPRI Website](http://www.ifpri.org/blog/introducing-yemen-s
 
 Yemen ranks among the ten most food-insecure countries globally and has child malnutrition rates of nearly sixty percent, the highest in the Arab World. These two figures underscore the country’s future social and economic development challenges.
 
+<!-- more -->
+
 [Yemen Spatial](http://www.arabspatial.org/?id=YEM), an online food security mapping and charting tool, was launched was launched last week in Sana’a at the joint [Ministry of Planning and International Cooperation (MoPIC)](http://www.mpic-yemen.org/mpic/) and [Food and Agriculture Organization](http://www.fao.org/) Food Security Information System (FSIS) Inception Workshop.
 
 Yemen Spatial is a collaborative effort between Yemen’s Ministry of Planning and International Cooperation; MoPIC; IFPRI; the [CGIAR Research Program on Policies, Institutions, and Markets (PIM)](http://www.pim.cgiar.org/); the [International Fund for Agricultural Development (IFAD)](http://ifad.org/); and the [German international development organization GIZ](http://www.giz.de/en/worldwide/369.html). The objectives of the tool are to support the implementation of [Yemen’s National Food Security Strategy (NFSS)](http://www.ifpri.org/publication/food-basis-development-and-security), to monitor and evaluate progress in key food security indicators such as calorie deficiency and child stunting, and to strengthen food security by making data and information available for policy.

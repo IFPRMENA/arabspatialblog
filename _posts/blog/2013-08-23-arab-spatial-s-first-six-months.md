@@ -19,7 +19,7 @@ author:
 _Cross-posted from [IFPRI website](http://www.ifpri.org/blog/arab-spatial-s-first-six-months)_
 
 _IFPRI Senior Research Analyst [Perrihan Al-Riffai](http://www.ifpri.org/staffprofile/perrihan-al-riffai) discusses the progress and promise of Arab Spatial, an open-access database and interactive mapping tool she helped design that houses and geographically displays data on more than 150 indicators of development in the Middle East and North Africa._
-
+<!-- more -->
 **Q: What makes Arab Spatial unique?**
 A: It’s the first tool of its kind in the Middle East and North Africa. In the intensively technological time we’re living in, people working on policies rely on technology and data more than ever. Arab Spatial provides them with a constantly expanding repository of high-quality data and maps linked to micro- and macro-level information. The goal is that this spurs organizations—especially regional and international ones—to really work in a cooperative way instead of in isolation.
 

@@ -17,7 +17,7 @@ author:
 __Cross-posted from [2020resilience Website](http://www.2020resilience.ifpri.info/2014/02/12/enhancing-resilience-to-conflict-in-arab-countries/). 
 
 Conflict and development research has in general neglected rural development and food security in the Arab world. To address this research gap, IFAD and IFPRI partnered in a three-year research project that recently culminated in a workshop titled, “Enhancing Resilience to conflict in Arab countries through research and Arab Spatial 2.0” in Rome on January 16, 2014. At the workshop, we presented our research findings and information tools that emphasize the key linkages between conflict, rural development, and food security in Arab countries and highlighted which policies and interventions may enhance resilience to conflict.   
-
+<!-- more -->
 Food insecurity is a major (though not the only) cause of conflict in Arab countries, more so than in the rest of the world. Policies, programs, and projects that improve food security are therefore likely to also reduce conflict and enhance resilience to future conflict.   
 
 Those key messages are at the crux of our regional-level research and are discussed in greater detail in case studies from four countries in the region: Somalia, Sudan, Yemen and Egypt. Somalia and Sudan are countries that have been in conflict for many years, and Yemen and Egypt are examples of “complex emergencies”, i.e. countries that have experienced a series of economic shocks, which may have contributed to conflict.   

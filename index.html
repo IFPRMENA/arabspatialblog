@@ -58,9 +58,9 @@ section: blog
             <!-- Arabic Content   -->
             <div class="entryTitle blogClickable" style="text-align:right;" title="{{ item.title }}"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle' title="{{ item.title }}">{{item.title}}</a></div>
               <div class='date' style="float:right;">
-                <div class="dateText" style="text-align:right;">{{item.date | date:"%B %d"}}   &#8226;</div>
+                <div class="dateText" style="text-align:right;">{{item.date | date:"%B %d"}}</div>
                 {% if item.author %}
-                <div class="dateText" style="text-align:right;">&nbsp;By: <span style="text-align:right;">{{ item.author }}</span>
+                <div class="dateText" style="text-align:right;">&nbsp; &#8226; &nbsp;By: <span style="text-align:right;">{{ item.author }}</span>
                 </div>
                 {% endif %}
             <!-- Arabic Content   -->
@@ -70,9 +70,9 @@ section: blog
               <!-- English Content   -->
               <div class="entryTitle blogClickable" title="{{ item.title }}"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle' title="{{ item.title }}">{{item.title}}</a></div>
               <div class='date'>
-                <div class="dateText" >{{item.date | date:"%B %d"}}   &#8226;</div>
+                <div class="dateText" >{{item.date | date:"%B %d"}}</div>
                 {% if item.author %}
-                <div class="dateText" >&nbsp;By: <span>{{ item.author }}</span></div>
+                <div class="dateText" >&nbsp; &#8226; &nbsp;By: <span>{{ item.author }}</span></div>
             <!-- English Content   -->
 
                 {% endif %}

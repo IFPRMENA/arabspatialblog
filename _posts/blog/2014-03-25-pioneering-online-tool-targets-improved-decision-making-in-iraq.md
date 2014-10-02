@@ -19,8 +19,11 @@ author:
 The following story was originally published on [the International Center for Agricultural Research in the Dry Areas (ICARDA) website](http://www.icarda.org/pioneering-online-tool-targets-improved-decision-making-iraq). ICARDA is a member of the [Consortium of International Agricultural Research Centers](http://www.cgiar.org/), supported by the CGIAR Fund.
 
 Without access to accurate and comprehensive data, decision makers and researchers struggle to develop appropriate policy agendas – they lack the information they need to determine what interventions are needed, and where, and their policies may do more harm than good, or at best, be ineffective and miss their intended targets.
+<!-- more -->
 
 Iraq is one of many countries across the Arab world that is looking to make its decision making processes more effective. After decades of conflict, sanctions, and increasing environmental degradation brought on by climate change, Iraq needs an appropriate policy agenda capable of revitalizing its struggling agricultural sector and meeting the food needs of its growing population.
+
+
 
 In a country where government ministries and other decision making bodies face significant capacity constraints, policy reform is unlikely to be an easy task. Yet this process can be facilitated if policymakers are given reliable data on which to complement evidence-based decision making. This is the thinking behind a new online tool that aggregates a full range of development-related data – a ‘one-stop’ source of reliable and comprehensive geospatial information that targets Iraq’s policymakers and research community.
 

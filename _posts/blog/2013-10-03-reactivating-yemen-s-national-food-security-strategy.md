@@ -16,7 +16,7 @@ splash: "https://farm4.staticflickr.com/3924/14879786697_a9a037c49d_o.jpg"
 Although the level of food insecurity in Yemen is alarming, it is also declining. In 2011, Yemen was among the bottom 10 countries of the world in terms of food security, but by the end of 2012, food security levels had almost reached pre-crisis levels, according to research presented at a workshop on “Reactivating the Yemen National Food Security Strategy,” held last month in Sana’a, Yemen.
 
 The latest workshop was a follow-up to the December 2010 event that witnessed the launch of the first National Food Security Strategy (NFSS). As before, IFPRI helped provide evidence-based policy recommendations for the latest edition of the Strategy and is collaborating on its implementation, along with the Ministries of Planning and International Cooperation and other national ministries of agriculture, development, trade, health, water, and fisheries.
-
+<!-- more -->
 At the workshop, National Food Security Coordinator Khaled Saeed outlined the Strategy, and IFPRI Research Fellow Clemens Breisinger presented a seven-point plan for implementing it. Recommendations in the action plan include leveraging fuel-subsidy reform through direct transfers, improving targeted service provision, and promoting pro-food secure private investments in promising sectors. The plan also highlighted the following priority investment areas:
 
 * Agriculture: Focus on improving productivity of pro-poor cash crops, cultivating coffee or cereals in place of qat, supporting agricultural research and extension, using land more efficiently, and implementing integrated water resource management.
