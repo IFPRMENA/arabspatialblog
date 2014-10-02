@@ -16,3 +16,12 @@
   font-family: 'Futura Condensed Bold';
   src: url('fonts/Futura Condensed Bold.ttf');
 }
+
+
+
+
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('fonts/GothaMed.ttf');
+}
