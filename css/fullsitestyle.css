@@ -551,6 +551,7 @@ margin-bottom: 10px;
 .sidePanelTitle{
     font-size: 14px;
     color: #999793;
+    cursor: pointer;
 }
 
 .noBorderBottom{

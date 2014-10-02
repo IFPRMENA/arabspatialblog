@@ -330,6 +330,8 @@ input[type=text], textarea {
     font-size: 10px;
     float: right;
     text-decoration: underline;
+    cursor: pointer;
+    color:#f05a30;
 }
 
 .floatleft{

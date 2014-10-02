@@ -788,7 +788,7 @@ margin-top: -24px;
 
     font-size: 20px;
     color:#303030;
-    
+
     margin-top: 10px;
 
 }
@@ -809,6 +809,7 @@ margin-top: -24px;
 .sidePanelTitle {
     font-size: 14px;
     color: #999793;
+    cursor: pointer;
 }
 
 .display_publications{
