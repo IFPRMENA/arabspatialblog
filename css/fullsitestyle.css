@@ -41,8 +41,8 @@
   /*text-align: center;*/
   line-height: 22px;
   /*float:left;*/
-  margin-bottom: 3px;
-  margin-top: 3px;
+  /*margin-bottom: 3px;*/
+  margin-top: 10px;
 }
 
 .tagDate {
@@ -66,9 +66,21 @@
   font-weight:normal;
   /*padding: 10px 0 10px;*/
   float:left;
-  padding-top: 4px;
+  /*padding-top: 4px;*/
   width: 100%;
   }
+
+.summeryText h2 {
+    font-size: 14px;
+}
+
+.summeryText p {
+    font-size: 12px;
+}
+
+.summeryText {
+    font-size: 12px;
+}
 
 .article{
   margin-bottom:15px;
@@ -305,7 +317,7 @@ input[type=text], textarea {
 
 .dateText{
   /*padding: 5px;*/
-  margin-bottom: 5px; 
+  /*margin-bottom: 5px; */
   line-height: 11px; 
   font-size: 10px; 
   float:left;
@@ -375,7 +387,7 @@ input[type=text], textarea {
 }
 
 .itemTitle{
-  font-size: 15px;
+  font-size: 18px;
   cursor: pointer;
   color: #000000;
 

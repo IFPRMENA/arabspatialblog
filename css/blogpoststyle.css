@@ -366,8 +366,8 @@ input[type=text], textarea {
 }
 
 .itemTitle{
-  font-size: 16px;
-
+  font-size: 18px;
+    color: #000000;
   line-height: 1.3;
 
 }

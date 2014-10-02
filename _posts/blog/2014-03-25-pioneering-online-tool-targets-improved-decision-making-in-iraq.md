@@ -6,7 +6,7 @@ category: blog
 comments: true
 splash: "http://www.ifpri.org/sites/default/files/imagecache/prefab_large/iraqspatial240.png"
 header: "Iraq Spatial provides over 200 indicators, including macroeconomic, sectoral, climate, biophysical, and socioeconomic data at the national, subnational, and pixel level"
-tags: 
+tags:
   - Iraq
   - tools
   - database
