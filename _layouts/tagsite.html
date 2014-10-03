@@ -67,13 +67,13 @@ title: ''
 
     
 
-    {% if date != ndate %}
-    <div class='month'>{{post.date | date: '%B %Y'}}</div>
-    {% endif %}
+    <!--{% if date != ndate %}-->
+    <!--<div class='month'>{{post.date | date: '%B %Y'}}</div>-->
+    <!--{% endif %}-->
 
     <div id="{{item.title}}" class="articleTag clearfix noBorderBottom">
         <div class='date'>
-          <span class="dateText">{{post.date | date:"%B %d"}} &#8226; {{post.category}} post</span>
+          <span class="dateText">{{post.date | date:"%B %d, %Y"}} &#8226; {{post.category}} post</span>
         </div>
           
         <a class='item' href='{{site.baseurl}}{{post.url}}'>{{post.title}}</a>

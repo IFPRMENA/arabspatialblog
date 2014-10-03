@@ -31,13 +31,13 @@ section: blog
       
       <div class="dateText" style="float:right;">&nbsp;By: <span>{{ page.author }}</span></div>
           {% if page.author %}
-            <div class="dateText" style="float:right;">{{page.date | date:"%B %d"}}   &#8226;</div>
+            <div class="dateText" style="float:right;">{{page.date | date:"%B %d, %Y"}}   &#8226;</div>
           {% endif %}
     
     {% else %}
 
     <div class='date'>
-      <div class="dateText">{{page.date | date:"%B %d"}}   &#8226;</div>
+      <div class="dateText">{{page.date | date:"%B %d, %Y"}}   &#8226;</div>
           {% if page.author %}
             <div class="dateText" >&nbsp;By: <span>{{ page.author }}</span></div>
           {% endif %}
