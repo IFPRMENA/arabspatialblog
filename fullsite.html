@@ -97,7 +97,7 @@ title: ''
 
                   <div class='date' style="float:right;">
                     <div class="dateText" style="text-align:right;">
-                      {{item.date | date:"%B %d"}}
+                      {{item.date | date:"%B %d, %Y"}}
                     </div>
 
                     <div class="dateText" style="text-align:right;">&nbsp; &#8226; &nbsp; By: <span style="text-align:right;">{{ item.author }}</span></div>
@@ -113,7 +113,7 @@ title: ''
 
                   <div class="entryTitle blogClickable"><a id="{{ item.title | replace: ' ', '_' }}" title="{{ item.title }}" class='itemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title }}</a></div>
                   <div class='date'>
-                    <div class="dateText">{{item.date | date:"%B %d"}}</div>
+                    <div class="dateText">{{item.date | date:"%B %d, %Y"}}</div>
                     {% if item.author %}
                       <div class="dateText" >&nbsp; &#8226; &nbsp; By: <span>{{ item.author }}</span></div>
                     {% endif %}
