@@ -1,6 +1,6 @@
 baseurl: /arabspatialblog
 permalink: pretty
-markdown: rdiscount
+markdown: kramdown
 encoding: UTF-8
 highlighter: rouge
 prose:
