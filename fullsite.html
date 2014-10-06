@@ -280,30 +280,43 @@ title: ''
 
     });
 
-    var activeLngCode = "en";
-
     function translate(lngCode){
 
-        if(lngCode != activeLngCode){
+//            if(lngCode != activeLngCode){
+//
+//                $(".article").toggleClass('showblog hideblog');
+//                activeLngCode = lngCode;
+//
+//            }
 
-            $(".articleblog").toggleClass('showblog hideblog');
-            activeLngCode = lngCode;
+        if(lngCode === "ara"){
+
+
+            $(".arabic").removeClass('hideblog');
+            $(".arabic").addClass('showblog');
+
+            $(".english").removeClass('showblog');
+            $(".english").addClass('hideblog');
+
+        }if (lngCode === "en"){
+
+            $(".english").removeClass('hideblog');
+            $(".english").addClass('showblog');
+
+            $(".arabic").removeClass('showblog');
+            $(".arabic").addClass('hideblog');
 
         }
 
 
 
 
-    }
 
 
 
 
 
-
-
-
-  </script>
+    </script>
 
   </body>
 </html>
