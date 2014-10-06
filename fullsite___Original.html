@@ -45,17 +45,13 @@ title: ''
             <div class="blog-header">
                 <div class="blog-title" style="font-size:30px;">ARAB FOOD SECURITY BLOG</div>
             </div>
-    <div class="blogFeed clearfix">
-        <button type="button" id="en" class="btn btn-default">english</button>
-        <button type="button" id="ara" class="btn btn-default">arabic</button>
+            <div class="blogFeed clearfix">
     <div class="postsContainer clearfix whiteBackground">
     {% for item in site.categories.blog limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 
-{% if item.language == 'arabic' %}
-
-    <div id="{{item.title}}" class="articleblog clearfix arabic hideblog">
+    <div id="{{item.title}}" class="articleblog clearfix">
 
           {% if item.splash or item.youtube_url %}
 
@@ -92,7 +88,9 @@ title: ''
           {% endif %}
 
         <div class="textContainer col-sm-12">
-
+                
+              {% if item.language == 'arabic' %}
+                
                   <!-- Arabic Content   -->
                 <div class="entryTitle blogClickable" style="text-align:right;" title="{{ item.title }}"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle' title="{{ item.title }}" href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a>
                 </div>
@@ -106,79 +104,37 @@ title: ''
                   </div>
 
                     {% if item.content %}
-                    <div class="summeryText" style="text-align:right;">{{ item.content | split: '<!-- more -->' | first }}</div>
+                    <div class="summeryText" style="text-align:right;">{{ item.content }}</div>
+                    {% endif %}
+
+
+
+              {% else %}
+
+                  <div class="entryTitle blogClickable"><a id="{{ item.title | replace: ' ', '_' }}" title="{{ item.title }}" class='itemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title }}</a></div>
+                  <div class='date'>
+                    <div class="dateText">{{item.date | date:"%B %d, %Y"}}</div>
+                    {% if item.author %}
+                      <div class="dateText" >&nbsp; &#8226; &nbsp; By: <span>{{ item.author }}</span></div>
+                    {% endif %}
+                  </div>
+
+                    {% if item.content contains '<!-- more -->' %}
+                    <div class="summeryText" >{{ item.content | split: '<!-- more -->' | first }}</div>
+                    <!--<div class="summeryText" >{{ item.excerpt | strip_html}}...</div>-->
+                    {% else %}
+                    <div class="summeryText" >{{ item.content }}</div>
                     {% endif %}
 
 
 
 
+             {% endif %}
 
-
+               
         </div>
     
     </div>
-
-        {% else %}
-
-        <div id="{{item.title}}" class="articleblog clearfix english showblog">
-
-            {% if item.splash or item.youtube_url %}
-
-            {% if item.youtube_url %}
-            {% capture youtubeurl %}{{item.youtube_url}}{% endcapture %}
-            <div class="video-wrapper">
-                <a href='{{site.baseurl}}{{item.url}}'><div class="youtubeThumbnail">
-                    <img width="100%" src='http://img.youtube.com/vi/{{youtubeurl}}/hqdefault.jpg' alt='' />
-                    <i class="fa fa-play iconPlay"></i>
-                </div></a>
-            </div>
-            {% endif %}
-
-            {% if item.splash && item.youtube %}
-            {% if item.splash contains 'http' %}
-            {% capture url %}{{item.splash}}{% endcapture %}
-            {% else %}
-            {% capture url %}{{site.baseurl}}{{item.splash}}/{% endcapture %}
-            {% endif %}
-
-            <div class='splash' href='{{site.baseurl}}{{item.url}}'>
-                <a href='{{site.baseurl}}{{item.url}}'>
-                    <img width="100%" src='{{url}}' alt='' />
-                </a>
-            </div>
-            {% endif %}
-
-            {% else %}
-            <div class='splash' href='{{site.baseurl}}{{item.url}}'>
-                <a href='{{site.baseurl}}{{item.url}}'>
-                    <img width="100%" src='{{site.baseurl}}/img/IFPRI.png' alt='' />
-                </a>
-            </div>
-            {% endif %}
-
-
-            <div class="textContainer col-sm-12">
-
-                <div class="entryTitle blogClickable"><a id="{{ item.title | replace: ' ', '_' }}" title="{{ item.title }}" class='itemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title }}</a></div>
-                <div class='date'>
-                    <div class="dateText">{{item.date | date:"%B %d, %Y"}}</div>
-                    {% if item.author %}
-                    <div class="dateText" >&nbsp; &#8226; &nbsp; By: <span>{{ item.author }}</span></div>
-                    {% endif %}
-                </div>
-
-                {% if item.content contains '<!-- more -->' %}
-                <div class="summeryText" >{{ item.content | split: '<!-- more -->' | first }}</div>
-                <!--<div class="summeryText" >{{ item.excerpt | strip_html}}...</div>-->
-                {% else %}
-                <div class="summeryText" >{{ item.content }}</div>
-                {% endif %}
-
-            </div>
-        </div>
-
-
-        {% endif %}
 
 
       {% endfor %}
@@ -271,30 +227,6 @@ title: ''
 
 
     });
-
-    $('.btn').click(function(){
-
-        var lngCode = $(this).attr('id');
-        translate(lngCode)
-
-
-    });
-
-    var activeLngCode = "en";
-
-    function translate(lngCode){
-
-        if(lngCode != activeLngCode){
-
-            $(".articleblog").toggleClass('showblog hideblog');
-            activeLngCode = lngCode;
-
-        }
-
-
-
-
-    }
 
 
 

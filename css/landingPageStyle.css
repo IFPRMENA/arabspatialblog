@@ -61,6 +61,16 @@
   padding-top: 4px;
   width: 100%;
   }
+.summeryText h2 {
+    font-size: 14px;
+}
+.summeryText p {
+    font-size: 12px;
+}
+
+.summeryText {
+    font-size: 12px;
+}
 
 .article{
   margin-bottom:15px;
@@ -484,7 +494,7 @@ margin-bottom: 10px;
 
 .sidePanel {
     /* height: 582px; */
-    width: 280px;
+    width: 314px;
     background: #f1f1f0;
     float: left;
     /* overflow: auto; */
@@ -701,5 +711,18 @@ margin-bottom: 10px;
     /* margin: 20px; */
     /*margin-top: 35px;*/
     font-size: 12px;
+}
+
+.hideblog{
+    display: none !important;
+}
+
+.showblog{
+    display: block !important;
+}
+
+.btn {
+    display: block;
+
 }
 
