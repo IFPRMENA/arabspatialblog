@@ -5,8 +5,8 @@ encoding: UTF-8
 highlighter: rouge
 prose:
   rooturl: '_posts'
-  siteurl: 'http://50.62.145.200/arabspatialblog/'
-  relativeLinks: 'http://50.62.145.200/arabspatialblog/links.jsonp'
+  siteurl: 'http://arabspatial.org/arabspatialblog/'
+  relativeLinks: 'http://arabspatial.org/arabspatialblog/links.jsonp'
   media: 'media'
   metadata:
     _posts/events:
