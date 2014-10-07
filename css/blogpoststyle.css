@@ -31,7 +31,7 @@
   max-width: 630px;
   }
 .date {
-  color:gray;
+  color:#5e5e5e;
   font-weight:normal;
   /*max-width: 90px;*/
   height: 13px;
@@ -60,7 +60,7 @@
 }
 
 .summeryText {
-  /*color:#657b83;*/
+  color:#5e5e5e;
   font-weight:normal;
   /*padding: 10px 0 10px;*/
   float:left;
@@ -369,6 +369,7 @@ input[type=text], textarea {
   font-size: 18px;
     color: #000000;
   line-height: 1.3;
+    font-weight: bold;
 
 }
 
@@ -382,6 +383,7 @@ input[type=text], textarea {
 margin-top: 10px;
 display: inline-block;
 width: 100%;
+    color:#5e5e5e;
 }
 
 .contentIndividualBlog h2{
@@ -808,7 +810,7 @@ margin-top: -24px;
 
 .sidePanelTitle {
     font-size: 14px;
-    color: #999793;
+    color: #5e5e5e;
     cursor: pointer;
 }
 

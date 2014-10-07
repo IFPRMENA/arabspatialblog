@@ -33,7 +33,7 @@
 /*  max-height: 260px;*/
   }
 .date {
-  color:gray;
+  color:#5e5e5e;
   font-weight:normal;
   /*max-width: 90px;*/
   height: 13px;
@@ -62,7 +62,7 @@
 }
 
 .summeryText {
-  /*color:#657b83;*/
+  color:#5e5e5e;
   font-weight:normal;
   /*padding: 10px 0 10px;*/
   float:left;
@@ -391,6 +391,7 @@ input[type=text], textarea {
   font-size: 18px;
   cursor: pointer;
   color: #000000;
+    font-weight: bold;
 
 }
 
@@ -550,7 +551,7 @@ margin-bottom: 10px;
 
 .sidePanelTitle{
     font-size: 14px;
-    color: #999793;
+    color: #5e5e5e;
     cursor: pointer;
 }
 
