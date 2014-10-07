@@ -22,7 +22,7 @@ section: blog
 {% if page.language == 'arabic' %}
     <div id="{{page.title}}" style="text-align:right;" class="article clearfix">
 {% else %}
-  <div id="{{page.title}}" class="article clearfix">
+  <div id="{{page.title}}" lng="{{ page.language }}" class="article clearfix">
 {% endif %}
     <a class='itemTitle'>{{page.title }}
     </a>
