@@ -564,6 +564,7 @@ margin-bottom: 10px;
     /*min-height: 710px;*/
     /*overflow: auto;*/
     min-height: 620px;
+    padding-top: 10px;
 }
 
 .signNewLettersLink{
