@@ -58,7 +58,7 @@ section: blog
                                    {% endif %}
                                </div>
                                {% if item.content %}
-                               <div class="summeryText" style="text-align:right;">{{ item.content | truncatewords: 30 }}</div>
+                               <div class="summeryText" style="text-align:right;">{{ item.content | strip_html | truncatewords: 30 }}</div>
                                {% endif %}
 
                            </div>
@@ -113,7 +113,7 @@ section: blog
                 {% endif %}
             </div>
             {% if item.content %}
-            <div class="summeryText">{{ item.content | truncatewords: 30 }}</div>
+            <div class="summeryText">{{ item.content | strip_html | truncatewords: 30 }}</div>
             {% endif %}
 
         </div>
