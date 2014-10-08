@@ -395,6 +395,11 @@ input[type=text], textarea {
 
 }
 
+.itemTitle:hover{
+    text-decoration: underline;
+}
+
+
 .sidebar-module{
   float: right;
   width: 240px;
