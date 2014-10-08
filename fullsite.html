@@ -184,7 +184,9 @@ title: ''
       {% endfor %}
       </div>
             </div>
+
             <div class="sidePanel">
+
 
               {% include tags.html %}
 
@@ -236,12 +238,9 @@ title: ''
 
         var children = $( this ).children(".sidePanelTitle");
 
-        var childrenChild = $( children ).children(".arrow");
+//        var childrenChild = $( children ).children(".arrow");
 
-        console.log(childrenChild);
-
-
-
+//        console.log(childrenChild);
 
 
         if ($( this ).children(".collapsable").hasClass('expand')){
@@ -262,11 +261,21 @@ title: ''
             $( children ).children("#arrow").toggleClass('fa-caret-right fa-caret-down');
 
         }
+});
+
+    function expandEvents(){
+
+        $('#events').removeClass('collapse').addClass('expand');
 
 
+    }
+
+    function expandPublications(){
+
+        $('#publications').removeClass('collapse').addClass('expand');
 
 
-    });
+    }
 
     $('.btn').click(function(){
 
