@@ -2,6 +2,8 @@
   display:none;
 }
 
+
+
 .padding20{
     padding: 10px;
 }
@@ -518,6 +520,7 @@ margin-top: -24px;
     background: #fff;
     width: 1024px;
     margin: 0 auto;
+    line-height: 1.6;
 }
 
 .blogFeed{
