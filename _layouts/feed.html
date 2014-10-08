@@ -129,10 +129,14 @@ title: ''
 
             }
 
-
-
-
         }
+
+        $('.summeryText a').on('click', function(e) {
+            e.preventDefault();
+            console.log(this.href);
+
+            window.open(this.href,'_blank');
+        });
 
   
   </script>

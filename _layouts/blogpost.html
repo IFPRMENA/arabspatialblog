@@ -257,10 +257,13 @@ $('#seeMap').click(function(){
           $( children ).children("#arrow").toggleClass('fa-caret-right fa-caret-down');
 
       }
+  });
 
+  $('.contentIndividualBlog a').on('click', function(e) {
+      e.preventDefault();
+      console.log(this.href);
 
-
-
+      window.open(this.href,'_blank');
   });
 
   </script>

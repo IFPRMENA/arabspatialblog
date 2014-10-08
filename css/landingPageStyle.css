@@ -51,6 +51,7 @@
   float:left;
   /*margin-left:10px;*/
   width: 520px;
+    margin-bottom: 10px;
 }
 
 .summeryText {
@@ -74,7 +75,7 @@
 
 .article{
   margin-bottom:15px;
-  width: 660px;
+  width: 645px;
   float: left;
   min-height: 109px;
   margin-left: 15px;
@@ -383,6 +384,11 @@ input[type=text], textarea {
 
 }
 
+.itemTitle:hover{
+    text-decoration: underline;
+
+}
+
 .sidebar-module{
   float: right;
   width: 240px;
@@ -447,7 +453,7 @@ margin-bottom: 10px;
 
 }
 
-.signNewLettersLink a {
+.signNewLettersLink {
     color: #fff;
 }
 
@@ -458,7 +464,7 @@ margin-bottom: 10px;
 }
 
 .blogFeed{
-    width: 710px;
+    width: 690px;
     /*background: #fff;*/
     position: relative;
     float: left;
@@ -495,11 +501,11 @@ margin-bottom: 10px;
 
 .sidePanel {
     /* height: 582px; */
-    width: 314px;
-    background: #f1f1f0;
+    width: 300px;
+    /*background: #f1f1f0;*/
     float: left;
     /* overflow: auto; */
-    padding: 15px;
+    /*padding: 15px;*/
     /*margin: 20px;*/
     margin-top: 20px;
     font-size: 12px;
@@ -635,7 +641,7 @@ margin-bottom: 10px;
     /* text-align: center; */
     line-height: 22px;
     /* float: left; */
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
 }
 
 .feedcol-sm-10 {
