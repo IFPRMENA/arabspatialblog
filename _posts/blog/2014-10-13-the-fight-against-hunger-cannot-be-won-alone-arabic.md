@@ -1,12 +1,12 @@
 ---
 layout: blog
 published: true
-title: The Fight Against Hunger Cannot Be Won Alone (Arabic)
+title: "     "
 category: blog
 language: arabic
 comments: true
 author: 
-  - "Ms. Gerda Verburg — CFS Chair and Ambassador of the Netherlands to the UN’s Rome-based Agencies"
+  - Ms. Gerda Verburg
 ---
 
 مع تقدير عدد من يعانون من الجوع المزمن في سائر أنحاء العالم في  2012- 2014 بعدد 85 مليون شخص، فإن انعدام الأمن الغذائي وسوء التغذية في العالم يظل مشكلة الجميع. إن جمع أصحاب المصالح للعمل سويا على الصعيدين الوطني والإقليمي يمكن أن يقدم فرصا لمنطقة الشرق الأدنى للمضي  قدما في معركتها ضد الجوع. 
