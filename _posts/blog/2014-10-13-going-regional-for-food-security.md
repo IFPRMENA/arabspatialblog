@@ -14,6 +14,8 @@ tags:
 
 Can there be an Arabic equivalence for “Subsidiarity”? Subsidiarity is the principle that allocates decision-making responsibilities to the individuals or entities that are primarily affected by these decisions.  Decisions are only “bumped up” to the larger community level, territorial level, national level, regional, or even global level, if they cannot be dealt with at the lower level of aggregation…why is this important for food security in the Arab Region?  Because priority issues of food insecurity can only be addressed through a regional approach.
 
+<!-- more -->
+
 Even before the Arab uprisings and revolutions, there were regional voices openly calling for the Arab Countries to realize that the externalities of country-specific conflicts and food insecurity aggregated to form problems that could not be adequately dealt with at the country-level.  These voices were also suggesting that addressing issues of food insecurity by regional initiatives may have, as indirect impacts, the reduction of tensions and [crises that cause conflicts](http://www.escwa.un.org/information/publications/edit/upload/ecri-10-1-e.pdf).
 
 Now, the unprecedented levels of violence and suffering, again call for interventions at the regional level.  The millions of displaced, refugees, occupied and persecuted people in the Region represent an absolute priority for emergency food security intervention.  There are apparent signs of “fatigue” at the global level with respect to assisting with local and national level interventions (as of September 2014, only 40% of the required USD1.5billion had been collected to come to the help of Syrian Refugees).  A further invitation for regional efforts to fill the gap—will the region respond? 
