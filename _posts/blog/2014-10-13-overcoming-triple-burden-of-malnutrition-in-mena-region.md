@@ -13,8 +13,6 @@ tags:
   - obesity
 ---
 
-## Overcoming triple burden of malnutrition in MENA region
-
 The triple burden of malnutrition—the coexistence of food insecurity, undernutrition, and overweight and obesity—is a growing challenge in the Middle East and North Africa (MENA). As recent IFPRI research shows, food insecurity is the [key driver of conflicts](http://www.sciencedirect.com/science/article/pii/S0306919214000074) in the region. Tackling the triple burden of malnutrition is thus imperative to [prevent and build resilience to conflicts](http://www.ifpri.org/publication/building-resilience-conflict-through-food-security-policies-and-programs), improve food security and nutrition, and promote overall economic development. 
 
 In contrast to other regions of the world, the number of undernourished people has increased in the MENA region from 16 million in 1990-92 to [33 million](http://www.fao.org/3/a-i4030e.pdf) today. Micronutrient deficiencies are especially high in Iraq, Oman, Sudan, and Yemen where the prevalence of anemia among children is [over 50 percent](http://www.fao.org/docrep/018/i3300e/i3300e07.pdf). Iodine deficiency is equally prevalent, affecting [more than 60 percent](http://www.fao.org/docrep/018/i3300e/i3300e07.pdf) of children in Algeria, Morocco, Turkey, and Sudan. Child stunting in Egypt, Iraq, Syria, Sudan, and Yemen are above regional average, ranging from [28 to 58 percent](http://www.fao.org/docrep/018/i3300e/i3300e07.pdf).
