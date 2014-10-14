@@ -28,13 +28,13 @@
   color:#5e5e5e;
   font-weight:normal;
   /*max-width: 90px;*/
-  height: 13px;
+  /*height: 30px;*/
   /*background-color:#759da7;*/
   /*text-align: center;*/
-  line-height: 22px;
+  /*line-height: 22px;*/
   /*float:left;*/
   margin-bottom: 3px;
-  margin-top: 3px;
+  /*margin-top: 3px;*/
 }
 
 .tagDate {
@@ -70,7 +70,7 @@
 }
 
 .summeryText {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .article{
@@ -305,9 +305,9 @@ input[type=text], textarea {
 .dateText{
   /*padding: 5px;*/
   margin-bottom: 5px; 
-  line-height: 11px; 
-  font-size: 10px; 
-  float:left;
+  line-height: 13px; 
+  font-size: 12px; 
+  /*float:left;*/
 
 }
 
