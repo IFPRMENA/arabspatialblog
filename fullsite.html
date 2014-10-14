@@ -326,9 +326,15 @@ title: ''
     });
 
 
+    if (window.location.hash === '#arabic') {
+        $(".arabic").removeClass('hideblog');
+        $(".arabic").addClass('showblog');
 
+        $(".english").removeClass('showblog');
+        $(".english").addClass('hideblog');
+    }
 
-
+    
 
 
 

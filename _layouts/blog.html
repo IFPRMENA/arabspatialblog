@@ -8,10 +8,11 @@ section: blog
 <!-- Start: Blog block -->
 <div id="ThisIsBlogPost"></div>
 
-
-<div class="seeBlogEntries" style="float:left;margin-top:20px;margin-left:20px;"><a href="{{site.baseurl}}/fullsite">< All blog entries</a></div>
-
-
+{% if page.language == 'arabic' %}
+<div class="seeBlogEntries" style="float:left;margin-top:20px;margin-left:20px;"><a id="allBlogEntries" href="{{site.baseurl}}/fullsite#arabic">< All blog entries</a></div>
+{% else %}
+<div class="seeBlogEntries" style="float:left;margin-top:20px;margin-left:20px;"><a id="allBlogEntries" href="{{site.baseurl}}/fullsite">< All blog entries</a></div>
+{% endif %}
 
 
 
