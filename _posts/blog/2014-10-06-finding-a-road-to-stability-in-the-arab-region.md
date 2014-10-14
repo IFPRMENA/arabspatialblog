@@ -7,6 +7,7 @@ language: english
 comments: true
 author: 
   - Mahmoud Solh
+splash: "https://raw.githubusercontent.com/IFPRMENA/arabspatialblog/gh-pages/img/blog/Aleppo1.jpg"
 ---
 
 The string of upheavals in the Arab region in the past three years has been a culmination of several factors, but it’s hard to ignore some hard-hitting facts on the status of food security and unemployment in the region – perhaps even suggestive of a crisis that had been simmering for a while. 
