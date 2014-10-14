@@ -821,4 +821,6 @@ margin-top: -24px;
     overflow: auto;
 }
 
-
+.fb-share-left {
+  float: left;
+}
