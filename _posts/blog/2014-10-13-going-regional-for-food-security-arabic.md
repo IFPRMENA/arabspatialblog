@@ -5,6 +5,7 @@ title: "  التوجه الإقليمي للأمن الغذائي"
 category: blog
 language: arabic
 comments: true
+splash: "https://raw.githubusercontent.com/IFPRMENA/arabspatialblog/gh-pages/img/blog/Khouri.jpg"
 ---
 
 إعداد : نديم خوري، نائب الأمين التنفيذي للجنة الأمم المتحدة الاقتصادية والاجتماعية لغربي آسيا 
