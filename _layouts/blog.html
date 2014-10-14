@@ -30,17 +30,17 @@ section: blog
     {% if page.language == 'arabic' %}
     <div class='date' style="">
       
-      <div class="dateText" style="float:right;">&nbsp;By: <span>{{ page.author }}</span></div>
+      <div class="dateText"> إعداد: <span>{{ page.author }}</span> </div>
           {% if page.author %}
-            <div class="dateText" style="float:right;">{{page.date | date:"%B %d, %Y"}}   &#8226;</div>
+            <div class="dateText">{{page.date | date:"%B %d, %Y"}} </div>
           {% endif %}
     
     {% else %}
 
     <div class='date'>
-      <div class="dateText">{{page.date | date:"%B %d, %Y"}}   &#8226;</div>
+      <div class="dateText">{{page.date | date:"%B %d, %Y"}}   <br/></div>
           {% if page.author %}
-            <div class="dateText" >&nbsp;By: <span>{{ page.author }}</span></div>
+            <div class="dateText" >By: <span>{{ page.author }}</span></div>
           {% endif %}
 
     {% endif %}

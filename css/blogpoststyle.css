@@ -36,7 +36,7 @@
   color:#5e5e5e;
   font-weight:normal;
   /*max-width: 90px;*/
-  height: 13px;
+  height: 30px;
   /*background-color:#759da7;*/
   /*text-align: center;*/
   line-height: 22px;
@@ -274,7 +274,7 @@ input[type=text], textarea {
   margin-bottom: 5px;
   line-height: 11px;
   font-size: 12px;
-  float:left;
+  /*float:left;*/
 }
 
 .blogContainer{
