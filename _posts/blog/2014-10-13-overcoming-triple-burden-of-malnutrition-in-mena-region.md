@@ -11,7 +11,7 @@ tags:
   - malnutrition
   - MENA
   - obesity
-splash: "https://farm6.staticflickr.com/5603/15352100917_4135f2a981_n.jpg"
+splash: "https://raw.githubusercontent.com/IFPRMENA/arabspatialblog/gh-pages/img/blog/Fan.jpg"
 ---
 
 The triple burden of malnutrition—the coexistence of food insecurity, undernutrition, and overweight and obesity—is a growing challenge in the Middle East and North Africa (MENA). As recent IFPRI research shows, food insecurity is the [key driver of conflicts](http://www.sciencedirect.com/science/article/pii/S0306919214000074) in the region. Tackling the triple burden of malnutrition is thus imperative to [prevent and build resilience to conflicts](http://www.ifpri.org/publication/building-resilience-conflict-through-food-security-policies-and-programs), improve food security and nutrition, and promote overall economic development. 
