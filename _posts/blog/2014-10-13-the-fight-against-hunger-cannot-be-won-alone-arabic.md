@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: true
-title: " Needs Arabic Title"
+title: " مكافحة الجوع لا يمكن كسبها وحده"
 category: blog
 language: arabic
 comments: true
