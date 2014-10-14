@@ -5,7 +5,7 @@ section: blog
 
 <div class='blogContainer clearfix'>
 
-  {% for item in site.categories.blog limit:5 %}
+  {% for item in site.categories.blog limit:8 %}
         {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
         {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 
