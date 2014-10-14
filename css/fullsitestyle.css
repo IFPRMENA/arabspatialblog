@@ -75,7 +75,7 @@
 }
 
 .summeryText p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .summeryText {
@@ -320,7 +320,7 @@ input[type=text], textarea {
   /*padding: 5px;*/
   /*margin-bottom: 5px; */
   line-height: 11px; 
-  font-size: 10px; 
+  font-size: 12px; 
   float:left;
 
 }
@@ -388,7 +388,7 @@ input[type=text], textarea {
 }
 
 .itemTitle{
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
   color: #000000;
     font-weight: bold;
