@@ -12,7 +12,7 @@ tags:
 splash: "https://raw.githubusercontent.com/IFPRMENA/arabspatialblog/gh-pages/img/blog/Verburg.jpg"
 ---
 
-_With 805 million people worldwide estimated to be chronically hungry in 2012-2014, food insecurity and malnutrition in the world remains everybody’s problem Gathering stakeholders to work together at national and regional levels can offer opportunities for the Near East region to go further in its fight against hunger._
+With 805 million people worldwide estimated to be chronically hungry in 2012-2014, food insecurity and malnutrition in the world remains everybody’s problem Gathering stakeholders to work together at national and regional levels can offer opportunities for the Near East region to go further in its fight against hunger.
 
 <!-- more -->
 
