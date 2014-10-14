@@ -273,7 +273,7 @@ input[type=text], textarea {
   /*padding: 5px;*/
   margin-bottom: 5px;
   line-height: 11px;
-  font-size: 10px;
+  font-size: 12px;
   float:left;
 }
 
@@ -368,7 +368,7 @@ input[type=text], textarea {
 }
 
 .itemTitle{
-  font-size: 18px;
+  font-size: 22px;
     color: #000000;
   line-height: 1.3;
     font-weight: bold;
@@ -393,7 +393,7 @@ width: 100%;
 }
 
 .contentIndividualBlog p{
-  font-size: 12px;
+  font-size: 14px;
 }
 #sharingContainer{
   margin-top: 10px;
