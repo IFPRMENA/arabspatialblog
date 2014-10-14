@@ -9,6 +9,7 @@ author:
   - "Ms. Gerda Verburg — CFS Chair and Ambassador of the Netherlands to the UN’s Rome-based Agencies"
 tags: 
   - MENA
+splash: "https://raw.githubusercontent.com/IFPRMENA/arabspatialblog/gh-pages/img/blog/Verburg.jpg"
 ---
 
 _With 805 million people worldwide estimated to be chronically hungry in 2012-2014, food insecurity and malnutrition in the world remains everybody’s problem Gathering stakeholders to work together at national and regional levels can offer opportunities for the Near East region to go further in its fight against hunger._
@@ -33,4 +34,4 @@ Addressing, in protracted crises, the key relation between resilience and food s
 
 CFS, just as food security and nutrition, is everyone’s business. Here in Rome, we are doing our utmost to coordinate global policy, creating and offering policy tools to support governments and stakeholders in their fight against hunger. 
 
-I trust that readers of this blog will be inspired by the opportunities at hand by joining forces with other stakeholders, different networks, at national and regional level, and I sincerely hope that the Near East will soon have new success stories to share with the rest of the world. 
+I trust that readers of this blog will be inspired by the opportunities at hand by joining forces with other stakeholders, different networks, at national and regional level, and I sincerely hope that the Near East will soon have new success stories to share with the rest of the world.
