@@ -43,3 +43,5 @@ Additionally, improved water efficiency will be critical for the MENA region as 
 Ultimately, building resilience to various shocks, enhancing food security and nutrition, and promoting inclusive growth in the MENA region will require [a smart and context-specific mix](http://www.ifpri.org/pressrelease/joint-workshop-discuss-enhancing-resilience-conflict-arab-countries-context-food-securi) of short- and long-term development strategies.
 
 IFPRI continues to expand the evidence base required to develop and implement such strategies in the MENA region while also engaging in policy dialogues. The Institute, however, does not do this alone—strengthened partnerships with various stakeholders have played and continue to play a vital role.
+
+Photo Credit: Nasser Nuri / Reuters
