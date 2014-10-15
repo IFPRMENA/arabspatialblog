@@ -6,7 +6,7 @@ category: blog
 language: english
 comments: true
 author: 
-  - "Ms. Gerda Verburg — CFS Chair and Ambassador of the Netherlands to the UN’s Rome-based Agencies"
+  - "Gerda Verburg — CFS Chair and Ambassador of the Netherlands to the UN’s Rome-based Agencies"
 tags: 
   - MENA
 splash: "https://raw.githubusercontent.com/IFPRMENA/arabspatialblog/gh-pages/img/blog/Verburg.jpg"
