@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: true
-title: "Overcoming triple burden of malnutrition in MENA region\L"
+title: "Overcoming the Triple Burden of Malnutrition in the MENA Region\L"
 category: blog
 language: english
 comments: true
