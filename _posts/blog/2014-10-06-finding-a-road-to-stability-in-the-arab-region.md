@@ -6,7 +6,7 @@ category: blog
 language: english
 comments: true
 author: 
-  - "Mahmoud Solh - Director General,  International Center for Agricultural Research in the Dry Areas"
+  - "Mahmoud Solh, Director General - ICARDA"
 splash: "https://farm6.staticflickr.com/5603/15352100917_4135f2a981_n.jpg"
 ---
 
