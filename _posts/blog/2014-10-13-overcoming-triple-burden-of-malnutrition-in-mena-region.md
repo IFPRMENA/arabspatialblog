@@ -1,12 +1,12 @@
 ---
 layout: blog
 published: true
-title: "Overcoming triple burden of malnutrition in MENA region\L"
+title: "Overcoming the Triple Burden of Malnutrition in the MENA Region\L"
 category: blog
 language: english
 comments: true
 author: 
-  - "Shenggen Fan: Director General – International Food Policy Research Institute"
+  - "Shenggen Fan, Director General - IFPRI"
 tags: 
   - malnutrition
   - MENA
@@ -14,7 +14,7 @@ tags:
 splash: "https://raw.githubusercontent.com/IFPRMENA/arabspatialblog/gh-pages/img/blog/Fan.jpg"
 ---
 
-The triple burden of malnutrition—the coexistence of food insecurity, undernutrition, and overweight and obesity—is a growing challenge in the Middle East and North Africa (MENA). As recent IFPRI research shows, food insecurity is the [key driver of conflicts](http://www.sciencedirect.com/science/article/pii/S0306919214000074) in the region. Tackling the triple burden of malnutrition is thus imperative to [prevent and build resilience to conflicts](http://www.ifpri.org/publication/building-resilience-conflict-through-food-security-policies-and-programs), improve food security and nutrition, and promote overall economic development. 
+The triple burden of malnutrition—the coexistence of food insecurity, undernutrition, and overweight and obesity—is a growing challenge in the Middle East and North Africa (MENA). As recent IFPRI research shows, food insecurity is the [key driver of conflicts](http://www.ifpri.org/sites/default/files/publications/ifpridp01196.pdf) in the region. Tackling the triple burden of malnutrition is thus imperative to [prevent and build resilience to conflicts](http://www.ifpri.org/publication/building-resilience-conflict-through-food-security-policies-and-programs), improve food security and nutrition, and promote overall economic development. 
 
 <!-- more -->
 
@@ -43,3 +43,5 @@ Additionally, improved water efficiency will be critical for the MENA region as 
 Ultimately, building resilience to various shocks, enhancing food security and nutrition, and promoting inclusive growth in the MENA region will require [a smart and context-specific mix](http://www.ifpri.org/pressrelease/joint-workshop-discuss-enhancing-resilience-conflict-arab-countries-context-food-securi) of short- and long-term development strategies.
 
 IFPRI continues to expand the evidence base required to develop and implement such strategies in the MENA region while also engaging in policy dialogues. The Institute, however, does not do this alone—strengthened partnerships with various stakeholders have played and continue to play a vital role.
+
+Photo Credit: Nasser Nuri / Reuters
