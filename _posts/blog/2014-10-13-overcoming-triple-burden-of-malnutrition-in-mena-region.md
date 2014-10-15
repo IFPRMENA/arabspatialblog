@@ -6,7 +6,7 @@ category: blog
 language: english
 comments: true
 author: 
-  - "Shenggen Fan: Director General – International Food Policy Research Institute"
+  - "Shenggen Fan, Director General - IFPRI"
 tags: 
   - malnutrition
   - MENA
