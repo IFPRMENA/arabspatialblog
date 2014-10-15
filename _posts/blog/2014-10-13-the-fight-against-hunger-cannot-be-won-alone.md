@@ -9,7 +9,7 @@ author:
   - "Gerda Verburg — CFS Chair and Ambassador of the Netherlands to the UN’s Rome-based Agencies"
 tags: 
   - MENA
-splash: "https://raw.githubusercontent.com/IFPRMENA/arabspatialblog/gh-pages/img/blog/Verburg.jpg"
+splash: "https://farm4.staticflickr.com/3939/15360210290_6cd83f7a3c_n.jpg"
 ---
 
 With 805 million people worldwide estimated to be chronically hungry in 2012-2014, food insecurity and malnutrition in the world remains everybody’s problem. Gathering stakeholders to work together at national and regional levels can offer opportunities for the Near East region to go further in its fight against hunger.
@@ -39,3 +39,5 @@ I trust that readers of this blog will be inspired by the opportunities at hand 
 [1] In 2006-10 the region imported 47% of cereals needed, 72% of vegetable oils and 60% of sugar
 [2] Over 44% of the population is food insecure
 [3] Where 6.3 million people are highly vulnerable and in critical need of sustained food and agricultural assistance, Fact Sheet Regional Conference for the Near East (NERC 32)
+
+Photo Credit: WFP / Rein Skullerud
