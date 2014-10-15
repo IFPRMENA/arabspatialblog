@@ -320,12 +320,11 @@ input[type=text], textarea {
 }
 
 .blog-title{
-
   font-size: 20px;
   color:#303030;
   width: 475px;
-    margin: 0 auto;
-    margin-top: 10px;
+  margin: 0 auto;
+  margin-top: 30px;
 
   }
 
