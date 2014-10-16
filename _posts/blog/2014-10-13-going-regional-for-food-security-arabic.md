@@ -5,7 +5,7 @@ title: "  التوجه الإقليمي للأمن الغذائي"
 category: blog
 language: arabic
 comments: true
-splash: "https://farm6.staticflickr.com/5602/14917352794_cebfccd2b0_n.jpg"
+splash: "https://farm6.staticflickr.com/5607/15361010140_e3ee417db3.jpg"
 author: 
   - "نديم خوري - نائب الأمين التنفيذي للجنة الأمم المتحدة الاقتصادية والاجتماعية لغربي آسيا "
 ---
