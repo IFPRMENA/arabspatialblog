@@ -1,0 +1,42 @@
+---
+---
+
+
+
+{
+"en": [
+
+
+                {% for post in site.categories.event limit:4 %}
+
+                {% if forloop.last == true %}
+                {% assign title = post.title | split:' ' %}
+
+                {
+                "title": "{{ post.title }}",
+                "splash": "{{post.splash}}",
+
+                "url": "{{ post.url }}",
+                "content": "{{ post.content | strip_html | truncatewords: 30 }}"
+
+                }
+                {% else %}
+                {% assign title = post.title | split:' ' %}
+
+                {
+                "title": "{{ post.title }}",
+                "splash": "{{post.splash}}",
+
+                "url": "{{ post.url }}",
+                "content": "{{ post.content | strip_html | truncatewords: 30 }}"
+
+
+                },
+
+                {% endif %}
+                {% endfor %}
+
+
+    ]
+}
+
