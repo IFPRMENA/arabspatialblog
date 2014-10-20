@@ -257,10 +257,19 @@ $('#seeMap').click(function(){
           $( children ).children("#arrow").toggleClass('fa-caret-right fa-caret-down');
 
       }
+});
 
+  function copyToClipboard(text) {
+      window.prompt("Windows: Copy to clipboard: Ctrl+C \n Mac: Command+C", text);
+  }
 
+  // Use JQuery
+  //
+  $('#panel-body').click(function() {
 
-
+      var textToCopy = $(this).html();
+      console.log(textToCopy);
+      copyToClipboard(textToCopy)
   });
 
   </script>
