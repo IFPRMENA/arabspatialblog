@@ -36,7 +36,6 @@
   color:#5e5e5e;
   font-weight:normal;
   /*max-width: 90px;*/
-  height: 13px;
   /*background-color:#759da7;*/
   /*text-align: center;*/
   line-height: 22px;
@@ -273,8 +272,8 @@ input[type=text], textarea {
   /*padding: 5px;*/
   margin-bottom: 5px;
   line-height: 11px;
-  font-size: 10px;
-  float:left;
+  font-size: 12px;
+  /*float:left;*/
 }
 
 .blogContainer{
@@ -368,7 +367,7 @@ input[type=text], textarea {
 }
 
 .itemTitle{
-  font-size: 18px;
+  font-size: 22px;
     color: #000000;
   line-height: 1.3;
     font-weight: bold;
@@ -393,7 +392,7 @@ width: 100%;
 }
 
 .contentIndividualBlog p{
-  font-size: 12px;
+  font-size: 14px;
 }
 #sharingContainer{
   margin-top: 10px;
@@ -821,4 +820,6 @@ margin-top: -24px;
     overflow: auto;
 }
 
-
+.fb-share-left {
+  float: left;
+}

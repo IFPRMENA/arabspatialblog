@@ -97,12 +97,12 @@ title: ''
                 <div class="entryTitle blogClickable" style="text-align:right;" title="{{ item.title }}"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle' title="{{ item.title }}" href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a>
                 </div>
 
-                  <div class='date' style="float:right;">
+                  <div class='date'>
                     <div class="dateText" style="text-align:right;">
                       {{item.date | date:"%B %d, %Y"}}
                     </div>
 
-                    <div class="dateText" style="text-align:right;">&nbsp; &#8226; &nbsp; By: <span style="text-align:right;">{{ item.author }}</span></div>
+                    <div class="dateText" style="text-align:right;"> إعداد: <span>{{ item.author }}</span></div>
                   </div>
 
                     {% if item.content %}
@@ -163,7 +163,7 @@ title: ''
                 <div class='date'>
                     <div class="dateText">{{item.date | date:"%B %d, %Y"}}</div>
                     {% if item.author %}
-                    <div class="dateText" >&nbsp; &#8226; &nbsp; By: <span>{{ item.author }}</span></div>
+                    <div class="dateText" >By: <span>{{ item.author }}</span></div>
                     {% endif %}
                 </div>
 
@@ -326,9 +326,15 @@ title: ''
     });
 
 
+    if (window.location.hash === '#arabic') {
+        $(".arabic").removeClass('hideblog');
+        $(".arabic").addClass('showblog');
 
+        $(".english").removeClass('showblog');
+        $(".english").addClass('hideblog');
+    }
 
-
+    
 
 
 

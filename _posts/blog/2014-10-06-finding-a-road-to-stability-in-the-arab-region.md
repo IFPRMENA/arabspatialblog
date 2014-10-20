@@ -6,7 +6,8 @@ category: blog
 language: english
 comments: true
 author: 
-  - Mahmoud Solh
+  - "Mahmoud Solh, Director General - ICARDA"
+splash: "https://farm6.staticflickr.com/5603/15352100917_4135f2a981_n.jpg"
 ---
 
 The string of upheavals in the Arab region in the past three years has been a culmination of several factors, but it’s hard to ignore some hard-hitting facts on the status of food security and unemployment in the region – perhaps even suggestive of a crisis that had been simmering for a while. 
@@ -22,3 +23,5 @@ Water is another flashpoint for conflict in the Arab region – the most coveted
 Events like the turmoil in some Arab countries and the 2008 global food crisis should be heeded for their underlying causes so that future risk can be reduced and livelihoods secured for the vulnerable population. The soaring commodity prices and shortage of food supplies experienced during the food crisis did raise serious food security concerns across all Arab countries.  Governments placed investment in agriculture high amongst their national priorities in an effort to enhance food self-sufficiency.  In the past, the only Arab fund that invested in agriculture development was the AFESD. Now other Arab agencies, such as the IDB and the Kuwait Fund are investing for the first time in agriculture and food security – a promising development. But far more concerted efforts are needed. 
 
 A long-term, multi-sector regional strategy is needed to address the complex challenges facing the Arab region – low productivity, scarce natural resources, which are predicted to deteriorate even further with climate change, and the rapidly rising demand for food. Such an investment opens a path to infusing the rural communities in the region with a much needed stabilizing force – food security for the people, improved rural livelihoods, and a youth gainfully employed from a thriving agriculture sector.
+
+Photo Credit: ICARDA
