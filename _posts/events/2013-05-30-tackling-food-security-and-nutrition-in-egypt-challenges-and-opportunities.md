@@ -5,7 +5,7 @@ published: true
 title: "Tackling food security and nutrition in Egypt: challenges and opportunities"
 comments: false
 header: "Tackling food security and nutrition in Egypt: challenges and opportunities"
-eventdate: 05/21/2013
+eventdate: "05/21/2013"
 location: 
   - "Cairo, Egypt"
 author: 

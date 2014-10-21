@@ -4,7 +4,7 @@ layout: blog
 published: true
 title: "D8 Open Data for Agriculture: G8 Side Event at IFPRI"
 header: "D8 Open Data for Agriculture: G8 Side Event at IFPRI"
-eventdate: 05/01/2013
+eventdate: "05/01/2013"
 eventplace: International Food Policy Research Institute 2033 K Street
 location: 
   - "Washington, DC Fourth Floor Conference Facility"

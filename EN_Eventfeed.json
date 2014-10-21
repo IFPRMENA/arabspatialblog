@@ -7,26 +7,29 @@
 "en": [
 
 
-                {% for post in site.categories.event limit:4 %}
+                {% for post in site.categories.event limit:2 %}
 
                 {% if forloop.last == true %}
                 {% assign title = post.title | split:' ' %}
+                {% assign date = post.eventdate | date_to_long_string | split:' ' %}
+
 
                 {
                 "title": "{{ post.title }}",
                 "splash": "{{post.splash}}",
-
+                "eventdate": "{{post.eventdate}}",
                 "url": "{{ post.url }}",
                 "content": "{{ post.content | strip_html | truncatewords: 30 }}"
 
                 }
                 {% else %}
                 {% assign title = post.title | split:' ' %}
+                {% assign date = post.eventdate | date_to_long_string | split:' ' %}
 
                 {
                 "title": "{{ post.title }}",
                 "splash": "{{post.splash}}",
-
+                "eventdate": "{{post.eventdate}}",
                 "url": "{{ post.url }}",
                 "content": "{{ post.content | strip_html | truncatewords: 30 }}"
 

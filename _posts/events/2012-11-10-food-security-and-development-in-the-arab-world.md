@@ -4,7 +4,7 @@ layout: blog
 published: true
 title: Food Security and Development in the Arab World
 header: Food Security and Development in the Arab World
-eventdate: 11/7/2012
+eventdate: "11/7/2012"
 location: 
   - "Washington, DC"
 powerpoint: "http://www.slideshare.net/ifpri/arab-spatial-ifpri-policy-seminar"

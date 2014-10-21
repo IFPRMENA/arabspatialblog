@@ -5,8 +5,7 @@ published: true
 title: Building Resilience for Food and Nutrition Security
 comments: false
 header: Building Resilience for Food and Nutrition Security
-eventdate: 
-  - "05/15/2014 - 05/17/2014"
+eventdate: "05/15/2014 - 05/17/2014"
 location: 
   - "Addis Ababa, Ethiopia"
 author: 
