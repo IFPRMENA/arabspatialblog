@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: true
-title: "The Region Will be Unable to Halve Hunger by 2015 - Arabic"
+title: المنطقة قد تعجزعلي خفض الجوع إلى النصف بحلول عام 2015
 category: blog
 language: arabic
 comments: true
