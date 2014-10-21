@@ -823,3 +823,7 @@ margin-top: -24px;
 .fb-share-left {
   float: left;
 }
+
+#panel-body{
+    cursor: pointer;
+}
