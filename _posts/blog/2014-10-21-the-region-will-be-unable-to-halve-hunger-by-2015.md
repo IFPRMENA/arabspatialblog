@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: true
-title: The Region Will Be Unable To Halve Hunger By 2015
+title: The Region Will be Unable to Halve Hunger by 2015
 category: blog
 language: english
 comments: true
