@@ -12,7 +12,7 @@ splash: "https://farm4.staticflickr.com/3955/15571512826_d7048f154e_n.jpg"
 
 Collective action is needed to address the food security challenge in the Near East and North Africa Region (NENA). The [State of Food Insecurity 2014 report](http://www.fao.org/3/a-i4030e.pdf) that has just been released by the three UN Rome-based agencies, shows that, in contrast with the positive trend in global hunger reduction, the NENA region has seen both the number and prevalence of undernourishment increase over the last decade.  The region as a whole will not therefore achieve the Millennium Development Goal 1.c target of halving the prevalence of hunger by 2015. 
 
-<!--More-->
+<!-- more -->
 
 At the recent FAO Regional Conference for NENA countries, ministers of agriculture throughout the region endorsed a comprehensive framework on food and nutrition security that sheds light on the complexity of the food security challenge in the region and proposes policy options that build on the most recent work of FAO and its partners. 
 
