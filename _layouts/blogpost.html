@@ -260,7 +260,7 @@ $('#seeMap').click(function(){
 });
 
   function copyToClipboard(text) {
-      window.prompt("Windows: Copy to clipboard: Ctrl+C \n Mac: Command+C", text);
+      window.prompt("WINDOWS: Copy to clipboard: Ctrl+C \nMAC: Command+C", text);
   }
 
   // Use JQuery
@@ -269,7 +269,12 @@ $('#seeMap').click(function(){
 
       var textToCopy = $(this).html();
       console.log(textToCopy);
-      copyToClipboard(textToCopy)
+      copyToClipboard(textToCopy);
+
+
+
+
+
   });
 
   </script>
