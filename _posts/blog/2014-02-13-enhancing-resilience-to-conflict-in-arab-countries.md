@@ -3,6 +3,7 @@ layout: blog
 published: true
 title: Enhancing Resilience to Conflict in Arab Countries
 category: blog
+language: english
 comments: true
 splash: "http://www.2020resilience.ifpri.info/files/2014/02/Guest-blog-picture-1.png"
 header: "Conflict and development research has in general neglected rural development and food security in the Arab world. To address this research gap, IFAD and IFPRI partnered in a three-year research project that recently culminated in a workshop titled, “Enhancing Resilience to conflict in Arab countries through research and Arab Spatial 2.0” in Rome on January 16, 2014."
