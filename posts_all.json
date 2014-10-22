@@ -43,13 +43,13 @@
 "events":
 [
 
-{% assign posts = site.categories.events %}
+{% assign eventposts = site.categories.events %}
 
-{% for post in posts limit:2 %}
+{% for event in eventposts limit:2 %}
 {
-"title": "{{ post.title }}",
-"eventdate": "{{post.eventdate}}",
-"url": "{{ post.url }}"
+"title": "{{ event.title }}",
+"eventdate": "{{event.eventdate}}",
+"url": "{{ event.url }}"
 }
 {% unless forloop.last %},{% endunless %}
 {% endfor %}
