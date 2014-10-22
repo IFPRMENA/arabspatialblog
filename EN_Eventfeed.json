@@ -16,10 +16,8 @@
 
                 {
                 "title": "{{ post.title }}",
-                "splash": "{{post.splash}}",
                 "eventdate": "{{post.eventdate}}",
-                "url": "{{ post.url }}",
-                "content": "{{ post.content | strip_html | truncatewords: 30 }}"
+                "url": "{{ post.url }}"
 
                 }
                 {% else %}
@@ -30,8 +28,7 @@
                 "title": "{{ post.title }}",
                 "splash": "{{post.splash}}",
                 "eventdate": "{{post.eventdate}}",
-                "url": "{{ post.url }}",
-                "content": "{{ post.content | strip_html | truncatewords: 30 }}"
+                "url": "{{ post.url }}"
 
 
                 },
