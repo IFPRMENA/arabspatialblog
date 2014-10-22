@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: true
-title: "Going Regional with Food Security ---"
+title: "Going Regional with Food Security --- Arabic"
 category: blog
 language: arabic
 comments: true
