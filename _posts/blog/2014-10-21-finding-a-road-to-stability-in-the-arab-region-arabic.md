@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: true
-title: "Finding a road to stability in the arab region - Arabic"
+title: "إيجاد طريق للاستقرار في المنطقة العربية "
 category: blog
 language: arabic
 comments: true
