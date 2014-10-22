@@ -43,7 +43,7 @@
 "events":
 [
 
-{% assign eventposts = site.categories.events %}
+{% assign eventposts = site.categories.event %}
 
 {% for event in eventposts limit:2 %}
 {
