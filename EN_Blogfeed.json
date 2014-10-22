@@ -7,7 +7,7 @@
 "en": [
 
 
-                {% for post in site.categories.blog limit:4 %}
+                {% for post in site.categories.blog limit:8 %}
                 {% if post.language == 'english' %}
                 {% if forloop.last == true %}
                 {% assign title = post.title | split:' ' %}
@@ -31,7 +31,6 @@
                 "url": "{{ post.url }}",
                 "author": "{{ post.author }}",
                 "content": "{{ post.content | strip_html | truncatewords: 30 }}"
-
 
                 },
                 {% endif %}
