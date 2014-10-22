@@ -7,7 +7,7 @@
 "ara": [
 
 
-                {% for post in site.categories.blog limit:8 %}
+                {% for post in site.categories.blog %}
                 {% if post.language == 'arabic' %}
                 {% if forloop.last == true %}
                 {% assign title = post.title | split:' ' %}
