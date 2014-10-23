@@ -1,0 +1,57 @@
+.socialMediaLinksContainer {
+	float:left;
+	width:200px;
+	margin-left:16px;
+}
+
+.socialMediaLink {
+	margin-right: 6px;
+	cursor: pointer;
+	margin-top: 6px;
+	float: left;
+	font-size: 22px;
+	color: #fff;
+}
+
+.toggleLanguageContainer {
+	float:right;
+	background:#171717;
+	height:34px;
+	padding:0 8px;
+	position: relative;
+
+}
+
+.langButtonBorder {
+	float: left;
+	font-size: 10px;
+	color: #fff;
+	width: 7px;
+	height: 10px;
+	background-color: transparent;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.langButton {
+	color:#fff;
+	font-size:12px;
+	float:left;
+	margin-right:4px;
+	cursor:pointer;
+}
+
+.langButtonSelected, .langButton:hover  {
+	color:#ec5541 !important;
+}
+
+
+.goToSpatialButton {
+	color: #fff;
+	text-decoration: underline;
+	float: left;
+	font-size: 12px;
+	cursor: pointer;
+	background:#171717;
+	margin-right:24px;
+}

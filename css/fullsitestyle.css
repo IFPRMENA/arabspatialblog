@@ -766,5 +766,30 @@ margin-bottom: 10px;
     display: block !important;
 }
 
+#footer {
+    height:34px;
+    line-height: 34px;
+}
+
+#outerHeader, #outerFooter {
+    background:#303030;
+    z-index:5 !important;
+}
+
+#header, #footer {
+    background:#303030;
+    z-index:5 !important;
+    height: 34px;
+    margin: 0 auto;
+    width: 1020px;
+}
+
+#header {
+    line-height:34px;
+    font-size:18px;
+    font-weight:400;
+
+}
+
 
 
