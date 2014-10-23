@@ -8,8 +8,11 @@ comments: true
 author: 
   - "Nadim Khouri, Deputy Executive Secretary – UN ESCWA"
 tags: 
-  - regional
   - subsidiarity
+  - regional cooperation
+  - conflict
+  - malnutrition
+  - food security
 splash: "https://farm6.staticflickr.com/5607/15361010140_e3ee417db3.jpg"
 ---
 
