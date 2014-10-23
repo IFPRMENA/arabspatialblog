@@ -27,6 +27,9 @@ title: ''
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
+      <link href="{{site.baseurl}}/css/header.css" rel="stylesheet" type="text/css" />
+      <link href="{{site.baseurl}}/css/footer.css" rel="stylesheet" type="text/css" />
+
     <!--Gotham-Book fonts-->
     <link href="{{site.baseurl}}/fonts/GothaBolIta.css" rel="stylesheet" type="text/css" />
     <link href="{{site.baseurl}}/fonts/GothaBoo.css" rel="stylesheet" type="text/css" />
@@ -53,7 +56,9 @@ title: ''
 
     <div class="bodyContainer clearfix grayBackground">
 
-
+        <div id="outerHeader" class="clearfix">
+            <div id="header"></div>
+        </div>
 
 
         <div class="feedContainer clearfix grayBackground">
@@ -97,7 +102,9 @@ title: ''
         </div>
       </div>
 
-
+    <div id="outerFooter" class="clearfix">
+        <div id="footer"></div>
+    </div>
 
     </div><!-- /.container -->
     </div>
@@ -109,6 +116,10 @@ title: ''
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
     <script src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script>
+
+
+    <script src="{{site.baseurl}}/header.js"></script>
+    <script src="{{site.baseurl}}/footer.js"></script>
 
     <script>
     $(".month").on("click", function () {
@@ -270,12 +281,54 @@ $('#seeMap').click(function(){
       var textToCopy = $(this).html();
       console.log(textToCopy);
       copyToClipboard(textToCopy);
+    });
+
+$( document ).ready(function() {
+
+    var Header = new WSHeader('header', HEADER_MOCK_OBJ, {
+        onLogoClick:function() {
+
+        },
+        onMapClick:function() {
+
+            console.log("Clicked on Map");
+
+        },
+        onBlogClick:function() {
+
+            console.log("Clicked on Blog");
+
+        }
+    });
+
+
+    var Footer = new WSFooter('footer', FOOTER_MOCK_OBJ, {
+        onLang1Click:function() {
+
+            Header.translate('ara');
+            Footer.translate('ara');
+
+            translate('ara');
+
+        },
+        onLang2Click:function() {
+
+            Footer.translate('en');
+            Header.translate('en');
+
+            translate('en');
+
+        }
+    });
+
+
+    Footer.translate('en');
+    Header.translate('en');
 
 
 
 
-
-  });
+});
 
   </script>
 
