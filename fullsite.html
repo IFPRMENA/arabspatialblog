@@ -352,10 +352,14 @@ title: ''
         var Header = new WSHeader('header', HEADER_MOCK_OBJ, {
             onLogoClick:function() {
 
+                var url = 'http://54.191.215.52/ArabSpatial/?id=MENA&s=lp';
+                window.open(url, "_self");
             },
             onMapClick:function() {
 
                 console.log("Clicked on Map");
+                var url = 'http://54.191.215.52/ArabSpatial/?id=MENA&s=map';
+                window.open(url, "_self");
 
             },
             onBlogClick:function() {
