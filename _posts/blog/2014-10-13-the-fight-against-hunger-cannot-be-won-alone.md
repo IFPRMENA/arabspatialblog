@@ -6,9 +6,13 @@ category: blog
 language: english
 comments: true
 author: 
-  - "Gerda Verburg — CFS Chair and Ambassador of the Netherlands to the UN’s Rome-based Agencies"
+  - "Gerda Verburg - CFS Chair and Ambassador of the Netherlands to the UN’s Rome-based Agencies"
 tags: 
-  - MENA
+  - malnutrition
+  - hunger
+  - CFS
+  - water availability
+  - food imports
 splash: "https://farm4.staticflickr.com/3939/15360210290_6cd83f7a3c_n.jpg"
 ---
 
