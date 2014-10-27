@@ -1,20 +1,16 @@
 ---
 layout: blog
 published: true
-title: Overcoming the Triple Burden of Malnutrition in the MENA Region
+title: "Overcoming the Triple Burden of Malnutrition in the MENA Region"
 category: blog
 language: english
 comments: true
 author: 
   - "Shenggen Fan, Director General - IFPRI"
 tags: 
-  - conflict
   - malnutrition
-  - resilience
-  - obesity
   - MENA
-  - volatility
-  - undernutrition
+  - obesity
 splash: "https://raw.githubusercontent.com/IFPRMENA/arabspatialblog/gh-pages/img/blog/Fan.jpg"
 ---
 
@@ -48,4 +44,4 @@ Ultimately, building resilience to various shocks, enhancing food security and n
 
 IFPRI continues to expand the evidence base required to develop and implement such strategies in the MENA region while also engaging in policy dialogues. The Institute, however, does not do this alone—strengthened partnerships with various stakeholders have played and continue to play a vital role.
 
-Photo Credit: Reuters/Nasser Nuri 
+Photo Credit: Nasser Nuri / Reuters

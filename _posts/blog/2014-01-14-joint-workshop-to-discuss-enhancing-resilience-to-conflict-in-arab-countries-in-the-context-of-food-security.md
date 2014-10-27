@@ -3,7 +3,6 @@ layout: blog
 published: true
 title: Joint Workshop to Discuss Enhancing Resilience to Conflict in Arab Countries in the Context of Food Security
 category: blog
-language: english
 comments: true
 header: "On 16 January, Ambassadors and representatives from Arab countries, researchers, and development partners will gather in Rome, Italy to discuss how the Arab region can work to reduce the impact of crises like conflict, natural disasters and global spikes in food prices, especially on the rural poor."
 tags: 

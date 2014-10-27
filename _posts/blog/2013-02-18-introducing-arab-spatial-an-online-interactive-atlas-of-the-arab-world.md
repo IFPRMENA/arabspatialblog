@@ -4,7 +4,6 @@ published: true
 title: "Introducing Arab Spatial: An Online, Interactive Atlas of the Arab World"
 category: blog
 comments: true
-language: english
 splash: "http://www.ifpri.org/sites/default/files/imagecache/prefab_large/arabspatialatlas240.jpg"
 header: "Enter Arab Spatial, an online information storehouse that aggregates food security and development information from the region’s governments as well as international institutions. "
 tags: 

@@ -4,7 +4,6 @@ published: true
 title: "Is open data transforming the development frontier? IFPRI’s “D8” participants think so."
 category: blog
 comments: true
-language: english
 splash: "http://www.ifpri.org/sites/default/files/imagecache/prefab_large/Harvest-Choice-screenshot2.jpg"
 header: "Open data is a public good for the good of the public. Indeed, a growing movement in agricultural development is calling for institutions to open up their data and let it be freely available without restriction, publicly accessible, deliverable and downloadable in desirable and descriptive ways, and easy to mix with other data and tools."
 tags: 

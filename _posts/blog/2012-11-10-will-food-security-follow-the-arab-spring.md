@@ -4,7 +4,6 @@ published: true
 title: "Will food security follow the Arab Spring?"
 category: blog
 comments: true
-language: english
 splash: "http://www.ifpri.org/sites/default/files/imagecache/prefab_large/arabfs_small.jpg"
 header: "In the aftermath of the “Arab Spring”—a series of demonstrations, protests, and wars that swept through the Arab world during 2010-2011 and toppled several governments in the region—many researchers identified rising food prices and the resulting food insecurity as underlying causes. "
 tags: 

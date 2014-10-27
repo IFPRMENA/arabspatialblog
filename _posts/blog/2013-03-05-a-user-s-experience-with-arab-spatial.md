@@ -4,7 +4,6 @@ published: true
 title: A User’s Experience with Arab Spatial
 category: blog
 comments: true
-language: english
 splash: "http://www.ifpri.org/sites/default/files/imagecache/prefab_large/arabspatial_2_240.jpg"
 header: "Shahira Emara, GDNet Knowledge Services Manager in the Global Development Network’s Cairo office, shared her thoughts on the new Arab Spatial tool."
 tags: 

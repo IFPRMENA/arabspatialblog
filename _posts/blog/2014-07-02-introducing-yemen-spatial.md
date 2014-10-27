@@ -4,7 +4,6 @@ category: blog
 published: true
 title: Introducing Yemen Spatial
 comments: false
-language: english
 splash: "http://www.ifpri.org/sites/default/files/imagecache/prefab_large/yemenspatial_240.png"
 header: A tool to help the country reach its food security goals
 language: english

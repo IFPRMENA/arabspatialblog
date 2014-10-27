@@ -4,7 +4,6 @@ published: true
 title: Climate Change in Yemen
 category: blog
 comments: true
-language: english
 splash: "http://www.ifpri.org/sites/default/files/imagecache/prefab_large/DSC03179_1.JPG"
 tags: 
   - Yemen

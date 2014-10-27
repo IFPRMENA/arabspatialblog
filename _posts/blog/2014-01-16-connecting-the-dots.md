@@ -3,7 +3,6 @@ layout: blog
 published: true
 title: Connecting the Dots
 category: blog
-language: english
 comments: true
 splash: "http://www.ifpri.org/sites/default/files/imagecache/prefab_large/arabspatialssprezi4_240.jpg"
 header: "Improving food security and enhancing economic development in developing countries requires a multifaceted approach—and that includes access to reliable data. "
