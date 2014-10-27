@@ -396,8 +396,8 @@ width: 100%;
 }
 #sharingContainer{
   margin-top: 10px;
-  float: left;
-  width: 100%;
+
+  width: 30%;
 }
 
 #custom-tweet-button{

@@ -1,4 +1,11 @@
-<div id="sharingContainer">
+{% if page.language == 'english' %}
+<div id="sharingContainer" class="en">
+{% else %}
+    <div id="sharingContainer" style="float: right;">
+{% endif %}
+
+
+
     <!-- <button onclick="copyText()">share link</button> -->
       <div class="individualShare" id='{{page.title}}' onclick="copyText()">
 

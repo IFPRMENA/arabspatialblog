@@ -57,10 +57,20 @@ section: blog
             {% capture url %}{{site.baseurl}}{{page.splash}}/{% endcapture %}
           {% endif %}
 
-          <div class='splash clearfix'>
-            <img style="max-width:630px;" src='{{url}}' alt='' />
-          </div>
-          {% else %}
+
+
+                    {% if page.language == 'english' %}
+                        <div class='splash clearfix'>
+                            <img style="max-width:630px;" src='{{url}}' alt='' />
+                        </div>
+                    {% else %}
+                        <div class='splash clearfix' style="direction: rtl">
+                            <img style="max-width:630px;" src='{{url}}' alt='' />
+                        </div>
+
+                    {% endif %}
+
+        {% else %}
                     
           {% endif %}
 
@@ -83,7 +93,10 @@ section: blog
             </div> -->
   {% endif %}
 
-  {% include socialsharing.html %}
+
+
+        {% include socialsharing.html %}
+
 
   <div class="contentIndividualBlog">
   {{content}}
