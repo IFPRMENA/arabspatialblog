@@ -25,9 +25,6 @@ title: ''
 
     <link href="{{site.baseurl}}/css/animate.css" rel="stylesheet">
 
-      <link href="{{site.baseurl}}/css/header.css" rel="stylesheet" type="text/css" />
-      <link href="{{site.baseurl}}/css/footer.css" rel="stylesheet" type="text/css" />
-
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
 
     <!--Gotham-Book fonts-->
@@ -44,24 +41,17 @@ title: ''
   <body>
 
       <div class="bodyContainer clearfix grayBackground">
-          <div id="outerHeader" class="clearfix">
-            <div id="header"></div>
-          </div>
         <div class="feedContainer clearfix grayBackground">
             <div class="blog-header">
                 <div class="blog-title" style="font-size:30px;">ARAB FOOD SECURITY BLOG</div>
             </div>
-    <div class="blogFeed clearfix">
-        <!--<button type="button" id="en" class="btn btn-default">english</button>-->
-        <!--<button type="button" id="ara" class="btn btn-default">arabic</button>-->
+            <div class="blogFeed clearfix">
     <div class="postsContainer clearfix whiteBackground">
     {% for item in site.categories.blog limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
 
-{% if item.language == 'arabic' %}
-
-    <div id="{{item.title}}" class="articleblog clearfix arabic hideblog">
+    <div id="{{item.title}}" class="articleblog clearfix">
 
           {% if item.splash or item.youtube_url %}
 
@@ -98,101 +88,59 @@ title: ''
           {% endif %}
 
         <div class="textContainer col-sm-12">
-
+                
+              {% if item.language == 'arabic' %}
+                
                   <!-- Arabic Content   -->
                 <div class="entryTitle blogClickable" style="text-align:right;" title="{{ item.title }}"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle' title="{{ item.title }}" href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a>
                 </div>
 
-                  <div class='date'>
+                  <div class='date' style="float:right;">
                     <div class="dateText" style="text-align:right;">
                       {{item.date | date:"%B %d, %Y"}}
                     </div>
 
-                    <div class="dateText" style="text-align:right;"> إعداد: <span>{{ item.author }}</span></div>
+                    <div class="dateText" style="text-align:right;">&nbsp; &#8226; &nbsp; By: <span style="text-align:right;">{{ item.author }}</span></div>
                   </div>
 
                     {% if item.content %}
-                    <div class="summeryText" style="text-align:right;">{{ item.content | split: '<!-- more -->' | first }}</div>
+                    <div class="summeryText" style="text-align:right;">{{ item.content }}</div>
+                    {% endif %}
+
+
+
+              {% else %}
+
+                  <div class="entryTitle blogClickable"><a id="{{ item.title | replace: ' ', '_' }}" title="{{ item.title }}" class='itemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title }}</a></div>
+                  <div class='date'>
+                    <div class="dateText">{{item.date | date:"%B %d, %Y"}}</div>
+                    {% if item.author %}
+                      <div class="dateText" >&nbsp; &#8226; &nbsp; By: <span>{{ item.author }}</span></div>
+                    {% endif %}
+                  </div>
+
+                    {% if item.content contains '<!-- more -->' %}
+                    <div class="summeryText" >{{ item.content | split: '<!-- more -->' | first }}</div>
+                    <!--<div class="summeryText" >{{ item.excerpt | strip_html}}...</div>-->
+                    {% else %}
+                    <div class="summeryText" >{{ item.content }}</div>
                     {% endif %}
 
 
 
 
+             {% endif %}
 
-
+               
         </div>
     
     </div>
-
-        {% else %}
-
-        <div id="{{item.title}}" class="articleblog clearfix english showblog">
-
-            {% if item.splash or item.youtube_url %}
-
-            {% if item.youtube_url %}
-            {% capture youtubeurl %}{{item.youtube_url}}{% endcapture %}
-            <div class="video-wrapper">
-                <a href='{{site.baseurl}}{{item.url}}'><div class="youtubeThumbnail">
-                    <img width="100%" src='http://img.youtube.com/vi/{{youtubeurl}}/hqdefault.jpg' alt='' />
-                    <i class="fa fa-play iconPlay"></i>
-                </div></a>
-            </div>
-            {% endif %}
-
-            {% if item.splash && item.youtube %}
-            {% if item.splash contains 'http' %}
-            {% capture url %}{{item.splash}}{% endcapture %}
-            {% else %}
-            {% capture url %}{{site.baseurl}}{{item.splash}}/{% endcapture %}
-            {% endif %}
-
-            <div class='splash' href='{{site.baseurl}}{{item.url}}'>
-                <a href='{{site.baseurl}}{{item.url}}'>
-                    <img width="100%" src='{{url}}' alt='' />
-                </a>
-            </div>
-            {% endif %}
-
-            {% else %}
-            <div class='splash' href='{{site.baseurl}}{{item.url}}'>
-                <a href='{{site.baseurl}}{{item.url}}'>
-                    <img width="100%" src='{{site.baseurl}}/img/IFPRI.png' alt='' />
-                </a>
-            </div>
-            {% endif %}
-
-
-            <div class="textContainer col-sm-12">
-
-                <div class="entryTitle blogClickable"><a id="{{ item.title | replace: ' ', '_' }}" title="{{ item.title }}" class='itemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title }}</a></div>
-                <div class='date'>
-                    <div class="dateText">{{item.date | date:"%B %d, %Y"}}</div>
-                    {% if item.author %}
-                    <div class="dateText" >By: <span>{{ item.author }}</span></div>
-                    {% endif %}
-                </div>
-
-                {% if item.content contains '<!-- more -->' %}
-                <div class="summeryText" >{{ item.content | split: '<!-- more -->' | first }}</div>
-                <!--<div class="summeryText" >{{ item.excerpt | strip_html}}...</div>-->
-                {% else %}
-                <div class="summeryText" >{{ item.content }}</div>
-                {% endif %}
-
-            </div>
-        </div>
-
-
-        {% endif %}
 
 
       {% endfor %}
       </div>
             </div>
-
             <div class="sidePanel">
-
 
               {% include tags.html %}
 
@@ -222,26 +170,24 @@ title: ''
 
             </div>
         </div>
-
       </div>
 
-      <div id="outerFooter" class="clearfix">
-          <div id="footer"></div>
-      </div>
+      <div id="google_translate_element2"></div>
 
     </div><!-- /.container -->
     </div>
 
-
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element2');
+        }
+        </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
     <script src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script>
-
-      <script src="{{site.baseurl}}/header.js"></script>
-      <script src="{{site.baseurl}}/footer.js"></script>
 
     <script>
 
@@ -250,9 +196,12 @@ title: ''
 
         var children = $( this ).children(".sidePanelTitle");
 
-//        var childrenChild = $( children ).children(".arrow");
+        var childrenChild = $( children ).children(".arrow");
 
-//        console.log(childrenChild);
+        console.log(childrenChild);
+
+
+
 
 
         if ($( this ).children(".collapsable").hasClass('expand')){
@@ -273,121 +222,6 @@ title: ''
             $( children ).children("#arrow").toggleClass('fa-caret-right fa-caret-down');
 
         }
-});
-
-    function expandEvents(){
-
-
-        $('#events').removeClass('collapse').addClass('expand');
-
-
-    }
-
-    function expandPublications(){
-
-        $('#publications').removeClass('collapse').addClass('expand');
-
-
-    }
-
-    $('.btn').click(function(){
-
-        var lngCode = $(this).attr('id');
-        translate(lngCode)
-
-
-    });
-
-    function translate(lngCode) {
-
-//            if(lngCode != activeLngCode){
-//
-//                $(".article").toggleClass('showblog hideblog');
-//                activeLngCode = lngCode;
-//
-//            }
-
-        if (lngCode === "ara") {
-
-
-            $(".arabic").removeClass('hideblog');
-            $(".arabic").addClass('showblog');
-
-            $(".english").removeClass('showblog');
-            $(".english").addClass('hideblog');
-
-        }
-        if (lngCode === "en") {
-
-            $(".english").removeClass('hideblog');
-            $(".english").addClass('showblog');
-
-            $(".arabic").removeClass('showblog');
-            $(".arabic").addClass('hideblog');
-
-        }
-
-    }
-
-
-    $('.summeryText a').on('click', function(e) {
-        e.preventDefault();
-        console.log(this.href);
-
-        window.open(this.href,'_blank');
-    });
-
-
-    if (window.location.hash === '#arabic') {
-        $(".arabic").removeClass('hideblog');
-        $(".arabic").addClass('showblog');
-
-        $(".english").removeClass('showblog');
-        $(".english").addClass('hideblog');
-    }
-
-
-    $( document ).ready(function() {
-
-        var Header = new WSHeader('header', HEADER_MOCK_OBJ, {
-            onLogoClick:function() {
-
-            },
-            onMapClick:function() {
-
-                console.log("Clicked on Map");
-
-            },
-            onBlogClick:function() {
-
-                console.log("Clicked on Blog");
-
-            }
-        });
-
-
-        var Footer = new WSFooter('footer', FOOTER_MOCK_OBJ, {
-            onLang1Click:function() {
-
-                Header.translate('ara');
-                Footer.translate('ara');
-
-                translate('ara');
-
-            },
-            onLang2Click:function() {
-
-                Footer.translate('en');
-                Header.translate('en');
-
-                translate('en');
-
-            }
-        });
-
-
-        Footer.translate('en');
-        Header.translate('en');
 
 
 
@@ -396,13 +230,12 @@ title: ''
 
 
 
-    
 
 
 
 
 
-    </script>
+  </script>
 
   </body>
 </html>

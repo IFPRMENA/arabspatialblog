@@ -1,0 +1,43 @@
+---
+---
+
+
+
+{
+"ara": [
+
+
+                {% for post in site.categories.blog %}
+                {% if post.language == 'arabic' %}
+                {% if forloop.last == true %}
+                {% assign title = post.title | split:' ' %}
+                {% assign date = post.date | date_to_long_string | split:' ' %}
+                {
+                "title": "{{ post.title }}",
+                "splash": "{{post.splash}}",
+                "date": "{{ post.date | date_to_long_string }}",
+                "url": "{{ post.url }}",
+                "author": "{{ post.author }}",
+                "content": "{{ post.content | strip_html | truncatewords: 30 }}"
+
+                }
+                {% else %}
+                {% assign title = post.title | split:' ' %}
+                {% assign date = post.date | date_to_long_string | split:' ' %}
+                {
+                "title": "{{ post.title }}",
+                "splash": "{{post.splash}}",
+                "date": "{{ post.date | date_to_long_string }}",
+                "url": "{{ post.url }}",
+                "author": "{{ post.author }}",
+                "content": "{{ post.content | strip_html | truncatewords: 30 }}"
+
+                },
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+
+
+    ]
+}
+
