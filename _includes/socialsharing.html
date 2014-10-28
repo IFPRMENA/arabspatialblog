@@ -29,7 +29,12 @@
   
       
 
-      <div class="panel panel-default">
+
+          {% if page.language == 'english' %}
+          <div class="panel panel-default">
+              {% else %}
+              <div class="panel panel-default" style="float: right;">
+                  {% endif %}
         
         <div id="panel-body" class="panel-body"></div>
       </div>
