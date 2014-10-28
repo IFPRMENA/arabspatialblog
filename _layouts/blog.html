@@ -21,9 +21,9 @@ section: blog
 {% endif %}
 
 {% if page.language == 'arabic' %}
-    <div id="{{page.title}}" style="text-align:right;" class="article clearfix">
+    <div id="{{page.id}}" style="text-align:right;" class="article clearfix">
 {% else %}
-  <div id="{{page.title}}" lng="{{ page.language }}" class="article clearfix">
+  <div id="{{page.id}}" lng="{{ page.language }}" class="article clearfix">
 {% endif %}
     <a class='itemTitle'>{{page.title }}
     </a>
@@ -159,7 +159,7 @@ section: blog
       {% endif %}
   <div class="blog-header grayBackground clearfix">
     <!-- <div class="blog-title">Upcoming and recent events</div> -->
-    <div class='itemTitle blogClickable eventTitlePost' title="{{ page.title }}">{{page.title }}</div>
+    <div class='itemTitle blogClickable eventTitlePost' title="{{ page.id }}">{{page.title }}</div>
 
     {% if page.eventdate %}
     <div class="eventdate">

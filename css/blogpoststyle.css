@@ -827,3 +827,7 @@ margin-top: -24px;
 #panel-body{
     cursor: pointer;
 }
+
+.panel{
+    width: 630px;
+}

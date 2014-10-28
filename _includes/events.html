@@ -21,7 +21,7 @@
                   {% capture myFirstWord %}{{ verifydate | truncatewords: 1 | remove: '...' }}{% endcapture %}
 
 
-                <div id="{{item.title}}" class="eventMain clearfix" >
+                <div id="{{item.id}}" class="eventMain clearfix" >
 
 
 
@@ -33,7 +33,7 @@
 
                     {% if item.title %}
 
-                    <div class="entryTitleMain"><a title="{{ item.title }}" class='eventItemTitle feedeventItemTitle' href='{{site.baseurl}}{{item.url}}' style="font-size:12px;">{{item.title }}</a></div>
+                    <div class="entryTitleMain"><a title="{{ item.id }}" class='eventItemTitle feedeventItemTitle' href='{{site.baseurl}}{{item.url}}' style="font-size:12px;">{{item.title }}</a></div>
 
                     <div class='eventLocationMain'>
 

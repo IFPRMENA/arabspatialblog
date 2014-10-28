@@ -55,7 +55,7 @@ title: ''
 
 {% if item.language == 'arabic' %}
 
-    <div id="{{item.title}}" class="articleblog clearfix arabic hideblog">
+    <div id="{{item.id}}"  class="articleblog clearfix arabic hideblog">
 
           {% if item.splash or item.youtube_url %}
 
@@ -94,7 +94,7 @@ title: ''
         <div class="textContainer col-sm-12">
 
                   <!-- Arabic Content   -->
-                <div class="entryTitle blogClickable" style="text-align:right;" title="{{ item.title }}"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle' title="{{ item.title }}" href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a>
+                <div class="entryTitle blogClickable" style="text-align:right;" title="{{ item.id }}"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle' title="{{ item.title }}" href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a>
                 </div>
 
                   <div class='date'>
@@ -120,7 +120,7 @@ title: ''
 
         {% else %}
 
-        <div id="{{item.title}}" class="articleblog clearfix english showblog">
+        <div id="{{item.id}}" class="articleblog clearfix english showblog">
 
             {% if item.splash or item.youtube_url %}
 
@@ -159,7 +159,7 @@ title: ''
 
             <div class="textContainer col-sm-12">
 
-                <div class="entryTitle blogClickable"><a id="{{ item.title | replace: ' ', '_' }}" title="{{ item.title }}" class='itemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title }}</a></div>
+                <div class="entryTitle blogClickable"><a id="{{ item.title | replace: ' ', '_' }}" title="{{ item.id }}" class='itemTitle' href='{{site.baseurl}}{{item.url}}'>{{item.title }}</a></div>
                 <div class='date'>
                     <div class="dateText">{{item.date | date:"%B %d, %Y"}}</div>
                     {% if item.author %}
