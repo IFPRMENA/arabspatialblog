@@ -19,7 +19,7 @@ section: blog
                                 {% if item.youtube_url %}
                                 {% capture youtubeurl %}{{item.youtube_url}}{% endcapture %}
                                 <div class="video-wrapper">
-                                    <div class="youtubeThumbnail blogClickable" id="{{ item.title | replace: ' ', '_' }}" title="{{ item.title }}">
+                                    <div class="youtubeThumbnail blogClickable" id="{{ item.title | replace: ' ', '_' }}" title="{{ item.id }}">
                                         <img width="100%" src='http://img.youtube.com/vi/{{youtubeurl}}/hqdefault.jpg' alt='' />
                                         <i class="fa fa-play iconPlay"></i>
                                     </div>
@@ -33,13 +33,13 @@ section: blog
                                 {% capture url %}{{site.baseurl}}{{item.splash}}/{% endcapture %}
                                 {% endif %}
 
-                                <div class='splash blogClickable' id="{{ item.title | replace: ' ', '_' }}" title="{{ item.title }}">
+                                <div class='splash blogClickable' id="{{ item.title | replace: ' ', '_' }}" title="{{ item.id }}">
                                     <img width="100%" src='{{url}}' alt='' />
                                 </div>
                                 {% endif %}
 
                                 {% else %}
-                                <div class='splash blogClickable' id="{{ item.title | replace: ' ', '_' }}" title="{{ item.title }}">
+                                <div class='splash blogClickable' id="{{ item.title | replace: ' ', '_' }}" title="{{ item.id }}">
 
                                     <img width="100%" src='{{site.baseurl}}/img/IFPRI.png' alt='' />
                                     </a>
@@ -49,7 +49,7 @@ section: blog
                            <div class="textContainer col-sm-12">
 
 
-                               <div class="entryTitle blogClickable" style="text-align:right;" title="{{ item.title }}"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle' title="{{ item.id }}">{{item.title}}</a></div>
+                               <div class="entryTitle blogClickable" style="text-align:right;" title="{{ item.id }}"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle' title="{{ item.id }}">{{item.title}}</a></div>
                                <div class='date'>
                                    <div class="dateText" style="text-align:right;">{{item.date | date:"%B %d, %Y"}}</div>
                                    {% if item.author %}
