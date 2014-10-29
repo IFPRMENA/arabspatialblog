@@ -104,7 +104,7 @@ section: blog
         <div class="textContainer col-sm-12">
 
 
-            <div class="entryTitle blogClickable" title="{{ item.title }}"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle' title="{{ item.title }}">{{item.title}}</a></div>
+            <div class="entryTitle blogClickable" title="{{ item.id }}"><a id="{{ item.title | replace: ' ', '_' }}" class='itemTitle' title="{{ item.id }}">{{item.title}}</a></div>
             <div class='date'>
                 <div class="dateText">{{item.date | date:"%B %d, %Y"}}</div>
                 {% if item.author %}
