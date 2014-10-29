@@ -26,9 +26,9 @@
         <!-- <a class='item'>{{item.title}}</a>   -->
         {% if item.title %}
         {% if myFirstWord < now %}
-        <div class="entryTitle"><a title="{{ item.title }}" class='eventItemTitle eventPastClickable' >{{item.title }}</a></div>
+        <div class="entryTitle"><a title="{{ item.id }}" class='eventItemTitle eventPastClickable' >{{item.title }}</a></div>
         {% else %}
-        <div class="entryTitle"><a title="{{ item.title }}" class='eventItemTitle eventClickable' >{{item.title }}</a></div>
+        <div class="entryTitle"><a title="{{ item.id }}" class='eventItemTitle eventClickable' >{{item.title }}</a></div>
         {% endif %}
         <div class='eventLocation'>
 
