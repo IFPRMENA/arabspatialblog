@@ -78,12 +78,6 @@ prose:
           label: "Published"
           element: "checkbox"
           value: true
-      - name: "date"
-        field:
-          element: "text"
-          label: "Publish Date"
-          placeholder: "2014-10-31"
-          value: ""
       - name: "language"
         field:
           element: "select"
