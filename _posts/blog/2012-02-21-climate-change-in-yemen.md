@@ -2,7 +2,6 @@
 layout: blog
 published: true
 title: Climate Change in Yemen
-datetorender: 2014-10-31
 category: blog
 comments: true
 splash: "http://www.ifpri.org/sites/default/files/imagecache/prefab_large/DSC03179_1.JPG"
