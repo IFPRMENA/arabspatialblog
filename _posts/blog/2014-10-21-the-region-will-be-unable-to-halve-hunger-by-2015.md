@@ -8,6 +8,7 @@ comments: true
 author: 
   - "Abdessalam OuldAhmed, Assistant Director General and Regional Representative - FAORNE"
 splash: "https://farm4.staticflickr.com/3944/15596429635_161ba784da_n.jpg"
+date: "2014-10-20"
 ---
 
 Collective action is needed to address the food security challenge in the Near East and North Africa Region (NENA). The State of Food Insecurity 2014 report that has just been released by the three UN Rome-based agencies, shows that, in contrast with the positive trend in global hunger reduction, the NENA region has seen both the number and prevalence of undernourishment increase over the last decade.  The region as a whole will not therefore achieve the Millennium Development Goal 1.c target of halving the prevalence of hunger by 2015. 
