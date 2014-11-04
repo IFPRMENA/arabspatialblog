@@ -5,7 +5,7 @@ title: "Can Saving Wasted Food Contribute to Ending Hunger in the Arab Region?"
 category: blog
 language: english
 comments: true
-splash: "https://farm8.staticflickr.com/7568/15712410875_6d03a7ba80_m.jpg"
+splash: "https://farm8.staticflickr.com/7568/15712410875_6d03a7ba80.jpg"
 ---
 
 A recent FAO [study](http://www.fao.org/docrep/014/mb060e/mb060e.pdf) showed that roughly more than one-third of food is lost or wasted globally.  Reducing high food loss and waste would end hunger and achieve worldwide food security in the long-run. In some regions—such as in the Arab states—reducing food loss and waste is vital since they have limited possibilities to increase their production and they depend on imports to reach their basic food needs. Overall, almost [one third](http://www.fao.org/news/story/en/item/214452/icode/) of the food is wasted in the Arab region. 
@@ -14,6 +14,7 @@ A recent FAO [study](http://www.fao.org/docrep/014/mb060e/mb060e.pdf) showed tha
 In contrast with some other regions, where much food is wasted during consumption; in the [Arab region](http://www.fao.org/news/story/en/item/214452/icode/), 44% of food loss occurs during pre/post-harvesting and 34% at the consumption stage.  The table below gives an [estimate](http://www.fao.org/docrep/014/mb060e/mb060e00.pdf) of waste percentages within food commodity groups at various stages in the process for North Africa, West and Central Asia.    
 
 **Estimated/assumed waste percentages for each commodity group in each step of the FSC for North Africa, West, and Central Asia**
+
 
 ![](https://farm4.staticflickr.com/3939/15709303211_f6d9b6f0fa_b.jpg) 
 Source: [FAO, 2011](http://www.fao.org/docrep/014/mb060e/mb060e.pdf)
