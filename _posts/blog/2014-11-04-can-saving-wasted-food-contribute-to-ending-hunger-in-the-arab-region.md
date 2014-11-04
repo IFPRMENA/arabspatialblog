@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: "Can Saving Wasted Food Contribute to Ending Hunger in the Arab Region?"
 category: blog
 language: english
