@@ -5,6 +5,7 @@ title: "Can Saving Wasted Food Contribute to Ending Hunger in the Arab Region?"
 category: blog
 language: english
 comments: true
+splash: "https://farm8.staticflickr.com/7568/15712410875_6d03a7ba80_m.jpg"
 ---
 
 A recent FAO [study](http://www.fao.org/docrep/014/mb060e/mb060e.pdf) showed that roughly more than one-third of food is lost or wasted globally.  Reducing high food loss and waste would end hunger and achieve worldwide food security in the long-run. In some regions—such as in the Arab states—reducing food loss and waste is vital since they have limited possibilities to increase their production and they depend on imports to reach their basic food needs. Overall, almost [one third](http://www.fao.org/news/story/en/item/214452/icode/) of the food is wasted in the Arab region. 
@@ -24,6 +25,7 @@ In Egypt in 2006, a food bank model was created and it is showing significant re
  
 The EFB has boldly set its key target as ending hunger in Egypt by 2020. To achieve this, it will continue to promote and scale up its key successes within Egypt, and will also endeavor to embed these principles in projects in neighboring countries.  The first step is information and education. That includes introducing the food bank concept to communities and emphasize its role in fighting hunger, while at the same time spreading awareness - especially in the private sector - of the problem of food waste and loss.  Once community allies and organizational partners have been recruited, a minimum level of infrastructure such as; the establishment of food storage and/or pick-up points and transportation of the food, are essential to ensuring the sustainability of a food bank.  Coordination with civil society groups and community volunteers is also essential in reflecting community priorities and keeping resource costs low.  Finally, the EFB aims to go the next step by raising awareness around waste in food systems and its impact on hunger among policy makers and institutions, especially at the local level. 
 
+![Food Bank Image medium.jpg](/_posts/blog/Food Bank Image medium.jpg)
 
 Source: [EFB](https://www.egyptianfoodbank.com/en/food-bank-regionally-and-internationally)
 
