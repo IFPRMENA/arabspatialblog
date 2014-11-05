@@ -6,6 +6,10 @@ category: blog
 language: english
 comments: true
 splash: "https://farm8.staticflickr.com/7568/15712410875_6d03a7ba80.jpg"
+author: 
+  - "Moez El Shohdi, Co-Founder & Chief Executive Officer - The Egyptian Food Bank"
+tags: 
+  - "Egypt, hunger, food bank, food waste, civil society"
 ---
 
 A recent FAO [study](http://www.fao.org/docrep/014/mb060e/mb060e.pdf) showed that roughly more than one-third of food is lost or wasted globally.  Reducing high food loss and waste would end hunger and achieve worldwide food security in the long-run. In some regions—such as in the Arab states—reducing food loss and waste is vital since they have limited possibilities to increase their production and they depend on imports to reach their basic food needs. Overall, almost [one third](http://www.fao.org/news/story/en/item/214452/icode/) of the food is wasted in the Arab region. 
@@ -28,3 +32,5 @@ The EFB has boldly set its key target as ending hunger in Egypt by 2020. To achi
 Source: [EFB](https://www.egyptianfoodbank.com/en/food-bank-regionally-and-internationally)
 
 In the experience of the EFB, the positive knock-on effects of food bank programs are numerous.  Food banks—and the networks they develop—can create job opportunities and improved community cohesion in the form of infrastructure (i.e., the logistics that keep the banks running) and partnerships (between citizens, private sector, civil society and public institutions).  Vulnerable households gain a new resource to help strengthen their resilience during difficult times, and children benefit from the assurance of their basic nutrition needs being met.  There are also important environmental gains by reducing food-related waste going to landfills.  Overall, food banks have the potential to contribute to more inclusive, sustainable development given their ability to minimize food loss and waste within communities whilst at the same time improving food availability, quality and affordability to the poor.
+
+Photo Credit: Asmaa Waguih/Reuters
