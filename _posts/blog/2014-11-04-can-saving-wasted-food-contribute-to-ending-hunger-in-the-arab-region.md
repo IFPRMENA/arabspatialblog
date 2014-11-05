@@ -5,7 +5,7 @@ title: "Can Saving Wasted Food Contribute to Ending Hunger in the Arab Region?"
 category: blog
 language: english
 comments: true
-splash: "https://farm8.staticflickr.com/7568/15712410875_6d03a7ba80_n.jpg"
+splash: "https://farm8.staticflickr.com/7568/15712410875_6d03a7ba80_m.jpg"
 author: 
   - "Moez El Shohdi, Co-Founder & Chief Executive Officer - The Egyptian Food Bank"
 tags: 
