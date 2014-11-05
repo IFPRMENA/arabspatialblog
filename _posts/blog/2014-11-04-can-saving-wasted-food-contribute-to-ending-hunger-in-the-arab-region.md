@@ -5,11 +5,11 @@ title: "Can Saving Wasted Food Contribute to Ending Hunger in the Arab Region?"
 category: blog
 language: english
 comments: true
-splash: "https://farm8.staticflickr.com/7568/15712410875_6d03a7ba80.jpg"
+splash: "https://farm8.staticflickr.com/7568/15712410875_6d03a7ba80_n.jpg"
 author: 
   - "Moez El Shohdi, Co-Founder & Chief Executive Officer - The Egyptian Food Bank"
 tags: 
-  - "Egypt, hunger, food bank, food waste, civil society"
+  - "Egypt, hunger, poverty, food bank, civil society"
 ---
 
 A recent FAO [study](http://www.fao.org/docrep/014/mb060e/mb060e.pdf) showed that roughly more than one-third of food is lost or wasted globally.  Reducing high food loss and waste would end hunger and achieve worldwide food security in the long-run. In some regions—such as in the Arab states—reducing food loss and waste is vital since they have limited possibilities to increase their production and they depend on imports to reach their basic food needs. Overall, almost [one third](http://www.fao.org/news/story/en/item/214452/icode/) of the food is wasted in the Arab region. 
