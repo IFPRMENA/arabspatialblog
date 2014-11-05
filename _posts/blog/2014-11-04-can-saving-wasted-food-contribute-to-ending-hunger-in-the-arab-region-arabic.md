@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: هل يمكن أن يؤدي عدم إهدار الغذاء إلى القضاء على الجوع في المنطقة العربية؟
 category: blog
 language: arabic
