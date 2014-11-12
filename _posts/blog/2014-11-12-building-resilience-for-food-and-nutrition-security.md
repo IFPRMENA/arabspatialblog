@@ -14,6 +14,7 @@ tags:
 
 In recent years, many people and parts of the world have been hit by major shocks ranging from conflicts, erratic weather patterns, earthquakes, droughts, and floods to food price spikes. At the same time, poor people and communities remain vulnerable to shocks that may be smaller in scope—such as emerging diseases and contaminated foods—but just as devastating for affected households. We confront a world of shocks, both familiar and unfamiliar.
 
+<!-- more -->
 
 We know that [building resilience](http://www.ifpri.org/publication/resilience-food-and-nutrition-security) means helping individuals, households, communities, and countries prepare for, cope with, and recover from these shocks and become even better off. We have far less understanding, however, of how to build resilient agricultural and food systems, health systems, social systems, and governance structures that can preempt and better manage different types of shocks.
 
