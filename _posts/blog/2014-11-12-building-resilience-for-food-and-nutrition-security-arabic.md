@@ -5,7 +5,7 @@ title: القدرة على تحمل الصدمات المهددة للأمن  ا
 category: blog
 language: arabic
 comments: true
-splash: "https://farm9.staticflickr.com/8253/15774664185_aa3eb27250_n.jpg"
+splash: "https://farm6.staticflickr.com/5615/15598237880_e88b39be8e_o.jpg"
 author: 
   - IFPRI
 tags: ""
