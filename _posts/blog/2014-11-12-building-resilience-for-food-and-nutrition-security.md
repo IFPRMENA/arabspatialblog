@@ -9,7 +9,7 @@ author:
   - IFPRI
 splash: "https://farm9.staticflickr.com/8253/15774664185_aa3eb27250_n.jpg"
 tags: 
-  - "resilience, hunger, food security, nutrition security, Arab World, MENA,"
+  - "hunger, food security, nutrition security, Arab World, MENA, 2020 Resilience Conference"
 ---
 
 In recent years, many people and parts of the world have been hit by major shocks ranging from conflicts, erratic weather patterns, earthquakes, droughts, and floods to food price spikes. At the same time, poor people and communities remain vulnerable to shocks that may be smaller in scope—such as emerging diseases and contaminated foods—but just as devastating for affected households. We confront a world of shocks, both familiar and unfamiliar.
