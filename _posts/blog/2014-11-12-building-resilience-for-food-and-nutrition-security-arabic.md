@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: false
-title: "Building Resilience for Food and Nutrition Security- Arabic"
+title: القدرة على تحمل الصدمات المهددة للأمن  الغذائي و التغذوي
 category: blog
 language: arabic
 comments: true
