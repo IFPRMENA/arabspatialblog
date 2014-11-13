@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: false
-title: Building Resilience for Food and Nutrition Security
+title: Resilience for Food and Nutrition Security
 category: blog
 language: english
 comments: true
