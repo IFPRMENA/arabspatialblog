@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: Resilience for Food and Nutrition Security
 category: blog
 language: english
