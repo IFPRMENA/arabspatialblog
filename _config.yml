@@ -3,6 +3,7 @@ permalink: pretty
 markdown: kramdown
 encoding: UTF-8
 highlighter: rouge
+blogname: ARAB FOOD AND NUTRITION SECURITY BLOG
 prose:
   rooturl: '_posts'
   siteurl: 'http://arabspatial.org/arabspatialblog/'
