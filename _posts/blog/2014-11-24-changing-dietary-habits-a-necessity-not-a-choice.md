@@ -5,6 +5,8 @@ title: "Changing Dietary Habits, a Necessity Not a Choice"
 category: blog
 language: english
 comments: true
+author: 
+  - "Najib Saab, Secretary General - AFED"
 ---
 
 Arabs import half of their needs of basic foodstuffs. Agricultural production in the Arab countries faces tremendous challenges, mainly drought, limited arable lands, scarce water resources and accelerated population growth, amidst adverse impacts of climate change. Unfortunately, Arab countries have largely failed to adequately deal with the challenges of their limited natural resources. Falling agricultural production is attributed mainly to inappropriate policies, meager investments in science and technology, poor agricultural development and the absence of regional cooperation. These are some of the conclusions of the Arab Forum for Environment and Development ([AFED](http://www.afedonline.org/en/innerListing.aspx?menuID=12)) report on food security, to be released this week at the organization’s [annual conference](http://www.afedonline.org/conference/default.asp) in Amman, Jordan.  
