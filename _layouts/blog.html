@@ -6,11 +6,12 @@ section: blog
 {% if page.category == 'blog' %}
 
 <!-- Start: Blog block -->
-<div id="ThisIsBlogPost"></div>
 
 {% if page.language == 'arabic' %}
+<div id="ThisIsBlogPost" class="arabic"></div>
 <div class="seeBlogEntries" style="float:left;margin-top:20px;margin-left:20px;"><a id="allBlogEntries" href="{{site.baseurl}}/fullsite#arabic">< All blog entries</a></div>
 {% else %}
+<div id="ThisIsBlogPost" class="english"></div>
 <div class="seeBlogEntries" style="float:left;margin-top:20px;margin-left:20px;"><a id="allBlogEntries" href="{{site.baseurl}}/fullsite">< All blog entries</a></div>
 {% endif %}
 

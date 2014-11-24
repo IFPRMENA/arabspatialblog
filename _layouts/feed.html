@@ -45,7 +45,8 @@ title: ''
 
       <div class="bodyContainer clearfix">
           <div class="blog-header">
-              <div class="blog-title" style="font-size:30px;color:#3d3d3d;">{{site.blogname}}</div>
+              <div class="blog-title english showblog" style="font-size:30px;color:#3d3d3d;">{{site.blogname}}</div>
+              <div class="blog-title arabic hideblog" style="font-size:30px;color:#3d3d3d;">{{site.blognameArabic}}</div>
           </div>
         <div class="feedContainer clearfix">
             <!--<button type="button" id="en" class="btn btn-default">english</button>-->
@@ -54,24 +55,24 @@ title: ''
               {{content}}
             </div>
             <div class="sidePanel">
-            <div class="eventTitleContainer">
-                <h1 class="events-title">EVENTS</h1><span class="seeMore see-more-events">See more events ></span>
-                <div class="eventFeed clearfix">
-                    {% include events_LP.html %}
+                <div class="eventTitleContainer">
+                    <h1 class="events-title">EVENTS</h1><span class="seeMore see-more-events">See more events ></span>
+                    <div class="eventFeed clearfix">
+                        {% include events_LP.html %}
+                    </div>
                 </div>
-            </div>
-            <div class="eventTitleContainer">
-                <h1 class="events-title">PUBLICATIONS</h1><span class="seeMore see-more-publications">See more publications ></span>
-                <div class="eventFeed clearfix">
-                    {% include publications_LP.html %}
+                <div class="eventTitleContainer">
+                    <h1 class="events-title">PUBLICATIONS</h1><span class="seeMore see-more-publications">See more publications ></span>
+                    <div class="eventFeed clearfix">
+                        {% include publications_LP.html %}
+                    </div>
                 </div>
-            </div>
-            <div class="eventTitleContainer">
-                <h1 class="events-title">NEWS</h1>
-                <div class="eventFeed clearfix">
-                    {% include newsletters_LP.html %}
+                <div class="eventTitleContainer">
+                    <h1 class="events-title">NEWS</h1>
+                    <div class="eventFeed clearfix">
+                        {% include newsletters_LP.html %}
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
       </div>
