@@ -9,7 +9,7 @@ author:
   - "Najib Saab, Secretary General - AFED"
 tags: 
   - "Arab food security, Arab countries, water resources, irrigation efficiency, food security, Agriculture development, climate change"
-splash: "https://farm8.staticflickr.com/7484/15256530183_a2f7c6998c_o.jpg"
+splash: "https://farm8.staticflickr.com/7491/15689346370_1ba1025689_o.jpg"
 ---
 
 Arab countries import half of their needs of basic foodstuffs. Their agricultural production faces tremendous challenges, mainly drought, limited arable lands, scarce water resources and accelerated population growth, amidst adverse impacts of climate change. Unfortunately, Arab countries have been largely unsuccessful in dealing with the challenges of their limited natural resources. Falling agricultural production is attributed mainly to inappropriate policies, meager investments in science and technology, poor agricultural development and the absence of regional cooperation. These are some of the conclusions of the Arab Forum for Environment and Development ([AFED](http://www.afedonline.org/en/)) report on food security, to be released this week at the organization’s [annual conference](http://www.afedonline.org/conference/default.asp) in Amman, Jordan.  
@@ -31,3 +31,5 @@ The shift in consumers’ habits is a daunting challenge. When former Saudi Mini
 Some may perceive the [AFED](http://www.afedonline.org/en/) report on food security in Arab countries as day dreams in a currently struggling region. However, following all the wars and conflicts, we cannot avoid daily feeding a 400 million, and growing, Arab population. This is feasible through increasing land productivity, improving irrigation efficiency and changing food consumption patterns, in parallel with regional cooperation. All these measures can be successful only if coupled with environment protection if stewardship of natural resources remains at the core of promoting production and attaining food security.
 
 As for food safety, a burning issue in many Arab countries, officials have to examine the whole food chain to detect faults, not to limit attention to the end product, as we recently witnessed in Lebanon.
+
+Photo Credit: AFED
