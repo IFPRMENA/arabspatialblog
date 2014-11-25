@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: "Changing Dietary Habits, a Necessity Not a Choice"
 category: blog
 language: english
