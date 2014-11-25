@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: تغيير عادات الأكل، ضرورة لا خيار
 category: blog
 language: arabic
