@@ -7,13 +7,16 @@ language: english
 comments: true
 author: 
   - "Najib Saab, Secretary General - AFED"
+tags: 
+  - "Arab food security, Arab countries, water resources, irrigation efficiency, food security, Agriculture development, climate change"
+splash: "https://farm8.staticflickr.com/7484/15256530183_a2f7c6998c_o.jpg"
 ---
 
-Arabs import half of their needs of basic foodstuffs. Agricultural production in the Arab countries faces tremendous challenges, mainly drought, limited arable lands, scarce water resources and accelerated population growth, amidst adverse impacts of climate change. Unfortunately, Arab countries have largely failed to adequately deal with the challenges of their limited natural resources. Falling agricultural production is attributed mainly to inappropriate policies, meager investments in science and technology, poor agricultural development and the absence of regional cooperation. These are some of the conclusions of the Arab Forum for Environment and Development ([AFED](http://www.afedonline.org/en/)) report on food security, to be released this week at the organization’s [annual conference](http://www.afedonline.org/conference/default.asp) in Amman, Jordan.  
+Arab countries import half of their needs of basic foodstuffs. Their agricultural production faces tremendous challenges, mainly drought, limited arable lands, scarce water resources and accelerated population growth, amidst adverse impacts of climate change. Unfortunately, Arab countries have been largely unsuccessful in dealing with the challenges of their limited natural resources. Falling agricultural production is attributed mainly to inappropriate policies, meager investments in science and technology, poor agricultural development and the absence of regional cooperation. These are some of the conclusions of the Arab Forum for Environment and Development ([AFED](http://www.afedonline.org/en/)) report on food security, to be released this week at the organization’s [annual conference](http://www.afedonline.org/conference/default.asp) in Amman, Jordan.  
 
 <!-- more -->
 
-Still, the report reaches a positive conclusion. Though critical, the report emphasizes that Arabs can reverse this descending trend through a package of measures. Most importantly through improved land productivity and higher irrigation efficiency. Alongside correct policies and advancing agricultural scientific research, the report highlights the need for regional cooperation, relying on comparative advantages, in a region known for significant discrepancies in natural resources and income levels amongst its countries. 
+Still, the report reaches a positive conclusion. Though critical, the report emphasizes that Arab countries can reverse this descending trend through a package of measures. Most importantly through improved land productivity and higher irrigation efficiency. Alongside correct policies and advancing agricultural scientific research, the report highlights the need for regional cooperation, relying on comparative advantages, in a region known for significant discrepancies in natural resources and income levels amongst its countries. 
 
 The [AFED](http://www.afedonline.org/en/) report illustrates success stories of model projects in Egypt, Morocco, Sudan, Syria and Tunisia. There, land productivity increased through successfully employing integrated management methods for water use and crop production. Water productivity can also be enhanced by using alternative commodities with similar nutritional value, requiring less water. It is necessary to adopt non-conventional methods, most importantly the reuse of treated wastewater.
 
