@@ -388,11 +388,11 @@ width: 100%;
 }
 
 .contentIndividualBlog h2{
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .contentIndividualBlog p{
-  font-size: 14px;
+  font-size: 16px;
 }
 #sharingContainer{
   margin-top: 10px;
@@ -830,4 +830,12 @@ margin-top: -24px;
 
 .panel{
     width: 630px;
+}
+
+.textwrap{
+    white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap;     /* Opera <7 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;
 }
