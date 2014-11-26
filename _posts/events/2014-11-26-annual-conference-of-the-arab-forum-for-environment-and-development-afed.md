@@ -1,7 +1,7 @@
 ---
 category: event
 layout: blog
-published: false
+published: true
 title: Annual Conference of the Arab Forum for Environment and Development (AFED)
 header: Annual Conference of the Arab Forum for Environment and Development
 eventdate: "11/26/2014-11/27/2014"
