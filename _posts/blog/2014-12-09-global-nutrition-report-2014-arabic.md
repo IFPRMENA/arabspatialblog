@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: تقرير التغذية العالمي  2014
 category: blog
 language: arabic
