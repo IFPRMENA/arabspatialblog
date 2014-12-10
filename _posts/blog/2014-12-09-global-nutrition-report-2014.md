@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: "Global Nutrition Report 2014 "
 category: blog
 language: english
