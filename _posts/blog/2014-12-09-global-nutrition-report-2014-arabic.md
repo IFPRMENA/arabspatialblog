@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: false
-title: "Global Nutrition Report 2014 - arabic"
+title: تقرير التغذية العالمي  2014
 category: blog
 language: arabic
 comments: true
