@@ -8,6 +8,8 @@ comments: true
 author: 
   - IFPRI
 splash: "https://farm8.staticflickr.com/7580/15799925557_54ffe2d26c_n.jpg"
+tags: 
+  - "nutrition, health, malnutrition, ICN2, SDGs"
 ---
 
 ## **Actions and accountability to accelerate the world’s progress on nutrition** 
