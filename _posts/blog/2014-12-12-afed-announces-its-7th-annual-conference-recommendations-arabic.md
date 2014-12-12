@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: false
-title: "AFED Announces its 7th Annual Conference Recommendations - arabic"
+title: "أفد\" يصدر توصيات مؤتمره السنوي السابع\""
 category: blog
 language: arabic
 comments: true
