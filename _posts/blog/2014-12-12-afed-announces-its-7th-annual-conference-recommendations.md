@@ -7,6 +7,7 @@ language: english
 comments: true
 author: 
   - Arab Forum for Environment and Development (AFED)
+splash: "https://farm9.staticflickr.com/8678/16005321822_4393a8c5d4_z.jpg"
 ---
 
 ## Food security supports political stability
