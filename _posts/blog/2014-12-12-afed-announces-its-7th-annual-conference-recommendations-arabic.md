@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: false
-title: "أفد\" يصدر توصيات مؤتمره السنوي السابع\""
+title: أفد يصدر توصيات مؤتمره السنوي السابع
 category: blog
 language: arabic
 comments: true
