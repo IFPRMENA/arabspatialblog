@@ -14,6 +14,7 @@ author:
 On December 12th, The Arab Forum for Environment and Development (AFED) released the [recommendations of its seventh annual conference](http://www.afedonline.org/en/inner.aspx?contentID=1087) held in Amman, which addressed food security in Arab countries. The recommendations were finalized by a high-level committee of experts and officials who participated in the conference.
 
 In general, the recommendations, announced by AFED secretary general Najib Saab, call for filling the gap in food production, amounting to US$36 billion annually, by enhancing land productivity, irrigation efficiency and regional cooperation.  While recognizing the importance of political stability and security in this regard, the recommendations pointed out to the role of food security in creating jobs and supporting political and social stability. The following [recommendations](http://www.afedonline.org/en/inner.aspx?contentID=1087) help focus policy decisions when addressing the region’s numerous challenges:  
+<!-- more -->
 
 1. Strengthen regional cooperation among Arab countries, based on comparative advantage in agricultural and investable capital resources, coupled with coordination and harmonization of agricultural development strategies and programs and their contribution to overall food security.
 
@@ -43,5 +44,3 @@ Source: [AFED](http://www.afedonline.org/en/inner.aspx?contentID=1087)
 12. Resolve differences and conflicts, in order to enable capacities for action on human welfare and food security. Also, support the Palestinian people's right to their land and water and to utilize them for enhancing their food security.
 
 Photo Credit: AFED
-
-
