@@ -7,6 +7,7 @@ language: arabic
 comments: true
 author: 
   - "المنتدى العربي للبيئة والتنمية  - أفد"
+splash: "https://farm9.staticflickr.com/8678/16005321822_4393a8c5d4_z.jpg"
 ---
 
 ## الأمن الغذائي يدعم الاستقرار السياسي
