@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: AFED Announces its 7th Annual Conference Recommendations
 category: blog
 language: english
