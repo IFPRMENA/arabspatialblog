@@ -5,6 +5,8 @@ title: AFED Announces its 7th Annual Conference Recommendations
 category: blog
 language: english
 comments: true
+author: 
+  - Arab Forum for Environment and Development (AFED)
 ---
 
 ## Food security supports political stability
