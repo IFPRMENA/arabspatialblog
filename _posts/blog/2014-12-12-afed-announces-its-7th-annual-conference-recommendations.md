@@ -22,6 +22,7 @@ In general, the recommendations, announced by AFED secretary general Najib Saab,
 4. Allocate more investment in scientific research to support all elements of food security, agricultural know-how, and development programs, as well as human and institutional capacity development. Research should be geared towards more productive and environmentally protective inputs and agricultural practices, with the aim of boosting the productivity of rain-fed and irrigated agriculture. Additional funds should be allocated for research in areas including agricultural economic development, human nutrition, food safety, water and sanitation systems, and effective policy.
 
 ![](/https://farm8.staticflickr.com/7565/16005458975_05cbce2edd.jpg)
+Source: [AFED](http://www.afedonline.org/en/inner.aspx?contentID=1087)
  
 5. Develop livestock production systems in a sustainable manner, and increase the investment in fisheries as an important source of good protein which enhances the nutritional value and food safety for consumers, with no pressure on natural resources. Such investments can increase sustainable production of fish to meet local demand and promote the export potential.
  
