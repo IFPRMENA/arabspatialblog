@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: true
-title: "توصيات مؤتمر \"أفد\" السنوي السابع :الأمن الغذائي يدعم الاستقرار السياسي"
+title: "توصيات مؤتمر "
 category: blog
 language: arabic
 comments: true
