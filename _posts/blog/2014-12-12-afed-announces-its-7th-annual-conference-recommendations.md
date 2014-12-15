@@ -7,7 +7,7 @@ language: english
 comments: true
 author: 
   - Arab Forum for Environment and Development (AFED)
-splash: "https://farm8.staticflickr.com/7538/15409931713_27a85259c7_n.jpg"
+splash: "https://farm9.staticflickr.com/8678/16005321822_4393a8c5d4_z.jpg"
 tags: 
   - "Regional cooperation, natural resource efficiency, water management, supply chains, agricultural productivity, agricultural development, unemployment, job creation, political stability, food security"
 ---
