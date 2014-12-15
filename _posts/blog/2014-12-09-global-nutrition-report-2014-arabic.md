@@ -9,7 +9,7 @@ author:
   - IFPRI
 tags: 
   - "التغذية , الصحة , سوء التغذية , ICN2 , SDGs"
-splash: "https://farm8.staticflickr.com/7580/15799925557_bd0d5ab3a1.jpg"
+splash: "https://farm8.staticflickr.com/7580/15799925557_bd0d5ab3a1_n.jpg"
 ---
 
 ##  الإجراءات و المساءلة  للتعجيل بوتيرة التقدم في مجال التغذية على مستوى العالم
