@@ -9,7 +9,7 @@ author:
   - "Najib Saab, Secretary General - AFED"
 tags: 
   - "Arab food security, Arab countries, water resources, irrigation efficiency, food security, Agriculture development, climate change"
-splash: "https://farm8.staticflickr.com/7519/15843874107_4ab11fbda8_m.jpg"
+splash: "https://farm8.staticflickr.com/7538/15409931713_9ea9f54681_n.jpg"
 ---
 
 Arab countries import half of their needs of basic foodstuffs. Their agricultural production faces tremendous challenges, mainly drought, limited arable lands, scarce water resources and accelerated population growth, amidst adverse impacts of climate change. Unfortunately, Arab countries have been largely unsuccessful in dealing with the challenges of their limited natural resources. Falling agricultural production is attributed mainly to inappropriate policies, meager investments in science and technology, poor agricultural development and the absence of regional cooperation. These are some of the conclusions of the Arab Forum for Environment and Development ([AFED](http://www.afedonline.org/en/)) report on food security, to be released this week at the organization’s [annual conference](http://www.afedonline.org/conference/default.asp) in Amman, Jordan.  
