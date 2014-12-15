@@ -7,7 +7,7 @@ language: english
 comments: true
 author: 
   - IFPRI
-splash: "https://farm8.staticflickr.com/7580/15799925557_54ffe2d26c_n.jpg"
+splash: "https://farm8.staticflickr.com/7580/15799925557_88ed8b4c4d_o.png"
 tags: 
   - "nutrition, health, malnutrition, ICN2, SDGs"
 ---
