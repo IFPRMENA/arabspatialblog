@@ -9,7 +9,7 @@ author:
   - Arab Forum for Environment and Development (AFED)
 splash: "https://farm9.staticflickr.com/8678/16005321822_4393a8c5d4_z.jpg"
 tags: 
-  - "Regional cooperation, natural resource efficiency, water management, supply chains, agricultural productivity, agricultural development, unemployment, job creation"
+  - "Regional cooperation, natural resource efficiency, water management, supply chains, agricultural productivity, agricultural development, unemployment, job creation, political stability, food security"
 ---
 
 ## Food security supports political stability
