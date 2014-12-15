@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: true
-title: AFED Announces its 7th Annual Conference Recommendations
+title: "AFED's 7th Annual Conference Recommendations: Food Security Supports Political Stability"
 category: blog
 language: english
 comments: true
@@ -11,8 +11,6 @@ splash: "https://farm9.staticflickr.com/8678/16005321822_4393a8c5d4_z.jpg"
 tags: 
   - "Regional cooperation, natural resource efficiency, water management, supply chains, agricultural productivity, agricultural development, unemployment, job creation, political stability, food security"
 ---
-
-## Food security supports political stability
 
 
 On December 12th, The Arab Forum for Environment and Development (AFED) released the [recommendations of its seventh annual conference](http://www.afedonline.org/en/inner.aspx?contentID=1087) held in Amman, which addressed food security in Arab countries. The recommendations were finalized by a high-level committee of experts and officials who participated in the conference.
