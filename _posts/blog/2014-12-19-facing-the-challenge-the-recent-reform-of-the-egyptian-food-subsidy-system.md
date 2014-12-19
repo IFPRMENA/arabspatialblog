@@ -6,7 +6,13 @@ category: blog
 language: english
 comments: true
 tags: 
-  - "Egypt, food subsidies, baladi bread, ration cards, subsidy reform, smart card, social protection "
+  - Egypt
+  - food subsidies
+  - baladi bread
+  - ration cards
+  - subsidy reform
+  - smart card
+  - social protection
 author: 
   - "Olivier Ecker (Research Fellow), Jean Francois Trinh Tan (Research Analyst), and Perrihan Al-Riffai (Sr. Research Analyst) - IFPRI"
 splash: "https://farm8.staticflickr.com/7475/15870167318_ee872afe71_n.jpg"
