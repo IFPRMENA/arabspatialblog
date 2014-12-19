@@ -5,6 +5,10 @@ title: "Facing the Challenge: The Recent Reform of the Egyptian Food Subsidy Sys
 category: blog
 language: english
 comments: true
+author: 
+  - "Olivier Ecker (Research Fellow), Jean Francois Trinh Tan (Research Analyst), and Perrihan Al-Riffai (Sr. Research Analyst) - IFPRI"
+tags: 
+  - "Egypt, food subsidies, baladi bread, ration cards, subsidy reform, smart card, social protection "
 ---
 
 For decades, food subsidies have been one of the main pillars of Egypt’s social protection policy. As the world’s top importer of wheat, Egypt spends billions of dollars every year to subsidize bread—a vital food item for the population of more than 80 million—in addition to few other basic foods. Given the population’s reliance on food subsidies, reforming the system has always been a politically sensitive issue. 
