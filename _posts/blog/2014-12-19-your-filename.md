@@ -8,6 +8,8 @@ comments: true
 author: 
   - "Perrihan Al-Riffai, Sr. Research Analyst – IFPRI and Nerina Muzurovic, Knowledge Management Officer - IFAD"
 splash: "https://farm8.staticflickr.com/7475/15857988430_642afa423a_n.jpg"
+tags: 
+  - "food security, nutrition, political stability, resilience, conflict, poverty, Arab World, regional collaboration, Arab Food and Nutrition Security Blog, Arab Spatial, rural development, crises"
 ---
 
 
