@@ -7,6 +7,7 @@ language: english
 comments: true
 author: 
   - "Perrihan Al-Riffai, Sr. Research Analyst – IFPRI and Nerina Muzurovic, Knowledge Management Officer - IFAD"
+splash: "https://farm8.staticflickr.com/7475/15857988430_642afa423a_n.jpg"
 ---
 
 
