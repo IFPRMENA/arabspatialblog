@@ -10,9 +10,9 @@ author:
 ---
 
 
-<!-- more -->
-
 In a well-attended side event titled: _[Building Resilience to Crises in the Arab World](http://www.fao.org/fileadmin/templates/cfs/Docs1314/CFS41/SideEvents/CFS_41_Side_Events_BROCHURE_Final.pdf)_ at the 41st meeting of the Committee on World Food Security (CFS) in Rome, October 17th, 2014, IFPRI in collaboration with its development partners, CGIAR’s Policies, Institutions and Markets Research Program, FAO’s Regional office for the Near East, IFAD/NEN and UN-ESCWA presented the results of recent studies on food security in the Arab Region and launched the Arab Food and Nutrition Security [Blog](http://www.arabspatial.org/). 
+
+<!-- more -->
 
 In the Arab World, [food insecurity is not only a consequence of conflict](http://www.ifpri.org/sites/default/files/publications/pr28.pdf), it is also a major cause of civil conflict, more so in Arab countries than in the rest of the world. Recent events such as the food price riots in 2007-08 and the Arab uprisings in 2010-11 seem to confirm the role of food insecurity as a catalyst to political instability and civil conflict. In short, emphasized Mohamed AwDahir, the regional food systems economist at FAO’s Near East Region, “[peace](http://www.slideshare.net/IFPRIMENA/fsn-in-the-arab-region-an-overview-awdahir-fao-10172014?qid=8c582242-37ae-4868-9803-bbce3f8771c1&v=default&b=&from_search=1) is fundamental to food security, and food security is fundamental for keeping peace.” 
 
