@@ -7,9 +7,11 @@ language: english
 comments: true
 ---
 
-Partnership is crucial to the way we work, here at the United Nations International Fund for Agricultural Development (IFAD). To see this, one need look no further than IFAD’s founding at the World Food Conference in 1974. 
+Partnership is crucial to the way we work, here at the United Nations International Fund for Agricultural Development (IFAD). To see this, one need look no further than IFAD’s founding at the World Food Conference in 1974. Troubled by the great droughts and famines that had struck Africa and Asia, members of the Organization of the Petroleum Exporting Countries (OPEC), other developing countries, and the Organisation for Economic Co-operation and Development (OECD) decided to create an institution that would tackle poverty and hunger in non-oil developing countries. 
 
-Troubled by the great droughts and famines that had struck Africa and Asia, members of the Organization of the Petroleum Exporting Countries (OPEC), other developing countries, and the Organisation for Economic Co-operation and Development (OECD) decided to create an institution that would tackle poverty and hunger in non-oil developing countries. Pooling resources from OPEC and OECD countries, this institution would work to counter poverty and hunger through investment in agricultural and rural development. Out of this partnership, IFAD was born. 
+<!-- more -->
+
+Pooling resources from OPEC and OECD countries, this institution would work to counter poverty and hunger through investment in agricultural and rural development. Out of this partnership, IFAD was born. 
 
 Since then, an increasing number of developing and transition countries have been experiencing both rising levels of prosperity and economic opportunity. As a result, co-operations between the countries of the so-called South (South-South cooperation) have emerged as a complement to the traditional North-South cooperation. Between 2005 and 2012, GDP growth rate strengthened on average to 6.1% annually in developing countries as compared to 1.2% in developed countries. International finance and trade flows, which have historically been tilted toward developed countries, are steadily rebalancing in favor of the Global South. According to the UNCTAD 2014 World Investment Report, gross flows of foreign direct investment (FDI) to developing countries reached US$ 778 billion in 2013 (or 54 per cent of the total), exceeding FDI to developed economies.
 
