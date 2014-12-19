@@ -8,6 +8,7 @@ comments: true
 ---
 
 For decades, food subsidies have been one of the main pillars of Egypt’s social protection policy. As the world’s top importer of wheat, Egypt spends billions of dollars every year to subsidize bread—a vital food item for the population of more than 80 million—in addition to few other basic foods. Given the population’s reliance on food subsidies, reforming the system has always been a politically sensitive issue. 
+<!-- more -->
 
 However, following the presidential election in May 2014, Egypt started to fundamentally reform the food subsidy system with the goals of alleviating its large and rapidly growing fiscal burden on the country’s public budget and increasing the system’s effectiveness. The recent changes mark important steps toward a voucher-based system and provide the basis for implementing a more targeted approach. They may also have positive dietary effects, as they reduce—but not fully remove—the considerable economic incentives for a consumption of an unbalanced diet, overly rich in subsidized calorie-dense foods (bread, cooking oil, sugar rice).
 
