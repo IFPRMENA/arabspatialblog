@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: "Facing the Challenge: The Recent Reform of the Egyptian Food Subsidy System"
 category: blog
 language: english
