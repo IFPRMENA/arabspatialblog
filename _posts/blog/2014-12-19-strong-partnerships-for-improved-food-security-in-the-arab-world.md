@@ -30,4 +30,4 @@ For this reason, the Arab Spatial knowledge platform emerged as part of the IFAD
 
 In the Arab Region, we need to expand and scale up our efforts to build stronger partnerships in order to better the lives of all. With this newly launched Arab Food and Nutrition Security blog, it is my hope that IFAD will contribute to yet another valuable means to make our interventions on the ground more impactful in our pursuit of development effectiveness and poverty reduction.
 
-Photo Credit/IFAD
+Photo Credit: IFAD
