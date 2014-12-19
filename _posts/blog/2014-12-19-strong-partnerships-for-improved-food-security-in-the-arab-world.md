@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: Strong Partnerships for Improved Food Security in the Arab World
 category: blog
 language: english
