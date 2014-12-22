@@ -120,6 +120,8 @@ title: ''
                 $(".english").removeClass('showblog');
                 $(".english").addClass('hideblog');
 
+                $(".summeryText").css('direction','rtl');
+
             }if (lngCode === "en"){
 
                 $(".english").removeClass('hideblog');
@@ -135,6 +137,10 @@ title: ''
         if (window.location.hash === '#arabic') {
             $(".arabic").removeClass('hideblog');
             $(".arabic").addClass('showblog');
+
+            $(".summeryText").css('direction','rtl');
+
+            $(".dateText").css('direction','rtl');
 
             $(".english").removeClass('showblog');
             $(".english").addClass('hideblog');

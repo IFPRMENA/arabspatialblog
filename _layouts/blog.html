@@ -39,7 +39,15 @@ section: blog
     {% else %}
 
     <div class='date'>
-      <div class="dateText">{{page.date | date:"%B %d, %Y"}}   <br/></div>
+
+        {% if page.language == 'arabic' %}
+            <div class="dateText" style="direction: rtl;">{{page.date | date:"%B %d, %Y"}}   <br/></div>
+            {% else %}
+            <div class="dateText">{{page.date | date:"%B %d, %Y"}}   <br/></div>
+                {% endif %}
+
+
+
           {% if page.author %}
             <div class="dateText" >By: <span>{{ page.author }}</span></div>
           {% endif %}

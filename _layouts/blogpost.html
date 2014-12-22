@@ -280,6 +280,8 @@ $('#seeMap').click(function(){
 
   if ($("#ThisIsBlogPost").hasClass("arabic")){
       $("#blog-title").html("{{site.blognameArabic}}");
+      $(".contentIndividualBlog p").css('direction','rtl');
+      $(".dateText").css('direction','rtl');
   }else{
       $("#blog-title").html("{{site.blogname}}");
   }
