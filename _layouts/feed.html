@@ -131,6 +131,9 @@ title: ''
                 $(".arabic").removeClass('showblog');
                 $(".arabic").addClass('hideblog');
 
+                $(".summeryText").css('direction','ltr');
+                $(".dateText").css('direction','ltr');
+
             }
 
         }
@@ -145,6 +148,10 @@ title: ''
 
             $(".english").removeClass('showblog');
             $(".english").addClass('hideblog');
+        }else{
+            $(".summeryText").css('direction','ltr');
+
+            $(".dateText").css('direction','ltr');
         }
 
 
