@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: بناء القدرة على تحمل الأزمات في العالم العربي، حدث جانبي على هامش اجتماع لجنة الأمن الغذائي العالمي
 category: blog
 language: arabic
