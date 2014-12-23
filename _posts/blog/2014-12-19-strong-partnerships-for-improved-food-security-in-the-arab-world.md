@@ -9,7 +9,15 @@ splash: "https://farm9.staticflickr.com/8638/15859511047_61b09c43b0_o.png"
 author: 
   - "Khalida Bouzar, Director of the Near East, North Africa and Europe Division - IFAD"
 tags: 
-  - "rural development, South-South, IFAD, food security, rural poverty, sustainable development, Arab World, regional cooperation, rural poverty"
+  - rural development
+  - South-South
+  - IFAD
+  - food security
+  - rural poverty
+  - sustainable development
+  - Arab World
+  - regional cooperation
+  - rural poverty
 ---
 
 Partnership is crucial to the way we work, here at the United Nations International Fund for Agricultural Development (IFAD). To see this, one need look no further than IFAD’s founding at the World Food Conference in 1974. Troubled by the great droughts and famines that had struck Africa and Asia, members of the Organization of the Petroleum Exporting Countries (OPEC), other developing countries, and the Organisation for Economic Co-operation and Development (OECD) decided to create an institution that would tackle poverty and hunger in non-oil developing countries. 
