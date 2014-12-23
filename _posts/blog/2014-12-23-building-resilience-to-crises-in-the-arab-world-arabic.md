@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: false
-title: "Building Resilience to Crises in the Arab World - arabic"
+title: بناء القدرة على تحمل الأزمات في العالم العربي، حدث جانبي على هامش اجتماع لجنة الأمن الغذائي العالمي
 category: blog
 language: english
 comments: true
