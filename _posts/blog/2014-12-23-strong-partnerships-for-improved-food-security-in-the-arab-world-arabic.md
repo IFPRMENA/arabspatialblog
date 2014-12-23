@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: "شراكات قوية لتحسين الأمن الغذائي في العالم العربي "
 category: blog
 language: arabic
