@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: false
-title: "Strong Partnerships for Improved Food Security in the Arab World - arabic"
+title: "شراكات قوية لتحسين الأمن الغذائي في العالم العربي "
 category: blog
 language: arabic
 comments: true
