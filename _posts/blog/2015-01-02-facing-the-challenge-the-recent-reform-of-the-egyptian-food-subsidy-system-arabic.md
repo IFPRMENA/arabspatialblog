@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: "مواجهة التحدي: الإصلاح الأخير في منظومة دعم الغذاء في مصر "
 category: blog
 language: arabic
