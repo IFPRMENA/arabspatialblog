@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: false
-title: "Facing the Challenge: The Recent Reform of the Egyptian Food Subsidy System - arabic"
+title: "مواجهة التحدي: الإصلاح الأخير في منظومة دعم الغذاء في مصر "
 category: blog
 language: arabic
 comments: true
