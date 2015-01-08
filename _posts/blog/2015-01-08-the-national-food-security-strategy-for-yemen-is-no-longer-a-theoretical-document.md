@@ -8,6 +8,12 @@ comments: true
 splash: "https://farm8.staticflickr.com/7461/16046652649_46c6f92bb5_o.jpg"
 author: 
   - "Abdul Wahed Mukred, Head of the Food Security Technical Secretariat - Ministry of Planning and International Cooperation"
+tags: 
+  - National Food Security Strategy
+  - malnutrition
+  - child stunting
+  - Yemen Spatial
+  - Ministry of Planning and International Cooperation
 ---
 
 Yemen is one of the most food insecure countries in the world. In 2009 31.5% of Yemenis were food insecure, and by 2011 that number went up to just under 45 percent. According to the [latest figures](http://documents.wfp.org/stellent/groups/public/documents/ena/wfp269771.pdf) from a recent tripartite report on food security, food insecurity over the past three years in Yemen has fallen to around 40 percent, of whom 46% are severely food insecure.  
