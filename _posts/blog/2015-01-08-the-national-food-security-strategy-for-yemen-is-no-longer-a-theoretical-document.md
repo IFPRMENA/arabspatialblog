@@ -5,18 +5,10 @@ title: The National Food Security Strategy for Yemen Is No Longer a Theoretical 
 category: blog
 language: english
 comments: true
-author: 
-  - "Abdul Wahed Mukred, Head of the Food Security Technical Secretariat - Ministry of Planning and International Cooperation"
-tags: 
-  - National Food Security Strategy
-  - malnutrition
-  - stunting
-  - Government of Yemen
-  - Yemen Spatial
 ---
 
 Yemen is one of the most food insecure countries in the world. In 2009 31.5% of Yemenis were food insecure, and by 2011 that number went up to just under 45 percent. According to the [latest figures](http://documents.wfp.org/stellent/groups/public/documents/ena/wfp269771.pdf) from a recent tripartite report on food security, food insecurity over the past three years in Yemen has fallen to around 40 percent, of whom 46% are severely food insecure.  Rural food insecurity is more than twice the food insecurity in urban counterparts and female headed households are more food insecure than their male headed counterparts. Second worst globally, child stunting was still over 41% in 2014, but down from 46% in 2011. Rural malnutrition is higher than urban in 2014 and stunting amongst boys is higher than amongst girls. 
-
+<!-- more -->
 
 Wanting to tackle food insecurity in Yemen, the National Food Security Strategy ([NFSS](http://www.ifpri.org/sites/default/files/publications/yemennote1en.pdf)) was developed in 2010 through the joint efforts of the Government of Yemen (GoY). Representing the GoY were the Ministry of Planning and International Cooperation (MoPIC), the Ministry of Agriculture and Irrigation, the Ministry of Fish Wealth, the Ministry of Trade and Industry, the Ministry of Health and Population and the Ministry of Social Affairs and labor as well as several other authorities and development funds. Other international partners were also involved as well as several donor agencies and international development organizations. Technically, the overall exercise was led by IFPRI. Shortly thereafter, however, the NFSS was discontinued after the 2011 revolution and the ensuing political transitions. 
 
