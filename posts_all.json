@@ -9,7 +9,7 @@
 
 {% for post in posts limit:4 %}
 {
-"language": "{{ post.language | replace: 'english', 'en' }}",
+"language": "{{ post.language | replace: "english", "lang1" }}",
 "title": "{{ post.title }}",
 "splash": "{{post.splash}}",
 "date": "{{ post.date | date_to_long_string }}",
@@ -28,7 +28,7 @@
 
 {% for post in posts limit:4 %}
 {
-"language": "{{ post.language | replace: 'arabic', 'ara' }}",
+"language": "{{ post.language | replace: "arabic", "lang2" }}",
 "title": "{{ post.title }}",
 "splash": "{{post.splash}}",
 "date": "{{ post.date | date_to_long_string }}",
