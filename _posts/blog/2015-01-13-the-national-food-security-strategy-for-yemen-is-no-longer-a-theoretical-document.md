@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: استراتيجية الأمن الغذائي الوطنية في اليمن لم تعد وثيقة نظرية فحسب
 category: blog
 language: arabic
