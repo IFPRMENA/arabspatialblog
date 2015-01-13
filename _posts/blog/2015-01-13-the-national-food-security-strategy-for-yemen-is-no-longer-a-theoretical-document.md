@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: false
-title: The National Food Security Strategy for Yemen is no Longer a Theoretical Document
+title: استراتيجية الأمن الغذائي الوطنية في اليمن لم تعد وثيقة نظرية فحسب
 category: blog
 language: arabic
 comments: true
