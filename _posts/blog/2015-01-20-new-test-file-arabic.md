@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: هذه تست
 category: blog
 language: arabic
