@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: false
-title: "new test file - arabic"
+title: هذه تست
 category: blog
 language: arabic
 comments: true
