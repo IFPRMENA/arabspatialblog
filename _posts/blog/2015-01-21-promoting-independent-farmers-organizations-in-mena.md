@@ -9,12 +9,13 @@ comments: true
 
 Poverty in the Middle East and North Africa (MENA) is largely a rural phenomenon.  Rural poverty in Mauritania and Morocco is about three times higher than urban poverty, while in Egypt and Tunisia it is twice as high.  It is not surprising that the Arab Spring started in Sidi Bouzid, a poor rural area in Tunisia.  
 
+
 In 2010, the average unemployment rate for university graduates in Sidi Bouzid was around 40 percent.  The only jobs available were for seasonal, low-paid farm laborers.  Young people were also unable to start a farming business because they lacked the financial resources to do so and had no access to land.  
 
 
-Table 1:  Relative Importance of Holdings of less than 5 Hectares
+**Table 1:  Relative Importance of Holdings of less than 5 Hectares**
 	
-Source:  FAO, Agriculture Census Data, different years
+**Source:  FAO, Agriculture Census Data, different years**
 
 Most of the poor rural people in MENA are small family farmers.   Table 1 shows the relative importance of small family farms (less than 5 hectares) in a sample of MENA countries for which data was available.  About 84 percent of all agricultural holdings are under family farming.   The table also shows that small family farms only control about 25 percent of the cultivated area.   This reflects the dualistic nature of agriculture in the MENA, where large numbers of family farms operate alongside big and more modern entities.  
 
