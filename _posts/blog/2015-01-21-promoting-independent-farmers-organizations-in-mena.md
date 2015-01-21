@@ -5,6 +5,9 @@ title: Promoting Independent Farmers’ Organizations in MENA
 category: blog
 language: english
 comments: true
+author: 
+  - "Hafez Ghanem, Senior Fellow - Brookings Institution"
+splash: "https://farm8.staticflickr.com/7498/16147010630_f59f6a7f00_o.jpg"
 ---
 
 Poverty in the Middle East and North Africa (MENA) is largely a rural phenomenon.  Rural poverty in Mauritania and Morocco is about three times higher than urban poverty, while in Egypt and Tunisia it is twice as high.  It is not surprising that the Arab Spring started in Sidi Bouzid, a poor rural area in Tunisia.  
@@ -29,7 +32,7 @@ The average size of a family farm in MENA is very small ranging from 2.2 hectare
 Problems caused by the large number of very small dispersed family farms in MENA could be tackled through the development of strong and independent producer organizations that group farmers together. 
 
 **Figure 1: Average Size of Family Farms in Hectares**
-![](https://farm8.staticflickr.com/7551/16308394086_a6e8c6de25_z.jpg) 
+![](https://farm8.staticflickr.com/7551/16308394086_e7b304e3d8_z.jpg)
 **Source: FAO Agriculture Census Data**
 
 
