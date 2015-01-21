@@ -8,6 +8,13 @@ comments: true
 author: 
   - "Hafez Ghanem, Senior Fellow - Brookings Institution"
 splash: "https://farm8.staticflickr.com/7498/16147010630_f59f6a7f00_o.jpg"
+tags: 
+  - family farming
+  - smallholders
+  - farmer organizations
+  - MENA
+  - extension services
+  - agriculutral holdings
 ---
 
 Poverty in the Middle East and North Africa (MENA) is largely a rural phenomenon.  Rural poverty in Mauritania and Morocco is about three times higher than urban poverty, while in Egypt and Tunisia it is twice as high.  It is not surprising that the Arab Spring started in Sidi Bouzid, a poor rural area in Tunisia.  
