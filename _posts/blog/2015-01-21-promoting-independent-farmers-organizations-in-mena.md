@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: Promoting Independent Farmers’ Organizations in MENA
 category: blog
 language: english
