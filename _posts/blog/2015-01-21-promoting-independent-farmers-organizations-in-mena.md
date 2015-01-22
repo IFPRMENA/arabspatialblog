@@ -33,14 +33,14 @@ Family farming is an important employer and source of income in MENA.  Table 2 s
 
 **Table 2: Role of Family Farming in Creating Employment**
 ![](https://farm8.staticflickr.com/7478/16148448427_9921d9921d_o.jpg)		
-**Source: FAO, Agriculture Census Data**
+**Source: FAO, Agriculture Census Data, different years**
 
 The average size of a family farm in MENA is very small ranging from 2.2 hectares in Tunisia all the way down to 0.6 hectares in Yemen (Figure 1 below).  This could explain why policymakers seem to ignore the needs of those smallholders and focus more on large modern farms.   Since there are economies of scale in access to technology, inputs, financing, and to output markets this could also explain why smallholders in MENA have low productivity and are unable to sell to national or international markets. 
 Problems caused by the large number of very small dispersed family farms in MENA could be tackled through the development of strong and independent producer organizations that group farmers together. 
 
 **Figure 1: Average Size of Family Farms in Hectares**
 ![](https://farm8.staticflickr.com/7551/16308394086_e7b304e3d8_z.jpg)
-**Source: FAO Agriculture Census Data**
+**Source: FAO Agriculture Census Data, different years**
 
 
 MENA is characterized by a multiplicity of weak farmer organizations that are highly dependent on governments.  In several countries the statutes place producer, and other civil society organizations, under the administrative supervision and authority of the government.  Thus their autonomy and ability to operate in support of family farmers is restricted.  Moreover, farmer organizations are usually heavily dependent on government budgets for financial support, which further erodes their independence and limits their areas of action.  In fact, farmer organizations sometimes act more as government agencies, informing farmers of policy decisions that are taken at the central level and helping implement them, rather than as bodies that represent farmers and advocate for policies that protect their interests.
