@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: false
-title: Promoting Independent Farmers’ Organizations in MENA
+title: دعم منظمات المزارعين المستقلة في منطقة الشرق الأوسط و شمال إفريقيا
 category: blog
 language: arabic
 comments: true
