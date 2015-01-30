@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: دعم منظمات المزارعين المستقلة في منطقة الشرق الأوسط و شمال إفريقيا
 category: blog
 language: arabic
