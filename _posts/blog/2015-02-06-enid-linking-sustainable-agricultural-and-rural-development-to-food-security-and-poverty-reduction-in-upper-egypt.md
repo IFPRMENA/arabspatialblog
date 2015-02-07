@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: "ENID: Linking Sustainable Agricultural and Rural Development to Food Security and Poverty Reduction in Upper Egypt"
 category: blog
 language: english
