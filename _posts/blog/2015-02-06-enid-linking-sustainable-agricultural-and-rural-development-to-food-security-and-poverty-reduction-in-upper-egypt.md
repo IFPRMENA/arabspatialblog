@@ -5,6 +5,20 @@ title: "ENID: Linking Sustainable Agricultural and Rural Development to Food Sec
 category: blog
 language: english
 comments: true
+splash: "https://farm8.staticflickr.com/7340/16272748420_2fdcaa1995_n.jpg"
+tags: 
+  - sustainable agricultural development
+  - Qena
+  - Upper Egypt
+  - safe poultry raising
+  - "bio-gas production"
+  - recycling of agricultural residue
+  - ENID
+  - post harvest loss
+  - roof gardening
+  - milk waste
+author: 
+  - "Heba Handoussa, Director General - ENID; and Dyaa Abdou, Director of Sustainable Agricultural Development Programme - ENID"
 ---
 
 Within the reality of the Egyptian economy, the link between sustainable agricultural and rural development, enhancing food security, and reducing poverty is a central issue for achieving economic and social development. In Egypt, agriculture is recognized not only as a way of life and as crucial for national socio-economic development, but also as an engine for growth. 
@@ -31,3 +45,5 @@ Safely raising backyard poultry is another component and is expected to contribu
 ENID also supports small scale farmers through Farmers Field Schools (FFS) that provide sessions, livestock caravans and specialized training for extension staff focusing on yield enhancement as well as post-harvest loss reduction for priority crops. To date, 366 people - farmers/NGOs and Ministry extension staff - have attended the FFS activities.  
 
 The sustainable agricultural development program alone has provided training to 1,245 people (20% of whom were females) and generated employment for almost half of ENID’s total beneficiaries (411 people) for its three components. The numerous interventions across the three programs are simultaneously operational in many of the 35 villages in Qena and showcases the integrated nature of ENID’s activities in promoting holistic development on all fronts.
+
+Photo Credit: UNDP
