@@ -8,6 +8,7 @@ comments: true
 ---
 
 Within the reality of the Egyptian economy, the link between sustainable agricultural and rural development, enhancing food security, and reducing poverty is a central issue for achieving economic and social development. In Egypt, agriculture is recognized not only as a way of life and as crucial for national socio-economic development, but also as an engine for growth. 
+<!-- more -->
 
 More than 45 million Egyptians live in rural areas, where agriculture represents their main source of livelihood. Agriculture in Egypt, however, is faced with several natural, economic, financial, technical, and policy challenges. One of the key obstacles that continued to face Egypt’s development process is the lack of complementarity and integration among the introduced interventions. In this context, the idea of the Egypt Network for Integrated Development (ENID) project emerged to develop and design effective integrated systems that address these obstacles. 
 
