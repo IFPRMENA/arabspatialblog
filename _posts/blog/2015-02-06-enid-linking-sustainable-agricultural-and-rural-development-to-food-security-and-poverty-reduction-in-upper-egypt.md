@@ -11,7 +11,6 @@ tags:
   - Qena
   - Upper Egypt
   - safe poultry raising
-  - "bio-gas production"
   - recycling of agricultural residue
   - ENID
   - post harvest loss
