@@ -8,6 +8,14 @@ comments: true
 splash: "https://farm9.staticflickr.com/8673/16440773208_71ba4b580b_q.jpg"
 author: 
   - "Eckart Woertz, Senior Research Fellow - The Barcelona Centre for International Affairs (CIDOB)"
+tags: 
+  - import food dependency
+  - land grabs
+  - food security in Gulf countries
+  - grain trading hub
+  - export restrictions
+  - food price spikes
+  - food self sufficiency
 ---
 
 **1970s**: Oil and wheat are strategic commodities, their prices are skyrocketing, Arab countries declare an oil boycott against the US and the US contemplates to retaliate with a grain embargo. Gulf countries are alarmed and look into a plan to develop Sudan as an Arab breadbasket. 
