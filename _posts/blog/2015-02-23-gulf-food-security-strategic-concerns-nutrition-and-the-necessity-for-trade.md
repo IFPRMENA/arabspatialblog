@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: "Gulf Food Security: Strategic Concerns, Nutrition and the Necessity for Trade"
 category: blog
 language: english
