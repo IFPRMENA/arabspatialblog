@@ -9,7 +9,7 @@ splash: "https://farm9.staticflickr.com/8673/16440773208_71ba4b580b_q.jpg"
 ---
 
 1970s: Oil and wheat are strategic commodities, their prices are skyrocketing, Arab countries declare an oil boycott against the US and the US contemplates to retaliate with a grain embargo. Gulf countries are alarmed and look into a plan to develop Sudan as an Arab breadbasket. This plan, however, unravels by the 1980s amidst political instability, misguided project designs and alleged corruption amongst the Sudanese (Nimeiri) regime. 
-
+<!-- more -->
 
 Instead, Saudi Arabia embarks on a subsidized wheat program at home. Using almost a fifth of its oil revenues, Saudi Arabia relies on an (unsustainable) use of nonrenewable fossil groundwater and becomes the world’s sixth largest wheat exporter by the early 1990s.
 
