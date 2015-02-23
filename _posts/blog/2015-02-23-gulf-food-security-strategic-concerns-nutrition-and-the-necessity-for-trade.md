@@ -5,7 +5,7 @@ title: "Gulf Food Security: Strategic Concerns, Nutrition and the Necessity for 
 category: blog
 language: english
 comments: true
-splash: "https://farm9.staticflickr.com/8673/16440773208_4d6b416089_t.jpg"
+splash: "https://farm9.staticflickr.com/8673/16440773208_4d6b416089_m.jpg"
 author: 
   - "Eckart Woertz, Senior Research Fellow - The Barcelona Centre for International Affairs (CIDOB)"
 tags: 
