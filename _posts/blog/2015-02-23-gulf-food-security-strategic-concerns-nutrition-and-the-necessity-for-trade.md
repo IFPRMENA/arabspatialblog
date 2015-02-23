@@ -6,14 +6,16 @@ category: blog
 language: english
 comments: true
 splash: "https://farm9.staticflickr.com/8673/16440773208_71ba4b580b_q.jpg"
+author: 
+  - "Eckart Woertz, Senior Research Fellow - The Barcelona Centre for International Affairs (CIDOB)"
 ---
 
-1970s: Oil and wheat are strategic commodities, their prices are skyrocketing, Arab countries declare an oil boycott against the US and the US contemplates to retaliate with a grain embargo. Gulf countries are alarmed and look into a plan to develop Sudan as an Arab breadbasket. 
+**1970s**: Oil and wheat are strategic commodities, their prices are skyrocketing, Arab countries declare an oil boycott against the US and the US contemplates to retaliate with a grain embargo. Gulf countries are alarmed and look into a plan to develop Sudan as an Arab breadbasket. 
 <!-- more -->
 
 This plan, however, unravels by the 1980s amidst political instability, misguided project designs and alleged corruption amongst the Sudanese (Nimeiri) regime. Instead, Saudi Arabia embarks on a subsidized wheat program at home. Using almost a fifth of its oil revenues, Saudi Arabia relies on an (unsustainable) use of nonrenewable fossil groundwater and becomes the world’s sixth largest wheat exporter by the early 1990s.
 
-Fast forward to 2008: Commodity prices are spiking again and Saudi Arabia has to phase out its wheat program as a result of the depletion of its aquifers. Agricultural exporters like Argentina, Russia and Vietnam impose export restrictions out of concern for their own food security. Though the export restrictions prove temporary, already the Gulf countries react by announcing agricultural investments abroad to secure their privileged bilateral access to food. Sudan is again on top of the list of host countries, alongside other food insecure countries in the global south. 
+**Fast forward to 2008**: Commodity prices are spiking again and Saudi Arabia has to phase out its wheat program as a result of the depletion of its aquifers. Agricultural exporters like Argentina, Russia and Vietnam impose export restrictions out of concern for their own food security. Though the export restrictions prove temporary, already the Gulf countries react by announcing agricultural investments abroad to secure their privileged bilateral access to food. Sudan is again on top of the list of host countries, alongside other food insecure countries in the global south. 
 
 Taking these announced initiatives at face value, the media (prematurely) paints the Gulf countries as land grabbers who cultivate large swathes of land. Most of these projects either never see the light of day, or, are only implemented on a fraction of the announced scale. In reality, Gulf countries funded developed agricultural markets like Australia or Argentina, not ones in developing countries.
 
