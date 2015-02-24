@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: "(ENID) شبكة  مصر للتنمية المتكاملة  : ربط التنمية الزراعية والريفية المستدامة بالأمن الغذائي والحد من الفقر في صعيد مصر"
 category: blog
 language: arabic
