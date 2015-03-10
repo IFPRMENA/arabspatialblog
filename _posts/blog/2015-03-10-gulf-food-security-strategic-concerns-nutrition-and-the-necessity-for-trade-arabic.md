@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: "الأمن الغذائي الخليجي: اهتمامات استراتيجية ، التغذية و ضرورة تداول المنتجات الغذائية "
 category: blog
 language: arabic
