@@ -5,6 +5,7 @@ title: "Will Plummeting Oil Prices Bring Food Price Relief for Consumers in the 
 category: blog
 language: english
 comments: true
+splash: "https://farm8.staticflickr.com/7637/16590604248_faecbec887_o.jpg"
 ---
 
 The slump in oil prices continues to upend the global economy and experts believe that this is likely to last for several years. Oil prices dropped by about 50 percent from the fourth quarter of 2014 to the first month of 2015, the second largest annual decline ever where the falling oil prices have helped to push food prices down, according to data from the United Nation’s Food and Agriculture Organization (FAO). 
