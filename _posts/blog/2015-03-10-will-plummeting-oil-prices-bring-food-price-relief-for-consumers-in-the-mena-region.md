@@ -8,7 +8,7 @@ comments: true
 ---
 
 The slump in oil prices continues to upend the global economy and experts believe that this is likely to last for several years. Oil prices dropped by about 50 percent from the fourth quarter of 2014 to the first month of 2015, the second largest annual decline ever where the falling oil prices have helped to push food prices down, according to data from the United Nation’s Food and Agriculture Organization (FAO). 
-
+<!-- more -->
 
 Of the regions affected by these declining oil prices, the MENA region is affected the most. That is due to the fact that the majority of its countries depend on oil revenues for growth and because it is the most food import dependent region where food dependency ratios exceed 50 percent on average. According to IMF (2015), the net impact on growth for the region will probably be negative. However, there is hope that consumers in the region will see their purchasing power improving. 
 
