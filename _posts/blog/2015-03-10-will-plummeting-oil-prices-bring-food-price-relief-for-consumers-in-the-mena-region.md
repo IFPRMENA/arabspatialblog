@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: "Will Plummeting Oil Prices Bring Relief in Food Prices for Consumers in the MENA Region?"
 category: blog
 language: english
