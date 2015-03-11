@@ -5,7 +5,7 @@ title: "الأمن الغذائي الخليجي: اهتمامات استرات�
 category: blog
 language: arabic
 comments: true
-splash: "https://farm9.staticflickr.com/8673/16440773208_4d6b416089_m.jpg"
+splash: "https://farm9.staticflickr.com/8673/16440773208_4d6b416089_q.jpg"
 author: 
   - "إيكارت وورتز- زميل باحث أول بمركز برشلونة للشؤون الدولية"
 tags: 
