@@ -5,7 +5,7 @@ title: "Will Plummeting Oil Prices Bring Relief in Food Prices for Consumers in 
 category: blog
 language: english
 comments: true
-splash: "https://farm8.staticflickr.com/7637/16590604248_faecbec887_o.jpg"
+splash: "https://farm8.staticflickr.com/7637/16590604248_1be68daba6_q.jpg"
 author: 
   - "Imed Drine, Senior Economist - Islamic Development Bank"
 tags: 
