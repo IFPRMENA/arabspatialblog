@@ -24,7 +24,10 @@ author:
 splash: "https://farm8.staticflickr.com/7284/16721670658_d65b46558b_o.jpg"
 ---
 
-The chapter on Middle East and North Africa recently published in [IFPRI’s Global Food Policy Report](http://www.ifpri.org/sites/default/files/gfpr/2015/feature_3088.html) asserts that stability is crucial for policy reforms of MENA countries transitioning from extended social, political, and economic turmoil. Key policy developments in the areas of fuel subsidies, agriculture, and food trade are reported. Importantly, the authors make a case for substantiating actual reforms on the basis of their efficiency – do reforms foment more social unrest and violence? The recommended aim for policy-makers is to tailor reforms to each countries’ existing governance characteristics. 
+The chapter on Middle East and North Africa recently published in [IFPRI’s Global Food Policy Report](http://www.ifpri.org/sites/default/files/gfpr/2015/feature_3088.html) asserts that stability is crucial for policy reforms of MENA countries transitioning from extended social, political, and economic turmoil. Key policy developments in the areas of fuel subsidies, agriculture, and food trade are reported. 
+<!-- more -->
+
+Importantly, the authors make a case for substantiating actual reforms on the basis of their efficiency – do reforms foment more social unrest and violence? The recommended aim for policy-makers is to tailor reforms to each countries’ existing governance characteristics. 
 
 
 Stability is a key determinant of growth. For example, in Egypt, a strongly improved perception of stability has re-attracted domestic and foreign investment. The most recent GDP data confirm that investment in 2014 is about 20 percent higher than the previous year, and economic recovery is accelerating. These positive developments are consistent with the favorable popular perceptions in Egypt about the economy and food security (Table 1). Amid relative stability in 2013 and 2014 and the largely peaceful elections in October 2014, Tunisians also became more optimistic about the economy and employment (Table 1).
