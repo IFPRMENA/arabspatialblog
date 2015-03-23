@@ -7,22 +7,22 @@ language: english
 comments: true
 tags: 
   - MENA
-  - "fuel subsidies "
-  - "food subsidies "
-  - "agriculture "
-  - "food trade "
-  - "food security "
-  - "Egypt "
-  - "Jordan "
-  - "Sudan "
-  - "Tunisia "
+  - fuel subsidies
+  - food subsidies
+  - agriculture
+  - food trade
+  - food security
+  - Egypt
+  - Jordan
+  - Sudan
+  - Tunisia
   - Saudi Arabia
-  - "Yemen "
-  - "Morocco "
-  - "policy reforms "
-  - "health "
+  - Yemen
+  - Morocco
+  - policy reforms
+  - health
   - nutrition
-  - "IFPRI "
+  - IFPRI
   - Global Food Policy Report
 author: 
   - "IFPRI, MENA Chapter of the 2014/15 Global Food Policy Report - summarized by Jacopo Bordignon"
