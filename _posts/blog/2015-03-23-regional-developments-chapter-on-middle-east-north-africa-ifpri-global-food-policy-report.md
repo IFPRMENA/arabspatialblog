@@ -21,6 +21,7 @@ tags:
   - Global Food Policy Report
 author: 
   - "IFPRI, MENA Chapter of the 2014/15 Global Food Policy Report - summarized by Jacopo Bordignon"
+splash: "https://farm8.staticflickr.com/7284/16721670658_d65b46558b_o.jpg"
 ---
 
 The chapter on Middle East and North Africa recently published in IFPRI’s Global Food Policy Report asserts that stability is crucial for policy reforms of MENA countries transitioning from extended social, political, and economic turmoil. Key policy developments in the areas of fuel subsidies, agriculture, and food trade are reported. Importantly, the authors make a case for substantiating actual reforms on the basis of their efficiency – do reforms foment more social unrest and violence? The recommended aim for policy-makers is to tailor reforms to each countries’ existing governance characteristics. 
