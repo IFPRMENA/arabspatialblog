@@ -7,7 +7,7 @@ language: english
 comments: true
 author: 
   - "Hafez Ghanem, Senior Fellow - Brookings Institution"
-splash: "https://farm8.staticflickr.com/7498/16147010630_4c9abee952_q.jpg"
+splash: "https://farm8.staticflickr.com/7498/16147010630_4c9abee952_m.jpg"
 tags: 
   - family farming
   - smallholders
