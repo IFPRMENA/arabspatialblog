@@ -9,8 +9,6 @@ tags:
   - MENA
   - fuel subsidies
   - food subsidies
-  - agriculture
-  - food trade
   - food security
   - Egypt
   - Jordan
@@ -19,9 +17,6 @@ tags:
   - Saudi Arabia
   - Yemen
   - Morocco
-  - policy reforms
-  - health
-  - nutrition
   - IFPRI
   - Global Food Policy Report
 author: 
