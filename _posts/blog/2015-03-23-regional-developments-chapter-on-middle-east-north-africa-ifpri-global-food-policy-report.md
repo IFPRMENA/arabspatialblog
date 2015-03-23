@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: Regional Developments Chapter on Middle East North Africa (IFPRI Global Food Policy Report)
 category: blog
 language: english
