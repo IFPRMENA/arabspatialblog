@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: true
-title: Regional Developments Chapter on Middle East North Africa (IFPRI Global Food Policy Report)
+title: The Arab World in 2014 and the Outlook for 2015
 category: blog
 language: english
 comments: true
