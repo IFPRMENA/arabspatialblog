@@ -20,6 +20,7 @@ tags:
   - Tunisia
   - Libya
   - Yemen
+  - Marsoum41
 ---
 
 Since many pro-poor reforms have redistributive consequences, they typically generate perceived winners and losers.  Consequently, reform processes are quickly derailed when powerful stakeholders with the most to lose oppose such reforms and mobilize protests aimed at undermining government legitimacy.  
