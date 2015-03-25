@@ -5,6 +5,12 @@ title: "Will Plummeting Oil Prices Bring Relief in Food Prices for Consumers in 
 category: blog
 language: arabic
 comments: true
+tags: 
+  - أسعار النفط
+  - أسعار الغذاء
+  - تكاليف الإنتاج
+  - أسعار المستهلك
+  - منطقة الشرق الأوسط وشمال إفريقيا
 ---
 
 
