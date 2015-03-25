@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: false
-title: "Will Plummeting Oil Prices Bring Relief in Food Prices for Consumers in the MENA Region? - arabic"
+title: هل يؤدي الهبوط السريع في أسعار النفط إلى تخفيف عبء أسعار الغذاء عن كاهل المستهلكين في منطقة الشرق الأوسط وشمال إفريقيا؟
 category: blog
 language: arabic
 comments: true
