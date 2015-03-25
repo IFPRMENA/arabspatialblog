@@ -8,6 +8,18 @@ comments: true
 author: 
   - "Danielle Resnick, Research Fellow – Development Governance and Strategy Division, IFPRI"
 splash: "https://farm8.staticflickr.com/7621/16744432339_9be608990a_o.jpg"
+tags: 
+  - MENA
+  - subsidy reform
+  - governance
+  - government effectiveness
+  - fuel subsidy
+  - working with the grain
+  - Morocco
+  - Jordan
+  - Tunisia
+  - Libya
+  - Yemen
 ---
 
 Since many pro-poor reforms have redistributive consequences, they typically generate perceived winners and losers.  Consequently, reform processes are quickly derailed when powerful stakeholders with the most to lose oppose such reforms and mobilize protests aimed at undermining government legitimacy.  
