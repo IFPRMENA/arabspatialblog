@@ -11,9 +11,10 @@ Since many pro-poor reforms have redistributive consequences, they typically gen
 
 
 **Figure 1:  Perceptions of Most Essential Characteristic of a Democracy**
-
+![](https://farm9.staticflickr.com/8735/16743153500_c4f2683544_z.jpg)
 
 _Source_:  [Afrobarometer](http://www.afrobarometer.org/), Round 5 
+
 _Notes_: Sample size of 1200 per country.  The sub-Saharan African average includes 28 countries.   
 
 
@@ -33,9 +34,10 @@ Libya and Yemen present stark contrasts where there is a concurrent lack of capa
 
 
 **Figure 2:  Comparisons of Governance Quality in Selected MENA Countries, 2013**
-
+![](https://farm9.staticflickr.com/8698/16742927558_df6f0ff21a_z.jpg)
 
 _Source_: Calculated from World Bank’s Good [Governance Indicators](http://info.worldbank.org/governance/wgi/index.aspx#home). 
+
 _Notes_:  Government effectiveness captures the quality of public services, professionalism of the civil service and its independence from political pressures, the quality of policy formulation and implementation, and the credibility of the government's commitment to such policies. Voice and accountability reflects whether citizens can select their government and whether they have freedom of expression, association, and a free media. Political stability is the likelihood that the government will be destabilized or overthrown by unconstitutional or violent means. 
 
 
