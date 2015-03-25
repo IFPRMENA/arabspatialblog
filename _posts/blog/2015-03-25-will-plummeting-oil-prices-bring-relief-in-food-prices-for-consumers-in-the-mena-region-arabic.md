@@ -5,6 +5,8 @@ title: "Will Plummeting Oil Prices Bring Relief in Food Prices for Consumers in 
 category: blog
 language: arabic
 comments: true
+author: 
+  - "عماد درين، اقتصادي أول ببنك التنمية الإسلامي "
 ---
 
 
