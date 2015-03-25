@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: هل يؤدي الهبوط السريع في أسعار النفط إلى تخفيف عبء أسعار الغذاء عن كاهل المستهلكين في منطقة الشرق الأوسط وشمال إفريقيا؟
 category: blog
 language: arabic
