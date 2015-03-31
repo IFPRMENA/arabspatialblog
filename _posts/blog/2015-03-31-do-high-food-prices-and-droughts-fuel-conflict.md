@@ -24,7 +24,7 @@ tags:
   - India
   - Kenya
   - Zambia
-splash: "https://farm9.staticflickr.com/8719/16806818889_e274a1a680_n.jpg"
+splash: "https://farm8.staticflickr.com/7601/16967869076_9761440460_n.jpg"
 ---
 
 The world has seen more and more conflicts in recent years, such as in Syria, Nigeria, and Yemen. What explains these conflicts and what are the root causes and effects of ongoing civil violence?
