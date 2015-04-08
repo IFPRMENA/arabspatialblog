@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: "Nutrient Security: An Essential Element of Food Security"
 category: blog
 language: english
