@@ -5,6 +5,7 @@ title: "Nutrient Security: An Essential Element of Food Security"
 category: blog
 language: english
 comments: true
+splash: "https://farm8.staticflickr.com/7588/17080589881_6eda254a4e_n.jpg"
 ---
 
 **Food security does not guarantee ‘nutrient security’**
@@ -36,3 +37,5 @@ The macro- and micronutrient content of food are crucial when considering the st
 **Achieving nutrient security**
 
 Nutrient security must be embedded in all national policies, programs, and strategic plans that address food security. Having nutrition as an essential component of food security will guide subsidies policies and programs, and will also inform and direct programs and policies towards nutrition-sensitive agriculture that considers both farmer and consumer needs. The [UN Standing Committee on Nutrition’s](http://www.unscn.org/) efforts to gather and disseminate [Key Recommendations for Improving Nutrition through Agriculture](http://unscn.org/files/Agriculture-Nutrition-CoP/Agriculture-Nutrition_Key_recommendations.pdf) are important contributions, and further testing and revision of these recommendations should be undertaken within the MENA region in the future.  In order to achieve this, policymakers should be sensitized to nutrition security and its relevance to all the four dimensions of food security. Governments and ministries should engage in policy dialogue about nutrition for food security, allocate sufficient funding for programs across all the four dimensions of food security, and also be held accountable for achieving positive nutrition outcomes throughout the full range of food security programs. 
+
+Photo Credit: Sy Mukherjee/Think Progress
