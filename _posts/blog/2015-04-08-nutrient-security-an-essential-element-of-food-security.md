@@ -6,6 +6,8 @@ category: blog
 language: english
 comments: true
 splash: "https://farm8.staticflickr.com/7588/17080589881_6eda254a4e_n.jpg"
+author: 
+  - "Nahla Hwalla (Dean), Rachel Bahn (Director of Food Security Program), Sibelle El-Labban (Senior Research Assistant) – Faculty of Agricultural and Food Sciences, American University of Beirut"
 ---
 
 **Food security does not guarantee ‘nutrient security’**
