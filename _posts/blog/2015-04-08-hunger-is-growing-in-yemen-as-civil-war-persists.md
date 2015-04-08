@@ -17,6 +17,7 @@ tags:
   - Food Imports
   - Public Investment Program
   - Internally Displaced Populations
+splash: "https://farm9.staticflickr.com/8729/16891651440_063163d0a8_n.jpg"
 ---
 
 There are now more hungry and poor people in Yemen as civil conflict spreads to further regions of the country. 
