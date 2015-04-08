@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: Hunger is Growing in Yemen as Civil War Persists
 category: blog
 language: english
@@ -59,3 +59,5 @@ In view of ongoing conflict, several policy solutions can help reduce the expans
 •	Increase budgetary support and financial assistance to critical sectors of the economy 
 
 •	Increase the coordination of [food security and nutrition information management systems](http://arabspatial.org/) to provide evidence-base for humanitarian and early recovery decision-making
+
+_Headline Photo: "Mazrak Camp, north-west Yemen1", courtesy of Annasofie Flamand / IRIN Photos (taken on November 13, 2009). Available at: www.irinnews.org._
