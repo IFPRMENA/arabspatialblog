@@ -20,6 +20,7 @@ tags:
 ---
 
 There are more hungry and poor people in Yemen as civil conflict spreads to further regions in the country. 
+<!-- more -->
 
 According to the most recent update of the [FAO Food Security Information System Project (FSIS)](http://www.fao.org/neareast/perspectives/building-resilience/en/) and the Food Security Technical Secretariat (FSTS) in the Ministry of Planning and International Cooperation (MoPIC), nearly 10.6 million people in Yemen were food insecure by the end of 2014. If civil conflict continues to expand, about 16 million Yemenis would urgently need humanitarian assistance. Yemen’s unemployment rate is also very high. The economy is likely to collapse if immediate and coordinated action is not taken by the government and external humanitarian agencies. 
 
