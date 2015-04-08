@@ -28,7 +28,7 @@ _Utilization_
 
 Nutrition is mostly related to the utilization dimension of food security. Food security policies and programs must ensure that every individual can consume safe and nutritious foods. As [Fan notes](http://www.arabspatial.org/arabspatialblog/blog/2014/10/13/overcoming-triple-burden-of-malnutrition-in-mena-region/), micronutrient deficiency does not exist in isolation but can occur simultaneously with undernutrition, and overweight and obesity, at the level of individuals and across populations both, in poorer as well as in richer countries. That is why increasing nutritional awareness should not only target poor countries or populations - who may predominantly face gaps in reaching energy or nutrient requirements - but also target richer countries that suffer from nutrient deficiencies even when their energy intake is excessive. For example, as shown in the graph below, richer Arab Gulf countries, show a high prevalence of anemia and iodine, and Vitamin D deficiencies. Their stunting prevalence is also high despite an energy intake that leads to overweight and obesity. Nutrition education and awareness programs like community-based interventions targeting school-aged children and adults can emphasize safe and nutrient-dense foods and help individuals make optimal, healthy food choices. 
 
-
+![](https://farm8.staticflickr.com/7612/16461204933_5cdc81e042_z.jpg)
 
 _Stability_
 
