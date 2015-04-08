@@ -9,7 +9,7 @@ author:
   - "Summary of FAO’s Food Security Information System Project Update on Yemen (March 2015) - by Jacopo Bordignon"
 tags: 
   - Yemen
-  - Civil War
+  - Civil Conflict
   - Food Insecurity
   - FAO
   - Unemployment
@@ -57,5 +57,4 @@ In view of ongoing conflict, several policy solutions can help reduce the expans
 
 •	Increase budgetary support and financial assistance to critical sectors of the economy 
 
-•	Increase the coordination of food security and nutrition information management systems to provide evidence-base for humanitarian and early recovery decision-making
-
+•	Increase the coordination of [food security and nutrition information management systems](http://arabspatial.org/) to provide evidence-base for humanitarian and early recovery decision-making
