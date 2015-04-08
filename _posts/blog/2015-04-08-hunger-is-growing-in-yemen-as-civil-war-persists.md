@@ -26,7 +26,7 @@ According to the most recent update of the [FAO Food Security Information System
 
 
 **Map Showing Acute Food Insecurity Phases of Governorates in Yemen**
-![](https://farm8.staticflickr.com/7659/16891312390_87b1b8f07e_b.jpg)
+![](https://farm8.staticflickr.com/7709/17053191496_def7ce4367_b.jpg)
 _Source: Food and Agriculture Organisation (2015). Yemen Food Security Update: March. Yemen Food Security Information System (FSIS) Development Programme. Available at: http://www.fao.org/neareast/perspectives/building-resilience/en/ [Accessed on 6 April 2015]_
 
 
