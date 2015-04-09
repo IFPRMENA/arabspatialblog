@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: العالم العربي في عام 2014 والآفاق المحتملة لعام 2015
 category: blog
 language: arabic
