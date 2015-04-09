@@ -24,7 +24,9 @@ tags:
 
 **Food security does not guarantee ‘nutrient security’**
 
-Although food security encompasses availability, accessibility, utilization, and stability, nutrition security is often neglected. Nutrition security is an essential element of food security, and because sound nutrition requires more than just enough energy for every man, woman, and child, human needs can only be satisfied through a diversity of macro- and micronutrients to ensure good health and prevent disease. 
+Although food security encompasses availability, accessibility, utilization, and stability, nutrition security is often neglected. 
+<!-- more -->
+Nutrition security is an essential element of food security, and because sound nutrition requires more than just enough energy for every man, woman, and child, human needs can only be satisfied through a diversity of macro- and micronutrients to ensure good health and prevent disease. 
 
 The MENA region suffers from nutrient deficiencies, even in relatively wealthy countries. Adequate energy availability and intake is insufficient to ensure food security as both rich and poor countries in the region simultaneously exhibit nutrient insecurity in the form of stunting, overweight and obesity, through micronutrient deficiency. Currently in the MENA region, many policies, programs, and strategies addressing food security are skewed towards agricultural production and food availability and do not address challenges in the accessibility and quality of the food consumed by the population. 
 Nutrient security within the four dimensions of food security
