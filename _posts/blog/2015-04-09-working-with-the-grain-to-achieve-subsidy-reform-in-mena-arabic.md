@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: false
-title: "العمل "
+title: "العمل \" مع الانسياب\"  لتحقيق إصلاح منظومة الدعم في منطقة الشرق الأوسط و شمال إفريقيا  "
 category: blog
 language: arabic
 comments: true
