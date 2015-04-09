@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: "العمل \" مع الانسياب\"  لتحقيق إصلاح منظومة الدعم في منطقة الشرق الأوسط و شمال إفريقيا  "
 category: blog
 language: arabic
