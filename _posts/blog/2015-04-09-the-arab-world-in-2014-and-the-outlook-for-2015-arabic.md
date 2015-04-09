@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: false
-title: "The Arab World in 2014 and the Outlook for 2015 - Arabic"
+title: العالم العربي في عام 2014 والآفاق المحتملة لعام 2015
 category: blog
 language: arabic
 comments: true
