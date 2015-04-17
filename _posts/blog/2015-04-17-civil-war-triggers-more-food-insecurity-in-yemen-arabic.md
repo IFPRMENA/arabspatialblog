@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: true
-title: "Civil War Triggers More Food Insecurity in Yemen - Arabic"
+title: "الحرب الأهلية تشعل انعدام الأمن الغذائي على نطاق أوسع في اليمن "
 category: blog
 language: arabic
 comments: true
