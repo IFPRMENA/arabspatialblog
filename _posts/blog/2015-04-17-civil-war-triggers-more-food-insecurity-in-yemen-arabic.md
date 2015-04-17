@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: "Civil War Triggers More Food Insecurity in Yemen - Arabic"
 category: blog
 language: arabic
