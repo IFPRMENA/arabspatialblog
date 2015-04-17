@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: "Do High Food Prices and Droughts Fuel Conflict? - Arabic"
 category: blog
 language: arabic
@@ -8,8 +8,8 @@ comments: true
 author: 
   - المعهد الدولي لبحوث السياسات الغذائية، الفصل السابع من تقرير السياسات الغذائية العالمية 2014/2015 – تلخيص جاكوبو بورديجنون
 tags: 
-  - أسعار الغذاء المرتفعة
   - النزاعات الأهلية
+  - أسعار الغذاء المرتفعة
 splash: "https://farm8.staticflickr.com/7601/16967869076_9761440460_n.jpg"
 ---
 
