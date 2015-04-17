@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: true
-title: "Do High Food Prices and Droughts Fuel Conflict? - Arabic"
+title: هل تؤجج أسعار الغذاء المرتفعة والجفاف من النزاعات ؟
 category: blog
 language: arabic
 comments: true
