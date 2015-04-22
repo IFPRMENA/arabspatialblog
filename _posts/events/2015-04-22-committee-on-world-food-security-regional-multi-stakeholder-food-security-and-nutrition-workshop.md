@@ -21,3 +21,13 @@ Addressing food losses and waste.
 
 3) Reflecting around the outcomes of previous Workshops and discussing the way forward. 
 
+**Background Material:**
+
+[State of Food and Agriculture in the Near East and North Africa Region](http://www.fao.org/docrep/meeting/030/mj390e.pdf)
+
+[High Level Panel of Experts Report policy recommendations on "Food losses and waste in the context of sustainable food systems"](http://www.fao.org/fileadmin/user_upload/hlpe/hlpe_documents/HLPE_S_and_R/HLPE_2014_Food_Losses_and_Waste_Summary_EN.pdf) 
+
+[Reducing Food Losses and Waste in the Near East & North Africa Region](http://www.fao.org/docrep/meeting/030/mj427E.pdf)  
+
+[Guidelines for Presenters](http://www.fao.org/fileadmin/templates/cfs/Docs1415/Events/CFS_NERWS_2015/Guidelines_For_Presenters_NE_RMSW_April_2015_Amman.pdf)
+
