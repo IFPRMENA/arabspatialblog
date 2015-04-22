@@ -1,7 +1,7 @@
 ---
 layout: blog
 published: false
-title: Caloric adequacy is no longer critical to child nutrition in the Middle East and North Africa region
+title: Caloric Adequacy is No Longer Critical to Child Nutrition in the Middle East and North Africa Region
 category: blog
 language: english
 comments: true
