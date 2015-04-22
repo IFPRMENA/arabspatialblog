@@ -8,6 +8,14 @@ comments: true
 author: 
   - "Farrukh Iqbal, Chief Technical Specialist in the Office of the Chief Economist, MENA Region - World Bank"
 splash: "https://farm8.staticflickr.com/7680/17049123548_81fbc1b290_t.jpg"
+tags: 
+  - Global Food Policy Report
+  - under nutrition
+  - underweight
+  - caloric deficiency
+  - child nutrition
+  - female education
+  - MENA
 ---
 
 The chart below shows trends in child under-nutrition among all developing country regions over the period 1990-2012.  Under-nutrition is measured by the proportion of children under five who are underweight (low weight for age reflecting wasting, stunting or both) as reported by the International Food Policy Research Institute in the [Global Hunger Report](http://www.ifpri.org/publication/2014-global-hunger-index) for 2014.  
