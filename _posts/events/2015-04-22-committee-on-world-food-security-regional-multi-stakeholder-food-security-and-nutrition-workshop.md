@@ -31,3 +31,13 @@ Addressing food losses and waste.
 
 [Guidelines for Presenters](http://www.fao.org/fileadmin/templates/cfs/Docs1415/Events/CFS_NERWS_2015/Guidelines_For_Presenters_NE_RMSW_April_2015_Amman.pdf)
 
+**CFS Documents:**
+[CFS 41 Final Report](http://www.fao.org/fileadmin/templates/cfs/Docs1314/CFS41/CFS41_Final_Report_EN.pdf)  
+[Third Draft: Framework for Action for Food Security and Nutrition in Protracted Crises (FFA)](http://www.fao.org/fileadmin/templates/cfs/Docs1415/FFA/CFS_FFA_Third_Draft_13_03_15_EN.pdf)
+[Principles for Responsible Investment in Agriculture and Food Systems](http://www.fao.org/3/a-au866e.pdf) 
+
+**ICN2 Documents:**
+[ICN2 Rome Declaration Nutrition](http://www.fao.org/3/a-ml542e.pdf)
+[ICN2 Framework for Action](http://www.fao.org/3/a-mm215e.pdf)
+
+
