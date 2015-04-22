@@ -21,6 +21,7 @@ While this sort of model is best assessed through a multivariate regression, we 
 
 We can also check the validity of the other element of the model, namely, the role of food quality.  Lacking long-run data series on children’s food intake composition by country we must make do with proxies.  One reasonable proxy for good child nutrition practices is mother’s education. Other proxies could be breastfeeding practices or access to clean drinking water and sanitation. The next chart shows trends in female education by region.  It is clear that MENA has seen substantial improvements in female educational attainment over the past twenty years, indeed at the fastest rate among developing regions.  So it is fair to assume that the MENA region must have benefited exceptionally from this in terms of child nutrition.
 
+![](https://farm9.staticflickr.com/8819/17236309241_5fe806198c_z.jpg)
 
 To recapitulate, given the relatively high average level of caloric intake in the MENA region, recent gains in child nutrition have likely come from improvements in food quality.  Of course, for countries like Iraq and Yemen that continue to have high levels of caloric deficiency one must continue to be concerned about child nutrition problems arising from this source. 
 
