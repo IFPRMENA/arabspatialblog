@@ -1,13 +1,15 @@
 ---
 layout: blog
 published: false
-title: Caloric Adequacy is No Longer Critical to Child Nutrition in the Middle East and North Africa Region
+title: Caloric adequacy is no longer critical to child nutrition in the Middle East and North Africa region
 category: blog
 language: english
 comments: true
 ---
 
-The chart below shows trends in child under-nutrition among all developing country regions over the period 1990-2012.  Under-nutrition is measured by the proportion of children under five who are underweight (low weight for age reflecting wasting, stunting or both) as reported by the International Food Policy Research Institute in the Global Hunger Report for 2014.  It is clear from this chart that, on average, child nutrition has been improving everywhere over the last two decades.
+The chart below shows trends in child under-nutrition among all developing country regions over the period 1990-2012.  Under-nutrition is measured by the proportion of children under five who are underweight (low weight for age reflecting wasting, stunting or both) as reported by the International Food Policy Research Institute in the Global Hunger Report for 2014.  
+<!-- more -->
+It is clear from this chart that, on average, child nutrition has been improving everywhere over the last two decades.
 
 ![](https://farm8.staticflickr.com/7702/17210901986_24132e0ca7_z.jpg)
 
