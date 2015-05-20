@@ -19,6 +19,7 @@ tags:
 ---
 
 
+
 The chart below shows trends in child under-nutrition among all developing country regions over the period 1990-2012.  Under-nutrition is measured by the proportion of children under five who are underweight (low weight for age reflecting wasting, stunting or both) as reported by the International Food Policy Research Institute in the [Global Hunger Report](http://www.ifpri.org/publication/2014-global-hunger-index) for 2014.  
 <!-- more -->
 It is clear from this chart that, on average, child nutrition has been improving everywhere over the last two decades.
